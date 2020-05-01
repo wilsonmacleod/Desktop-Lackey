@@ -1,9 +1,10 @@
-# Flask app that handles application logic
-
 from flask import Flask
 from flask import render_template
 from flask import request
 from lackey import get_root_path
+import json
+
+from lackey.data.date_time import today
 
 app = Flask(__name__, static_folder=get_root_path('static'), template_folder=get_root_path('templates'))
 
@@ -18,8 +19,10 @@ def teardown_request(exception):
 
 
 @app.route('/', methods=['GET'])
-def index():
-    return render_template('index.html')
+def landing():
+    td = today()
+    hw="Hello World"
+    return render_template('home.html', td=td, hw=hw)
 
 if __name__ == '__main__':
     app.run(host="localhost", port=5000, debug=True, use_reloader=True)

@@ -4,5 +4,6 @@ build
 
 # local
 blob_storage/
-webrtc_event_logs/
 *.txt
+lackey/__pycache__/
+__pycache__/

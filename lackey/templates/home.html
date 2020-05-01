@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="like_button_container"></div>
+
+<!-- Load our React component. -->
+<script>
+    window.props = {{ hw }};  // make sure to escape your props to prevent XSS! See here for the source for the json filter: https://gist.github.com/pirate/c18bfe4fd96008ffa0aef25001a2e88f
+</script>
+<script src="{{ url_for('static', filename='react-components/like_button.js') }}" type="text/babel"></script>
+
+{% endblock content %}
