@@ -1,0 +1,8 @@
+# env
+env/
+build
+
+# local
+blob_storage/
+webrtc_event_logs/
+*.txt

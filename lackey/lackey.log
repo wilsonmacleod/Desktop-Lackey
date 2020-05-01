@@ -1,0 +1,320 @@
+2020-05-01 08:34:33,034 neuron INFO     Lackey v0.0
+2020-05-01 08:34:33,034 neuron DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 08:34:33,034 neuron DEBUG    log path: 'C:\Users\wilso\Desktop\Neuron\neuron\lackey.log'
+2020-05-01 08:34:33,035 neuron INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Neuron\neuron'
+2020-05-01 08:34:33,035 neuron INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Neuron\neuron'
+2020-05-01 09:32:46,865 lackey INFO     Lackey v0.0
+2020-05-01 09:32:46,866 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:32:46,866 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:32:46,866 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:32:46,867 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:33:47,843 lackey INFO     Lackey v0.0
+2020-05-01 09:33:47,843 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:33:47,843 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:33:47,843 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:33:47,843 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:34:34,347 lackey INFO     Lackey v0.0
+2020-05-01 09:34:34,347 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:34:34,347 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:34:34,347 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:34:34,347 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:34:46,512 lackey INFO     Lackey v0.0
+2020-05-01 09:34:46,512 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:34:46,512 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:34:46,512 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:34:46,512 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:35:27,413 lackey INFO     Lackey v0.0
+2020-05-01 09:35:27,414 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:35:27,414 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:35:27,414 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:35:27,414 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:36:01,086 lackey INFO     Lackey v0.0
+2020-05-01 09:36:01,087 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:36:01,087 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:36:01,087 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:36:01,087 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:37:42,868 lackey INFO     Lackey v0.0
+2020-05-01 09:37:42,869 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:37:42,869 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:37:42,869 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:37:42,869 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:38:02,506 lackey INFO     Lackey v0.0
+2020-05-01 09:38:02,507 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:38:02,507 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:38:02,507 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:38:02,507 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:38:04,126 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 28, in index
+    return render_template('index.html', json_data=json_data)
+NameError: name 'json_data' is not defined
+2020-05-01 09:38:25,497 lackey INFO     Lackey v0.0
+2020-05-01 09:38:25,497 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:38:25,497 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:38:25,498 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:38:25,498 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:39:30,075 lackey INFO     Lackey v0.0
+2020-05-01 09:39:30,075 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:39:30,075 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:39:30,075 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:39:30,076 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:39:48,774 lackey INFO     Lackey v0.0
+2020-05-01 09:39:48,774 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:39:48,775 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:39:48,775 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:39:48,775 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:43:02,627 lackey INFO     Lackey v0.0
+2020-05-01 09:43:02,627 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:43:02,627 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:43:02,628 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:43:02,628 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:43:04,103 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in index
+    url = url_for('static', filename='index.js')
+NameError: name 'url_for' is not defined
+2020-05-01 09:43:19,227 lackey INFO     Lackey v0.0
+2020-05-01 09:43:19,227 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:43:19,228 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:43:19,228 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:43:19,228 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:44:22,934 lackey INFO     Lackey v0.0
+2020-05-01 09:44:22,934 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:44:22,934 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:44:22,934 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:44:22,935 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:47:13,755 lackey INFO     Lackey v0.0
+2020-05-01 09:47:13,756 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:47:13,756 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:47:13,756 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:47:13,756 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:47:42,907 lackey INFO     Lackey v0.0
+2020-05-01 09:47:42,907 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:47:42,907 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:47:42,907 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:47:42,907 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:48:33,025 lackey INFO     Lackey v0.0
+2020-05-01 09:48:33,025 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:48:33,025 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:48:33,025 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:48:33,025 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:50:41,340 lackey INFO     Lackey v0.0
+2020-05-01 09:50:41,341 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:50:41,341 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:50:41,341 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:50:41,341 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:53:32,536 lackey INFO     Lackey v0.0
+2020-05-01 09:53:32,536 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:53:32,536 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:53:32,536 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:53:32,537 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:54:34,045 lackey INFO     Lackey v0.0
+2020-05-01 09:54:34,045 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:54:34,045 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:54:34,045 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:54:34,045 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:54:35,524 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in index
+    url = url_for('static/public', filename='index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\werkzeug\routing.py", line 2007, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/public' with values ['filename']. Did you mean 'static' instead?
+2020-05-01 09:55:07,929 lackey INFO     Lackey v0.0
+2020-05-01 09:55:07,930 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:55:07,930 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:55:07,930 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:55:07,930 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:55:09,388 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in index
+    url = url_for('static/public/', filename='index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\werkzeug\routing.py", line 2007, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/public/' with values ['filename']. Did you mean 'static' instead?
+2020-05-01 09:55:42,600 lackey INFO     Lackey v0.0
+2020-05-01 09:55:42,601 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:55:42,601 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:55:42,601 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:55:42,601 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:55:44,095 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in index
+    url = url_for('public', filename='index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\werkzeug\routing.py", line 2007, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'public' with values ['filename']. Did you mean 'static' instead?
+2020-05-01 09:57:20,854 lackey INFO     Lackey v0.0
+2020-05-01 09:57:20,855 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 09:57:20,855 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 09:57:20,855 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 09:57:20,855 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:11:53,080 lackey INFO     Lackey v0.0
+2020-05-01 10:11:53,081 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:11:53,081 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:11:53,081 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:11:53,081 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:11:55,200 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: index() got an unexpected keyword argument 'path'
+2020-05-01 10:12:07,545 lackey INFO     Lackey v0.0
+2020-05-01 10:12:07,545 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:12:07,546 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:12:07,546 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:12:07,546 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:13:18,226 lackey INFO     Lackey v0.0
+2020-05-01 10:13:18,226 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:13:18,227 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:13:18,227 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:13:18,227 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:15:17,825 lackey INFO     Lackey v0.0
+2020-05-01 10:15:17,825 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:15:17,825 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:15:17,825 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:15:17,825 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:21:10,899 lackey INFO     Lackey v0.0
+2020-05-01 10:21:10,900 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:21:10,900 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:21:10,900 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:21:10,900 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:30:53,044 lackey INFO     Lackey v0.0
+2020-05-01 10:30:53,045 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:30:53,045 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:30:53,045 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:30:53,045 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:33:46,179 lackey INFO     Lackey v0.0
+2020-05-01 10:33:46,179 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:33:46,179 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:33:46,180 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:33:46,180 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:34:35,477 lackey INFO     Lackey v0.0
+2020-05-01 10:34:35,477 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:34:35,477 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:34:35,477 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:34:35,478 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:35:19,920 lackey INFO     Lackey v0.0
+2020-05-01 10:35:19,921 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:35:19,921 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:35:19,921 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:35:19,921 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:35:46,072 lackey INFO     Lackey v0.0
+2020-05-01 10:35:46,072 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:35:46,072 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:35:46,073 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:35:46,073 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:36:36,053 lackey INFO     Lackey v0.0
+2020-05-01 10:36:36,053 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:36:36,054 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:36:36,054 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:36:36,054 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:39:36,218 lackey INFO     Lackey v0.0
+2020-05-01 10:39:36,219 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:39:36,219 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:39:36,219 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:39:36,219 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:40:42,315 lackey INFO     Lackey v0.0
+2020-05-01 10:40:42,315 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:40:42,315 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:40:42,315 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:40:42,316 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:48:14,649 lackey INFO     Lackey v0.0
+2020-05-01 10:48:14,649 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-01 10:48:14,649 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-01 10:48:14,649 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-01 10:48:14,649 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
