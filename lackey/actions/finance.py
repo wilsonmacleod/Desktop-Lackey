@@ -73,3 +73,4 @@ def main_get(url_name, stock_symbol):
             }
             final_json.append(obj)
         return final_json
+        
