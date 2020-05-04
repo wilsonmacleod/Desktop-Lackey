@@ -7,3 +7,27 @@ blob_storage/
 *.txt
 lackey/__pycache__/
 __pycache__/
+
+# react
+
+# dependencies
+lackey/frontend/node_modules
+lackey/frontend/.pnp
+lackey/frontend/.pnp.js
+
+# testing
+lackey/frontend/coverage
+
+# production
+lackey/frontend/build
+
+# misc
+.lackey/frontend/DS_Store
+lackey/frontend/.env.local
+lackey/frontend/.env.development.local
+lackey/frontend/.env.test.local
+lackey/frontend/.env.production.local
+
+lackey/frontend/npm-debug.log*
+lackey/frontend/yarn-debug.log*
+lackey/frontend/yarn-error.log*

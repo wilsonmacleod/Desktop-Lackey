@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 body {
     color: #797979;
@@ -31,14 +30,7 @@ a:hover {
     color: #fff
 }
 
-#container {
-    width: 100%;
-    height: 100%
-}
 
-.mt {
-    margin-top: 25px
-}
 
 .mb {
     margin-bottom: 25px
@@ -121,7 +113,7 @@ ul.sidebar-menu li ul.sub li a:hover {
     background: 0 0
 }
 
-ul.sidebar-menu li ul.sub li.active a {
+ul.sidebar-menu li ul.sub li.active div {
     color: #4ecdc4;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -134,7 +126,8 @@ ul.sidebar-menu li ul.sub li.active a {
 ul.sidebar-menu li {
     margin-bottom: 5px;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 ul.sidebar-menu li.sub-menu {
@@ -145,7 +138,7 @@ ul.sidebar-menu li a span {
     display: inline-block
 }
 
-ul.sidebar-menu li a {
+ul.sidebar-menu li div {
     color: #aeb2b7;
     text-decoration: none;
     display: block;
@@ -159,9 +152,9 @@ ul.sidebar-menu li a {
     transition: all .3s ease
 }
 
-ul.sidebar-menu li a.active,
-ul.sidebar-menu li a:focus,
-ul.sidebar-menu li a:hover {
+ul.sidebar-menu li div.active,
+ul.sidebar-menu li div:focus,
+ul.sidebar-menu li div:hover {
     background: #4ecdc4;
     color: #fff;
     display: block;
@@ -172,17 +165,17 @@ ul.sidebar-menu li a:hover {
     transition: all .3s ease
 }
 
-ul.sidebar-menu li a i {
+ul.sidebar-menu li div i {
     font-size: 15px;
     padding-right: 6px
 }
 
-ul.sidebar-menu li a:focus i,
-ul.sidebar-menu li a:hover i {
+ul.sidebar-menu li div:focus i,
+ul.sidebar-menu li div:hover i {
     color: #fff
 }
 
-ul.sidebar-menu li a.active i {
+ul.sidebar-menu li div.active i {
     color: #fff
 }
 
