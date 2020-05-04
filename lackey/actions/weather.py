@@ -46,10 +46,13 @@ def search_city(query):
     """
     url = urls['query_url'] + f'{query}'
     r = requests.get(url)
-    try:
-        woeid = json.loads(r.text)[0]['woeid']
-    except IndexError:
-        return "No City With That Name"
+    if r.status_code == 200:
+        try:
+            woeid = json.loads(r.text)[0]['woeid']
+        except IndexError:
+            return "No City With That Name"
+    else: 
+        return "API down, (response status code != 200)"
 
     url = urls['location_url'] + f'{woeid}'
     r = requests.get(url)
