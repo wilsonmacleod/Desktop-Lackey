@@ -1,42 +1,31 @@
-from flask import Flask, jsonify
+from flask import Flask
 from flask import render_template
 from flask import request
-from lackey import get_root_path
+from flask_restful import Api
+
 import json
 
+from lackey import get_root_path, api_views
 # actions folder supplies our API calls and local data
-from lackey.actions import weather
 
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
-
-DATA = ["Data One", "Data Two"]
+"""
+add API VIEWS
+"""
+api = Api(app)
+api.add_resource(api_views.API_ROUTER, '/api/<view>')
 
 @app.before_request
 def before_request():
     pass
 
-
 @app.teardown_request
 def teardown_request(exception):
     pass
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET'])s
 def landing():
     return render_template('index.html')
-
-@app.route('/data', methods=['GET'])
-def data():
-    """ An example endpoint """
-    data = {
-        'this': 'should',
-        'be': 'a fat',
-        'json': 'obj',
-        'hopefully': 'one day'
-    }
-    if request.method == 'GET':
-        return jsonify(status=200, text=data)
-
-
 
 if __name__ == '__main__':
     app.run(host="localhost", port=5000, debug=True, use_reloader=True)

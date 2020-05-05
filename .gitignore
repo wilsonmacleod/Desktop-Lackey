@@ -8,7 +8,7 @@ webrtc_event_logs/
 __pycache__/
 lackey/__pycache__/
 *.txt
-lackey/actions/sports/sport_urls.py
+lackey/actions/external_api/sports/sport_urls.py
 
 ### react ###
 

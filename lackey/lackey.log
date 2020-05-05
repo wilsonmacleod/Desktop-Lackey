@@ -2099,3 +2099,136 @@ jinja2.exceptions.TemplateNotFound: index.html
 2020-05-03 16:03:11,438 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-03 16:03:11,438 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-03 16:03:11,439 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:56:29,446 lackey INFO     Lackey v0.0
+2020-05-05 12:56:29,448 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 12:56:29,448 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 12:56:29,448 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:56:29,448 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:58:05,209 lackey INFO     Lackey v0.0
+2020-05-05 12:58:05,209 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 12:58:05,210 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 12:58:05,210 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:58:05,210 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:58:25,565 lackey INFO     Lackey v0.0
+2020-05-05 12:58:25,565 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 12:58:25,566 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 12:58:25,566 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:58:25,566 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 12:58:27,483 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-05 13:00:02,441 lackey INFO     Lackey v0.0
+2020-05-05 13:00:02,441 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:00:02,441 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:00:02,441 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:00:02,441 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:09:20,431 lackey INFO     Lackey v0.0
+2020-05-05 13:09:20,431 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:09:20,432 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:09:20,432 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:09:20,432 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:13:14,632 lackey INFO     Lackey v0.0
+2020-05-05 13:13:14,633 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:13:14,633 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:13:14,633 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:13:14,633 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:15:05,288 lackey INFO     Lackey v0.0
+2020-05-05 13:15:05,289 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:15:05,289 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:15:05,289 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:15:05,289 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:16:04,010 lackey INFO     Lackey v0.0
+2020-05-05 13:16:04,010 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:16:04,010 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:16:04,010 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:16:04,010 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:16:53,391 lackey INFO     Lackey v0.0
+2020-05-05 13:16:53,392 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:16:53,392 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:16:53,392 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:16:53,392 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:18:00,179 lackey INFO     Lackey v0.0
+2020-05-05 13:18:00,180 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:18:00,180 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:18:00,180 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:18:00,180 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:31:59,960 lackey INFO     Lackey v0.0
+2020-05-05 13:31:59,960 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:31:59,960 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:31:59,960 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:31:59,960 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:34:04,354 lackey INFO     Lackey v0.0
+2020-05-05 13:34:04,354 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:34:04,355 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:34:04,355 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:34:04,355 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:35:06,073 lackey INFO     Lackey v0.0
+2020-05-05 13:35:06,073 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:35:06,073 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:35:06,074 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:35:06,074 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:37:29,777 lackey INFO     Lackey v0.0
+2020-05-05 13:37:29,777 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:37:29,777 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:37:29,778 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:37:29,778 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:38:26,169 lackey INFO     Lackey v0.0
+2020-05-05 13:38:26,170 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:38:26,170 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:38:26,170 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:38:26,171 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:40:20,227 lackey INFO     Lackey v0.0
+2020-05-05 13:40:20,227 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:40:20,228 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:40:20,228 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:40:20,228 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:41:10,962 lackey INFO     Lackey v0.0
+2020-05-05 13:41:10,963 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:41:10,963 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:41:10,963 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:41:10,963 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:58:20,618 lackey INFO     Lackey v0.0
+2020-05-05 13:58:20,618 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:58:20,618 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:58:20,618 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:58:20,618 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:59:11,730 lackey INFO     Lackey v0.0
+2020-05-05 13:59:11,731 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:59:11,731 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:59:11,731 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:59:11,731 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:59:43,032 lackey INFO     Lackey v0.0
+2020-05-05 13:59:43,033 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-05 13:59:43,033 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-05 13:59:43,033 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-05 13:59:43,033 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'

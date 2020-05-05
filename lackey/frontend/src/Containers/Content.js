@@ -12,25 +12,31 @@ const contentSwitch = {
 class Content extends Component {
     state = { 
         view: '',
-        pullData: {}
+        pullData: ''
     }
 
     async fetchFunc(){
-        const response = await fetch('/data');
+        const response = await fetch('/api/Hello');
         let json = await response.json();
-        let results = json.text
-        console.log(results)
-        return results
+        return json
       }
-
 
     componentDidMount = () => {
         let viewContent = contentSwitch[this.props.viewContent];
-        let data = this.fetchFunc();
-        this.setState({
-            view: viewContent,
-            pullData: data
-        })
+        let self = this;
+        this.fetchFunc()
+        .then(function (result){
+            console.log(result)
+            let msg = "Offline Mode";
+            if (result.status == 200){
+                let r = result.text;
+                msg = r['Hello'];
+            }
+            self.setState({
+                view: viewContent,
+                pullData: msg
+            });
+        });
     }
 
     componentDidUpdate(prevProps){
@@ -43,9 +49,11 @@ class Content extends Component {
     }
 
     render() { 
-        console.log(this.state.pullData)
         return ( 
+            <div>
             <div>{this.state.view}</div>
+            <div>{this.state.pullData}</div>
+            </div>
          );
     }
 }
