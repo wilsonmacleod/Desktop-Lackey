@@ -1,14 +1,16 @@
 # env
 env/
-build
+build/
 
 # local
 blob_storage/
-*.txt
-lackey/__pycache__/
+webrtc_event_logs/
 __pycache__/
+lackey/__pycache__/
+*.txt
+lackey/actions/sports/sport_urls.py
 
-# react
+### react ###
 
 # dependencies
 lackey/frontend/node_modules
@@ -22,7 +24,7 @@ lackey/frontend/coverage
 lackey/frontend/build
 
 # misc
-.lackey/frontend/DS_Store
+lackey/frontend/DS_Store
 lackey/frontend/.env.local
 lackey/frontend/.env.development.local
 lackey/frontend/.env.test.local
