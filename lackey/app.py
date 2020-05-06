@@ -9,9 +9,6 @@ from lackey import get_root_path, api_views
 
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
-db = SQLAlchemy(app)
-
 api = Api(app)
 api.add_resource(api_views.API_ROUTER, '/api/<view>')
 

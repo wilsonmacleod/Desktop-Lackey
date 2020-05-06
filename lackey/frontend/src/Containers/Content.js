@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
 
-const contentSwitch = {
-    'Home': 'ALL',
-    'Calendar': 'Calendar',
-    'Finance': 'Finance',
-    'Sports': 'Sports',
-    'Games': 'Games',
-    'Scripts': 'Scripts'
-}
-
 class Content extends Component {
     state = { 
         view: '',
@@ -22,7 +13,7 @@ class Content extends Component {
       }
 
     componentDidMount = () => {
-        let viewContent = contentSwitch[this.props.viewContent];
+        let viewContent = this.props.viewContent;
         let self = this;
         this.fetchFunc()
         .then(function (result){
@@ -41,7 +32,7 @@ class Content extends Component {
 
     componentDidUpdate(prevProps){
         if(this.props.viewContent !== prevProps.viewContent){
-            let viewContent = contentSwitch[this.props.viewContent]
+            let viewContent = this.props.viewContent;
             this.setState({
                 view: viewContent
             })

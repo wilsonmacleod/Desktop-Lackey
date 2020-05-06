@@ -1,6 +1,6 @@
 import datetime 
 
-from lackey import db
+from lackey.app import db
 
 class CalendarTasks(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -17,6 +17,7 @@ class CalendarTasks(db.Model):
 class FinanceConfig(db.Model):
     stock_symbol = db.Column(db.String(80), primary_key=True)
     name = db.Column(db.String(80), nullable=False)
+    investment = db.Column(db.Float, nullable=False, default=0)
     
 class GW2Fractals(db.Model):
     id = db.Column(db.String, primary_key=True) # today or tomorrow
@@ -45,7 +46,7 @@ class StaticNBAScoreBoard(db.Models):
                     default=datetime.datetime.now())
     game_id = db.Column(db.String(80), nullable=False)
     team_abbr = db.Column(db.String(80), nullable=False)
-    team_city_name = = db.Column(db.String(80), nullable=False)
+    team_city_name = db.Column(db.String(80), nullable=False)
     team_name = db.Column(db.String(80), nullable=False)
     record = db.Column(db.String(80), nullable=False)
     quarter_scores = db.Column(db.Text, nullable=False) # dict stored as str
@@ -70,7 +71,7 @@ class StaticNFLScoreBoard(db.Models):
 
 class SoccerConfig(db.Models):
     competition = db.Column(db.String(80), primary_key=True) # code 
-    name = = db.Column(db.String(80), nullable=False)
+    name = db.Column(db.String(80), nullable=False)
 
 class StaticSoccerScoreboard(db.Models):
     id = db.Column(db.Integer, primary_key=True)

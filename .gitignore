@@ -9,6 +9,7 @@ __pycache__/
 lackey/__pycache__/
 *.txt
 lackey/actions/external_api/sports/sport_urls.py
+lackey/lackey.log
 
 ### react ###
 

@@ -4,13 +4,7 @@ import React from 'react';
 import '../Layout.css'
 
 const sidebar = (props) => {
-    const config = ['Home',
-                    'Calendar', 
-                    'Finance',
-                    'Sports',
-                    'Games',
-                    'Scripts'
-                    ];
+    const config = props.config;
     let options = [];
     for( let x = 0; x < config.length; x++) {
         options.push(

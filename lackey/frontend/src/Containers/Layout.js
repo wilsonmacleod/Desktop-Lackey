@@ -7,7 +7,14 @@ import ContentWrapper from '../Components/Layout/ContentWrapper/ContentWrapper';
 
 class Layout extends Component {
     state = { 
-        sideBarActive: 'Home'
+        sideBarActive: 'Calendar',
+        sideBarChoices: [
+                        'Calendar', 
+                        'Finance',
+                        'Sports',
+                        'Games',
+                        'Scripts'
+                        ]
       };
 
     sideBarClickHandler = (event) => {
@@ -18,11 +25,13 @@ class Layout extends Component {
     }
 
     render() { 
+        
         return ( 
             <Aux>
                 <Header />
                 <Sidebar 
                     active={this.state.sideBarActive}
+                    config={this.state.sideBarChoices}
                     clicked={this.sideBarClickHandler}
                 />
                 <ContentWrapper>
