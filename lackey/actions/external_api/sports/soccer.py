@@ -3,7 +3,7 @@ import json
 
 import pandas as pd
 
-import Soccer_Urls from sport_urls as Urls
+from sport_urls import Soccer_Urls as Urls
 
 ## HIGHLIGHT EMBEDDER?
 ##'https://www.scorebat.com/video-api/'

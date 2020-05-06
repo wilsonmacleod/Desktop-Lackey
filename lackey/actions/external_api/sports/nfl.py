@@ -2,7 +2,8 @@ import requests
 import json
 import xmltodict
 
-import NFL_Urls from sport_urls as Urls
+from sport_urls import NFL_Urls as Urls
+
 """
 very unstable and hacky 
 since there are no official APIs

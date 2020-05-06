@@ -23,7 +23,6 @@ def return_object(result):
             'max_temp': round(((float(each['max_temp']) * 9/5) + 32), 2), # F
             'humidity': each['humidity'], # %
             'wind_speed': each['wind_speed'],
-            'visibility': each['visibility'], #miles
             'predictability': each['predictability']        
         }
         final_json.append(obj)
@@ -53,7 +52,9 @@ def search_city(query):
             return "No City With That Name"
     else: 
         return "API down, (response status code != 200)"
+    return return_weather_data(woeid)
 
+def return_weather_data(woeid):
     url = urls['location_url'] + f'{woeid}'
     r = requests.get(url)
     result = json.loads(r.text)['consolidated_weather']
@@ -72,7 +73,6 @@ def search_city(query):
 #  'max_temp': 57.61,
 #  'humidity': 59,
 #  'wind_speed': 2.492696945348498,
-#  'visibility': 10.507076175137199,
 #  'predictability': 73},
 #
 ## + 4 days in future
