@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Calendar from '../Components/Content/Calendar/Calendar';
+
 class Content extends Component {
     state = { 
         view: '',
@@ -19,7 +21,7 @@ class Content extends Component {
         .then(function (result){
             console.log(result)
             let msg = "Offline Mode";
-            if (result.status == 200){
+            if (result.status === 200){
                 let r = result.text;
                 msg = r['Hello'];
             }
@@ -40,10 +42,10 @@ class Content extends Component {
     }
 
     render() { 
+        let view = this.state.view === 'Calendar'? <Calendar /> : this.state.pullData;
         return ( 
             <div>
-            <div>{this.state.view}</div>
-            <div>{this.state.pullData}</div>
+            <div>{view}</div>
             </div>
          );
     }

@@ -3377,3 +3377,48 @@ NameError: name 'WeatherConfig' is not defined
 2020-05-07 09:10:28,258 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-07 09:10:28,258 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-07 09:10:28,258 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 10:50:37,584 lackey INFO     Lackey v0.0
+2020-05-07 10:50:37,586 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 10:50:37,586 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 10:50:37,586 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 10:50:37,586 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 11:27:16,624 lackey INFO     Lackey v0.0
+2020-05-07 11:27:16,625 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 11:27:16,625 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 11:27:16,625 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 11:27:16,626 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 11:39:39,546 lackey INFO     Lackey v0.0
+2020-05-07 11:39:39,546 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 11:39:39,546 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 11:39:39,546 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 11:39:39,546 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:07:14,093 lackey INFO     Lackey v0.0
+2020-05-07 12:07:14,094 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:07:14,094 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:07:14,094 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:07:14,094 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:07:49,070 lackey INFO     Lackey v0.0
+2020-05-07 12:07:49,070 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:07:49,070 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:07:49,071 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:07:49,071 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:11:22,809 lackey INFO     Lackey v0.0
+2020-05-07 12:11:22,810 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:11:22,810 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:11:22,810 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:11:22,810 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:19:46,539 lackey INFO     Lackey v0.0
+2020-05-07 12:19:46,539 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:19:46,539 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:19:46,539 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:19:46,539 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:22:55,103 lackey INFO     Lackey v0.0
+2020-05-07 12:22:55,103 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:22:55,103 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:22:55,103 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:22:55,103 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:24:26,973 lackey INFO     Lackey v0.0
+2020-05-07 12:24:26,973 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 12:24:26,973 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 12:24:26,973 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 12:24:26,973 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
