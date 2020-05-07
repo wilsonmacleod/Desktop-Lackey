@@ -1,16 +1,17 @@
+import json
 from flask import Flask, render_template
 from flask_restful import Api
-from flask_sqlalchemy import SQLAlchemy
 
-import json
-
-from lackey import get_root_path, api_views
-# actions folder supplies our API calls and local data
-
+from lackey import get_root_path
+# app
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
+
+#from lackey.models import db, WeatherConfig # db/models
+from lackey import api_views # api (uses db/models)
 
 api = Api(app)
 api.add_resource(api_views.API_ROUTER, '/api/<view>')
+
 
 @app.before_request
 def before_request():

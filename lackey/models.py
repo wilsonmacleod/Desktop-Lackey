@@ -1,6 +1,11 @@
 import datetime 
+from flask_sqlalchemy import SQLAlchemy
 
-from lackey.app import db
+from lackey.app import app
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+
+db = SQLAlchemy(app)
 
 class CalendarTasks(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -25,11 +30,11 @@ class GW2Fractals(db.Model):
     fractal_2 = db.Column(db.String(80), nullable=False)
     fractal_3 = db.Column(db.String(80), nullable=False)
 
-class WeatherConfig(db.Models):
+class WeatherConfig(db.Model):
     city = db.Column(db.String(80), primary_key=True) #default city we want
     woied = db.Column(db.String(80), nullable=False)
 
-class WeatherForecast(db.Models):
+class WeatherForecast(db.Model):
     date = db.Column(db.String(80), primary_key=True) # format = '2020-05-03'
     weather_state_name = db.Column(db.String(80), nullable=False)
     icon_link = db.Column(db.String(80), nullable=False)
@@ -39,7 +44,7 @@ class WeatherForecast(db.Models):
     wind_speed = db.Column(db.Float, nullable=False) # mph
     predictability = db.Column(db.Integer, nullable=False) # pct
 
-class StaticNBAScoreBoard(db.Models):
+class StaticNBAScoreBoard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     entered_date = db.Column(db.DateTime, 
                     nullable=False,
@@ -51,16 +56,16 @@ class StaticNBAScoreBoard(db.Models):
     record = db.Column(db.String(80), nullable=False)
     quarter_scores = db.Column(db.Text, nullable=False) # dict stored as str
 
-#class NBAStandings(db.Models): ??
+#class NBAStandings(db.Model): ??
 
-class NBALeaders(db.Models):
+class NBALeaders(db.Model):
     category = db.Column(db.String(80), primary_key=True) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
     entered_date = db.Column(db.DateTime, 
                 nullable=False,
                 default=datetime.datetime.now())
     data = db.Column(db.Text, nullable=False) # dict stored as str
 
-class StaticNFLScoreBoard(db.Models):
+class StaticNFLScoreBoard(db.Model):
     current_week = db.Column(db.String(80), primary_key=True) 
     home_team = db.Column(db.String(80), nullable=False)
     home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
@@ -69,11 +74,11 @@ class StaticNFLScoreBoard(db.Models):
     time_rem = db.Column(db.String(80), nullable=False)
     qtr = db.Column(db.String(80), nullable=False)
 
-class SoccerConfig(db.Models):
+class SoccerConfig(db.Model):
     competition = db.Column(db.String(80), primary_key=True) # code 
     name = db.Column(db.String(80), nullable=False)
 
-class StaticSoccerScoreboard(db.Models):
+class StaticSoccerScoreboard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     competition = db.Column(db.String(80), nullable=False)
     matchday = db.Column(db.Integer, nullable=False)
@@ -84,7 +89,7 @@ class StaticSoccerScoreboard(db.Models):
     duration = db.Column(db.String(80), nullable=True) 
     scores = db.Column(db.Text, nullable=False) # dict stored as str
 
-class StaticEPLTable(db.Models):
+class StaticEPLTable(db.Model):
     rank = db.Column(db.Integer, primary_key=True)
     team = db.Column(db.String(80), nullable=False)
     crest = db.Column(db.String(80), nullable=False)
@@ -100,7 +105,7 @@ class StaticEPLTable(db.Models):
             nullable=False,
             default=datetime.datetime.now())
 
-class SoccerTopScorers(db.Models):
+class SoccerTopScorers(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     competition = db.Column(db.String(80), nullable=False)
     name = db.Column(db.String(80), nullable=False)

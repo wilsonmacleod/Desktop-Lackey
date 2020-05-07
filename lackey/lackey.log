@@ -2367,3 +2367,1013 @@ jinja2.exceptions.TemplateNotFound: index.html
 2020-05-06 12:40:27,166 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-06 12:40:27,166 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-06 12:40:27,166 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:38:46,979 lackey INFO     Lackey v0.0
+2020-05-06 13:38:46,979 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:38:46,979 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:38:46,980 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:38:46,980 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:38:54,340 lackey INFO     Lackey v0.0
+2020-05-06 13:38:54,340 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:38:54,340 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:38:54,341 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:38:54,341 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:39:18,173 lackey INFO     Lackey v0.0
+2020-05-06 13:39:18,173 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:39:18,173 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:39:18,173 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:39:18,173 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:40:02,831 lackey INFO     Lackey v0.0
+2020-05-06 13:40:02,832 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:40:02,832 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:40:02,832 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:40:02,832 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:40:09,254 lackey INFO     Lackey v0.0
+2020-05-06 13:40:09,254 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:40:09,255 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:40:09,255 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:40:09,255 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:41:15,169 lackey INFO     Lackey v0.0
+2020-05-06 13:41:15,169 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 13:41:15,169 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 13:41:15,170 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 13:41:15,170 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 18:59:38,118 lackey INFO     Lackey v0.0
+2020-05-06 18:59:38,118 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 18:59:38,118 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 18:59:38,118 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 18:59:38,118 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 18:59:54,718 lackey INFO     Lackey v0.0
+2020-05-06 18:59:54,718 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 18:59:54,718 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 18:59:54,718 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 18:59:54,718 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:18,560 lackey INFO     Lackey v0.0
+2020-05-06 19:00:18,560 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:00:18,560 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:00:18,560 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:18,560 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:31,951 lackey INFO     Lackey v0.0
+2020-05-06 19:00:31,951 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:00:31,951 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:00:31,951 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:31,951 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:53,468 lackey INFO     Lackey v0.0
+2020-05-06 19:00:53,468 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:00:53,468 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:00:53,468 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:00:53,468 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:10:05,449 lackey INFO     Lackey v0.0
+2020-05-06 19:10:05,449 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:10:05,449 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:10:05,449 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:10:05,450 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:10:38,849 lackey INFO     Lackey v0.0
+2020-05-06 19:10:38,849 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:10:38,849 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:10:38,849 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:10:38,850 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:26:06,983 lackey INFO     Lackey v0.0
+2020-05-06 19:26:06,984 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:26:06,984 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:26:06,984 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:26:06,984 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:29:40,101 lackey INFO     Lackey v0.0
+2020-05-06 19:29:40,101 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:29:40,101 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:29:40,101 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:29:40,101 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:52:34,666 lackey INFO     Lackey v0.0
+2020-05-06 19:52:34,670 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:52:34,670 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:52:34,670 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:52:34,671 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:52:47,060 lackey INFO     Lackey v0.0
+2020-05-06 19:52:47,060 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:52:47,061 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:52:47,062 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:52:47,062 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:55:30,913 lackey INFO     Lackey v0.0
+2020-05-06 19:55:30,914 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 19:55:30,914 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 19:55:30,914 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 19:55:30,914 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:03:56,165 lackey INFO     Lackey v0.0
+2020-05-06 20:03:56,166 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:03:56,166 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:03:56,166 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:03:56,166 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:05:52,532 lackey INFO     Lackey v0.0
+2020-05-06 20:05:52,532 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:05:52,533 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:05:52,533 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:05:52,533 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:07:02,026 lackey INFO     Lackey v0.0
+2020-05-06 20:07:02,026 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:07:02,026 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:07:02,026 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:07:02,026 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:07:15,747 lackey INFO     Lackey v0.0
+2020-05-06 20:07:15,747 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:07:15,747 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:07:15,747 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:07:15,747 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:09:09,570 lackey INFO     Lackey v0.0
+2020-05-06 20:09:09,571 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:09:09,571 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:09:09,571 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:09:09,571 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:14:08,615 lackey INFO     Lackey v0.0
+2020-05-06 20:14:08,615 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:14:08,616 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:14:08,616 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:14:08,616 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:14:20,169 lackey INFO     Lackey v0.0
+2020-05-06 20:14:20,169 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:14:20,169 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:14:20,169 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:14:20,169 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:15:02,421 lackey INFO     Lackey v0.0
+2020-05-06 20:15:02,421 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:15:02,422 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:15:02,422 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:15:02,422 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:18,695 lackey INFO     Lackey v0.0
+2020-05-06 20:16:18,695 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:16:18,695 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:16:18,695 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:18,695 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:26,553 lackey INFO     Lackey v0.0
+2020-05-06 20:16:26,554 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:16:26,554 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:16:26,554 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:26,554 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:58,970 lackey INFO     Lackey v0.0
+2020-05-06 20:16:58,970 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:16:58,970 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:16:58,970 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:16:58,970 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:17:28,784 lackey INFO     Lackey v0.0
+2020-05-06 20:17:28,784 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:17:28,784 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:17:28,784 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:17:28,784 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:18:36,443 lackey INFO     Lackey v0.0
+2020-05-06 20:18:36,443 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:18:36,443 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:18:36,443 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:18:36,443 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:19:18,985 lackey INFO     Lackey v0.0
+2020-05-06 20:19:18,986 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:19:18,986 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:19:18,986 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:19:18,986 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:20:06,623 lackey INFO     Lackey v0.0
+2020-05-06 20:20:06,623 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:20:06,623 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:20:06,623 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:20:06,623 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:23:28,765 lackey INFO     Lackey v0.0
+2020-05-06 20:23:28,766 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:23:28,766 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:23:28,766 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:23:28,766 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:23:42,447 lackey INFO     Lackey v0.0
+2020-05-06 20:23:42,448 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:23:42,448 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:23:42,448 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:23:42,448 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:24:07,158 lackey INFO     Lackey v0.0
+2020-05-06 20:24:07,158 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:24:07,158 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:24:07,159 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:24:07,159 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:26:00,815 lackey INFO     Lackey v0.0
+2020-05-06 20:26:00,815 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:26:00,816 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:26:00,816 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:26:00,816 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:26:13,876 lackey INFO     Lackey v0.0
+2020-05-06 20:26:13,877 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:26:13,877 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:26:13,877 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:26:13,877 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:02,948 lackey INFO     Lackey v0.0
+2020-05-06 20:27:02,948 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:27:02,949 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:27:02,949 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:02,949 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:35,092 lackey INFO     Lackey v0.0
+2020-05-06 20:27:35,092 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:27:35,093 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:27:35,093 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:35,093 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:42,819 lackey INFO     Lackey v0.0
+2020-05-06 20:27:42,819 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:27:42,819 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:27:42,819 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:27:42,820 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:30:43,408 lackey INFO     Lackey v0.0
+2020-05-06 20:30:43,409 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:30:43,409 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:30:43,409 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:30:43,409 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:30:55,960 lackey INFO     Lackey v0.0
+2020-05-06 20:30:55,960 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:30:55,960 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:30:55,961 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:30:55,961 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:32:16,102 lackey INFO     Lackey v0.0
+2020-05-06 20:32:16,102 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 20:32:16,102 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 20:32:16,103 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 20:32:16,103 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:03:47,712 lackey INFO     Lackey v0.0
+2020-05-06 21:03:47,713 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:03:47,713 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:03:47,713 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:03:47,713 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:04:25,201 lackey INFO     Lackey v0.0
+2020-05-06 21:04:25,201 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:04:25,201 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:04:25,201 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:04:25,201 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:13,465 lackey INFO     Lackey v0.0
+2020-05-06 21:05:13,466 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:05:13,466 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:05:13,466 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:13,466 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:24,486 lackey INFO     Lackey v0.0
+2020-05-06 21:05:24,486 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:05:24,487 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:05:24,487 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:24,487 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:50,064 lackey INFO     Lackey v0.0
+2020-05-06 21:05:50,064 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:05:50,064 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:05:50,064 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:05:50,064 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:07:09,424 lackey INFO     Lackey v0.0
+2020-05-06 21:07:09,424 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:07:09,424 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:07:09,424 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:07:09,424 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:07:23,191 lackey INFO     Lackey v0.0
+2020-05-06 21:07:23,191 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:07:23,191 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:07:23,191 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:07:23,191 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:09:22,991 lackey INFO     Lackey v0.0
+2020-05-06 21:09:22,991 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:09:22,992 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:09:22,992 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:09:22,992 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:09:46,106 lackey INFO     Lackey v0.0
+2020-05-06 21:09:46,106 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:09:46,106 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:09:46,106 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:09:46,107 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:11:50,864 lackey INFO     Lackey v0.0
+2020-05-06 21:11:50,864 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:11:50,865 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:11:50,865 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:11:50,865 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:11:59,226 lackey INFO     Lackey v0.0
+2020-05-06 21:11:59,226 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:11:59,227 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:11:59,227 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:11:59,227 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:12:05,652 lackey INFO     Lackey v0.0
+2020-05-06 21:12:05,652 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:12:05,652 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:12:05,653 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:12:05,653 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:26,699 lackey INFO     Lackey v0.0
+2020-05-06 21:13:26,699 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:13:26,699 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:13:26,699 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:26,699 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:36,251 lackey INFO     Lackey v0.0
+2020-05-06 21:13:36,252 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:13:36,252 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:13:36,252 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:36,252 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:51,464 lackey INFO     Lackey v0.0
+2020-05-06 21:13:51,464 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:13:51,464 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:13:51,465 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:13:51,465 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:01,212 lackey INFO     Lackey v0.0
+2020-05-06 21:14:01,212 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:14:01,213 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:14:01,213 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:01,213 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:08,465 lackey INFO     Lackey v0.0
+2020-05-06 21:14:08,465 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:14:08,465 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:14:08,465 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:08,465 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:17,596 lackey INFO     Lackey v0.0
+2020-05-06 21:14:17,596 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:14:17,597 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:14:17,597 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:17,597 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:42,501 lackey INFO     Lackey v0.0
+2020-05-06 21:14:42,502 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:14:42,502 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:14:42,502 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:14:42,502 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:15:22,573 lackey INFO     Lackey v0.0
+2020-05-06 21:15:22,574 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:15:22,574 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:15:22,574 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:15:22,574 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:15:33,333 lackey INFO     Lackey v0.0
+2020-05-06 21:15:33,333 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:15:33,334 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:15:33,334 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:15:33,334 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:26,167 lackey INFO     Lackey v0.0
+2020-05-06 21:17:26,168 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:17:26,168 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:17:26,168 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:26,168 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:49,097 lackey INFO     Lackey v0.0
+2020-05-06 21:17:49,097 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:17:49,097 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:17:49,097 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:49,098 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:56,533 lackey INFO     Lackey v0.0
+2020-05-06 21:17:56,533 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:17:56,533 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:17:56,534 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:17:56,534 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:23:07,715 lackey INFO     Lackey v0.0
+2020-05-06 21:23:07,715 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:23:07,715 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:23:07,715 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:23:07,715 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:23:19,192 lackey INFO     Lackey v0.0
+2020-05-06 21:23:19,193 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:23:19,193 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:23:19,193 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:23:19,193 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:24:16,045 lackey INFO     Lackey v0.0
+2020-05-06 21:24:16,046 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:24:16,046 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:24:16,047 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:24:16,047 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:27:07,106 lackey INFO     Lackey v0.0
+2020-05-06 21:27:07,106 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:27:07,106 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:27:07,106 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:27:07,106 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:23,071 lackey INFO     Lackey v0.0
+2020-05-06 21:28:23,071 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:28:23,071 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:28:23,071 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:23,071 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:41,080 lackey INFO     Lackey v0.0
+2020-05-06 21:28:41,080 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:28:41,080 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:28:41,081 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:41,081 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:59,993 lackey INFO     Lackey v0.0
+2020-05-06 21:28:59,994 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:28:59,994 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:28:59,994 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:28:59,994 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:29:11,429 lackey INFO     Lackey v0.0
+2020-05-06 21:29:11,429 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:29:11,429 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:29:11,429 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:29:11,429 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:30:22,793 lackey INFO     Lackey v0.0
+2020-05-06 21:30:22,793 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:30:22,796 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:30:22,796 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:30:22,797 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:09,751 lackey INFO     Lackey v0.0
+2020-05-06 21:35:09,751 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:35:09,751 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:35:09,751 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:09,751 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:33,240 lackey INFO     Lackey v0.0
+2020-05-06 21:35:33,240 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:35:33,241 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:35:33,241 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:33,241 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:56,723 lackey INFO     Lackey v0.0
+2020-05-06 21:35:56,724 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:35:56,724 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:35:56,724 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:35:56,724 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:08,549 lackey INFO     Lackey v0.0
+2020-05-06 21:36:08,550 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:36:08,550 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:36:08,550 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:08,550 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:29,242 lackey INFO     Lackey v0.0
+2020-05-06 21:36:29,243 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:36:29,243 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:36:29,243 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:29,243 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:44,704 lackey INFO     Lackey v0.0
+2020-05-06 21:36:44,704 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:36:44,704 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:36:44,705 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:36:44,705 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:37:36,481 lackey INFO     Lackey v0.0
+2020-05-06 21:37:36,481 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:37:36,481 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:37:36,481 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:37:36,482 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:54:34,989 lackey INFO     Lackey v0.0
+2020-05-06 21:54:34,990 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:54:34,990 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:54:34,990 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:54:34,990 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:55:49,234 lackey INFO     Lackey v0.0
+2020-05-06 21:55:49,235 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:55:49,235 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:55:49,235 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:55:49,235 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:56:14,834 lackey INFO     Lackey v0.0
+2020-05-06 21:56:14,834 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:56:14,835 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:56:14,835 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:56:14,835 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:58:46,546 lackey INFO     Lackey v0.0
+2020-05-06 21:58:46,547 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 21:58:46,547 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 21:58:46,547 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 21:58:46,547 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:00:06,551 lackey INFO     Lackey v0.0
+2020-05-06 22:00:06,551 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:00:06,552 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:00:06,552 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:00:06,553 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:01:20,491 lackey INFO     Lackey v0.0
+2020-05-06 22:01:20,492 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:01:20,493 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:01:20,494 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:01:20,494 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:05:43,485 lackey INFO     Lackey v0.0
+2020-05-06 22:05:43,486 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:05:43,487 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:05:43,488 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:05:43,488 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:07:36,410 lackey INFO     Lackey v0.0
+2020-05-06 22:07:36,410 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:07:36,410 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:07:36,410 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:07:36,410 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:07:56,386 lackey INFO     Lackey v0.0
+2020-05-06 22:07:56,387 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:07:56,387 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:07:56,387 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:07:56,387 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:08:47,805 lackey INFO     Lackey v0.0
+2020-05-06 22:08:47,806 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:08:47,806 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:08:47,806 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:08:47,806 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:02,343 lackey INFO     Lackey v0.0
+2020-05-06 22:09:02,343 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:09:02,343 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:09:02,343 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:02,343 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:38,553 lackey INFO     Lackey v0.0
+2020-05-06 22:09:38,553 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:09:38,553 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:09:38,554 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:38,554 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:54,910 lackey INFO     Lackey v0.0
+2020-05-06 22:09:54,910 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:09:54,910 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:09:54,911 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:09:54,911 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:10:01,511 lackey INFO     Lackey v0.0
+2020-05-06 22:10:01,511 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:10:01,511 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:10:01,512 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:10:01,512 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:10:37,948 lackey INFO     Lackey v0.0
+2020-05-06 22:10:37,948 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:10:37,950 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:10:37,950 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:10:37,951 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:13:34,512 lackey INFO     Lackey v0.0
+2020-05-06 22:13:34,512 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-06 22:13:34,512 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-06 22:13:34,512 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-06 22:13:34,512 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:34:40,704 lackey INFO     Lackey v0.0
+2020-05-07 08:34:40,705 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:34:40,705 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:34:40,705 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:34:40,705 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:34:54,400 lackey INFO     Lackey v0.0
+2020-05-07 08:34:54,401 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:34:54,401 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:34:54,401 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:34:54,401 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:02,486 lackey INFO     Lackey v0.0
+2020-05-07 08:35:02,486 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:35:02,486 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:35:02,486 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:02,486 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:17,705 lackey INFO     Lackey v0.0
+2020-05-07 08:35:17,706 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:35:17,706 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:35:17,706 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:17,706 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:37,104 lackey INFO     Lackey v0.0
+2020-05-07 08:35:37,105 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:35:37,105 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:35:37,105 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:37,105 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:51,923 lackey INFO     Lackey v0.0
+2020-05-07 08:35:51,924 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:35:51,924 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:35:51,924 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:35:51,924 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:36:09,534 lackey INFO     Lackey v0.0
+2020-05-07 08:36:09,534 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:36:09,534 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:36:09,534 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:36:09,534 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:36:47,759 lackey INFO     Lackey v0.0
+2020-05-07 08:36:47,763 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:36:47,763 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:36:47,763 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:36:47,763 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:43:42,538 lackey INFO     Lackey v0.0
+2020-05-07 08:43:42,538 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:43:42,539 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:43:42,540 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:43:42,540 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:45:41,236 lackey INFO     Lackey v0.0
+2020-05-07 08:45:41,236 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:45:41,237 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:45:41,237 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:45:41,237 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:46:11,850 lackey INFO     Lackey v0.0
+2020-05-07 08:46:11,850 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:46:11,851 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:46:11,851 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:46:11,851 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:46:13,588 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: weather_config
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 43, in landing
+    db.session.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1026, in commit
+    self.transaction.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 493, in commit
+    self._prepare_impl()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2458, in flush
+    self._flush(objects)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2596, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 129, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2556, in _flush
+    flush_context.execute()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 1066, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\sql\elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 128, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: weather_config
+[SQL: INSERT INTO weather_config (city, woied) VALUES (?, ?)]
+[parameters: ('Seattle', '20eid')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-07 08:48:45,742 lackey INFO     Lackey v0.0
+2020-05-07 08:48:45,743 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:48:45,744 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:48:45,745 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:48:45,745 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:50:54,334 lackey INFO     Lackey v0.0
+2020-05-07 08:50:54,335 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:50:54,336 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:50:54,337 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:50:54,337 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:51:13,585 lackey INFO     Lackey v0.0
+2020-05-07 08:51:13,585 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:51:13,587 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:51:13,587 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:51:13,588 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:53:49,758 lackey INFO     Lackey v0.0
+2020-05-07 08:53:49,758 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:53:49,759 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:53:49,759 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:53:49,759 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:55:21,010 lackey INFO     Lackey v0.0
+2020-05-07 08:55:21,010 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:55:21,010 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:55:21,010 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:55:21,011 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:56:51,592 lackey INFO     Lackey v0.0
+2020-05-07 08:56:51,592 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:56:51,592 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:56:51,592 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:56:51,593 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:10,728 lackey INFO     Lackey v0.0
+2020-05-07 08:57:10,728 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:57:10,728 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:57:10,728 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:10,728 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:16,565 lackey INFO     Lackey v0.0
+2020-05-07 08:57:16,565 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:57:16,565 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:57:16,566 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:16,566 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:18,224 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 42, in landing
+    one = WeatherConfig(city="Seattle", woied="20eid")
+NameError: name 'WeatherConfig' is not defined
+2020-05-07 08:57:40,506 lackey INFO     Lackey v0.0
+2020-05-07 08:57:40,507 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:57:40,507 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:57:40,507 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:57:40,507 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:58:00,195 lackey INFO     Lackey v0.0
+2020-05-07 08:58:00,195 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:58:00,196 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:58:00,196 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:58:00,196 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:58:34,597 lackey INFO     Lackey v0.0
+2020-05-07 08:58:34,597 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 08:58:34,597 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 08:58:34,597 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:58:34,597 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 08:58:36,277 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: weather_config
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 45, in landing
+    db.session.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1026, in commit
+    self.transaction.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 493, in commit
+    self._prepare_impl()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2458, in flush
+    self._flush(objects)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2596, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 129, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2556, in _flush
+    flush_context.execute()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 1066, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\sql\elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 128, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: weather_config
+[SQL: INSERT INTO weather_config (city, woied) VALUES (?, ?)]
+[parameters: ('Seattle', '20eid')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-07 09:00:52,725 lackey INFO     Lackey v0.0
+2020-05-07 09:00:52,725 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:00:52,726 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:00:52,726 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:00:52,726 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:04,286 lackey INFO     Lackey v0.0
+2020-05-07 09:01:04,286 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:01:04,286 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:01:04,286 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:04,287 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:05,950 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 39, in landing
+    one = weather_config(city="Seattle", woied="20eid")
+NameError: name 'weather_config' is not defined
+2020-05-07 09:01:19,735 lackey INFO     Lackey v0.0
+2020-05-07 09:01:19,735 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:01:19,735 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:01:19,735 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:19,735 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:32,543 lackey INFO     Lackey v0.0
+2020-05-07 09:01:32,543 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:01:32,543 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:01:32,543 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:32,543 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:53,220 lackey INFO     Lackey v0.0
+2020-05-07 09:01:53,220 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:01:53,220 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:01:53,220 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:53,221 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:59,116 lackey INFO     Lackey v0.0
+2020-05-07 09:01:59,116 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:01:59,116 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:01:59,116 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:01:59,116 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:08,986 lackey INFO     Lackey v0.0
+2020-05-07 09:02:08,987 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:02:08,987 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:02:08,987 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:08,987 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:10,732 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 36, in landing
+    one = weather_config(city="Seattle", woied="20eid")
+NameError: name 'weather_config' is not defined
+2020-05-07 09:02:23,249 lackey INFO     Lackey v0.0
+2020-05-07 09:02:23,249 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:02:23,249 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:02:23,249 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:23,249 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:24,910 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 37, in landing
+    db.session.add(one)
+NameError: name 'db' is not defined
+2020-05-07 09:02:40,582 lackey INFO     Lackey v0.0
+2020-05-07 09:02:40,583 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:02:40,583 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:02:40,583 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:40,583 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:02:42,279 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: weather_config
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 39, in landing
+    db.session.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1026, in commit
+    self.transaction.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 493, in commit
+    self._prepare_impl()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2458, in flush
+    self._flush(objects)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2596, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 129, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2556, in _flush
+    flush_context.execute()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 1066, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\sql\elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 128, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: weather_config
+[SQL: INSERT INTO weather_config (city, woied) VALUES (?, ?)]
+[parameters: ('Seattle', '20eid')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-07 09:03:19,634 lackey INFO     Lackey v0.0
+2020-05-07 09:03:19,634 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:03:19,635 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:03:19,635 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:03:19,636 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:04:00,851 lackey INFO     Lackey v0.0
+2020-05-07 09:04:00,852 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:04:00,852 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:04:00,852 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:04:00,852 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:04:02,355 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 36, in landing
+    one = WeatherConfig(city="Seattle", woied="20eid")
+NameError: name 'WeatherConfig' is not defined
+2020-05-07 09:04:14,999 lackey INFO     Lackey v0.0
+2020-05-07 09:04:15,000 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:04:15,000 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:04:15,000 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:04:15,000 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:06:09,802 lackey INFO     Lackey v0.0
+2020-05-07 09:06:09,802 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:06:09,802 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:06:09,802 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:06:09,803 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:08:16,533 lackey INFO     Lackey v0.0
+2020-05-07 09:08:16,533 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:08:16,535 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:08:16,536 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:08:16,536 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:09:28,184 lackey INFO     Lackey v0.0
+2020-05-07 09:09:28,184 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:09:28,185 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:09:28,186 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:09:28,186 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:10:28,258 lackey INFO     Lackey v0.0
+2020-05-07 09:10:28,258 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 09:10:28,258 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 09:10:28,258 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 09:10:28,258 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'

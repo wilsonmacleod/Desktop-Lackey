@@ -3,7 +3,6 @@
 from gevent.pywsgi import WSGIServer
 from lackey.app import app
 
-
 def start_gevent(app_port):
     http_server = WSGIServer(('', app_port), app)
     http_server.serve_forever()
