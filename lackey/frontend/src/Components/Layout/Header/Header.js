@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../Layout.css';
 
-const header = (props) => {
+const header = () => {
     return ( 
         <header className="header black-bg">
         <div className="sidebar-toggle-box">
@@ -12,7 +12,7 @@ const header = (props) => {
         <div className="logo"><b>LACKEY<span>WM</span></b></div>
         <div className="nav notify-row">   
           <div className="date">
-              {new Date().toLocaleDateString('en-US')}
+              {new Date().toDateString()}
         </div>   
         </div>
         <div className="top-menu">

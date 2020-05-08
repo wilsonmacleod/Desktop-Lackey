@@ -1,6 +1,8 @@
 import React from 'react';
 import dateFns from "date-fns";
 
+import Button from '../../../UI/Button/Button';
+
 import '../Calendar.css';
 
 const calendarCells = (props) => {
@@ -40,8 +42,12 @@ const calendarCells = (props) => {
           >
             <span className="number">{date}</span>
             {x}
-            <div>
-            </div>
+              <Button
+                btnType={'calendarBtn'}
+                val={date}
+                clicked={props.modalHandler}>
+                  +/-
+                </Button>
           </div>
         );
         day = dateFns.addDays(day, 1);

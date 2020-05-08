@@ -2,29 +2,27 @@ import React, { Component } from 'react';
 
 import Calendar from '../Components/Content/Calendar/Calendar';
 
+import GET from '../axios/GET';
+
+const get = new GET()
+
 class Content extends Component {
     state = { 
-        view: '',
+        view: 'Calendar',
         pullData: ''
     }
-
-    async fetchFunc(){
-        const response = await fetch('/api/Hello');
-        let json = await response.json();
-        return json
-      }
 
     componentDidMount = () => {
         let viewContent = this.props.viewContent;
         let self = this;
-        this.fetchFunc()
-        .then(function (result){
-            console.log(result)
+        get.calendar()
+        .then((result) => {
+            result = result.data
             let msg = "Offline Mode";
             if (result.status === 200){
                 let r = result.text;
-                msg = r['Hello'];
-            }
+                msg = r['data'];
+            };
             self.setState({
                 view: viewContent,
                 pullData: msg
@@ -42,6 +40,7 @@ class Content extends Component {
     }
 
     render() { 
+        console.log(this.state)
         let view = this.state.view === 'Calendar'? <Calendar /> : this.state.pullData;
         return ( 
             <div>

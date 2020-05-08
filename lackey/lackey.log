@@ -3422,3 +3422,53 @@ NameError: name 'WeatherConfig' is not defined
 2020-05-07 12:24:26,973 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-07 12:24:26,973 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-07 12:24:26,973 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:02:29,146 lackey INFO     Lackey v0.0
+2020-05-07 13:02:29,146 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 13:02:29,147 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 13:02:29,147 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:02:29,147 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:06:16,488 lackey INFO     Lackey v0.0
+2020-05-07 13:06:16,488 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 13:06:16,489 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 13:06:16,489 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:06:16,489 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:07:48,947 lackey INFO     Lackey v0.0
+2020-05-07 13:07:48,947 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 13:07:48,947 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 13:07:48,948 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:07:48,948 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:08:51,198 lackey INFO     Lackey v0.0
+2020-05-07 13:08:51,198 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 13:08:51,198 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 13:08:51,199 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 13:08:51,199 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:23:13,714 lackey INFO     Lackey v0.0
+2020-05-07 15:23:13,714 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 15:23:13,715 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 15:23:13,715 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:23:13,715 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:25:28,616 lackey INFO     Lackey v0.0
+2020-05-07 15:25:28,617 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 15:25:28,617 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 15:25:28,617 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:25:28,617 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:27:18,073 lackey INFO     Lackey v0.0
+2020-05-07 15:27:18,073 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 15:27:18,073 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 15:27:18,073 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:27:18,073 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:28:37,616 lackey INFO     Lackey v0.0
+2020-05-07 15:28:37,616 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 15:28:37,616 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 15:28:37,616 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:28:37,617 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:30:01,270 lackey INFO     Lackey v0.0
+2020-05-07 15:30:01,271 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 15:30:01,271 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 15:30:01,271 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 15:30:01,271 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 20:15:42,225 lackey INFO     Lackey v0.0
+2020-05-07 20:15:42,225 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-07 20:15:42,225 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-07 20:15:42,225 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-07 20:15:42,226 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'

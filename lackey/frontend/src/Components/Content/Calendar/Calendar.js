@@ -4,11 +4,14 @@ import dateFns from "date-fns";
 import Header from './Components/CalendarHeader';
 import Days from './Components/CalendarDays';
 import Cells from './Components/CalendarCells';
+import Modal from '../../UI/Modal/Modal';
+import CalendarModal from '../Calendar/Components/CalendarModal';
 
 import './Calendar.css';
 
 class Calendar extends React.Component {
   state = {
+    showModal: false,
     currentMonth: new Date(),
     selectedDate: new Date(),
     setCurrentMonth: new Date(),
@@ -40,9 +43,26 @@ class Calendar extends React.Component {
     });
   };
 
+  modalHandler = () => {
+    let toggle = this.state.showModal ? false : true;
+    this.setState({
+      showModal: toggle
+    })
+  }
+
   render() {
     return (
           <main>
+            <Modal
+                modalClass={"modal"}
+                showModal={this.state.showModal}
+                modalHandler={this.modalHandler}>
+                  <CalendarModal 
+                    date={this.state.selectedDate}
+                  >
+                    List
+                  </CalendarModal>
+                </Modal>
             
             <div className="calendar">
                 <Header
@@ -62,6 +82,7 @@ class Calendar extends React.Component {
                   setCurrentMonth={this.state.setCurrentMonth}
                   //handlers
                   onDateClick={this.onDateClickHandler}
+                  modalHandler={this.modalHandler}
                 />
             </div>
         </main>

@@ -1,0 +1,30 @@
+.calendarBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.selected .calendarBtn{
+    color: #393939
+  }
+
+.calendar .body .cell:hover .calendarBtn{
+    color: #393939
+  }
+
+.addCalendar{
+  padding: 0;
+  color: whitesmoke;
+  height: 20px;
+  width: 40px;
+  cursor: pointer;
+  border: transparent;
+  background-color: inherit;
+  border-bottom: 2px solid #4ecdc4;
+}

@@ -8,7 +8,6 @@
 main {
   display: block;
   margin: 0 auto;
-  max-width: 50em;
   margin-left: -2%;
 }
 
@@ -55,18 +54,18 @@ main {
 .calendar {
   display: block;
   position: relative;
-  width: 800px;
+  width: 110%;
   background: inherit;
   border: 1px #4ecdc4;
 }
 
 .calendar .header {
   position: fixed;
-  top: 5%;
+  top: 3%;
   left: 30%;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 100%;
+  font-size: 18px;
   background: inherit;
   max-width: 40%;
 }
@@ -104,7 +103,6 @@ main {
   border-right: .25px solid #4ecdc4;
   border-bottom: .25px solid #4ecdc4;
   overflow: hidden;
-  cursor: pointer;
   background: #797979;
   transition: 0.25s ease-out;
   opacity: .9;
@@ -186,7 +184,7 @@ main {
 }
 
 .selected .slash{
-  color: #797979;
+  color: #393939
 }
 
 .calendar .body .cell:hover .slash{
