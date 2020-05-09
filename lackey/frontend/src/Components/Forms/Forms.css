@@ -1,0 +1,29 @@
+fieldset{
+    float: left;
+    display: block;
+    border: transparent;
+    margin-top: -25px;
+    overflow-x: hidden;
+}
+
+label{
+    float: left;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+input{
+    margin: 15px 25px 0px 15px;
+    border-bottom: 2px solid #4ecdc4;
+}
+
+textarea{
+    margin: 15px 25px 0px 15px;  
+    border-bottom: 2px solid #4ecdc4;
+    height: 100px;
+}
+.req{
+    color: firebrick;
+}

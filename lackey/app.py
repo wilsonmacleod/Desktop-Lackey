@@ -12,7 +12,6 @@ from lackey import api_views # api (uses db/models)
 api = Api(app)
 api.add_resource(api_views.API_ROUTER, '/api/<view>')
 
-
 @app.before_request
 def before_request():
     pass

@@ -3472,3 +3472,1147 @@ NameError: name 'WeatherConfig' is not defined
 2020-05-07 20:15:42,225 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-07 20:15:42,225 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-07 20:15:42,226 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:49:38,810 lackey INFO     Lackey v0.0
+2020-05-08 09:49:38,811 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 09:49:38,811 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 09:49:38,811 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:49:38,811 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:50:03,869 lackey INFO     Lackey v0.0
+2020-05-08 09:50:03,869 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 09:50:03,869 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 09:50:03,869 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:50:03,870 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:50:54,881 lackey INFO     Lackey v0.0
+2020-05-08 09:50:54,882 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 09:50:54,882 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 09:50:54,882 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:50:54,882 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:52:11,112 lackey INFO     Lackey v0.0
+2020-05-08 09:52:11,112 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 09:52:11,112 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 09:52:11,112 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:52:11,112 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:56:38,953 lackey INFO     Lackey v0.0
+2020-05-08 09:56:38,954 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 09:56:38,954 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 09:56:38,954 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 09:56:38,954 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:47:07,679 lackey INFO     Lackey v0.0
+2020-05-08 11:47:07,680 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:47:07,680 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:47:07,680 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:47:07,680 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:49:51,700 lackey INFO     Lackey v0.0
+2020-05-08 11:49:51,700 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:49:51,700 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:49:51,700 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:49:51,700 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:50:09,818 lackey.app ERROR    Exception on /api/Calendar [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in post
+    json = json.loads(view)
+UnboundLocalError: local variable 'json' referenced before assignment
+2020-05-08 11:50:28,502 lackey.app ERROR    Exception on /api/Calendar [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in post
+    j = json.loads(view)
+UnboundLocalError: local variable 'json' referenced before assignment
+2020-05-08 11:53:50,018 lackey INFO     Lackey v0.0
+2020-05-08 11:53:50,019 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:53:50,019 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:53:50,019 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:53:50,019 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:54:25,818 lackey.app ERROR    Exception on /api/Calendar [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in post
+    args = parser.parse_args()
+NameError: name 'parser' is not defined
+2020-05-08 11:55:31,648 lackey INFO     Lackey v0.0
+2020-05-08 11:55:31,648 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:55:31,648 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:55:31,648 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:55:31,648 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:55:42,156 lackey.app ERROR    Exception on /api/Calendar [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 20, in post
+    j = json.loads(args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not Namespace
+2020-05-08 11:57:23,194 lackey INFO     Lackey v0.0
+2020-05-08 11:57:23,195 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:57:23,195 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:57:23,195 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:57:23,195 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:58:26,682 lackey INFO     Lackey v0.0
+2020-05-08 11:58:26,683 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:58:26,683 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:58:26,683 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:58:26,683 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:58:35,687 lackey.app ERROR    Exception on /api/{"name":"aa","description":"","targetDate":"2020-04-29","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'view'
+2020-05-08 11:59:04,035 lackey INFO     Lackey v0.0
+2020-05-08 11:59:04,036 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 11:59:04,036 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 11:59:04,036 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 11:59:04,036 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:07:18,161 lackey INFO     Lackey v0.0
+2020-05-08 12:07:18,162 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:07:18,162 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:07:18,162 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:07:18,162 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:07:56,080 lackey.app ERROR    Exception on /api/{"name":"Test Task 1","description":"This is a test","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    d.session.commit()
+NameError: name 'd' is not defined
+2020-05-08 12:08:06,200 lackey INFO     Lackey v0.0
+2020-05-08 12:08:06,201 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:08:06,201 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:08:06,201 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:08:06,201 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:08:21,078 lackey.app ERROR    Exception on /api/{"name":"Test Task 1","description":"this is a test","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1179, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 717, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\dialects\sqlite\base.py", line 740, in process
+    "SQLite DateTime type only accepts Python "
+TypeError: SQLite DateTime type only accepts Python datetime and date objects as input.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    db.session.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1026, in commit
+    self.transaction.commit()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 493, in commit
+    self._prepare_impl()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2458, in flush
+    self._flush(objects)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2596, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 129, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 2556, in _flush
+    flush_context.execute()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 589, in execute
+    uow,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    insert,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\persistence.py", line 1120, in _emit_insert_statements
+    statement, params
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\sql\elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1182, in _execute_context
+    e, util.text_type(statement), parameters, None, None
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\util\compat.py", line 128, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\base.py", line 1179, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\engine\default.py", line 717, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\dialects\sqlite\base.py", line 740, in process
+    "SQLite DateTime type only accepts Python "
+sqlalchemy.exc.StatementError: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO calendar_tasks (entered_date, task, description, target_date, recurring) VALUES (?, ?, ?, ?, ?)]
+[parameters: [{'description': 'this is a test', 'recurring': False, 'task': 'Test Task 1', 'target_date': '2020-05-08'}]]
+2020-05-08 12:13:09,567 lackey INFO     Lackey v0.0
+2020-05-08 12:13:09,567 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:13:09,568 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:13:09,568 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:13:09,568 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:13:26,041 lackey.app ERROR    Exception on /api/{"name":"this is a test","description":"testing 1 2 3","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 17, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:21:53,994 lackey INFO     Lackey v0.0
+2020-05-08 12:21:53,996 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:21:53,996 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:21:53,996 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:21:53,997 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:22:15,418 lackey.app ERROR    Exception on /api/{"name":"this sis a test","description":"this is a test","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 17, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:22:51,126 lackey INFO     Lackey v0.0
+2020-05-08 12:22:51,129 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:22:51,129 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:22:51,130 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:22:51,130 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:23:10,763 lackey.app ERROR    Exception on /api/{"name":"this is a test","description":"testin 1 2 3","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 17, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:28:53,144 lackey INFO     Lackey v0.0
+2020-05-08 12:28:53,144 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:28:53,144 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:28:53,145 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:28:53,145 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:29:09,022 lackey.app ERROR    Exception on /api/{"name":"test","description":"test d","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:29:22,134 lackey INFO     Lackey v0.0
+2020-05-08 12:29:22,135 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:29:22,135 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:29:22,135 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:29:22,135 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:29:38,130 lackey.app ERROR    Exception on /api/{"name":"this is a test","description":"test desc","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:30:52,889 lackey INFO     Lackey v0.0
+2020-05-08 12:30:52,889 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:30:52,889 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:30:52,889 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:30:52,889 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:31:04,155 lackey.app ERROR    Exception on /api/{"name":"ss","description":"ss","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 18, in post
+    target_date = datetime.datetime.strptime(x, "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:33:20,386 lackey INFO     Lackey v0.0
+2020-05-08 12:33:20,386 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:33:20,386 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:33:20,386 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:33:20,386 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:33:37,350 lackey INFO     Lackey v0.0
+2020-05-08 12:33:37,350 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:33:37,351 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:33:37,351 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:33:37,351 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:33:53,564 lackey.app ERROR    Exception on /api/{"name":"this is a test","description":"testing 1 2 3","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 20, in post
+    target_date = datetime.datetime.strptime(j['target_date'], "%Y-%m-%d")
+KeyError: 'target_date'
+2020-05-08 12:34:18,438 lackey INFO     Lackey v0.0
+2020-05-08 12:34:18,439 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:34:18,439 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:34:18,439 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:34:18,439 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:34:38,323 lackey.app ERROR    Exception on /api/{"name":"this is a test","description":"testing 1 2 3","targetDate":"2020-05-08","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 20, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 12:53:00,855 lackey INFO     Lackey v0.0
+2020-05-08 12:53:00,856 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 12:53:00,856 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 12:53:00,856 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:53:00,856 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 12:53:12,268 lackey.app ERROR    Exception on /api/{"name":"dd","description":"dd","targetDate":"2020-05-08T00:00:00.000Z","recurring":false} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 20, in post
+    target_date = datetime.datetime.strptime(j['targetDate'], "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-08 13:39:13,038 lackey INFO     Lackey v0.0
+2020-05-08 13:39:13,038 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:39:13,039 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:39:13,039 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:39:13,039 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:39:43,185 lackey INFO     Lackey v0.0
+2020-05-08 13:39:43,185 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:39:43,185 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:39:43,186 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:39:43,186 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:42:55,197 lackey INFO     Lackey v0.0
+2020-05-08 13:42:55,197 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:42:55,197 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:42:55,197 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:42:55,198 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:44:11,231 lackey INFO     Lackey v0.0
+2020-05-08 13:44:11,232 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:44:11,232 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:44:11,232 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:44:11,232 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:44:50,288 lackey INFO     Lackey v0.0
+2020-05-08 13:44:50,289 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:44:50,289 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:44:50,289 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:44:50,289 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:45:02,084 lackey INFO     Lackey v0.0
+2020-05-08 13:45:02,084 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:45:02,085 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:45:02,085 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:45:02,085 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:45:04,152 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={"data": results})
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type CalendarTasks is not JSON serializable
+2020-05-08 13:51:43,271 lackey INFO     Lackey v0.0
+2020-05-08 13:51:43,271 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:51:43,271 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:51:43,271 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:51:43,272 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:07,983 lackey INFO     Lackey v0.0
+2020-05-08 13:52:07,983 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:52:07,984 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:52:07,984 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:07,984 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:16,117 lackey INFO     Lackey v0.0
+2020-05-08 13:52:16,117 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:52:16,117 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:52:16,117 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:16,117 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:26,360 lackey INFO     Lackey v0.0
+2020-05-08 13:52:26,361 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:52:26,361 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:52:26,361 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:52:26,361 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:55:49,286 lackey INFO     Lackey v0.0
+2020-05-08 13:55:49,286 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:55:49,287 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:55:49,287 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:55:49,287 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:56:29,982 lackey INFO     Lackey v0.0
+2020-05-08 13:56:29,982 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:56:29,983 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:56:29,983 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:56:29,983 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:57:02,978 lackey INFO     Lackey v0.0
+2020-05-08 13:57:02,978 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:57:02,978 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:57:02,978 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:57:02,979 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:59:21,526 lackey INFO     Lackey v0.0
+2020-05-08 13:59:21,526 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:59:21,526 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:59:21,526 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:59:21,526 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:59:23,647 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 14, in get
+    json_dict = dict(row.__dict__); dictret.pop('_sa_instance_state', None)
+NameError: name 'row' is not defined
+2020-05-08 13:59:53,840 lackey INFO     Lackey v0.0
+2020-05-08 13:59:53,840 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 13:59:53,840 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 13:59:53,840 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:59:53,840 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 13:59:55,918 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 14, in get
+    json_dict = dict(row.__dict__); dictret.pop('_sa_instance_state', None)
+NameError: name 'row' is not defined
+2020-05-08 14:00:30,687 lackey INFO     Lackey v0.0
+2020-05-08 14:00:30,687 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:00:30,687 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:00:30,687 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:00:30,688 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:00:32,880 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in get
+    results.pop('_sa_instance_state', None)
+TypeError: pop() takes at most 1 argument (2 given)
+2020-05-08 14:00:45,179 lackey INFO     Lackey v0.0
+2020-05-08 14:00:45,179 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:00:45,180 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:00:45,180 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:00:45,180 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:00:47,214 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in get
+    results.pop('_sa_instance_state')
+TypeError: 'str' object cannot be interpreted as an integer
+2020-05-08 14:01:07,384 lackey INFO     Lackey v0.0
+2020-05-08 14:01:07,384 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:01:07,384 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:01:07,384 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:01:07,384 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:01:09,580 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 14, in get
+    json_dict = dict(i)
+TypeError: 'CalendarTasks' object is not iterable
+2020-05-08 14:02:04,027 lackey INFO     Lackey v0.0
+2020-05-08 14:02:04,028 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:02:04,028 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:02:04,028 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:02:04,028 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:02:36,883 lackey INFO     Lackey v0.0
+2020-05-08 14:02:36,883 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:02:36,883 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:02:36,884 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:02:36,884 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:02:51,230 lackey INFO     Lackey v0.0
+2020-05-08 14:02:51,230 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:02:51,230 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:02:51,230 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:02:51,230 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:03:50,778 lackey INFO     Lackey v0.0
+2020-05-08 14:03:50,778 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 14:03:50,779 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 14:03:50,779 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 14:03:50,779 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 15:59:47,862 lackey INFO     Lackey v0.0
+2020-05-08 15:59:47,866 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 15:59:47,866 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 15:59:47,866 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 15:59:47,866 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 15:59:50,072 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': f'{query}'})
+  File "C:\Users\wilso\Desktop\Lackey\lackey\models.py", line 22, in __repr__
+    return f"{({i:i for key, value in self })}"
+TypeError: 'CalendarTasks' object is not iterable
+2020-05-08 16:04:16,009 lackey INFO     Lackey v0.0
+2020-05-08 16:04:16,009 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:04:16,009 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:04:16,009 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:04:16,009 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:06:23,714 lackey INFO     Lackey v0.0
+2020-05-08 16:06:23,714 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:06:23,715 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:06:23,715 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:06:23,715 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:06:40,640 lackey INFO     Lackey v0.0
+2020-05-08 16:06:40,640 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:06:40,640 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:06:40,640 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:06:40,640 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:08:26,395 lackey INFO     Lackey v0.0
+2020-05-08 16:08:26,395 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:08:26,395 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:08:26,395 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:08:26,395 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:08:28,477 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': f'{query}'})
+  File "C:\Users\wilso\Desktop\Lackey\lackey\models.py", line 22, in __repr__
+    return f"[{ id: self.id, task: self.task, description: self.description, target_date: self.target_date, recurring: self.recurring }]"
+TypeError: unsupported format string passed to builtin_function_or_method.__format__
+2020-05-08 16:09:32,807 lackey INFO     Lackey v0.0
+2020-05-08 16:09:32,808 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:09:32,808 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:09:32,808 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:09:32,808 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:10:45,815 lackey INFO     Lackey v0.0
+2020-05-08 16:10:45,815 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:10:45,815 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:10:45,815 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:10:45,816 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:11:32,972 lackey INFO     Lackey v0.0
+2020-05-08 16:11:32,973 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:11:32,973 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:11:32,973 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:11:32,973 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:12:13,009 lackey INFO     Lackey v0.0
+2020-05-08 16:12:13,009 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:12:13,009 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:12:13,010 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:12:13,010 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:14:25,321 lackey INFO     Lackey v0.0
+2020-05-08 16:14:25,321 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:14:25,321 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:14:25,321 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:14:25,322 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:14:40,889 lackey INFO     Lackey v0.0
+2020-05-08 16:14:40,889 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:14:40,889 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:14:40,890 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:14:40,890 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:16:29,955 lackey INFO     Lackey v0.0
+2020-05-08 16:16:29,956 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:16:29,956 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:16:29,956 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:16:29,956 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:07,381 lackey INFO     Lackey v0.0
+2020-05-08 16:17:07,381 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:17:07,381 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:17:07,381 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:07,381 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:09,470 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': query})
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type CalendarTasks is not JSON serializable
+2020-05-08 16:17:23,860 lackey INFO     Lackey v0.0
+2020-05-08 16:17:23,861 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:17:23,861 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:17:23,861 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:23,861 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:25,906 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': query})
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type CalendarTasks is not JSON serializable
+2020-05-08 16:17:35,902 lackey INFO     Lackey v0.0
+2020-05-08 16:17:35,903 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:17:35,903 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:17:35,903 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:35,903 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:17:37,915 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': f'{query}'})
+TypeError: __str__ returned non-string (type dict)
+2020-05-08 16:18:03,415 lackey INFO     Lackey v0.0
+2020-05-08 16:18:03,416 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:18:03,416 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:18:03,416 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:18:03,416 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:18:59,192 lackey INFO     Lackey v0.0
+2020-05-08 16:18:59,192 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:18:59,192 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:18:59,192 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:18:59,192 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:19:01,200 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 12, in get
+    return jsonify(status=200, text={'data': f'{query[1:-1]}'})
+TypeError: 'CalendarTasks' object is not subscriptable
+2020-05-08 16:19:14,836 lackey INFO     Lackey v0.0
+2020-05-08 16:19:14,836 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:19:14,836 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:19:14,836 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:19:14,836 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:19:59,093 lackey INFO     Lackey v0.0
+2020-05-08 16:19:59,093 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:19:59,093 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:19:59,094 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:19:59,094 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:20:50,390 lackey INFO     Lackey v0.0
+2020-05-08 16:20:50,391 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:20:50,391 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:20:50,391 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:20:50,391 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:20:52,238 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-08 16:20:56,462 lackey INFO     Lackey v0.0
+2020-05-08 16:20:56,462 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:20:56,463 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:20:56,463 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:20:56,463 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:22:22,742 lackey INFO     Lackey v0.0
+2020-05-08 16:22:22,742 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:22:22,743 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:22:22,743 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:22:22,743 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:22:51,056 lackey INFO     Lackey v0.0
+2020-05-08 16:22:51,057 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:22:51,057 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:22:51,057 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:22:51,057 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:23:47,967 lackey INFO     Lackey v0.0
+2020-05-08 16:23:47,967 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:23:47,967 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:23:47,967 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:23:47,967 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:24:41,714 lackey INFO     Lackey v0.0
+2020-05-08 16:24:41,715 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:24:41,715 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:24:41,715 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:24:41,715 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:26:01,671 lackey INFO     Lackey v0.0
+2020-05-08 16:26:01,672 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:26:01,672 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:26:01,672 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:26:01,672 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:26:30,257 lackey INFO     Lackey v0.0
+2020-05-08 16:26:30,258 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 16:26:30,258 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 16:26:30,258 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 16:26:30,258 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 22:53:38,756 lackey INFO     Lackey v0.0
+2020-05-08 22:53:38,757 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 22:53:38,757 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 22:53:38,758 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 22:53:38,758 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:05:44,753 lackey INFO     Lackey v0.0
+2020-05-08 23:05:44,754 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:05:44,754 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:05:44,754 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:05:44,754 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:05:58,474 lackey INFO     Lackey v0.0
+2020-05-08 23:05:58,474 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:05:58,474 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:05:58,475 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:05:58,475 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:06:58,262 lackey INFO     Lackey v0.0
+2020-05-08 23:06:58,262 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:06:58,262 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:06:58,262 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:06:58,262 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:09:28,395 lackey INFO     Lackey v0.0
+2020-05-08 23:09:28,396 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:09:28,396 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:09:28,397 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:09:28,397 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:10:58,118 lackey INFO     Lackey v0.0
+2020-05-08 23:10:58,119 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:10:58,119 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:10:58,119 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:10:58,119 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:12:09,079 lackey INFO     Lackey v0.0
+2020-05-08 23:12:09,080 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:12:09,080 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:12:09,080 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:12:09,080 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:12:36,566 lackey INFO     Lackey v0.0
+2020-05-08 23:12:36,566 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:12:36,566 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:12:36,566 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:12:36,566 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:17:34,379 lackey INFO     Lackey v0.0
+2020-05-08 23:17:34,379 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:17:34,379 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:17:34,379 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:17:34,380 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:18:29,845 lackey INFO     Lackey v0.0
+2020-05-08 23:18:29,845 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:18:29,846 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:18:29,846 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:18:29,846 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:19:40,437 lackey INFO     Lackey v0.0
+2020-05-08 23:19:40,438 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:19:40,438 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:19:40,438 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:19:40,438 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:20:09,654 lackey INFO     Lackey v0.0
+2020-05-08 23:20:09,654 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:20:09,655 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:20:09,655 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:20:09,655 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:20:32,472 lackey INFO     Lackey v0.0
+2020-05-08 23:20:32,473 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:20:32,473 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:20:32,473 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:20:32,473 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:21:27,518 lackey INFO     Lackey v0.0
+2020-05-08 23:21:27,518 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:21:27,518 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:21:27,519 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:21:27,519 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:23:26,882 lackey INFO     Lackey v0.0
+2020-05-08 23:23:26,882 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:23:26,882 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:23:26,883 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:23:26,883 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:25:57,550 lackey INFO     Lackey v0.0
+2020-05-08 23:25:57,551 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:25:57,551 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:25:57,551 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:25:57,551 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:26:15,634 lackey INFO     Lackey v0.0
+2020-05-08 23:26:15,634 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:26:15,634 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:26:15,634 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:26:15,634 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:27:45,119 lackey INFO     Lackey v0.0
+2020-05-08 23:27:45,120 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:27:45,120 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:27:45,120 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:27:45,120 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:30:31,987 lackey INFO     Lackey v0.0
+2020-05-08 23:30:31,988 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:30:31,988 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:30:31,988 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:30:31,988 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:32:54,557 lackey INFO     Lackey v0.0
+2020-05-08 23:32:54,557 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:32:54,557 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:32:54,558 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:32:54,558 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:35:26,823 lackey INFO     Lackey v0.0
+2020-05-08 23:35:26,823 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:35:26,823 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:35:26,824 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:35:26,824 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:37:16,992 lackey INFO     Lackey v0.0
+2020-05-08 23:37:16,992 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:37:16,992 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:37:16,992 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:37:16,993 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:38:15,898 lackey INFO     Lackey v0.0
+2020-05-08 23:38:15,899 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:38:15,899 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:38:15,899 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:38:15,899 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:40:11,815 lackey INFO     Lackey v0.0
+2020-05-08 23:40:11,815 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:40:11,815 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:40:11,815 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:40:11,815 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:42:16,554 lackey INFO     Lackey v0.0
+2020-05-08 23:42:16,555 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-08 23:42:16,555 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-08 23:42:16,555 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-08 23:42:16,555 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'

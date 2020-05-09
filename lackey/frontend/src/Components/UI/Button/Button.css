@@ -1,3 +1,10 @@
+
+.disabled {
+	color: #797979;
+	background: lightgray;
+	cursor: not-allowed;
+}
+
 .calendarBtn {
     position: absolute;
     bottom: 0;
@@ -20,11 +27,14 @@
 
 .addCalendar{
   padding: 0;
-  color: whitesmoke;
+  color: #4ecdc4;
   height: 20px;
   width: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
   cursor: pointer;
   border: transparent;
   background-color: inherit;
+  padding-bottom:5px;
   border-bottom: 2px solid #4ecdc4;
 }

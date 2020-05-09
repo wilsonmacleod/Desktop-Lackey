@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 500;
     background-color: #22242a;
-    width: 30%;
+    width: 40%;
     max-height: 70%;
     border: .5px solid #4ecdc4;
     box-shadow: 1px 1px 1px #22242a;
@@ -12,6 +12,7 @@
     box-sizing: border-box;
     transition: all 0.2s ease-out;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .backdrop {

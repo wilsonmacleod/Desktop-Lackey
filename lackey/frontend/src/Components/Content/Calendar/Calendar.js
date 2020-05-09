@@ -12,6 +12,7 @@ import './Calendar.css';
 class Calendar extends React.Component {
   state = {
     showModal: false,
+    modalView: 'list',
     currentMonth: new Date(),
     selectedDate: new Date(),
     setCurrentMonth: new Date(),
@@ -46,7 +47,15 @@ class Calendar extends React.Component {
   modalHandler = () => {
     let toggle = this.state.showModal ? false : true;
     this.setState({
-      showModal: toggle
+      showModal: toggle,
+      modalView: 'list'
+    })
+  }
+
+  modalViewHandler = () => {
+    let toggle = this.state.modalView === 'list' ? 'form' : 'list';
+    this.setState({
+      modalView: toggle
     })
   }
 
@@ -54,11 +63,20 @@ class Calendar extends React.Component {
     return (
           <main>
             <Modal
+                //data
                 modalClass={"modal"}
                 showModal={this.state.showModal}
+                //handler
                 modalHandler={this.modalHandler}>
                   <CalendarModal 
+                    //data
                     date={this.state.selectedDate}
+                    view={this.state.modalView}
+                    cForm={this.props.cForm}
+                    //handler
+                    modalView={this.modalViewHandler}
+                    cFormHandler={this.props.cFormHandler}
+                    taskSubmitHandler={this.props.taskSubmitHandler}
                   >
                     List
                   </CalendarModal>
