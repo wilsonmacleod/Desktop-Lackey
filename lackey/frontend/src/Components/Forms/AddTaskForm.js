@@ -5,13 +5,28 @@ import Button from '../UI/Button/Button';
 import './Forms.css';
 
 const addTaskForm = (props) => {
+
     let btnDis = true;
     if(props.cForm.name !== '' &&
     props.cForm.targetDate !== ''){
         btnDis = false;
     }
+
+    const split = props.selectedDate.split(" "); // add selected date to form state
+    const formattedDate = `${[split[1],split[2],split[3]]}`;
+    if(props.cForm.targetDate !== formattedDate){
+        props.cFormHandler({
+            target: {
+                value: formattedDate,
+                id: "targetDate",
+                name: "calendar"
+            }
+        });
+    };
+
     return ( 
         <fieldset>
+
                 <label>
                     <span>Task:<span className="req">*</span></span>
                     <input 
@@ -35,17 +50,14 @@ const addTaskForm = (props) => {
                 </label>
 
                 <label>
-                    <span>Date:<span className="req">*</span></span>
+                    <span>Time:</span>
                     <input 
-                        type="datetime-local"
+                        type="time"
                         value={props.cForm.targetDate}
                         name="calendar"
-                        id="targetDate"
+                        id="time"
                         onChange={props.cFormHandler}
                     />
-                </label>
-
-                <label>
                     <span>Recurring?</span>
                     <input 
                         type="checkbox"
@@ -55,7 +67,7 @@ const addTaskForm = (props) => {
                         onChange={props.cFormHandler}
                     />
                 </label>
-                <div>
+                <label>
                 <Button
                     value={'addTask'}
                     disabled={btnDis}
@@ -64,8 +76,7 @@ const addTaskForm = (props) => {
                 >
                     Submit
                 </Button>
-                </div>
-
+                </label>
         </fieldset>
         
      );

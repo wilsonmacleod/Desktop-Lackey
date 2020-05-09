@@ -5,15 +5,33 @@ import AddTaskForm from '../../../Forms/AddTaskForm';
 
 import '../Calendar.css'
 
-// task = db.Column(db.String(80), nullable=False)
-// description = db.Column(db.Text, nullable=True)
-// target_date = db.Column(db.DateTime, nullable=True)
-// recurring = db.Column(db.Boolean, 
-//                    nullable=False,
-//                    default=False)
-
-
 const calendarModal = (props) => {
+    let selectedDate = props.date;
+    console.log(selectedDate);
+    //props.taskList
+    let taskList = null;
+    let data = props.data;
+    if(data.length > 0){
+        let tasks = [];
+        for(let x = 0; x < data.length; x++){
+          if(Number(data[x]['target_date'].split(",")[1]) === Number(selectedDate.getDate())){
+            tasks.push(data[x]);
+          }
+        };
+        taskList = tasks.map(i => {
+          return <div 
+                    key={i.id} 
+                    className="row task">
+                        {i.task} <Button
+                                       value={i.id}
+                                       disabled={false}
+                                       btnType={'deleteTask'}
+                                       clicked={() => console.log('deleting task ' + i.d)} 
+                                    >-</Button>
+                </div>
+        });
+      }
+
 
     let btnConfig = {
         'value': 'add',
@@ -21,15 +39,16 @@ const calendarModal = (props) => {
         'clicked': props.modalView,
         'text': '+'
     }
-    //props.taskList
-    const taskList = ["item", "item", "item", "item", "item"];
-    let list = []
+    let display = '';
     if (props.view === 'list'){
-        let x = 0;
-        taskList.forEach(i => list.push(<div key={x++} className="row">{i}</div>))
+        display = taskList;
     }else{
-        list = <AddTaskForm 
+        display = 
+            <AddTaskForm
+                    //data 
                     cForm={props.cForm}
+                    selectedDate={selectedDate.toDateString()}
+                    //hanlder
                     cFormHandler={props.cFormHandler}
                     taskSubmit={props.taskSubmitHandler}
                 />
@@ -49,7 +68,7 @@ const calendarModal = (props) => {
             </div>
 
             <div className="row">
-                {list}
+                {display}
             </div>
 
         </div>

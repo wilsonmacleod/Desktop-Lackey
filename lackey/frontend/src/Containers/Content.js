@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Loading from '../Components/UI/Loading/Loading';
 import Calendar from '../Components/Content/Calendar/Calendar';
 
 import GET from '../axios/GET';
@@ -10,24 +11,36 @@ const post = new POST()
 
 class Content extends Component {
     state = { 
-        view: 'Calendar',
-        pullData: '',
+        loading: false,
+        view: '',
+        data: '',
         forms: {
             calendar: {
                 name: '',
                 description: '',
                 targetDate: '',
+                time: '',
                 recurring: false
             }
-        }
-    }
+        },
+        clearedForms: {
+            calendar: {
+                name: '',
+                description: '',
+                targetDate: '',
+                time: '',
+                recurring: false
+            }
+        },
+    };
 
-/*    updateData = (type) => {    ///// DOES NOT FORCE RERENDER
-        const pullType = {
+    updateData = (view) => {
+        const clearedForms = this.state.clearedForms;
+        const self = this;
+        const updateCalls = {
             'Calendar': get.calendar()
         };
-        let self = this;
-        pullType[type]
+        updateCalls[view] 
         .then((result) => {
             result = result.data
             let msg = 'Offline Mode';
@@ -36,32 +49,21 @@ class Content extends Component {
                 msg = r['data'].replace(/'/g, '"');
                 console.log(msg)
                 msg = JSON.parse(msg);
-            };
+            };  
             self.setState({
-                pullData: msg
+                loading: false,
+                view: view,
+                data: msg,
+                forms: clearedForms
             });
         });
-    } */
+    };
 
     componentDidMount = () => {
+        this.setState({loading: true})
         let viewContent = this.props.viewContent;
-        let self = this;
-        get.calendar()
-        .then((result) => {
-            result = result.data
-            let msg = 'Offline Mode';
-            if (result.status === 200){
-                let r = result.text;
-                msg = r['data'].replace(/'/g, '"');
-                console.log(msg)
-                msg = JSON.parse(msg);
-            };
-            self.setState({
-                view: viewContent,
-                pullData: msg
-            });
-        });
-    }
+        this.updateData(viewContent);
+    };
 
     componentDidUpdate(prevProps){
         if(this.props.viewContent !== prevProps.viewContent){
@@ -70,13 +72,17 @@ class Content extends Component {
                 view: viewContent
             })
         }
-    }
+    };
 
     formUpdateHandler = (event) => { // calendarTask
         let newState = this.state.forms;
         let formValue = event.target.value;
         let formName = event.target.name;
-        let formField = event.target.getAttribute('id');
+
+        let formField = ''
+        try {formField = event.target.getAttribute('id');} 
+        catch(err){formField = event.target['id'];}
+
         const boolFields = ['recurring'];
         if(boolFields.includes(formField)){
             formValue = newState[formName][formField] ? false : true;
@@ -85,34 +91,40 @@ class Content extends Component {
         this.setState({
             forms: newState
         })
-    }
+    };
 
     taskSubmitHandler = () => {
+        this.setState({loading: true})
         const obj = JSON.stringify(this.state.forms.calendar);
-        post.calendar(obj);
-        this.updateData('Calendar')
-    }
+        post.calendar(obj)
+        .then(() => {
+            this.updateData('Calendar')
+        });
+    };
 
     render() { 
         console.log(this.state)
         let view = null;
         if(this.state.view === 'Calendar'){
             view = <Calendar 
+                        data={this.state.data}
                         cForm={this.state.forms.calendar} 
+                        //handlers
                         cFormHandler={this.formUpdateHandler}
                         taskSubmitHandler={this.taskSubmitHandler}
                     />
         }else{
             try {
-                view = this.state.pullData[3]['task'] 
+                view = this.state.data[3]['task'] 
             }
             catch(err) {
                 view = "null"
             }
     }
+        view = this.state.loading ? <Loading /> : view;
         return ( 
             <div>
-            <div>{view}</div>
+            {view}
             </div>
          );
     }

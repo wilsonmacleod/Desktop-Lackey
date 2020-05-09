@@ -11,6 +11,7 @@ lackey/__pycache__/
 lackey/actions/external_api/sports/sport_urls.py
 lackey/lackey.log
 lackey/database.db
+lackey/migrations/
 
 ### react ###
 

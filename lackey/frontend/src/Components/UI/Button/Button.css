@@ -38,3 +38,13 @@
   padding-bottom:5px;
   border-bottom: 2px solid #4ecdc4;
 }
+
+.deleteTask{
+  position: absolute;
+  margin-left: 90%;
+  background: firebrick;
+  border-radius: .9em;
+  color: white;
+  border: transparent;
+  padding: 5px;
+}

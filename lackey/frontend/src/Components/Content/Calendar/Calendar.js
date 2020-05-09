@@ -15,8 +15,6 @@ class Calendar extends React.Component {
     modalView: 'list',
     currentMonth: new Date(),
     selectedDate: new Date(),
-    setCurrentMonth: new Date(),
-    setSelectedDate: new Date()
   };
 
   onDateClickHandler = day => {
@@ -37,13 +35,6 @@ class Calendar extends React.Component {
     });
   };
 
-  currentMonth = () => {
-    this.setState({
-      currentMonth: this.state.setCurrentMonth,
-      selectedDate: this.state.setSelectedDate
-    });
-  };
-
   modalHandler = () => {
     let toggle = this.state.showModal ? false : true;
     this.setState({
@@ -59,7 +50,22 @@ class Calendar extends React.Component {
     })
   }
 
+  filterDataBySelectedMonth = (data, currentMonth) => {
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    let monthStr = months[currentMonth.getMonth()]
+    let year = String(currentMonth.getFullYear());
+
+    if(data !== ''){
+      data = data.filter(i => {
+        return data = i['target_date'].split(",")[0] === monthStr && 
+        i['target_date'].split(",")[2] === year
+      });
+    }
+    return data
+  }
+
   render() {
+    const data = this.filterDataBySelectedMonth(this.props.data, this.state.currentMonth);
     return (
           <main>
             <Modal
@@ -67,19 +73,19 @@ class Calendar extends React.Component {
                 modalClass={"modal"}
                 showModal={this.state.showModal}
                 //handler
-                modalHandler={this.modalHandler}>
-                  <CalendarModal 
-                    //data
-                    date={this.state.selectedDate}
-                    view={this.state.modalView}
-                    cForm={this.props.cForm}
-                    //handler
-                    modalView={this.modalViewHandler}
-                    cFormHandler={this.props.cFormHandler}
-                    taskSubmitHandler={this.props.taskSubmitHandler}
-                  >
-                    List
-                  </CalendarModal>
+                  modalHandler={this.modalHandler}>
+                    <CalendarModal 
+                      //data
+                      data={data}
+                      date={this.state.selectedDate}
+                      view={this.state.modalView}
+                      cForm={this.props.cForm}
+                      //handler
+                      modalView={this.modalViewHandler}
+                      cFormHandler={this.props.cFormHandler}
+                      taskSubmitHandler={this.props.taskSubmitHandler}
+                    >
+                    </CalendarModal>
                 </Modal>
             
             <div className="calendar">
@@ -95,9 +101,9 @@ class Calendar extends React.Component {
                 />
 
                 <Cells 
+                  data={data}
                   currentMonth={this.state.currentMonth}
                   selectedDate={this.state.selectedDate}
-                  setCurrentMonth={this.state.setCurrentMonth}
                   //handlers
                   onDateClick={this.onDateClickHandler}
                   modalHandler={this.modalHandler}

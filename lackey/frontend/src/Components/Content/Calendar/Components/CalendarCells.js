@@ -6,6 +6,8 @@ import Button from '../../../UI/Button/Button';
 import '../Calendar.css';
 
 const calendarCells = (props) => {
+    //data
+    let data = props.data
     //days
     const currentMonth = props.currentMonth;
     const selectedDate = props.selectedDate;
@@ -20,16 +22,32 @@ const calendarCells = (props) => {
 
     const dateFormat = "D";
     let date = "";
-
+    
     while (day <= endDate) {
       for (let i = 0; i < 7; i++) {
+
         date = dateFns.format(day, dateFormat);
         const cloneDay = day;
+
         let x = null; // past days
-        if(dateFns.compareDesc(props.setCurrentMonth, day) === -1 &&
-        !dateFns.isSameDay(day, props.setCurrentMonth)){
+        if(dateFns.compareDesc(props.currentMonth, day) === -1 &&
+        !dateFns.isSameDay(day, props.currentMonth)){
           x = <span className="slash">X</span>;
         }
+
+        let taskForDay = ''
+        if(data.length > 0){
+          let tasks = [];
+          for(let x = 0; x < data.length; x++){
+            if(Number(data[x]['target_date'].split(",")[1]) === Number(date)){
+              tasks.push(data[x]);
+            }
+          };
+          taskForDay = tasks.map(i => {
+            return <div>{i.task}</div>
+          });
+        }
+
         days.push(
           <div
             className={`col cell ${
@@ -42,6 +60,7 @@ const calendarCells = (props) => {
           >
             <span className="number">{date}</span>
             {x}
+            {taskForDay}
               <Button
                 btnType={'calendarBtn'}
                 val={date}

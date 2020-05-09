@@ -14,7 +14,8 @@ class CalendarTasks(db.Model):
                         default=datetime.datetime.now())
     task = db.Column(db.String(80), nullable=False)
     description = db.Column(db.Text, nullable=True)
-    target_date = db.Column(db.String(80), nullable=False)
+    target_date = db.Column(db.String(80), nullable=False) # day,month,year
+    time = db.Column(db.String(80), nullable=True) 
     recurring = db.Column(db.Boolean, 
                         nullable=False,
                         default=False)
@@ -25,6 +26,7 @@ class CalendarTasks(db.Model):
             "task": self.task, 
             "description": self.description,
             "target_date": self.target_date, 
+            "time": f"{self.time}",
             "recurring": f"{self.recurring}"
             }
         return f"{return_dict}"

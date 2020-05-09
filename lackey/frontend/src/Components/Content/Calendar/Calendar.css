@@ -31,6 +31,18 @@ main {
   width: 100%;
 }
 
+.row .task {
+  background: whitesmoke;
+  border-radius: .9em;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.row .task button{
+  float: right;
+}
+
 .row-middle {
   align-items: center;
 }

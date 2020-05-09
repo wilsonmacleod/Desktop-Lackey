@@ -6,7 +6,7 @@ from lackey import get_root_path
 # app
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
 
-#from lackey.models import db, WeatherConfig # db/models
+#from lackey.models import db, WeatherConfig, CalendarTasks  # db/models
 from lackey import api_views # api (uses db/models)
 
 api = Api(app)
