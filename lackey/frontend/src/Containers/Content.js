@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
 import Loading from '../Components/UI/Loading/Loading';
-import Calendar from '../Components/Content/Calendar/Calendar';
+import Calendar from '../Components/Calendar/Calendar';
 
 import GET from '../axios/GET';
 import POST from '../axios/POST';
+import DEL from '../axios/DEL';
 
 const get = new GET()
 const post = new POST()
+const del = new DEL()
 
 class Content extends Component {
     state = { 
@@ -20,22 +22,13 @@ class Content extends Component {
                 description: '',
                 targetDate: '',
                 time: '',
-                recurring: false
-            }
-        },
-        clearedForms: {
-            calendar: {
-                name: '',
-                description: '',
-                targetDate: '',
-                time: '',
-                recurring: false
+                recurring: false,
+                interval: 7,
             }
         },
     };
 
     updateData = (view) => {
-        const clearedForms = this.state.clearedForms;
         const self = this;
         const updateCalls = {
             'Calendar': get.calendar()
@@ -47,14 +40,22 @@ class Content extends Component {
             if (result.status === 200){
                 let r = result.text;
                 msg = r['data'].replace(/'/g, '"');
-                console.log(msg)
                 msg = JSON.parse(msg);
-            };  
+            }
             self.setState({
                 loading: false,
                 view: view,
                 data: msg,
-                forms: clearedForms
+                forms: {
+                    calendar: {
+                        name: '',
+                        description: '',
+                        targetDate: '',
+                        time: '',
+                        recurring: false,
+                        interval: 7,
+                    }
+                }
             });
         });
     };
@@ -102,8 +103,18 @@ class Content extends Component {
         });
     };
 
+    taskDeleteHandler = (t) => {
+        this.setState({loading: true})
+        let taskID = t.target.value;
+        del.calendar(taskID)
+        .then(() => {
+            this.updateData('Calendar')
+        });
+    };
+
+
     render() { 
-        console.log(this.state)
+        console.log(this.state);
         let view = null;
         if(this.state.view === 'Calendar'){
             view = <Calendar 
@@ -112,6 +123,7 @@ class Content extends Component {
                         //handlers
                         cFormHandler={this.formUpdateHandler}
                         taskSubmitHandler={this.taskSubmitHandler}
+                        taskDeleteHandler={this.taskDeleteHandler}
                     />
         }else{
             try {

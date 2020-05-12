@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Button from '../../../UI/Button/Button';
-import AddTaskForm from '../../../Forms/AddTaskForm';
+import Aux from '../../hoc/Auxiliary';
+import Button from '../../UI/Button/Button';
+import AddTaskForm from '../../Forms/AddTaskForm';
 
 import '../Calendar.css'
 
 const calendarModal = (props) => {
     let selectedDate = props.date;
-    console.log(selectedDate);
     //props.taskList
     let taskList = null;
     let data = props.data;
@@ -19,19 +19,33 @@ const calendarModal = (props) => {
           }
         };
         taskList = tasks.map(i => {
-          return <div 
-                    key={i.id} 
-                    className="row task">
-                        {i.task} <Button
-                                       value={i.id}
-                                       disabled={false}
-                                       btnType={'deleteTask'}
-                                       clicked={() => console.log('deleting task ' + i.d)} 
-                                    >-</Button>
-                </div>
+            let desc = i.description !== "" ? 
+            <li className="taskContainerLi"><b>Description: </b>{i.description}</li> : null;
+            let time = i.time !== "" ?
+             <li className="taskContainerLi"><b>Scheduled time: </b>{i.time}</li> : null;
+            let recurring = i.recurring !== "False" ? 
+            <li className="taskContainerLi">Scheduled to occur every {i.interval} days.</li> : null;
+
+            return <Aux>
+            <div className="taskContainer" key={i.id} >
+            <Button
+                        val={i.id}
+                        disabled={false}
+                        btnType={'deleteTask'}
+                        clicked={props.taskDeleteHandler}
+                        >
+                        - icon
+            </Button>
+                    <div className="taskList">{i.task}</div> 
+                    </div>
+                    <ul>
+                        {desc}
+                        {time}
+                        {recurring}
+                    </ul>
+                </Aux>
         });
       }
-
 
     let btnConfig = {
         'value': 'add',
@@ -39,6 +53,7 @@ const calendarModal = (props) => {
         'clicked': props.modalView,
         'text': '+'
     }
+
     let display = '';
     if (props.view === 'list'){
         display = taskList;

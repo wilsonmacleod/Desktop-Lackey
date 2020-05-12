@@ -19,6 +19,9 @@ class CalendarTasks(db.Model):
     recurring = db.Column(db.Boolean, 
                         nullable=False,
                         default=False)
+    interval = db.Column(db.Integer,
+                        nullable=True,
+                        default=7)
 
     def __repr__(self):
         return_dict = {
@@ -27,7 +30,8 @@ class CalendarTasks(db.Model):
             "description": self.description,
             "target_date": self.target_date, 
             "time": f"{self.time}",
-            "recurring": f"{self.recurring}"
+            "recurring": f"{self.recurring}",
+            "interval": self.interval
             }
         return f"{return_dict}"
 

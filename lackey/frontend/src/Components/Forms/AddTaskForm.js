@@ -52,13 +52,16 @@ const addTaskForm = (props) => {
                 <label>
                     <span>Time:</span>
                     <input 
-                        type="time"
-                        value={props.cForm.targetDate}
+                        type="text"
+                        value={props.cForm.time}
                         name="calendar"
                         id="time"
                         onChange={props.cFormHandler}
                     />
-                    <span>Recurring?</span>
+                </label>
+            
+                <label>
+                <span>Recurring?</span>
                     <input 
                         type="checkbox"
                         value={props.cForm.recurring}
@@ -67,6 +70,21 @@ const addTaskForm = (props) => {
                         onChange={props.cFormHandler}
                     />
                 </label>
+
+                {props.cForm.recurring ? 
+                <label>
+                    <span>Interval (days):<span className="req">*</span></span>
+                    <input
+                        type="number"
+                        value={props.cForm.reccuringInterval}
+                        name="calendar"
+                        id="interval"
+                        defaultValue={7}
+                        onChange={props.cFormHandler}
+                    />
+                    </label>   
+                    : null  
+            }
                 <label>
                 <Button
                     value={'addTask'}

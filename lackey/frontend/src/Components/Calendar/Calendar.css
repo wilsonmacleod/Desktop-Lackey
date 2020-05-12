@@ -20,6 +20,62 @@ main {
   font-size: 24px;
   margin-top: 2px;
 }
+
+.cTaskContainer{
+  position: absolute;
+  top:25%;
+  left: 5%;
+  max-height: 60%;
+  width: 120%;
+  overflow-y: auto;
+}
+
+.cTask{
+  width: 60%;
+  max-height: 20px;
+  background-color: #4ecdc4;
+  color: whitesmoke;
+  border: transparent;
+  border-radius: .9em;
+  padding: 2px 4px 2px 4px;
+  font-size: 13px;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.taskContainer{
+  display: inline-block;
+  width: 90%;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: .9em;
+  background: whitesmoke;
+}
+
+.taskContainer ul{
+  position: relative;
+  float: left;
+  margin-left: -10%;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+.taskContainerLi{
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.taskList{
+  float: center;
+  max-width: 70%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  overflow-x: auto;
+}
+
 /* GRID */
 
 .row {
@@ -29,14 +85,6 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-}
-
-.row .task {
-  background: whitesmoke;
-  border-radius: .9em;
-  padding: 15px;
-  font-size: 16px;
-  margin-top: 20px;
 }
 
 .row .task button{

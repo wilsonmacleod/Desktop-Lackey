@@ -1,7 +1,7 @@
 import React from 'react';
 import dateFns from "date-fns";
 
-import Button from '../../../UI/Button/Button';
+import Button from '../../UI/Button/Button';
 
 import '../Calendar.css';
 
@@ -9,6 +9,7 @@ const calendarCells = (props) => {
     //data
     let data = props.data
     //days
+    const staticCurrentMonth = props.staticCurrentMonth
     const currentMonth = props.currentMonth;
     const selectedDate = props.selectedDate;
     const monthStart = dateFns.startOfMonth(currentMonth);
@@ -28,13 +29,11 @@ const calendarCells = (props) => {
 
         date = dateFns.format(day, dateFormat);
         const cloneDay = day;
-
         let x = null; // past days
-        if(dateFns.compareDesc(props.currentMonth, day) === -1 &&
-        !dateFns.isSameDay(day, props.currentMonth)){
+        if(dateFns.compareDesc(staticCurrentMonth, day) === -1 &&
+        !dateFns.isSameDay(day, staticCurrentMonth)){
           x = <span className="slash">X</span>;
-        }
-
+        };
         let taskForDay = ''
         if(data.length > 0){
           let tasks = [];
@@ -44,7 +43,9 @@ const calendarCells = (props) => {
             }
           };
           taskForDay = tasks.map(i => {
-            return <div>{i.task}</div>
+            return <div
+                      className="cTask"
+                      >{i.task}</div>
           });
         }
 
@@ -60,7 +61,9 @@ const calendarCells = (props) => {
           >
             <span className="number">{date}</span>
             {x}
+            <div className="cTaskContainer">
             {taskForDay}
+            </div>
               <Button
                 btnType={'calendarBtn'}
                 val={date}

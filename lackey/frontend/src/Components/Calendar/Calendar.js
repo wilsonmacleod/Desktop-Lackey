@@ -1,11 +1,11 @@
 import React from "react";
 import dateFns from "date-fns";
 
-import Header from './Components/CalendarHeader';
-import Days from './Components/CalendarDays';
-import Cells from './Components/CalendarCells';
-import Modal from '../../UI/Modal/Modal';
-import CalendarModal from '../Calendar/Components/CalendarModal';
+import Header from './CalendarHeader/CalendarHeader';
+import Days from './CalendarDays/CalendarDays';
+import Cells from './CalendarCells/CalendarCells';
+import Modal from '../UI/Modal/Modal';
+import CalendarModal from './CalendarModal/CalendarModal';
 
 import './Calendar.css';
 
@@ -15,6 +15,7 @@ class Calendar extends React.Component {
     modalView: 'list',
     currentMonth: new Date(),
     selectedDate: new Date(),
+    staticCurrentMonth: new Date(),
   };
 
   onDateClickHandler = day => {
@@ -84,6 +85,7 @@ class Calendar extends React.Component {
                       modalView={this.modalViewHandler}
                       cFormHandler={this.props.cFormHandler}
                       taskSubmitHandler={this.props.taskSubmitHandler}
+                      taskDeleteHandler={this.props.taskDeleteHandler}
                     >
                     </CalendarModal>
                 </Modal>
@@ -103,6 +105,7 @@ class Calendar extends React.Component {
                 <Cells 
                   data={data}
                   currentMonth={this.state.currentMonth}
+                  staticCurrentMonth={this.state.staticCurrentMonth}
                   selectedDate={this.state.selectedDate}
                   //handlers
                   onDateClick={this.onDateClickHandler}
