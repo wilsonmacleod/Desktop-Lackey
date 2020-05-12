@@ -34,7 +34,7 @@ const calendarModal = (props) => {
                         btnType={'deleteTask'}
                         clicked={props.taskDeleteHandler}
                         >
-                        - icon
+                        <i className="fa fa-minus fa-2x" aria-hidden="true"></i>
             </Button>
                     <div className="taskList">{i.task}</div> 
                     </div>
@@ -51,7 +51,7 @@ const calendarModal = (props) => {
         'value': 'add',
         'type': 'addCalendar',
         'clicked': props.modalView,
-        'text': '+'
+        'text': <i className="fa fa-plus" aria-hidden="true"></i>
     }
 
     let display = '';
@@ -67,7 +67,7 @@ const calendarModal = (props) => {
                     cFormHandler={props.cFormHandler}
                     taskSubmit={props.taskSubmitHandler}
                 />
-        btnConfig.text = 'eye'
+        btnConfig.text =  <i className="fa fa-eye" aria-hidden="true"></i>
     }
     return (
         <div className="modalField">

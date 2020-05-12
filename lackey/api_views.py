@@ -24,7 +24,8 @@ class API_ROUTER(Resource):
                         target_date=j['targetDate'],
                         time=j['time'],
                         recurring=j['recurring'],
-                        interval=j['interval'])
+                        interval=j['interval'],
+                        color=j['color'])
         db.session.add(new)
         db.session.commit()
 
@@ -42,7 +43,8 @@ class API_ROUTER(Resource):
                             target_date=new_date,
                             time=j['time'],
                             recurring=j['recurring'],
-                            interval=j['interval']) 
+                            interval=j['interval'],
+                            color=j['color']) 
                 db.session.add(recurring_task)
                 db.session.commit()
                 interval += control # 7, 14, 21, 28, 35,

@@ -33,3 +33,37 @@ textarea{
 .req{
     color: firebrick;
 }
+
+select {
+    margin: 40px;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    width: 100px;
+}
+
+select option[id="1"] {
+background: #4ecdc4;
+width: 100px;
+    }
+
+select option[id="2"] {
+background: #7FFF00;
+width: 100px;
+}
+
+select option[id="3"] {
+background: #F08080;
+width: 100px;
+}
+
+
+select option[id="4"] {
+background: #FFFF00;
+width: 100px;
+}
+
+    
+select option[id="5"] {
+background: #C0C0C0;
+width: 100px;
+}

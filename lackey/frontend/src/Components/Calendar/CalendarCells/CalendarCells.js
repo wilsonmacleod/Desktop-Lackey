@@ -43,8 +43,10 @@ const calendarCells = (props) => {
             }
           };
           taskForDay = tasks.map(i => {
+            let style = {backgroundColor: `#${i.color}`}
             return <div
                       className="cTask"
+                      style={style}
                       >{i.task}</div>
           });
         }

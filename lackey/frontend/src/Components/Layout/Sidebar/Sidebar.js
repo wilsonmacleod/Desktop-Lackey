@@ -5,6 +5,7 @@ import '../Layout.css'
 
 const sidebar = (props) => {
     const config = props.config;
+    console.log(props.sideBarIcons)
     let options = [];
     for( let x = 0; x < config.length; x++) {
         options.push(
@@ -14,7 +15,7 @@ const sidebar = (props) => {
               className={props.active === config[x] ? 'active' : ''}
               onClick={props.clicked}
             >
-                <i className="fa fa-dashboard"></i>
+                <i class={`fa fa-${props.sideBarIcons[x]}`} aria-hidden="true"></i>
                 <span>{config[x]}</span>
             </div>
         </li>

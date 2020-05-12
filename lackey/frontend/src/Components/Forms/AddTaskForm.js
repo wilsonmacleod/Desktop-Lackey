@@ -6,10 +6,12 @@ import './Forms.css';
 
 const addTaskForm = (props) => {
 
-    let btnDis = true;
+    let btnDis = 'disabledSubmit';
+    let submit = null;
     if(props.cForm.name !== '' &&
     props.cForm.targetDate !== ''){
-        btnDis = false;
+        btnDis = 'submit';
+        submit = props.taskSubmit
     }
 
     const split = props.selectedDate.split(" "); // add selected date to form state
@@ -24,6 +26,7 @@ const addTaskForm = (props) => {
         });
     };
 
+    let selectStyle = {backgroundColor: `#${props.cForm.color}`}
     return ( 
         <fieldset>
 
@@ -85,16 +88,34 @@ const addTaskForm = (props) => {
                     </label>   
                     : null  
             }
-                <label>
-                <Button
-                    value={'addTask'}
-                    disabled={btnDis}
-                    btnType={'submit'}
-                    clicked={props.taskSubmit}
-                >
-                    Submit
-                </Button>
-                </label>
+
+            <label>
+            <span>Color-code: </span>
+
+            <select 
+                value={props.cForm.color}
+                style={selectStyle}
+                name="calendar"
+                id="color"
+                onChange={props.cFormHandler}>
+                <option id="1" value="4ecdc4"></option>
+                <option id="2" value="7FFF00"></option>
+                <option id="3" value="F08080"></option>
+                <option id="4" value="FFFF00"></option>
+                <option id="5" value="C0C0C0"></option>
+            </select>
+            </label>
+
+                    <label>
+                    <Button
+                        value={'addTask'}
+                        disabled={btnDis}
+                        btnType={btnDis}
+                        clicked={submit}
+                    >
+                        Submit
+                    </Button>
+                    </label>
         </fieldset>
         
      );

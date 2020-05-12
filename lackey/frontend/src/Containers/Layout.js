@@ -14,7 +14,10 @@ class Layout extends Component {
                         'Sports',
                         'Games',
                         'Scripts'
-                        ]
+                        ],
+        sideBarIcons: [
+                    'calendar', 'line-chart', 'futbol-o', 'gamepad', 'code-fork'
+                ] 
       };
 
     sideBarClickHandler = (event) => {
@@ -25,7 +28,6 @@ class Layout extends Component {
     }
 
     render() { 
-        
         return ( 
             <Aux>
                 <Header />
@@ -33,6 +35,7 @@ class Layout extends Component {
                     active={this.state.sideBarActive}
                     config={this.state.sideBarChoices}
                     clicked={this.sideBarClickHandler}
+                    sideBarIcons={this.state.sideBarIcons}
                 />
                 <ContentWrapper>
                     {React.cloneElement(this.props.children, { viewContent: this.state.sideBarActive })}

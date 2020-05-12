@@ -7024,3 +7024,564 @@ json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113
 2020-05-12 12:10:17,612 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-12 12:10:17,612 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-12 12:10:17,613 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:41:37,150 lackey INFO     Lackey v0.0
+2020-05-12 13:41:37,151 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:41:37,151 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:41:37,151 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:41:37,151 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:43:11,942 lackey INFO     Lackey v0.0
+2020-05-12 13:43:11,942 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:43:11,942 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:43:11,942 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:43:11,942 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:47:28,476 lackey INFO     Lackey v0.0
+2020-05-12 13:47:28,476 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:47:28,476 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:47:28,476 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:47:28,476 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:49:01,448 lackey INFO     Lackey v0.0
+2020-05-12 13:49:01,448 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:49:01,448 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:49:01,448 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:49:01,448 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:50:26,293 lackey INFO     Lackey v0.0
+2020-05-12 13:50:26,293 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:50:26,293 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:50:26,293 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:50:26,293 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:53:11,176 lackey INFO     Lackey v0.0
+2020-05-12 13:53:11,176 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:53:11,176 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:53:11,176 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:53:11,176 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:53:58,393 lackey INFO     Lackey v0.0
+2020-05-12 13:53:58,393 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:53:58,393 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:53:58,393 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:53:58,393 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:55:59,093 lackey INFO     Lackey v0.0
+2020-05-12 13:55:59,093 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:55:59,093 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:55:59,093 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:55:59,093 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:56:38,609 lackey INFO     Lackey v0.0
+2020-05-12 13:56:38,609 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:56:38,609 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:56:38,609 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:56:38,609 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:57:36,093 lackey INFO     Lackey v0.0
+2020-05-12 13:57:36,093 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:57:36,093 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:57:36,093 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:57:36,093 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:58:43,843 lackey INFO     Lackey v0.0
+2020-05-12 13:58:43,843 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:58:43,843 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:58:43,843 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:58:43,843 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:59:34,743 lackey INFO     Lackey v0.0
+2020-05-12 13:59:34,743 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 13:59:34,743 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 13:59:34,743 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 13:59:34,743 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:01:35,226 lackey INFO     Lackey v0.0
+2020-05-12 14:01:35,226 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:01:35,226 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:01:35,226 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:01:35,226 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:02:40,763 lackey INFO     Lackey v0.0
+2020-05-12 14:02:40,763 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:02:40,763 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:02:40,764 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:02:40,764 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:03:29,639 lackey INFO     Lackey v0.0
+2020-05-12 14:03:29,639 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:03:29,639 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:03:29,640 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:03:29,640 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:04:15,247 lackey INFO     Lackey v0.0
+2020-05-12 14:04:15,247 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:04:15,248 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:04:15,248 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:04:15,248 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:05:09,842 lackey INFO     Lackey v0.0
+2020-05-12 14:05:09,842 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:05:09,842 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:05:09,842 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:05:09,842 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:05:29,758 lackey INFO     Lackey v0.0
+2020-05-12 14:05:29,758 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:05:29,758 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:05:29,758 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:05:29,759 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:06:41,794 lackey INFO     Lackey v0.0
+2020-05-12 14:06:41,795 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:06:41,795 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:06:41,795 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:06:41,795 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:16:32,062 lackey INFO     Lackey v0.0
+2020-05-12 14:16:32,062 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:16:32,062 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:16:32,062 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:16:32,062 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:17:02,710 lackey INFO     Lackey v0.0
+2020-05-12 14:17:02,710 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:17:02,710 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:17:02,710 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:17:02,710 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:18:04,293 lackey INFO     Lackey v0.0
+2020-05-12 14:18:04,293 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:18:04,293 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:18:04,293 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:18:04,293 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:18:46,026 lackey INFO     Lackey v0.0
+2020-05-12 14:18:46,026 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:18:46,026 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:18:46,026 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:18:46,026 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:22:50,593 lackey INFO     Lackey v0.0
+2020-05-12 14:22:50,593 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:22:50,593 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:22:50,593 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:22:50,593 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:23:39,793 lackey INFO     Lackey v0.0
+2020-05-12 14:23:39,793 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:23:39,793 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:23:39,793 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:23:39,794 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:24:17,660 lackey INFO     Lackey v0.0
+2020-05-12 14:24:17,660 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:24:17,660 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:24:17,660 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:24:17,660 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:24:53,843 lackey INFO     Lackey v0.0
+2020-05-12 14:24:53,843 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:24:53,843 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:24:53,843 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:24:53,843 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:33:18,960 lackey INFO     Lackey v0.0
+2020-05-12 14:33:18,960 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:33:18,960 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:33:18,960 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:33:18,960 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:36:35,576 lackey INFO     Lackey v0.0
+2020-05-12 14:36:35,576 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:36:35,576 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:36:35,576 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:36:35,576 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:38:06,137 lackey INFO     Lackey v0.0
+2020-05-12 14:38:06,137 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:38:06,138 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:38:06,138 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:38:06,138 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:39:18,056 lackey INFO     Lackey v0.0
+2020-05-12 14:39:18,057 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:39:18,057 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:39:18,057 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:39:18,057 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:42:46,626 lackey INFO     Lackey v0.0
+2020-05-12 14:42:46,626 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:42:46,626 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:42:46,642 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:42:46,642 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:43:39,643 lackey INFO     Lackey v0.0
+2020-05-12 14:43:39,643 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:43:39,643 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:43:39,643 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:43:39,643 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:45:12,441 lackey INFO     Lackey v0.0
+2020-05-12 14:45:12,441 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:45:12,441 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:45:12,441 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:45:12,442 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:45:33,401 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 14:46:20,402 lackey INFO     Lackey v0.0
+2020-05-12 14:46:20,403 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:46:20,403 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:46:20,403 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:46:20,403 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:46:26,240 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 14:46:31,967 lackey INFO     Lackey v0.0
+2020-05-12 14:46:31,967 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:46:31,967 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:46:31,968 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:46:31,968 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:06,951 lackey INFO     Lackey v0.0
+2020-05-12 14:55:06,951 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:55:06,951 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:55:06,951 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:06,951 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:09,035 lackey.app ERROR    Exception on /api/Calendar [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: calendar_tasks
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 14, in get
+    query = CalendarTasks.query.all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3246, in all
+    return list(self)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3405, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3430, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: calendar_tasks
+[SQL: SELECT calendar_tasks.id AS calendar_tasks_id, calendar_tasks.entered_date AS calendar_tasks_entered_date, calendar_tasks.task AS calendar_tasks_task, calendar_tasks.description AS calendar_tasks_description, calendar_tasks.target_date AS calendar_tasks_target_date, calendar_tasks.time AS calendar_tasks_time, calendar_tasks.recurring AS calendar_tasks_recurring, calendar_tasks.interval AS calendar_tasks_interval, calendar_tasks.color AS calendar_tasks_color 
+FROM calendar_tasks]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-12 14:55:46,408 lackey INFO     Lackey v0.0
+2020-05-12 14:55:46,410 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:55:46,410 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:55:46,410 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:46,410 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:59,605 lackey INFO     Lackey v0.0
+2020-05-12 14:55:59,605 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:55:59,605 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:55:59,606 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:55:59,606 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:56:15,730 lackey INFO     Lackey v0.0
+2020-05-12 14:56:15,730 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:56:15,731 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:56:15,731 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:56:15,731 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:56:29,244 lackey INFO     Lackey v0.0
+2020-05-12 14:56:29,245 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:56:29,245 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:56:29,245 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:56:29,245 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:58:20,003 lackey INFO     Lackey v0.0
+2020-05-12 14:58:20,004 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 14:58:20,004 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 14:58:20,004 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 14:58:20,004 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:02:31,695 lackey INFO     Lackey v0.0
+2020-05-12 15:02:31,696 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:02:31,696 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:02:31,696 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:02:31,696 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:04:45,625 lackey INFO     Lackey v0.0
+2020-05-12 15:04:45,626 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:04:45,626 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:04:45,626 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:04:45,626 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:07:20,839 lackey INFO     Lackey v0.0
+2020-05-12 15:07:20,840 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:07:20,840 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:07:20,840 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:07:20,840 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:07:54,856 lackey INFO     Lackey v0.0
+2020-05-12 15:07:54,857 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:07:54,857 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:07:54,857 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:07:54,857 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:09:19,583 lackey INFO     Lackey v0.0
+2020-05-12 15:09:19,583 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:09:19,583 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:09:19,583 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:09:19,584 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:09,117 lackey INFO     Lackey v0.0
+2020-05-12 15:10:09,117 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:10:09,117 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:10:09,118 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:09,118 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:19,392 lackey INFO     Lackey v0.0
+2020-05-12 15:10:19,392 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:10:19,392 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:10:19,392 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:19,392 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:20,979 lackey INFO     Lackey v0.0
+2020-05-12 15:10:20,980 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:10:20,980 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:10:20,980 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:20,980 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:22,379 lackey INFO     Lackey v0.0
+2020-05-12 15:10:22,379 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:10:22,379 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:10:22,380 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:10:22,380 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:12:42,561 lackey INFO     Lackey v0.0
+2020-05-12 15:12:42,561 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:12:42,561 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:12:42,561 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:12:42,562 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:14:26,515 lackey INFO     Lackey v0.0
+2020-05-12 15:14:26,515 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:14:26,515 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:14:26,516 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:14:26,516 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:15:35,857 lackey INFO     Lackey v0.0
+2020-05-12 15:15:35,857 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:15:35,858 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:15:35,858 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:15:35,858 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:17:20,268 lackey INFO     Lackey v0.0
+2020-05-12 15:17:20,268 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:17:20,268 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:17:20,268 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:17:20,269 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:20:39,067 lackey INFO     Lackey v0.0
+2020-05-12 15:20:39,067 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:20:39,067 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:20:39,068 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:20:39,068 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:21:11,423 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"","targetDate":"May,08,2020","time":"","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113 (char 112)
+2020-05-12 15:21:23,765 lackey INFO     Lackey v0.0
+2020-05-12 15:21:23,766 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:21:23,766 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:21:23,766 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:21:23,766 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:24:38,928 lackey INFO     Lackey v0.0
+2020-05-12 15:24:38,929 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:24:38,929 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:24:38,929 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:24:38,929 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:26:37,763 lackey INFO     Lackey v0.0
+2020-05-12 15:26:37,763 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:26:37,763 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:26:37,764 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:26:37,764 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:26:58,530 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"","targetDate":"May,12,2020","time":"","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113 (char 112)
+2020-05-12 15:29:01,311 lackey INFO     Lackey v0.0
+2020-05-12 15:29:01,312 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:29:01,312 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:29:01,312 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:29:01,312 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:29:14,587 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"","targetDate":"May,15,2020","time":"","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113 (char 112)
+2020-05-12 15:29:41,973 lackey INFO     Lackey v0.0
+2020-05-12 15:29:41,973 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:29:41,973 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:29:41,973 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:29:41,973 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:29:58,028 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"","targetDate":"May,15,2020","time":"_","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 114 (char 113)
+2020-05-12 15:30:25,958 lackey INFO     Lackey v0.0
+2020-05-12 15:30:25,958 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:30:25,958 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:30:25,958 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:30:25,959 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:31:40,487 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"The day which I am paid.","targetDate":"May,15,2020","time":"08: 00 am","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 146 (char 145)
+2020-05-12 15:34:56,123 lackey INFO     Lackey v0.0
+2020-05-12 15:34:56,123 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:34:56,123 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:34:56,123 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:34:56,123 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:35:45,662 lackey INFO     Lackey v0.0
+2020-05-12 15:35:45,662 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:35:45,662 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:35:45,662 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:35:45,662 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:36:22,019 lackey INFO     Lackey v0.0
+2020-05-12 15:36:22,019 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:36:22,019 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:36:22,020 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:36:22,020 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:36:35,392 lackey.app ERROR    Exception on /api/{"name":"Payday","description":"","targetDate":"May,08,2020","time":"","recurring":true,"interval":"14","color":" [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 21, in post
+    j = json.loads(view)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113 (char 112)
+2020-05-12 15:38:34,308 lackey INFO     Lackey v0.0
+2020-05-12 15:38:34,308 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 15:38:34,308 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 15:38:34,308 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 15:38:34,308 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'

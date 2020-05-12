@@ -74,6 +74,7 @@ main {
   text-transform: uppercase;
   font-weight: bolder;
   overflow-x: auto;
+  color: #393939;
 }
 
 /* GRID */
@@ -107,6 +108,7 @@ main {
 }
 
 .col-center {
+  margin-top: 10px;
   justify-content: center;
   text-align: center;
   color: whitesmoke;

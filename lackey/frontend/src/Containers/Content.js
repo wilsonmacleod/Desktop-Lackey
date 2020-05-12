@@ -24,6 +24,7 @@ class Content extends Component {
                 time: '',
                 recurring: false,
                 interval: 7,
+                color: '4ecdc4'
             }
         },
     };
@@ -54,6 +55,7 @@ class Content extends Component {
                         time: '',
                         recurring: false,
                         interval: 7,
+                        color: '4ecdc4'
                     }
                 }
             });
@@ -96,11 +98,13 @@ class Content extends Component {
 
     taskSubmitHandler = () => {
         this.setState({loading: true})
-        const obj = JSON.stringify(this.state.forms.calendar);
-        post.calendar(obj)
-        .then(() => {
-            this.updateData('Calendar')
-        });
+        if(this.state.forms.calendar !== ""){
+            const obj = JSON.stringify(this.state.forms.calendar);
+            post.calendar(obj)
+            .then(() => {
+                this.updateData('Calendar')
+            });
+        };
     };
 
     taskDeleteHandler = (t) => {

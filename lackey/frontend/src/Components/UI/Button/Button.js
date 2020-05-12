@@ -5,8 +5,7 @@ import './Button.css';
 const button = (props) => (
     <button
         value={props.val}
-        disabled={props.disabled}
-        className={props.disabled ? "disabled" : props.btnType}
+        className={props.btnType}
         onClick={props.clicked}>{props.children}</button>
 );
 
