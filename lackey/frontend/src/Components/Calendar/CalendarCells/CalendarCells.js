@@ -70,7 +70,7 @@ const calendarCells = (props) => {
                 btnType={'calendarBtn'}
                 val={date}
                 clicked={props.modalHandler}>
-                  +/-
+                 <i class="fa fa-search-plus" aria-hidden="true"></i>
                 </Button>
           </div>
         );

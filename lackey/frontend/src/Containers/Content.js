@@ -110,6 +110,7 @@ class Content extends Component {
     taskDeleteHandler = (t) => {
         this.setState({loading: true})
         let taskID = t.target.value;
+        console.log(taskID)
         del.calendar(taskID)
         .then(() => {
             this.updateData('Calendar')

@@ -25,16 +25,16 @@ const calendarModal = (props) => {
              <li className="taskContainerLi"><b>Scheduled time: </b>{i.time}</li> : null;
             let recurring = i.recurring !== "False" ? 
             <li className="taskContainerLi">Scheduled to occur every {i.interval} days.</li> : null;
+            let minus = <i className="fa fa-minus" aria-hidden="true" />
 
             return <Aux>
             <div className="taskContainer" key={i.id} >
             <Button
-                        val={i.id}
-                        disabled={false}
-                        btnType={'deleteTask'}
-                        clicked={props.taskDeleteHandler}
-                        >
-                        <i className="fa fa-minus fa-2x" aria-hidden="true"></i>
+                val={i.id}
+                disabled={false}
+                btnType={'deleteTask'}
+                clicked={props.taskDeleteHandler}>
+                    {minus}
             </Button>
                     <div className="taskList">{i.task}</div> 
                     </div>
@@ -51,7 +51,7 @@ const calendarModal = (props) => {
         'value': 'add',
         'type': 'addCalendar',
         'clicked': props.modalView,
-        'text': <i className="fa fa-plus" aria-hidden="true"></i>
+        'text': <i value={'add'} className="fa fa-plus" aria-hidden="true"></i>
     }
 
     let display = '';
@@ -67,7 +67,7 @@ const calendarModal = (props) => {
                     cFormHandler={props.cFormHandler}
                     taskSubmit={props.taskSubmitHandler}
                 />
-        btnConfig.text =  <i className="fa fa-eye" aria-hidden="true"></i>
+        btnConfig.text =  <i value={btnConfig.value} className="fa fa-eye" aria-hidden="true"></i>
     }
     return (
         <div className="modalField">
@@ -75,9 +75,9 @@ const calendarModal = (props) => {
             <div className="row">
                 <h1 className="title">{props.date.toDateString()}</h1>    
                 <Button
-                value={btnConfig.value}
-                btnType={btnConfig.type}
-                clicked={btnConfig.clicked}>
+                    value={btnConfig.value}
+                    btnType={btnConfig.type}
+                    clicked={btnConfig.clicked}>
                     {btnConfig.text}
             </Button>   
             </div>

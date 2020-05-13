@@ -33,11 +33,12 @@
 }
 
 .deleteTask{
-  cursor: pointer;
   float: right;
-  background: transparent;
+  cursor: pointer;
   border: transparent;
-  max-height: inherit;
+  background-color: inherit;
+  padding: 5px;
+  z-index: 100;
   color: #393939;
 }
 

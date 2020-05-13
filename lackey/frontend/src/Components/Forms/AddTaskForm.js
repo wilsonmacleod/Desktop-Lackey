@@ -99,9 +99,9 @@ const addTaskForm = (props) => {
                 id="color"
                 onChange={props.cFormHandler}>
                 <option id="1" value="4ecdc4"></option>
-                <option id="2" value="7FFF00"></option>
+                <option id="2" value="3CB371"></option>
                 <option id="3" value="F08080"></option>
-                <option id="4" value="FFFF00"></option>
+                <option id="4" value="9370DB"></option>
                 <option id="5" value="C0C0C0"></option>
             </select>
             </label>
