@@ -23,6 +23,7 @@ class Weather extends Component {
                 // handlers
                 searchCityOnChangeHandler={this.props.searchCityOnChangeHandler}
                 searchSubmit={this.props.searchCitySubmitHandler}
+                addWeatherLocation={this.props.addWeatherLocation}
             />
          );
     }

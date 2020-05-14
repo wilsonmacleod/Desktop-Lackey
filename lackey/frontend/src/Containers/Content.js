@@ -111,13 +111,20 @@ class Content extends Component {
         })
     };
 
-    formSubmitHandler = () => {
+    formSubmitHandler = (event) => {
         const view = this.state.view;
         let func, obj = '';
         if(view === 'Calendar'){
             obj = JSON.stringify(this.state.forms.calendar);
             func = post.calendar(obj);
-        };
+        }else if(view === 'Weather'){
+            let vals = event.target.value.split(",")
+            obj = JSON.stringify({
+                'city': vals[0],
+                'woied': vals[1]
+            });
+            func = post.weatherConfig(obj);
+        }
         func.then(() => {
             this.updateData(this.state.view)
         });
@@ -173,6 +180,7 @@ class Content extends Component {
                             // handlers
                             searchCityOnChangeHandler={this.formUpdateHandler}
                             searchCitySubmitHandler={this.searchSubmitHandler}
+                            addWeatherLocation={this.formSubmitHandler}
                         />
                     }
         try{

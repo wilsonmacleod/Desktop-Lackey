@@ -12,6 +12,7 @@ const search = (props) => {
                     title={i.title}
                     locationType={i.location_type}
                     woeid={i.woeid}
+                    addLocation={props.addWeatherLocation}
                 />
     }) : null;
     return ( 
