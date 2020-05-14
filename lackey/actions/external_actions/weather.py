@@ -1,6 +1,7 @@
 import requests
 import json
 import datetime
+import locale
 
 # https://www.metaweather.com/api/
 
@@ -46,19 +47,22 @@ def search_city(query):
     url = urls['query_url'] + f'{query}'
     r = requests.get(url)
     if r.status_code == 200:
-        try:
-            woeid = json.loads(r.text)[0]['woeid']
-        except IndexError:
-            return "No City With That Name"
+        woeid = json.loads(r.text)#[0]['woeid']
     else: 
         return "API down, (response status code != 200)"
-    return return_weather_data(woeid)
+    return woeid #return_weather_data(woeid) 
+    # ex
+    #[{'title': 'Seattle', 
+    # 'location_type': 'City', 
+    # 'woeid': 2490383, 
+    # 'latt_long': '47.603561,-122.329437'}]
 
 def return_weather_data(woeid):
     url = urls['location_url'] + f'{woeid}'
     r = requests.get(url)
     result = json.loads(r.text)['consolidated_weather']
 
+    locale.setlocale(locale.LC_ALL, 'en_US.utf8')  
     first_date_returned = datetime.datetime.strptime(result[0]['applicable_date'], '%Y-%m-%d')
     if first_date_returned > datetime.datetime.today():
         return fix_today(result)

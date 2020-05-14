@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Loading from '../Components/UI/Loading/Loading';
 import Calendar from '../Components/Calendar/Calendar';
+import Weather from '../Components/Weather/Weather';
 
 import GET from '../axios/GET';
 import POST from '../axios/POST';
@@ -25,28 +26,40 @@ class Content extends Component {
                 recurring: false,
                 interval: 7,
                 color: '4ecdc4'
+            },
+            weather: {
+                searchedCity: ''
             }
         },
+        searchReturns: {
+            weather: ''
+        }
     };
 
     updateData = (view) => {
+        this.setState({loading: true});
         const self = this;
-        const updateCalls = {
-            'Calendar': get.calendar()
+        let dataFunction = null;
+        if(view === "Weather"){
+            dataFunction = get.weather()
+        }else{
+            dataFunction = get.calendar()
         };
-        updateCalls[view] 
+        dataFunction 
         .then((result) => {
             result = result.data
-            let msg = 'Offline Mode';
+            let data = "None";
             if (result.status === 200){
                 let r = result.text;
-                msg = r['data'].replace(/'/g, '"');
-                msg = JSON.parse(msg);
-            }
+                data = r['data'].replace(/'/g, '"');
+                if (data !== "None"){
+                    data = JSON.parse(data);
+                };
+            };
             self.setState({
                 loading: false,
                 view: view,
-                data: msg,
+                data: data,
                 forms: {
                     calendar: {
                         name: '',
@@ -56,14 +69,19 @@ class Content extends Component {
                         recurring: false,
                         interval: 7,
                         color: '4ecdc4'
+                    },
+                    weather: {
+                        searchedCity: ''
                     }
+                },
+                searchReturns: {
+                    weather: ''
                 }
             });
         });
-    };
+    }
 
     componentDidMount = () => {
-        this.setState({loading: true})
         let viewContent = this.props.viewContent;
         this.updateData(viewContent);
     };
@@ -71,19 +89,16 @@ class Content extends Component {
     componentDidUpdate(prevProps){
         if(this.props.viewContent !== prevProps.viewContent){
             let viewContent = this.props.viewContent;
-            this.setState({
-                view: viewContent
-            })
+            this.updateData(viewContent);
         }
     };
 
-    formUpdateHandler = (event) => { // calendarTask
-        let newState = this.state.forms;
-        let formValue = event.target.value;
-        let formName = event.target.name;
-
+    formUpdateHandler = (event) => {
+        let newState = this.state.forms; 
+        let formValue = event.target.value; // field value
+        let formName = event.target.name; // calendar, weather etc.
         let formField = ''
-        try {formField = event.target.getAttribute('id');} 
+        try {formField = event.target.getAttribute('id');} // spec field name
         catch(err){formField = event.target['id'];}
 
         const boolFields = ['recurring'];
@@ -96,49 +111,76 @@ class Content extends Component {
         })
     };
 
-    taskSubmitHandler = () => {
-        this.setState({loading: true})
-        if(this.state.forms.calendar !== ""){
-            const obj = JSON.stringify(this.state.forms.calendar);
-            post.calendar(obj)
-            .then(() => {
-                this.updateData('Calendar')
-            });
+    formSubmitHandler = () => {
+        const view = this.state.view;
+        let func, obj = '';
+        if(view === 'Calendar'){
+            obj = JSON.stringify(this.state.forms.calendar);
+            func = post.calendar(obj);
         };
-    };
-
-    taskDeleteHandler = (t) => {
-        this.setState({loading: true})
-        let taskID = t.target.value;
-        console.log(taskID)
-        del.calendar(taskID)
-        .then(() => {
-            this.updateData('Calendar')
+        func.then(() => {
+            this.updateData(this.state.view)
         });
     };
 
+    searchSubmitHandler = () => {
+        const view = this.state.view;
+        let newSearchReturns = this.state.searchReturns;
+        let func, obj, key = '';
+        if(view === 'Weather'){
+            this.setState({loading: true});
+            obj = this.state.forms.weather.searchedCity;
+            func = get.weatherCitySearch(obj);
+            key = 'weather';
+        }
+        let self = this;
+        func.then((result) => {
+            let r = result.data.text;
+            console.log(r)
+            let data = r['data'].replace(/'/g, '"');
+            newSearchReturns[key] = JSON.parse(data);
+            self.setState({
+                loading: false,
+                searchReturns: newSearchReturns
+            })
+        })
+    }
+
+    deleteHandler = (t) => {
+        let id = t.target.value;
+        del.calendar(id)
+        .then(() => {
+            this.updateData(this.state.view)
+        });
+    };
 
     render() { 
         console.log(this.state);
         let view = null;
-        if(this.state.view === 'Calendar'){
-            view = <Calendar 
-                        data={this.state.data}
-                        cForm={this.state.forms.calendar} 
-                        //handlers
-                        cFormHandler={this.formUpdateHandler}
-                        taskSubmitHandler={this.taskSubmitHandler}
-                        taskDeleteHandler={this.taskDeleteHandler}
-                    />
-        }else{
-            try {
-                view = this.state.data[3]['task'] 
-            }
-            catch(err) {
-                view = "null"
-            }
-    }
-        view = this.state.loading ? <Loading /> : view;
+        const views = {
+            'Calendar': <Calendar 
+                            data={this.state.data}
+                            cForm={this.state.forms.calendar} 
+                            //handlers
+                            cFormHandler={this.formUpdateHandler}
+                            taskSubmitHandler={this.formSubmitHandler}
+                            taskDeleteHandler={this.deleteHandler}
+                        />,
+            'Weather': <Weather 
+                            data={this.state.data}
+                            searchData={this.state.searchReturns.weather}
+                            wForm={this.state.forms.weather}
+                            // handlers
+                            searchCityOnChangeHandler={this.formUpdateHandler}
+                            searchCitySubmitHandler={this.searchSubmitHandler}
+                        />
+                    }
+        try{
+            view = this.state.loading ? <Loading /> : views[this.state.view];
+        }catch(err){
+            console.log(err);
+            view = <div>Null</div>;
+        };
         return ( 
             <div>
             {view}

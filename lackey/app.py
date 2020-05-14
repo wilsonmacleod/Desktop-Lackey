@@ -7,9 +7,11 @@ from lackey import get_root_path
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
 
 from lackey import api_views # api (uses db/models)
+from lackey.api_views import calendar, weather
 
 api = Api(app)
-api.add_resource(api_views.API_ROUTER, '/api/<view>')
+api.add_resource(calendar.CALENDAR, '/Calendar/<action>') # calendar specifc api calls
+api.add_resource(weather.WEATHER, '/Weather/<action>') # general api calls/actions
 
 @app.before_request
 def before_request():
@@ -22,6 +24,3 @@ def teardown_request(exception):
 @app.route('/', methods=['GET'])
 def landing():
     return render_template('index.html')
-
-if __name__ == '__main__':
-    app.run(host="localhost", port=5000, debug=True, use_reloader=True)

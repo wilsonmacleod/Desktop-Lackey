@@ -39,33 +39,6 @@ class CalendarTasks(db.Model):
             }
         return f"{return_dict}"
 
-class FinanceConfig(db.Model):
-    stock_symbol = db.Column(db.String(80), primary_key=True)
-    name = db.Column(db.String(80), nullable=False)
-    investment = db.Column(db.Float, nullable=False, default=0)
-
-    def __repr__(self):
-        return_dict = {
-            "stock_symbol": self.stock_symbol, 
-            "name": self.name, 
-            "investment": self.investment
-            }
-        return f"{return_dict}"
-    
-class GW2Fractals(db.Model):
-    id = db.Column(db.String, primary_key=True) # today or tomorrow
-    fractal_1 = db.Column(db.String(80), nullable=False)
-    fractal_2 = db.Column(db.String(80), nullable=False)
-    fractal_3 = db.Column(db.String(80), nullable=False)
-    
-    def __repr__(self):
-        return_dict = {
-            "fractal_1": self.fractal_1, 
-            "fractal_2": self.fractal_2, 
-            "fractal_3": self.fractal_3
-            }
-        return f"{return_dict}"
-
 class WeatherConfig(db.Model):
     city = db.Column(db.String(80), primary_key=True) #default city we want
     woied = db.Column(db.String(80), nullable=False)
@@ -98,6 +71,33 @@ class WeatherForecast(db.Model):
             "humidity": self.humidity,
             "wind_speed": self.wind_speed, 
             "predictability": self.predictability
+            }
+        return f"{return_dict}"
+
+class FinanceConfig(db.Model):
+    stock_symbol = db.Column(db.String(80), primary_key=True)
+    name = db.Column(db.String(80), nullable=False)
+    investment = db.Column(db.Float, nullable=False, default=0)
+
+    def __repr__(self):
+        return_dict = {
+            "stock_symbol": self.stock_symbol, 
+            "name": self.name, 
+            "investment": self.investment
+            }
+        return f"{return_dict}"
+    
+class GW2Fractals(db.Model):
+    id = db.Column(db.String, primary_key=True) # today or tomorrow
+    fractal_1 = db.Column(db.String(80), nullable=False)
+    fractal_2 = db.Column(db.String(80), nullable=False)
+    fractal_3 = db.Column(db.String(80), nullable=False)
+    
+    def __repr__(self):
+        return_dict = {
+            "fractal_1": self.fractal_1, 
+            "fractal_2": self.fractal_2, 
+            "fractal_3": self.fractal_3
             }
         return f"{return_dict}"
 

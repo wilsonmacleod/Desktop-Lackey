@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 export default class DEL {
-    calendar(taskID) {
-        const url = `/api/${taskID}`;
-        return axios.delete(url, taskID)
+    calendar(id) {
+        const url = `/Calendar/${id}`;
+        return axios.delete(url, id)
     }
 }

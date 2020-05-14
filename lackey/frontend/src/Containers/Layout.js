@@ -10,13 +10,14 @@ class Layout extends Component {
         sideBarActive: 'Calendar',
         sideBarChoices: [
                         'Calendar', 
+                        'Weather',
                         'Finance',
                         'Sports',
                         'Games',
                         'Scripts'
                         ],
         sideBarIcons: [
-                    'calendar', 'line-chart', 'futbol-o', 'gamepad', 'code-fork'
+                    'calendar', 'sun-o', 'line-chart', 'futbol-o', 'gamepad', 'code-fork' // https://fontawesome.com/v4.7.0/icons/
                 ] 
       };
 

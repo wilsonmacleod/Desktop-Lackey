@@ -1,9 +1,9 @@
 import React from "react";
 import dateFns from "date-fns";
 
-import Header from './CalendarHeader/CalendarHeader';
-import Days from './CalendarDays/CalendarDays';
-import Cells from './CalendarCells/CalendarCells';
+import Header from './Header/Header';
+import Days from './Days/Days';
+import Cells from './Cells/Cells';
 import Modal from '../UI/Modal/Modal';
 import CalendarModal from './CalendarModal/CalendarModal';
 

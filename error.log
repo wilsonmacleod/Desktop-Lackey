@@ -10,3 +10,15 @@
     cef.Initialize(settings=settings)
 KeyboardInterrupt
 
+
+[2020-05-12 21:56:45] Traceback (most recent call last):
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\__main__.py", line 291, in <module>
+    main()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\__main__.py", line 78, in main
+    cef.Initialize(settings=settings)
+KeyboardInterrupt
+

@@ -7585,3 +7585,1779 @@ json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 113
 2020-05-12 15:38:34,308 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
 2020-05-12 15:38:34,308 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-12 15:38:34,308 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 16:45:01,859 lackey INFO     Lackey v0.0
+2020-05-12 16:45:01,874 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 16:45:01,874 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 16:45:01,874 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 16:45:01,874 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 16:46:58,594 lackey INFO     Lackey v0.0
+2020-05-12 16:46:58,594 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 16:46:58,594 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 16:46:58,594 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 16:46:58,594 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:29:51,640 lackey INFO     Lackey v0.0
+2020-05-12 21:29:51,640 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:29:51,640 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:29:51,640 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:29:51,640 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:30:34,810 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:30:44,611 lackey INFO     Lackey v0.0
+2020-05-12 21:30:44,611 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:30:44,611 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:30:44,611 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:30:44,611 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:30:49,341 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:31:15,578 lackey INFO     Lackey v0.0
+2020-05-12 21:31:15,578 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:31:15,578 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:31:15,578 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:31:15,578 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:31:21,059 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:32:06,678 lackey INFO     Lackey v0.0
+2020-05-12 21:32:06,678 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:32:06,678 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:32:06,678 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:32:06,678 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:34:28,073 lackey INFO     Lackey v0.0
+2020-05-12 21:34:28,074 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:34:28,074 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:34:28,074 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:34:28,074 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:34:50,025 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:35:49,878 lackey INFO     Lackey v0.0
+2020-05-12 21:35:49,878 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:35:49,878 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:35:49,879 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:35:49,879 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:35:55,722 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:36:04,811 lackey INFO     Lackey v0.0
+2020-05-12 21:36:04,811 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:36:04,811 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:36:04,811 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:36:04,811 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:36:09,337 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 59, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:37:49,149 lackey INFO     Lackey v0.0
+2020-05-12 21:37:49,149 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:37:49,149 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:37:49,149 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:37:49,149 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:37:54,095 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 62, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:40:22,623 lackey INFO     Lackey v0.0
+2020-05-12 21:40:22,623 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:40:22,623 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:40:22,623 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:40:22,623 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:40:27,375 lackey.app ERROR    Exception on /api/1 [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 60, in delete
+    task = session.query(CalendarTasks).filter(id=view).first()
+NameError: name 'session' is not defined
+2020-05-12 21:40:35,511 lackey INFO     Lackey v0.0
+2020-05-12 21:40:35,511 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:40:35,511 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:40:35,511 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:40:35,511 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:40:39,938 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 60, in delete
+    task = db.session.query(CalendarTasks).filter(id=view).first()
+TypeError: filter() got an unexpected keyword argument 'id'
+2020-05-12 21:40:55,444 lackey INFO     Lackey v0.0
+2020-05-12 21:40:55,444 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:40:55,444 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:40:55,444 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:40:55,444 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:41:24,754 lackey INFO     Lackey v0.0
+2020-05-12 21:41:24,761 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:41:24,761 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:41:24,761 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:41:24,762 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:42:33,228 lackey INFO     Lackey v0.0
+2020-05-12 21:42:33,228 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:42:33,228 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:42:33,228 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:42:33,228 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:42:38,353 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 60, in delete
+    task = CalendarTasks.query.filter_by(id=int(view)).first()
+ValueError: invalid literal for int() with base 10: 'undefined'
+2020-05-12 21:43:21,934 lackey INFO     Lackey v0.0
+2020-05-12 21:43:21,934 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:43:21,934 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:43:21,934 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:43:21,934 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:43:23,878 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 24, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-12 21:43:54,073 lackey INFO     Lackey v0.0
+2020-05-12 21:43:54,074 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:43:54,074 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:43:54,074 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:43:54,074 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:43:59,038 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 60, in delete
+    task = CalendarTasks.query.filter_by(id=int(view)).first()
+ValueError: invalid literal for int() with base 10: 'undefined'
+2020-05-12 21:45:07,071 lackey INFO     Lackey v0.0
+2020-05-12 21:45:07,072 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:45:07,072 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:45:07,072 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:45:07,072 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:45:25,466 lackey INFO     Lackey v0.0
+2020-05-12 21:45:25,466 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:45:25,466 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:45:25,466 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:45:25,466 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:45:30,738 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:45:54,295 lackey INFO     Lackey v0.0
+2020-05-12 21:45:54,295 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:45:54,295 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:45:54,295 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:45:54,295 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:46:11,049 lackey INFO     Lackey v0.0
+2020-05-12 21:46:11,050 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:46:11,050 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:46:11,050 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:46:11,050 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:46:16,478 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:46:49,378 lackey INFO     Lackey v0.0
+2020-05-12 21:46:49,378 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:46:49,378 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:46:49,378 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:46:49,378 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:48:04,361 lackey INFO     Lackey v0.0
+2020-05-12 21:48:04,361 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:48:04,361 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:48:04,361 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:48:04,361 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:48:20,987 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:50:08,846 lackey INFO     Lackey v0.0
+2020-05-12 21:50:08,847 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:50:08,847 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:50:08,847 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:50:08,847 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:50:14,519 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:51:18,736 lackey INFO     Lackey v0.0
+2020-05-12 21:51:18,737 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:51:18,737 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:51:18,737 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:51:18,737 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:51:25,961 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:52:00,611 lackey INFO     Lackey v0.0
+2020-05-12 21:52:00,611 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:52:00,611 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:52:00,611 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:52:00,611 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:52:08,549 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:52:56,726 lackey INFO     Lackey v0.0
+2020-05-12 21:52:56,726 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:52:56,726 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:52:56,726 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:52:56,726 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:53:20,703 lackey INFO     Lackey v0.0
+2020-05-12 21:53:20,704 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:53:20,704 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:53:20,704 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:53:20,704 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:54:48,017 lackey INFO     Lackey v0.0
+2020-05-12 21:54:48,017 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:54:48,017 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:54:48,018 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:54:48,018 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:55:56,645 lackey INFO     Lackey v0.0
+2020-05-12 21:55:56,645 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:55:56,645 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:55:56,645 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:55:56,645 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:41,494 lackey INFO     Lackey v0.0
+2020-05-12 21:56:41,494 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:56:41,494 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:56:41,494 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:41,494 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:44,478 lackey INFO     Lackey v0.0
+2020-05-12 21:56:44,478 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:56:44,478 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:56:44,478 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:44,478 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:46,228 lackey INFO     Lackey v0.0
+2020-05-12 21:56:46,228 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:56:46,228 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:56:46,228 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:56:46,228 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:58:22,711 lackey INFO     Lackey v0.0
+2020-05-12 21:58:22,711 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:58:22,711 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:58:22,723 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:58:22,723 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:58:51,505 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:58:56,858 lackey INFO     Lackey v0.0
+2020-05-12 21:58:56,858 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:58:56,858 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:58:56,858 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:58:56,858 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:59:06,957 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-12 21:59:12,094 lackey INFO     Lackey v0.0
+2020-05-12 21:59:12,094 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 21:59:12,094 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 21:59:12,094 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 21:59:12,110 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 22:01:47,144 lackey INFO     Lackey v0.0
+2020-05-12 22:01:47,144 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 22:01:47,144 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 22:01:47,144 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 22:01:47,144 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 22:02:31,057 lackey INFO     Lackey v0.0
+2020-05-12 22:02:31,057 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-12 22:02:31,057 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-12 22:02:31,057 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-12 22:02:31,058 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 07:00:12,653 lackey INFO     Lackey v0.0
+2020-05-13 07:00:12,653 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 07:00:12,653 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 07:00:12,653 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 07:00:12,653 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 07:01:09,118 lackey.app ERROR    Exception on /api/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1978, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 61, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1980, in delete
+    raise exc.UnmappedInstanceError(instance)
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-13 08:47:54,505 lackey INFO     Lackey v0.0
+2020-05-13 08:47:54,507 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 08:47:54,507 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 08:47:54,507 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 08:47:54,507 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 08:54:21,465 lackey INFO     Lackey v0.0
+2020-05-13 08:54:21,465 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 08:54:21,465 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 08:54:21,465 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 08:54:21,465 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:26,898 lackey INFO     Lackey v0.0
+2020-05-13 09:07:26,898 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:07:26,898 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:07:26,898 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:26,898 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:36,956 lackey INFO     Lackey v0.0
+2020-05-13 09:07:36,956 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:07:36,956 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:07:36,964 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:36,964 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:58,279 lackey INFO     Lackey v0.0
+2020-05-13 09:07:58,280 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:07:58,280 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:07:58,280 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:07:58,280 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:40:01,648 lackey INFO     Lackey v0.0
+2020-05-13 09:40:01,648 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:40:01,648 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:40:01,648 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:40:01,648 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:40:03,342 lackey INFO     INIT
+2020-05-13 09:42:21,729 lackey INFO     Lackey v0.0
+2020-05-13 09:42:21,730 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:42:21,730 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:42:21,730 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:42:21,730 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:42:23,535 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 25, in landing
+    logger.debub("INIT")
+AttributeError: 'Logger' object has no attribute 'debub'
+2020-05-13 09:42:39,008 lackey INFO     Lackey v0.0
+2020-05-13 09:42:39,009 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:42:39,009 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:42:39,009 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:42:39,009 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:42:40,733 lackey DEBUG    INIT
+2020-05-13 09:42:47,499 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'WORST DAY EVER', 'description': 'The day Nano left. (to go back to work)', 'target_date': 'May,04,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': 'C0C0C0'}
+2020-05-13 09:47:56,402 lackey INFO     Lackey v0.0
+2020-05-13 09:47:56,402 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:47:56,402 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:47:56,402 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:47:56,402 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:08,591 lackey INFO     Lackey v0.0
+2020-05-13 09:48:08,591 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:48:08,591 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:48:08,591 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:08,592 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:16,834 lackey INFO     Lackey v0.0
+2020-05-13 09:48:16,834 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:48:16,834 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:48:16,834 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:16,834 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:33,856 lackey INFO     Lackey v0.0
+2020-05-13 09:48:33,856 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:48:33,857 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:48:33,857 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:33,857 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:41,563 lackey INFO     Lackey v0.0
+2020-05-13 09:48:41,564 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:48:41,564 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:48:41,564 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:41,564 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:48:43,545 lackey DEBUG    <function ShouldWeatherUpdate.checkConfig at 0x049F1B70>
+2020-05-13 09:50:54,932 lackey INFO     Lackey v0.0
+2020-05-13 09:50:54,932 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:50:54,932 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:50:54,932 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:50:54,932 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:50:56,956 lackey DEBUG    <function ShouldWeatherUpdate.checkConfig at 0x05302B70>
+2020-05-13 09:54:54,548 lackey INFO     Lackey v0.0
+2020-05-13 09:54:54,548 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:54:54,549 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:54:54,549 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:54:54,549 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:54:56,567 lackey DEBUG    <function ShouldWeatherUpdate.checkConfig at 0x05211B70>
+2020-05-13 09:55:41,337 lackey INFO     Lackey v0.0
+2020-05-13 09:55:41,337 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 09:55:41,337 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 09:55:41,337 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 09:55:41,337 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:04:50,894 lackey INFO     Lackey v0.0
+2020-05-13 10:04:50,894 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:04:50,894 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:04:50,894 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:04:50,894 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:07:34,378 lackey INFO     Lackey v0.0
+2020-05-13 10:07:34,379 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:07:34,379 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:07:34,379 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:07:34,379 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:08:57,215 lackey INFO     Lackey v0.0
+2020-05-13 10:08:57,215 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:08:57,215 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:08:57,215 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:08:57,215 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:09:29,398 lackey INFO     Lackey v0.0
+2020-05-13 10:09:29,398 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:09:29,398 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:09:29,398 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:09:29,398 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:12:23,048 lackey INFO     Lackey v0.0
+2020-05-13 10:12:23,048 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:12:23,048 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:12:23,048 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:12:23,048 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:14:05,400 lackey INFO     Lackey v0.0
+2020-05-13 10:14:05,400 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:14:05,400 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:14:05,400 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:14:05,400 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:16:45,081 lackey INFO     Lackey v0.0
+2020-05-13 10:16:45,081 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:16:45,097 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:16:45,097 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:16:45,097 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:16:47,698 lackey DEBUG    <function ShouldWeatherUpdate.checkConfig at 0x050C1B70>
+2020-05-13 10:19:08,998 lackey INFO     Lackey v0.0
+2020-05-13 10:19:08,998 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:19:08,998 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:19:08,998 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:19:08,998 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:19:14,072 lackey.app ERROR    Exception on /lackey/Weather [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views.py", line 16, in get
+    x = ShouldWeatherUpdate.checkConfig()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 5, in checkConfig
+    config = WeatherConfig.query.all()
+NameError: name 'WeatherConfig' is not defined
+2020-05-13 10:19:37,233 lackey INFO     Lackey v0.0
+2020-05-13 10:19:37,234 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:19:37,234 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:19:37,234 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:19:37,234 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:19:40,938 lackey DEBUG    []
+2020-05-13 10:26:21,679 lackey INFO     Lackey v0.0
+2020-05-13 10:26:21,679 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:26:21,679 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:26:21,679 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:26:21,679 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:27:05,589 lackey INFO     Lackey v0.0
+2020-05-13 10:27:05,589 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:27:05,590 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:27:05,590 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:27:05,590 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:29:23,279 lackey INFO     Lackey v0.0
+2020-05-13 10:29:23,280 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:29:23,280 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:29:23,280 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:29:23,280 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:29:27,178 lackey DEBUG    None
+2020-05-13 10:34:02,276 lackey INFO     Lackey v0.0
+2020-05-13 10:34:02,276 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:34:02,276 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:34:02,277 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:34:02,277 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:34:22,181 lackey INFO     Lackey v0.0
+2020-05-13 10:34:22,181 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:34:22,181 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:34:22,181 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:34:22,181 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:34:23,868 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 25, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-13 10:35:13,059 lackey INFO     Lackey v0.0
+2020-05-13 10:35:13,059 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:35:13,059 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:35:13,059 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:35:13,059 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:35:15,163 lackey DEBUG    None
+2020-05-13 10:38:39,588 lackey INFO     Lackey v0.0
+2020-05-13 10:38:39,588 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:38:39,589 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:38:39,589 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:38:39,589 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:38:41,615 lackey DEBUG    None
+2020-05-13 10:42:11,131 lackey INFO     Lackey v0.0
+2020-05-13 10:42:11,147 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:42:11,147 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:42:11,147 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:42:11,147 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:42:13,296 lackey DEBUG    None
+2020-05-13 10:42:33,819 lackey DEBUG    None
+2020-05-13 10:43:40,680 lackey INFO     Lackey v0.0
+2020-05-13 10:43:40,681 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:43:40,681 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:43:40,681 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:43:40,681 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:43:42,692 lackey DEBUG    None
+2020-05-13 10:45:08,608 lackey INFO     Lackey v0.0
+2020-05-13 10:45:08,608 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:45:08,609 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:45:08,609 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:45:08,609 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:45:10,608 lackey DEBUG    None
+2020-05-13 10:45:25,803 lackey INFO     Lackey v0.0
+2020-05-13 10:45:25,803 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:45:25,803 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:45:25,804 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:45:25,804 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:45:27,794 lackey DEBUG    None
+2020-05-13 10:46:46,965 lackey INFO     Lackey v0.0
+2020-05-13 10:46:46,965 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:46:46,965 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:46:46,965 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:46:46,965 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:46:48,988 lackey DEBUG    None
+2020-05-13 10:47:55,343 lackey INFO     Lackey v0.0
+2020-05-13 10:47:55,343 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:47:55,343 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:47:55,343 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:47:55,343 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:48:00,632 lackey DEBUG    None
+2020-05-13 10:49:49,200 lackey INFO     Lackey v0.0
+2020-05-13 10:49:49,200 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 10:49:49,200 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 10:49:49,201 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:49:49,201 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 10:49:52,102 lackey DEBUG    None
+2020-05-13 10:49:54,724 lackey DEBUG    None
+2020-05-13 10:49:57,715 lackey DEBUG    None
+2020-05-13 10:50:02,596 lackey DEBUG    None
+2020-05-13 10:50:04,848 lackey DEBUG    None
+2020-05-13 10:50:06,338 lackey DEBUG    None
+2020-05-13 10:50:07,638 lackey DEBUG    None
+2020-05-13 10:50:15,612 lackey DEBUG    None
+2020-05-13 12:07:54,952 lackey INFO     Lackey v0.0
+2020-05-13 12:07:54,952 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:07:54,952 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:07:54,952 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:07:54,952 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:07:57,365 lackey DEBUG    None
+2020-05-13 12:09:20,986 lackey INFO     Lackey v0.0
+2020-05-13 12:09:20,986 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:09:20,986 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:09:20,986 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:09:20,986 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:09:23,250 lackey DEBUG    None
+2020-05-13 12:10:54,712 lackey INFO     Lackey v0.0
+2020-05-13 12:10:54,712 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:10:54,712 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:10:54,712 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:10:54,712 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:10:56,652 lackey DEBUG    None
+2020-05-13 12:13:22,610 lackey INFO     Lackey v0.0
+2020-05-13 12:13:22,610 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:13:22,610 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:13:22,610 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:13:22,610 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:13:24,679 lackey DEBUG    None
+2020-05-13 12:16:49,929 lackey INFO     Lackey v0.0
+2020-05-13 12:16:49,929 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:16:49,929 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:16:49,929 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:16:49,929 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:16:52,061 lackey DEBUG    None
+2020-05-13 12:18:06,055 lackey INFO     Lackey v0.0
+2020-05-13 12:18:06,055 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:18:06,055 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:18:06,055 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:18:06,055 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:18:08,506 lackey DEBUG    None
+2020-05-13 12:58:24,208 lackey INFO     Lackey v0.0
+2020-05-13 12:58:24,208 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:58:24,208 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:58:24,208 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:58:24,208 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:58:26,147 lackey DEBUG    None
+2020-05-13 12:58:28,066 lackey DEBUG    None
+2020-05-13 12:59:17,978 lackey INFO     Lackey v0.0
+2020-05-13 12:59:17,978 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 12:59:17,978 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 12:59:17,978 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:59:17,978 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 12:59:19,993 lackey DEBUG    None
+2020-05-13 13:01:20,130 lackey INFO     Lackey v0.0
+2020-05-13 13:01:20,130 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:01:20,130 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:01:20,130 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:01:20,130 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:01:22,109 lackey DEBUG    None
+2020-05-13 13:03:55,567 lackey INFO     Lackey v0.0
+2020-05-13 13:03:55,568 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:03:55,568 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:03:55,568 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:03:55,568 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:03:57,495 lackey DEBUG    None
+2020-05-13 13:07:10,111 lackey INFO     Lackey v0.0
+2020-05-13 13:07:10,111 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:07:10,111 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:07:10,111 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:07:10,111 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:07:12,202 lackey DEBUG    None
+2020-05-13 13:17:05,663 lackey INFO     Lackey v0.0
+2020-05-13 13:17:05,663 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:17:05,664 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:17:05,664 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:17:05,664 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:17:36,747 lackey INFO     Lackey v0.0
+2020-05-13 13:17:36,747 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:17:36,747 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:17:36,747 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:17:36,747 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:04,637 lackey INFO     Lackey v0.0
+2020-05-13 13:18:04,638 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:18:04,638 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:18:04,638 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:04,638 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:34,564 lackey INFO     Lackey v0.0
+2020-05-13 13:18:34,564 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:18:34,564 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:18:34,565 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:34,565 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:49,958 lackey INFO     Lackey v0.0
+2020-05-13 13:18:49,958 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:18:49,958 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:18:49,958 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:18:49,958 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:08,424 lackey INFO     Lackey v0.0
+2020-05-13 13:20:08,424 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:08,424 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:08,424 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:08,424 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:26,292 lackey.app ERROR    Exception on /calendar/{"name":"there we fucking go","description":"","targetDate":"May,14,2020","time":"","recurring":false,"interval":7,"color":"9370DB"} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 27, in post
+    logger.debug(f'CALENDAR.POST: {new}')
+NameError: name 'logger' is not defined
+2020-05-13 13:20:43,465 lackey INFO     Lackey v0.0
+2020-05-13 13:20:43,465 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:43,465 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:43,465 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:43,465 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:50,176 lackey INFO     Lackey v0.0
+2020-05-13 13:20:50,176 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:50,176 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:50,176 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:50,176 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,100 lackey INFO     Lackey v0.0
+2020-05-13 13:20:58,100 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:58,100 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:58,100 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,100 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,398 lackey.__init__ INFO     Lackey v0.0
+2020-05-13 13:20:58,398 lackey.__init__ INFO     Lackey v0.0
+2020-05-13 13:20:58,399 lackey.__init__ DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:58,399 lackey.__init__ DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:20:58,399 lackey.__init__ DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:58,399 lackey.__init__ DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:20:58,399 lackey.__init__ INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,399 lackey.__init__ INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,399 lackey.__init__ INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:20:58,399 lackey.__init__ INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:21:08,052 lackey.__init__ DEBUG    CALENDAR.POST: {'id': None, 'task': 'sheet', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:21:08,052 lackey.__init__ DEBUG    CALENDAR.POST: {'id': None, 'task': 'sheet', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:21:22,197 lackey.__init__ DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'sheet', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:21:22,197 lackey.__init__ DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'sheet', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:21:43,766 lackey INFO     Lackey v0.0
+2020-05-13 13:21:43,766 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:21:43,766 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:21:43,766 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:21:43,766 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:21:48,642 lackey INFO     Lackey v0.0
+2020-05-13 13:21:48,642 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:21:48,642 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:21:48,642 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:21:48,642 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:21:57,253 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'logger', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '9370DB'}
+2020-05-13 13:22:01,021 lackey.app ERROR    Exception on /calendar/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1978, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1980, in delete
+    raise exc.UnmappedInstanceError(instance)
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-13 13:22:03,702 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'logger', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '9370DB'}
+2020-05-13 13:24:18,447 lackey INFO     Lackey v0.0
+2020-05-13 13:24:18,447 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:24:18,447 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:24:18,447 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:24:18,448 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:30:17,062 lackey INFO     Lackey v0.0
+2020-05-13 13:30:17,062 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:30:17,062 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:30:17,062 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:30:17,062 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:31:07,169 lackey INFO     Lackey v0.0
+2020-05-13 13:31:07,169 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:31:07,169 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:31:07,169 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:31:07,169 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:31:09,155 lackey.app ERROR    Exception on /Calendar/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'view'
+2020-05-13 13:31:22,888 lackey INFO     Lackey v0.0
+2020-05-13 13:31:22,888 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:31:22,888 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:31:22,888 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:31:22,888 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:31:38,414 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'botty like coke boddle', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:31:42,617 lackey.app ERROR    Exception on /Calendar/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1978, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1980, in delete
+    raise exc.UnmappedInstanceError(instance)
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-13 13:31:43,685 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'botty like coke boddle', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 13:37:15,438 lackey INFO     Lackey v0.0
+2020-05-13 13:37:15,438 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:37:15,438 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:37:15,438 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:37:15,439 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:38:46,831 lackey INFO     Lackey v0.0
+2020-05-13 13:38:46,831 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:38:46,831 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:38:46,831 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:38:46,831 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:38:51,367 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 11, in get
+    action = actions.split("=")
+NameError: name 'actions' is not defined
+2020-05-13 13:38:58,508 lackey INFO     Lackey v0.0
+2020-05-13 13:38:58,509 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:38:58,509 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:38:58,509 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:38:58,509 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:39:01,436 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 21, in get
+    logger.debug(data)
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:39:44,706 lackey INFO     Lackey v0.0
+2020-05-13 13:39:44,706 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:39:44,706 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:39:44,706 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:39:44,706 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:07,198 lackey INFO     Lackey v0.0
+2020-05-13 13:40:07,198 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:40:07,198 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:40:07,198 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:07,198 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:10,895 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 18, in get
+    logger.debug(data)
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:40:47,029 lackey INFO     Lackey v0.0
+2020-05-13 13:40:47,029 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:40:47,031 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:40:47,031 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:47,031 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:55,323 lackey INFO     Lackey v0.0
+2020-05-13 13:40:55,323 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:40:55,323 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:40:55,323 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:55,323 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:40:58,216 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 23, in get
+    return jsonify(status=200, text={"data": f"{data}"})
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:41:49,256 lackey INFO     Lackey v0.0
+2020-05-13 13:41:49,257 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:41:49,257 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:41:49,257 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:41:49,257 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:41:52,789 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 19, in get
+    logger.debug(data)
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:41:58,761 lackey INFO     Lackey v0.0
+2020-05-13 13:41:58,762 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:41:58,762 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:41:58,762 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:41:58,762 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:42:02,263 lackey.app ERROR    Exception on /Weather/None [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 20, in get
+    return jsonify(status=200, text={"data": f"{data}"})
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:43:00,405 lackey INFO     Lackey v0.0
+2020-05-13 13:43:00,405 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:43:00,406 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:43:00,406 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:43:00,406 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:45:13,699 lackey INFO     Lackey v0.0
+2020-05-13 13:45:13,699 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:45:13,699 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:45:13,699 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:45:13,700 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:47:12,320 lackey INFO     Lackey v0.0
+2020-05-13 13:47:12,320 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:47:12,320 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:47:12,320 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:47:12,321 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:47:15,849 lackey DEBUG    ['init']
+2020-05-13 13:47:15,850 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 21, in get
+    return jsonify(status=200, text={"data": f"{data}"})
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-13 13:48:10,707 lackey INFO     Lackey v0.0
+2020-05-13 13:48:10,708 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:48:10,708 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:48:10,708 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:48:10,708 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:48:13,433 lackey DEBUG    ['init']
+2020-05-13 13:48:16,056 lackey DEBUG    ['init']
+2020-05-13 13:48:17,660 lackey DEBUG    ['init']
+2020-05-13 13:48:18,427 lackey DEBUG    ['init']
+2020-05-13 13:48:24,312 lackey DEBUG    ['init']
+2020-05-13 13:48:26,671 lackey DEBUG    ['init']
+2020-05-13 13:48:28,696 lackey DEBUG    ['init']
+2020-05-13 13:48:32,055 lackey DEBUG    ['init']
+2020-05-13 13:48:34,647 lackey DEBUG    ['init']
+2020-05-13 13:48:37,392 lackey DEBUG    ['init']
+2020-05-13 13:49:03,036 lackey INFO     Lackey v0.0
+2020-05-13 13:49:03,036 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:49:03,036 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:49:03,036 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:49:03,036 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:49:22,121 lackey INFO     Lackey v0.0
+2020-05-13 13:49:22,121 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:49:22,121 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:49:22,121 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:49:22,121 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:50:30,345 lackey INFO     Lackey v0.0
+2020-05-13 13:50:30,346 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:50:30,346 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:50:30,346 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:50:30,346 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:50:32,412 lackey.app ERROR    Exception on /Calendar/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 15, in get
+    logger.debug(data)
+NameError: name 'data' is not defined
+2020-05-13 13:50:54,189 lackey INFO     Lackey v0.0
+2020-05-13 13:50:54,189 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:50:54,189 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:50:54,189 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:50:54,189 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:50:57,203 lackey DEBUG    None
+2020-05-13 13:51:00,391 lackey DEBUG    None
+2020-05-13 13:51:02,701 lackey DEBUG    None
+2020-05-13 13:53:55,669 lackey INFO     Lackey v0.0
+2020-05-13 13:53:55,669 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:53:55,669 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:53:55,669 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:53:55,669 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:54:04,710 lackey INFO     Lackey v0.0
+2020-05-13 13:54:04,726 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 13:54:04,726 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 13:54:04,726 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:54:04,726 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 13:54:07,612 lackey DEBUG    None
+2020-05-13 14:05:38,265 lackey INFO     Lackey v0.0
+2020-05-13 14:05:38,266 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:05:38,266 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:05:38,266 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:05:38,266 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:05:42,955 lackey DEBUG    None
+2020-05-13 14:06:33,482 lackey INFO     Lackey v0.0
+2020-05-13 14:06:33,483 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:06:33,483 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:06:33,483 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:06:33,483 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:06:37,266 lackey DEBUG    None
+2020-05-13 14:11:23,065 lackey INFO     Lackey v0.0
+2020-05-13 14:11:23,065 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:11:23,065 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:11:23,065 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:11:23,065 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:11:51,372 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'no dude', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '3CB371'}
+2020-05-13 14:11:55,059 lackey.app ERROR    Exception on /Calendar/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1978, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1980, in delete
+    raise exc.UnmappedInstanceError(instance)
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-13 14:11:55,995 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'no dude', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '3CB371'}
+2020-05-13 14:18:33,648 lackey INFO     Lackey v0.0
+2020-05-13 14:18:33,648 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:18:33,648 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:18:33,648 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:18:33,648 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:18:37,932 lackey DEBUG    None
+2020-05-13 14:18:43,649 lackey DEBUG    None
+2020-05-13 14:18:58,044 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'duh duh', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': 'C0C0C0'}
+2020-05-13 14:19:01,029 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'duh duh', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': 'C0C0C0'}
+2020-05-13 14:19:04,476 lackey DEBUG    None
+2020-05-13 14:20:30,349 lackey INFO     Lackey v0.0
+2020-05-13 14:20:30,350 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:20:30,350 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:20:30,350 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:20:30,350 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:20:34,343 lackey DEBUG    None
+2020-05-13 14:20:41,414 lackey.app ERROR    Exception on /Weather/query=seattle [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 21, in get
+    data = ext_act_weather.search_city(query)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\external_actions\weather.py", line 55, in search_city
+    return return_weather_data(woeid)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\external_actions\weather.py", line 62, in return_weather_data
+    first_date_returned = datetime.datetime.strptime(result[0]['applicable_date'], '%Y-%m-%d')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-13 14:20:43,178 lackey.app ERROR    Exception on /Weather/query=seattle [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 21, in get
+    data = ext_act_weather.search_city(query)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\external_actions\weather.py", line 55, in search_city
+    return return_weather_data(woeid)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\external_actions\weather.py", line 62, in return_weather_data
+    first_date_returned = datetime.datetime.strptime(result[0]['applicable_date'], '%Y-%m-%d')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-13 14:22:27,719 lackey INFO     Lackey v0.0
+2020-05-13 14:22:27,719 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:22:27,719 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:22:27,720 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:22:27,720 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:22:31,232 lackey DEBUG    None
+2020-05-13 14:22:34,544 lackey DEBUG    [{'date': '2020-05-13', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.13, 'max_temp': 63.71, 'humidity': 58, 'wind_speed': 6.142961012754845, 'predictability': 75}, {'date': '2020-05-14', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 49.39, 'max_temp': 61.29, 'humidity': 70, 'wind_speed': 3.328704391897983, 'predictability': 75}, {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 48.53, 'max_temp': 68.93, 'humidity': 53, 'wind_speed': 2.9628628658660094, 'predictability': 70}, {'date': '2020-05-16', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.56, 'max_temp': 60.28, 'humidity': 75, 'wind_speed': 2.12951022165752, 'predictability': 75}, {'date': '2020-05-17', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 53.37, 'max_temp': 66.82, 'humidity': 69, 'wind_speed': 3.673659109581379, 'predictability': 77}, {'date': '2020-05-18', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 51.69, 'max_temp': 56.01, 'humidity': 92, 'wind_speed': 3.9651173148810943, 'predictability': 77}]
+2020-05-13 14:22:34,550 lackey DEBUG    None
+2020-05-13 14:23:59,649 lackey INFO     Lackey v0.0
+2020-05-13 14:23:59,650 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:23:59,650 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:23:59,650 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:23:59,650 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:24:02,548 lackey DEBUG    None
+2020-05-13 14:24:06,375 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}]
+2020-05-13 14:24:06,382 lackey DEBUG    None
+2020-05-13 14:24:25,675 lackey INFO     Lackey v0.0
+2020-05-13 14:24:25,675 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 14:24:25,675 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 14:24:25,676 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:24:25,676 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 14:24:28,548 lackey DEBUG    None
+2020-05-13 14:24:32,125 lackey DEBUG    []
+2020-05-13 14:24:32,132 lackey DEBUG    None
+2020-05-13 16:14:14,794 lackey INFO     Lackey v0.0
+2020-05-13 16:14:14,795 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:14:14,795 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:14:14,795 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:14:14,795 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:15:37,784 lackey INFO     Lackey v0.0
+2020-05-13 16:15:37,784 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:15:37,784 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:15:37,784 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:15:37,784 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:19:45,898 lackey INFO     Lackey v0.0
+2020-05-13 16:19:45,898 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:19:45,898 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:19:45,898 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:19:45,898 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:20:03,334 lackey INFO     Lackey v0.0
+2020-05-13 16:20:03,335 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:20:03,335 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:20:03,335 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:20:03,335 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:20:06,192 lackey DEBUG    None
+2020-05-13 16:20:38,015 lackey INFO     Lackey v0.0
+2020-05-13 16:20:38,015 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:20:38,015 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:20:38,015 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:20:38,015 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:20:44,621 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'zzz', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 16:20:47,899 lackey DEBUG    CALENDAR.DELETE: {'id': 315, 'task': 'zzz', 'description': '', 'target_date': 'May,14,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-13 16:20:49,081 lackey DEBUG    None
+2020-05-13 16:22:10,498 lackey INFO     Lackey v0.0
+2020-05-13 16:22:10,498 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:22:10,498 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:22:10,498 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:22:10,498 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:22:14,667 lackey DEBUG    None
+2020-05-13 16:22:58,575 lackey INFO     Lackey v0.0
+2020-05-13 16:22:58,575 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:22:58,575 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:22:58,575 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:22:58,575 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:23:16,015 lackey INFO     Lackey v0.0
+2020-05-13 16:23:16,015 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:23:16,015 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:23:16,015 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:23:16,015 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:23:20,230 lackey DEBUG    None
+2020-05-13 16:24:46,115 lackey INFO     Lackey v0.0
+2020-05-13 16:24:46,130 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:24:46,130 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:24:46,130 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:24:46,130 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:24:49,898 lackey DEBUG    None
+2020-05-13 16:24:52,449 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:33:02,828 lackey INFO     Lackey v0.0
+2020-05-13 16:33:02,828 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:33:02,828 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:33:02,828 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:33:02,828 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:33:07,520 lackey DEBUG    None
+2020-05-13 16:33:11,126 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:34:24,917 lackey INFO     Lackey v0.0
+2020-05-13 16:34:24,917 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:34:24,917 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:34:24,917 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:34:24,917 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:34:28,507 lackey DEBUG    None
+2020-05-13 16:34:32,344 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:35:40,815 lackey INFO     Lackey v0.0
+2020-05-13 16:35:40,815 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:35:40,815 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:35:40,815 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:35:40,815 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:35:44,468 lackey DEBUG    None
+2020-05-13 16:35:47,508 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:36:51,648 lackey INFO     Lackey v0.0
+2020-05-13 16:36:51,648 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:36:51,648 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:36:51,648 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:36:51,648 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:37:11,585 lackey INFO     Lackey v0.0
+2020-05-13 16:37:11,585 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:37:11,585 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:37:11,586 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:37:11,586 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:37:14,485 lackey DEBUG    None
+2020-05-13 16:37:18,528 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}]
+2020-05-13 16:38:03,278 lackey INFO     Lackey v0.0
+2020-05-13 16:38:03,278 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:38:03,279 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:38:03,279 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:38:03,279 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:38:06,549 lackey DEBUG    None
+2020-05-13 16:38:10,700 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:38:49,948 lackey INFO     Lackey v0.0
+2020-05-13 16:38:49,948 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:38:49,948 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:38:49,948 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:38:49,948 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:38:52,785 lackey DEBUG    None
+2020-05-13 16:38:55,461 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-13 16:45:35,932 lackey INFO     Lackey v0.0
+2020-05-13 16:45:35,932 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:45:35,932 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:45:35,932 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:45:35,932 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:45:39,747 lackey DEBUG    None
+2020-05-13 16:46:36,515 lackey INFO     Lackey v0.0
+2020-05-13 16:46:36,515 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 16:46:36,515 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 16:46:36,515 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:46:36,515 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 16:46:39,470 lackey DEBUG    None
+2020-05-13 16:46:44,683 lackey DEBUG    [{'title': 'Brussels', 'location_type': 'City', 'woeid': 968019, 'latt_long': '50.848381,4.349680'}, {'title': 'Essen', 'location_type': 'City', 'woeid': 648820, 'latt_long': '51.451809,7.0106'}, {'title': 'DÃ¼sseldorf', 'location_type': 'City', 'woeid': 646099, 'latt_long': '51.215630,6.776040'}]
+2020-05-13 17:41:35,398 lackey INFO     Lackey v0.0
+2020-05-13 17:41:35,398 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 17:41:35,398 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 17:41:35,398 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:41:35,398 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:41:41,230 lackey DEBUG    None
+2020-05-13 17:41:47,690 lackey DEBUG    [{'title': 'Philadelphia', 'location_type': 'City', 'woeid': 2471217, 'latt_long': '39.952271,-75.162369'}, {'title': 'Rio de Janeiro', 'location_type': 'City', 'woeid': 455825, 'latt_long': '-22.976730,-43.195080'}, {'title': 'New Delhi', 'location_type': 'City', 'woeid': 28743736, 'latt_long': '28.643999,77.091003'}, {'title': 'Adelaide', 'location_type': 'City', 'woeid': 1099805, 'latt_long': '-34.926102,138.599884'}, {'title': 'Detroit', 'location_type': 'City', 'woeid': 2391585, 'latt_long': '42.331680,-83.047920'}, {'title': 'Denver', 'location_type': 'City', 'woeid': 2391279, 'latt_long': '39.740009,-104.992264'}, {'title': 'Hyderabad', 'location_type': 'City', 'woeid': 2295414, 'latt_long': '17.508829,78.434578'}, {'title': 'Santander', 'location_type': 'City', 'woeid': 773964, 'latt_long': '43.461498,-3.810010'}, {'title': 'Bordeaux', 'location_type': 'City', 'woeid': 580778, 'latt_long': '44.836632,-0.581050'}, {'title': 'Sunderland', 'location_type': 'City', 'woeid': 36615, 'latt_long': '54.900120,-1.408480'}, {'title': 'Dresden', 'location_type': 'City', 'woeid': 645686, 'latt_long': '51.053631,13.74081'}, {'title': 'Providence', 'location_type': 'City', 'woeid': 2477058, 'latt_long': '41.823872,-71.411987'}, {'title': 'Aberdeen', 'location_type': 'City', 'woeid': 10243, 'latt_long': '57.153820,-2.106790'}, {'title': 'Dundee', 'location_type': 'City', 'woeid': 18637, 'latt_long': '56.475761,-2.9756'}, {'title': 'Denpasar', 'location_type': 'City', 'woeid': 1047372, 'latt_long': '-8.662690,115.215492'}, {'title': 'Boulder', 'location_type': 'City', 'woeid': 2367231, 'latt_long': '40.02779,-105.252487'}, {'title': 'Des Moines', 'location_type': 'City', 'woeid': 2391446, 'latt_long': '41.573711,-93.617653'}, {'title': 'Santa Cruz de Tenerife', 'location_type': 'City', 'woeid': 773692, 'latt_long': '28.46163,-16.267059'}, {'title': 'Derby', 'location_type': 'City', 'woeid': 18114, 'latt_long': '52.914120,-1.469970'}, {'title': 'Huddersfield', 'location_type': 'City', 'woeid': 24083, 'latt_long': '53.648998,-1.791790'}]
+2020-05-13 17:42:00,014 lackey DEBUG    None
+2020-05-13 17:46:23,331 lackey INFO     Lackey v0.0
+2020-05-13 17:46:23,331 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 17:46:23,331 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 17:46:23,331 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:46:23,331 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:46:27,339 lackey DEBUG    None
+2020-05-13 17:46:37,001 lackey DEBUG    [{'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-13 17:48:58,248 lackey INFO     Lackey v0.0
+2020-05-13 17:48:58,248 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-13 17:48:58,248 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-13 17:48:58,248 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:48:58,248 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-13 17:49:01,139 lackey DEBUG    None
+2020-05-13 17:49:07,261 lackey DEBUG    None

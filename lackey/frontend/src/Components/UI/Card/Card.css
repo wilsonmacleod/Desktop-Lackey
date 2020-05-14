@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #4ecdc4;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.card-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: left;
+    background-color: #393939;
+}
+
+.card-content {
+    height: inherit;
+    background-color: #393939;
+    padding: 0;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.card .weatherSearch {
+    min-width: 33%;
+}
