@@ -7,7 +7,7 @@ import ContentWrapper from '../Components/Layout/ContentWrapper/ContentWrapper';
 
 class Layout extends Component {
     state = { 
-        sideBarActive: 'Calendar',
+        sideBarActive: 'Weather',
         sideBarChoices: [
                         'Calendar', 
                         'Weather',

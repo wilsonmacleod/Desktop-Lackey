@@ -1,7 +1,6 @@
 .card {
     position: relative;
     display: inline-block;
-    padding: 30px;
     margin: 10px;
     border: 1px solid #4ecdc4;
     background-color: whitesmoke;
@@ -9,23 +8,26 @@
 }
 
 .card-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
     width: 100%;
-    justify-content: left;
+    height: 35%;
     background-color: #393939;
+    overflow: hidden;
+    padding-bottom: 5%;
 }
 
 .card-content {
-    height: inherit;
-    background-color: #393939;
-    padding: 0;
-    padding-top: 30px;
-    width: 100%;
+    position: relative;
+    background-color: inherit;
+    height: 65%;
+    overflow-y: auto;
 }
 
-.card .weatherSearch {
-    min-width: 33%;
+.weatherSearch {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #4ecdc4;
+    background-color: whitesmoke;
+    min-width: 250px;
+    height: 200px;
 }
