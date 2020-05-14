@@ -9812,3 +9812,1218 @@ jinja2.exceptions.TemplateNotFound: index.html
 2020-05-13 22:05:47,617 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
 2020-05-13 22:05:49,747 lackey DEBUG    None
 2020-05-13 22:05:52,505 lackey DEBUG    [{'title': 'Seoul', 'location_type': 'City', 'woeid': 1132599, 'latt_long': '37.557121,126.977379'}, {'title': 'San Jose', 'location_type': 'City', 'woeid': 2488042, 'latt_long': '37.338581,-121.885567'}, {'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Brussels', 'location_type': 'City', 'woeid': 968019, 'latt_long': '50.848381,4.349680'}, {'title': 'Boise', 'location_type': 'City', 'woeid': 2366355, 'latt_long': '43.606979,-116.193413'}, {'title': 'Toulouse', 'location_type': 'City', 'woeid': 628886, 'latt_long': '43.605728,1.448690'}, {'title': 'Marseille', 'location_type': 'City', 'woeid': 610264, 'latt_long': '43.293701,5.372470'}, {'title': 'Sendai', 'location_type': 'City', 'woeid': 1118129, 'latt_long': '38.314362,140.758194'}, {'title': 'Essen', 'location_type': 'City', 'woeid': 648820, 'latt_long': '51.451809,7.0106'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}, {'title': 'DÃ¼sseldorf', 'location_type': 'City', 'woeid': 646099, 'latt_long': '51.215630,6.776040'}]
+2020-05-14 11:41:12,484 lackey INFO     Lackey v0.0
+2020-05-14 11:41:12,484 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:41:12,484 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:41:12,484 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:41:12,484 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:41:15,161 lackey DEBUG    None
+2020-05-14 11:41:49,085 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'Bolt 2', 'description': 'Craft bolt 2', 'target_date': 'May,24,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '4ecdc4'}
+2020-05-14 11:43:53,871 lackey DEBUG    None
+2020-05-14 11:43:56,581 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 11:50:29,967 lackey INFO     Lackey v0.0
+2020-05-14 11:50:29,967 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:50:29,967 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:50:29,967 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:50:29,967 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:50:32,110 lackey DEBUG    None
+2020-05-14 11:50:34,828 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 11:52:10,234 lackey INFO     Lackey v0.0
+2020-05-14 11:52:10,234 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:52:10,234 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:52:10,234 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:52:10,234 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:52:12,364 lackey DEBUG    None
+2020-05-14 11:52:14,161 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 11:54:04,295 lackey INFO     Lackey v0.0
+2020-05-14 11:54:04,296 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:54:04,296 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:54:04,296 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:54:04,296 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:54:06,584 lackey DEBUG    None
+2020-05-14 11:54:40,823 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 11:55:55,800 lackey INFO     Lackey v0.0
+2020-05-14 11:55:55,800 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:55:55,800 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:55:55,800 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:55:55,800 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:55:57,984 lackey DEBUG    None
+2020-05-14 11:56:02,130 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 11:57:40,450 lackey INFO     Lackey v0.0
+2020-05-14 11:57:40,450 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 11:57:40,450 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 11:57:40,450 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:57:40,450 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 11:57:42,558 lackey DEBUG    None
+2020-05-14 11:57:45,408 lackey DEBUG    [{'title': 'Seoul', 'location_type': 'City', 'woeid': 1132599, 'latt_long': '37.557121,126.977379'}, {'title': 'San Jose', 'location_type': 'City', 'woeid': 2488042, 'latt_long': '37.338581,-121.885567'}, {'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Brussels', 'location_type': 'City', 'woeid': 968019, 'latt_long': '50.848381,4.349680'}, {'title': 'Boise', 'location_type': 'City', 'woeid': 2366355, 'latt_long': '43.606979,-116.193413'}, {'title': 'Toulouse', 'location_type': 'City', 'woeid': 628886, 'latt_long': '43.605728,1.448690'}, {'title': 'Marseille', 'location_type': 'City', 'woeid': 610264, 'latt_long': '43.293701,5.372470'}, {'title': 'Sendai', 'location_type': 'City', 'woeid': 1118129, 'latt_long': '38.314362,140.758194'}, {'title': 'Essen', 'location_type': 'City', 'woeid': 648820, 'latt_long': '51.451809,7.0106'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}, {'title': 'DÃ¼sseldorf', 'location_type': 'City', 'woeid': 646099, 'latt_long': '51.215630,6.776040'}]
+2020-05-14 12:02:35,786 lackey INFO     Lackey v0.0
+2020-05-14 12:02:35,787 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:02:35,787 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:02:35,787 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:02:35,787 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:02:38,627 lackey DEBUG    None
+2020-05-14 12:02:55,213 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:04:57,625 lackey INFO     Lackey v0.0
+2020-05-14 12:04:57,625 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:04:57,625 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:04:57,625 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:04:57,625 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:04:59,954 lackey DEBUG    None
+2020-05-14 12:05:02,490 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:05:53,973 lackey INFO     Lackey v0.0
+2020-05-14 12:05:53,974 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:05:53,974 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:05:53,974 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:05:53,974 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:05:56,447 lackey DEBUG    None
+2020-05-14 12:06:00,700 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:06:31,246 lackey INFO     Lackey v0.0
+2020-05-14 12:06:31,247 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:06:31,247 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:06:31,247 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:06:31,247 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:06:33,587 lackey DEBUG    None
+2020-05-14 12:06:37,100 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:07:54,154 lackey INFO     Lackey v0.0
+2020-05-14 12:07:54,154 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:07:54,154 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:07:54,154 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:07:54,154 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:07:56,344 lackey DEBUG    None
+2020-05-14 12:07:58,881 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:09:00,012 lackey INFO     Lackey v0.0
+2020-05-14 12:09:00,013 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:09:00,013 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:09:00,013 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:09:00,013 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:09:02,142 lackey DEBUG    None
+2020-05-14 12:09:06,438 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:12:11,761 lackey INFO     Lackey v0.0
+2020-05-14 12:12:11,762 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:12:11,762 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:12:11,762 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:12:11,762 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:12:13,965 lackey DEBUG    None
+2020-05-14 12:12:16,194 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:14:10,928 lackey INFO     Lackey v0.0
+2020-05-14 12:14:10,928 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:14:10,928 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:14:10,928 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:14:10,928 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:14:13,154 lackey DEBUG    None
+2020-05-14 12:14:15,572 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:14:52,719 lackey INFO     Lackey v0.0
+2020-05-14 12:14:52,719 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:14:52,719 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:14:52,720 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:14:52,720 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:14:54,874 lackey DEBUG    None
+2020-05-14 12:15:00,107 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:16:34,195 lackey INFO     Lackey v0.0
+2020-05-14 12:16:34,195 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:16:34,196 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:16:34,196 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:16:34,196 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:16:36,431 lackey DEBUG    None
+2020-05-14 12:16:38,520 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:17:20,748 lackey INFO     Lackey v0.0
+2020-05-14 12:17:20,748 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:17:20,749 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:17:20,749 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:17:20,749 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:17:22,844 lackey DEBUG    None
+2020-05-14 12:17:25,881 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:18:02,337 lackey INFO     Lackey v0.0
+2020-05-14 12:18:02,337 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:18:02,338 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:18:02,338 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:18:02,338 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:18:04,520 lackey DEBUG    None
+2020-05-14 12:18:07,074 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:23:04,801 lackey INFO     Lackey v0.0
+2020-05-14 12:23:04,801 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:23:04,801 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:23:04,801 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:23:04,802 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:23:07,136 lackey DEBUG    None
+2020-05-14 12:23:11,228 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:24:02,489 lackey INFO     Lackey v0.0
+2020-05-14 12:24:02,489 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:24:02,489 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:24:02,490 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:24:02,490 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:24:04,670 lackey DEBUG    None
+2020-05-14 12:24:07,776 lackey DEBUG    [{'title': 'Manchester', 'location_type': 'City', 'woeid': 28218, 'latt_long': '53.479599,-2.248810'}, {'title': 'Los Angeles', 'location_type': 'City', 'woeid': 2442047, 'latt_long': '34.053490,-118.245323'}, {'title': 'Johannesburg', 'location_type': 'City', 'woeid': 1582504, 'latt_long': '-26.204941,28.040030'}, {'title': 'Buenos Aires', 'location_type': 'City', 'woeid': 468739, 'latt_long': '-34.608521,-58.373539'}, {'title': 'Fresno', 'location_type': 'City', 'woeid': 2407517, 'latt_long': '36.740681,-119.785728'}, {'title': 'Mesa', 'location_type': 'City', 'woeid': 2449808, 'latt_long': '33.417042,-111.831459'}, {'title': 'Budapest', 'location_type': 'City', 'woeid': 804365, 'latt_long': '47.506222,19.064819'}, {'title': 'Bucharest', 'location_type': 'City', 'woeid': 868274, 'latt_long': '44.434200,26.102970'}, {'title': 'Naples', 'location_type': 'City', 'woeid': 719258, 'latt_long': '40.852268,14.238990'}, {'title': 'Charleston', 'location_type': 'City', 'woeid': 2378319, 'latt_long': '32.781151,-79.931602'}, {'title': 'Preston', 'location_type': 'City', 'woeid': 32566, 'latt_long': '53.774281,-2.707900'}, {'title': 'Leicester', 'location_type': 'City', 'woeid': 26062, 'latt_long': '52.637981,-1.140430'}, {'title': 'Dresden', 'location_type': 'City', 'woeid': 645686, 'latt_long': '51.053631,13.74081'}, {'title': 'Essen', 'location_type': 'City', 'woeid': 648820, 'latt_long': '51.451809,7.0106'}, {'title': 'St Ives', 'location_type': 'City', 'woeid': 35662, 'latt_long': '50.21032,-5.48569'}, {'title': 'Manchester', 'location_type': 'City', 'woeid': 2444674, 'latt_long': '42.990833,-71.463611'}, {'title': 'Middlesbrough', 'location_type': 'City', 'woeid': 28869, 'latt_long': '54.573051,-1.237630'}, {'title': 'Des Moines', 'location_type': 'City', 'woeid': 2391446, 'latt_long': '41.573711,-93.617653'}]
+2020-05-14 12:36:11,418 lackey INFO     Lackey v0.0
+2020-05-14 12:36:11,418 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:36:11,418 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:36:11,419 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:36:11,419 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:36:13,633 lackey DEBUG    None
+2020-05-14 12:36:16,228 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 12:36:17,362 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 12:36:17,377 lackey DEBUG    get data for config funcs
+2020-05-14 12:44:04,127 lackey INFO     Lackey v0.0
+2020-05-14 12:44:04,128 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:44:04,128 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:44:04,128 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:44:04,128 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:44:06,297 lackey DEBUG    get data for config funcs
+2020-05-14 12:45:49,323 lackey INFO     Lackey v0.0
+2020-05-14 12:45:49,323 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:45:49,324 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:45:49,324 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:45:49,324 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:45:57,174 lackey INFO     Lackey v0.0
+2020-05-14 12:45:57,175 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:45:57,175 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:45:57,175 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:45:57,175 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:46:06,565 lackey INFO     Lackey v0.0
+2020-05-14 12:46:06,565 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:46:06,566 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:46:06,566 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:46:06,566 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:46:08,722 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 12:46:08,722 lackey DEBUG    get data for config funcs
+2020-05-14 12:49:17,313 lackey INFO     Lackey v0.0
+2020-05-14 12:49:17,314 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:49:17,314 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:49:17,314 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:49:17,314 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:49:19,515 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    ShouldWeatherUpdate.checkIfUpdateNeeded()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 15, in checkIfUpdateNeeded
+    x = WeatherForecast.query.filter_by(woied=config['woied']).first()
+TypeError: 'WeatherConfig' object is not subscriptable
+2020-05-14 12:49:38,624 lackey INFO     Lackey v0.0
+2020-05-14 12:49:38,625 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:49:38,625 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:49:38,625 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:49:38,625 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:49:40,813 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: weather_forecast.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    ShouldWeatherUpdate.checkIfUpdateNeeded()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 15, in checkIfUpdateNeeded
+    x = WeatherForecast.query.filter_by(woied=config.woied).first()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3300, in first
+    ret = list(self[0:1])
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3078, in __getitem__
+    return list(res)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3405, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 3430, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\sql\elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\engine\default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: weather_forecast.id
+[SQL: SELECT weather_forecast.id AS weather_forecast_id, weather_forecast.date AS weather_forecast_date, weather_forecast.weather_state_name AS weather_forecast_weather_state_name, weather_forecast.icon_link AS weather_forecast_icon_link, weather_forecast.min_temp AS weather_forecast_min_temp, weather_forecast.max_temp AS weather_forecast_max_temp, weather_forecast.humidity AS weather_forecast_humidity, weather_forecast.wind_speed AS weather_forecast_wind_speed, weather_forecast.predictability AS weather_forecast_predictability, weather_forecast.woied AS weather_forecast_woied 
+FROM weather_forecast 
+WHERE weather_forecast.woied = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('2490383', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-05-14 12:53:05,260 lackey INFO     Lackey v0.0
+2020-05-14 12:53:05,261 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:53:05,261 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:53:05,261 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:53:05,261 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:53:45,450 lackey INFO     Lackey v0.0
+2020-05-14 12:53:45,450 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:53:45,450 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:53:45,450 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:53:45,451 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:54:10,187 lackey INFO     Lackey v0.0
+2020-05-14 12:54:10,187 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:54:10,187 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:54:10,187 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:54:10,188 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:55:02,271 lackey INFO     Lackey v0.0
+2020-05-14 12:55:02,271 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:55:02,271 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:55:02,271 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:55:02,272 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:55:10,316 lackey INFO     Lackey v0.0
+2020-05-14 12:55:10,316 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 12:55:10,316 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 12:55:10,317 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 12:55:10,317 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:02:31,901 lackey INFO     Lackey v0.0
+2020-05-14 13:02:31,901 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:02:31,901 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:02:31,901 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:02:31,901 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:03:26,211 lackey INFO     Lackey v0.0
+2020-05-14 13:03:26,211 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:03:26,211 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:03:26,211 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:03:26,211 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:03:42,849 lackey INFO     Lackey v0.0
+2020-05-14 13:03:42,850 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:03:42,850 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:03:42,850 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:03:42,850 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:04:08,212 lackey INFO     Lackey v0.0
+2020-05-14 13:04:08,213 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:04:08,213 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:04:08,213 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:04:08,213 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:04:37,418 lackey INFO     Lackey v0.0
+2020-05-14 13:04:37,419 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:04:37,419 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:04:37,420 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:04:37,420 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:05:31,756 lackey INFO     Lackey v0.0
+2020-05-14 13:05:31,757 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:05:31,757 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:05:31,757 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:05:31,757 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:05:40,473 lackey INFO     Lackey v0.0
+2020-05-14 13:05:40,473 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:05:40,473 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:05:40,473 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:05:40,473 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:06:15,876 lackey INFO     Lackey v0.0
+2020-05-14 13:06:15,878 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:06:15,879 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:06:15,879 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:06:15,879 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:06:50,529 lackey INFO     Lackey v0.0
+2020-05-14 13:06:50,529 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:06:50,529 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:06:50,529 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:06:50,530 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:07:49,931 lackey INFO     Lackey v0.0
+2020-05-14 13:07:49,931 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:07:49,931 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:07:49,931 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:07:49,931 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:08:23,538 lackey INFO     Lackey v0.0
+2020-05-14 13:08:23,539 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:08:23,539 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:08:23,539 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:08:23,539 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:04,750 lackey INFO     Lackey v0.0
+2020-05-14 13:11:04,751 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:11:04,752 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:11:04,753 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:04,753 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:32,622 lackey INFO     Lackey v0.0
+2020-05-14 13:11:32,622 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:11:32,622 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:11:32,622 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:32,622 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:49,758 lackey INFO     Lackey v0.0
+2020-05-14 13:11:49,758 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:11:49,759 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:11:49,759 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:49,759 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:11:52,064 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2523, in _determine_joins
+    consider_as_foreign_keys=consider_as_foreign_keys,
+  File "<string>", line 2, in join_condition
+  File "<string>", line 2, in _join_condition
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\deprecations.py", line 128, in warned
+    return fn(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\sql\selectable.py", line 952, in _join_condition
+    % (a.description, b.description, hint)
+sqlalchemy.exc.NoForeignKeysError: Can't find any foreign key relationships between 'weather_config' and 'weather_forecast'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 14, in get
+    if ShouldWeatherUpdate.checkConfig():
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 6, in checkConfig
+    config = WeatherConfig.query.all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_sqlalchemy\__init__.py", line 517, in __get__
+    mapper = orm.class_mapper(type)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 451, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 430, in _inspect_mapped_class
+    mapper._configure_all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1337, in _configure_all
+    configure_mappers()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 3255, in configure_mappers
+    mapper._post_configure_properties()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1950, in _post_configure_properties
+    prop.init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\interfaces.py", line 196, in init
+    self.do_init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 1984, in do_init
+    self._setup_join_conditions()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2064, in _setup_join_conditions
+    can_be_synced_fn=self._columns_are_mapped,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2408, in __init__
+    self._determine_joins()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2551, in _determine_joins
+    from_=nfe,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.NoForeignKeysError: Could not determine join condition between parent/child tables on relationship WeatherConfig.forecast - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2020-05-14 13:12:44,310 lackey INFO     Lackey v0.0
+2020-05-14 13:12:44,310 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:12:44,311 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:12:44,311 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:12:44,311 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:12:46,435 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2523, in _determine_joins
+    consider_as_foreign_keys=consider_as_foreign_keys,
+  File "<string>", line 2, in join_condition
+  File "<string>", line 2, in _join_condition
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\deprecations.py", line 128, in warned
+    return fn(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\sql\selectable.py", line 952, in _join_condition
+    % (a.description, b.description, hint)
+sqlalchemy.exc.NoForeignKeysError: Can't find any foreign key relationships between 'weather_config' and 'weather_forecast'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 14, in get
+    if ShouldWeatherUpdate.checkConfig():
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 6, in checkConfig
+    config = WeatherConfig.query.all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_sqlalchemy\__init__.py", line 517, in __get__
+    mapper = orm.class_mapper(type)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 451, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 430, in _inspect_mapped_class
+    mapper._configure_all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1337, in _configure_all
+    configure_mappers()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 3255, in configure_mappers
+    mapper._post_configure_properties()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1950, in _post_configure_properties
+    prop.init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\interfaces.py", line 196, in init
+    self.do_init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 1984, in do_init
+    self._setup_join_conditions()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2064, in _setup_join_conditions
+    can_be_synced_fn=self._columns_are_mapped,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2408, in __init__
+    self._determine_joins()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2551, in _determine_joins
+    from_=nfe,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.NoForeignKeysError: Could not determine join condition between parent/child tables on relationship WeatherConfig.forecast - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2020-05-14 13:14:00,645 lackey INFO     Lackey v0.0
+2020-05-14 13:14:00,646 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:14:00,646 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:14:00,646 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:14:00,646 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:14:02,773 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2523, in _determine_joins
+    consider_as_foreign_keys=consider_as_foreign_keys,
+  File "<string>", line 2, in join_condition
+  File "<string>", line 2, in _join_condition
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\deprecations.py", line 128, in warned
+    return fn(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\sql\selectable.py", line 952, in _join_condition
+    % (a.description, b.description, hint)
+sqlalchemy.exc.NoForeignKeysError: Can't find any foreign key relationships between 'weather_config' and 'weather_forecast'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 14, in get
+    if ShouldWeatherUpdate.checkConfig():
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 6, in checkConfig
+    config = WeatherConfig.query.all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_sqlalchemy\__init__.py", line 517, in __get__
+    mapper = orm.class_mapper(type)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 451, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 430, in _inspect_mapped_class
+    mapper._configure_all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1337, in _configure_all
+    configure_mappers()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 3255, in configure_mappers
+    mapper._post_configure_properties()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1950, in _post_configure_properties
+    prop.init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\interfaces.py", line 196, in init
+    self.do_init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 1984, in do_init
+    self._setup_join_conditions()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2064, in _setup_join_conditions
+    can_be_synced_fn=self._columns_are_mapped,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2408, in __init__
+    self._determine_joins()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2551, in _determine_joins
+    from_=nfe,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.NoForeignKeysError: Could not determine join condition between parent/child tables on relationship WeatherConfig.forecast - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2020-05-14 13:14:59,579 lackey INFO     Lackey v0.0
+2020-05-14 13:14:59,580 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:14:59,580 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:14:59,581 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:14:59,581 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:16:07,726 lackey INFO     Lackey v0.0
+2020-05-14 13:16:07,727 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:16:07,728 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:16:07,728 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:16:07,729 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:16:17,062 lackey INFO     Lackey v0.0
+2020-05-14 13:16:17,062 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:16:17,063 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:16:17,064 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:16:17,066 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:29,145 lackey INFO     Lackey v0.0
+2020-05-14 13:18:29,146 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:18:29,148 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:18:29,148 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:29,149 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:35,908 lackey INFO     Lackey v0.0
+2020-05-14 13:18:35,908 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:18:35,908 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:18:35,908 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:35,909 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:48,965 lackey INFO     Lackey v0.0
+2020-05-14 13:18:48,965 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:18:48,965 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:18:48,965 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:48,965 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:18:51,326 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 14, in get
+    if ShouldWeatherUpdate.checkConfig():
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 6, in checkConfig
+    config = WeatherConfig.query.all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_sqlalchemy\__init__.py", line 517, in __get__
+    mapper = orm.class_mapper(type)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 451, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 430, in _inspect_mapped_class
+    mapper._configure_all()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1337, in _configure_all
+    configure_mappers()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 3255, in configure_mappers
+    mapper._post_configure_properties()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\mapper.py", line 1950, in _post_configure_properties
+    prop.init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\interfaces.py", line 196, in init
+    self.do_init()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 1983, in do_init
+    self._process_dependent_arguments()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 2045, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\langhelpers.py", line 883, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\relationships.py", line 1968, in entity
+    % (self.key, type(argument))
+sqlalchemy.exc.ArgumentError: relationship 'forecast' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+2020-05-14 13:19:50,377 lackey INFO     Lackey v0.0
+2020-05-14 13:19:50,377 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:19:50,378 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:19:50,378 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:19:50,378 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:19:52,546 lackey DEBUG    None
+2020-05-14 13:20:02,614 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-14 13:20:03,899 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383', 'forecast': []}
+2020-05-14 13:20:03,917 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 406, in _entity_descriptor
+    return getattr(entity, key)
+AttributeError: type object 'WeatherForecast' has no attribute 'woied'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    ShouldWeatherUpdate.checkIfUpdateNeeded()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 15, in checkIfUpdateNeeded
+    x = WeatherForecast.query.filter_by(woied=config.woied).first()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in filter_by
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in <listcomp>
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 412, in _entity_descriptor
+    replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: Entity '<class 'lackey.models.WeatherForecast'>' has no property 'woied'
+2020-05-14 13:22:42,402 lackey INFO     Lackey v0.0
+2020-05-14 13:22:42,402 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:22:42,403 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:22:42,403 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:22:42,403 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:22:55,850 lackey INFO     Lackey v0.0
+2020-05-14 13:22:55,850 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:22:55,850 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:22:55,850 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:22:55,850 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:22:58,107 lackey DEBUG    None
+2020-05-14 13:23:03,958 lackey DEBUG    [{'title': 'Hong Kong', 'location_type': 'City', 'woeid': 2165352, 'latt_long': '22.411200,114.153999'}, {'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-14 13:23:06,516 lackey.app ERROR    Exception on /Weather/{"city":"Honolulu","woied":"2423945"} [POST]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 34, in post
+    logger.debug(f'WEATHER.POST: {new}')
+  File "C:\Users\wilso\Desktop\Lackey\lackey\models.py", line 50, in __repr__
+    "forecast": self.forecast
+AttributeError: 'WeatherConfig' object has no attribute 'forecast'
+2020-05-14 13:23:22,549 lackey INFO     Lackey v0.0
+2020-05-14 13:23:22,550 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:23:22,550 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:23:22,550 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:23:22,550 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:23:24,726 lackey DEBUG    None
+2020-05-14 13:23:30,130 lackey DEBUG    [{'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-14 13:23:30,946 lackey DEBUG    WEATHER.POST: {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:23:30,965 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 406, in _entity_descriptor
+    return getattr(entity, key)
+AttributeError: type object 'WeatherForecast' has no attribute 'woied'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    ShouldWeatherUpdate.checkIfUpdateNeeded()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 15, in checkIfUpdateNeeded
+    x = WeatherForecast.query.filter_by(woied=config.woied).first()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in filter_by
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in <listcomp>
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 412, in _entity_descriptor
+    replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: Entity '<class 'lackey.models.WeatherForecast'>' has no property 'woied'
+2020-05-14 13:24:30,733 lackey INFO     Lackey v0.0
+2020-05-14 13:24:30,734 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:24:30,734 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:24:30,734 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:24:30,734 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:24:43,592 lackey INFO     Lackey v0.0
+2020-05-14 13:24:43,592 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:24:43,592 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:24:43,592 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:24:43,592 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:24:45,907 lackey DEBUG    None
+2020-05-14 13:24:48,027 lackey DEBUG    []
+2020-05-14 13:24:53,422 lackey DEBUG    [{'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-14 13:24:54,423 lackey DEBUG    WEATHER.POST: {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:24:54,440 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 406, in _entity_descriptor
+    return getattr(entity, key)
+AttributeError: type object 'WeatherForecast' has no attribute 'woied'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    ShouldWeatherUpdate.checkIfUpdateNeeded()
+  File "C:\Users\wilso\Desktop\Lackey\lackey\actions\model_actions\weather.py", line 15, in checkIfUpdateNeeded
+    x = WeatherForecast.query.filter_by(woied=config.woied).first()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in filter_by
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\query.py", line 1852, in <listcomp>
+    for key, value in kwargs.items()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\base.py", line 412, in _entity_descriptor
+    replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: Entity '<class 'lackey.models.WeatherForecast'>' has no property 'woied'
+2020-05-14 13:25:54,064 lackey INFO     Lackey v0.0
+2020-05-14 13:25:54,064 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:25:54,065 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:25:54,065 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:25:54,065 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:26:02,089 lackey INFO     Lackey v0.0
+2020-05-14 13:26:02,090 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:26:02,090 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:26:02,090 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:26:02,090 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:26:11,943 lackey INFO     Lackey v0.0
+2020-05-14 13:26:11,943 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:26:11,943 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:26:11,943 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:26:11,943 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:26:14,489 lackey DEBUG    None
+2020-05-14 13:26:21,764 lackey DEBUG    [{'title': 'Dubai', 'location_type': 'City', 'woeid': 1940345, 'latt_long': '25.269440,55.308651'}]
+2020-05-14 13:26:28,256 lackey DEBUG    None
+2020-05-14 13:27:25,434 lackey INFO     Lackey v0.0
+2020-05-14 13:27:25,435 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:27:25,435 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:27:25,435 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:27:25,435 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:27:27,643 lackey DEBUG    None
+2020-05-14 13:39:06,199 lackey INFO     Lackey v0.0
+2020-05-14 13:39:06,199 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:39:06,199 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:39:06,200 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:39:06,200 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:39:08,479 lackey DEBUG    None
+2020-05-14 13:39:18,498 lackey.app ERROR    Exception on /Weather/query=hono [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 23, in get
+    data = ext_act_weather.search_city(query)
+NameError: name 'ext_act_weather' is not defined
+2020-05-14 13:39:33,573 lackey INFO     Lackey v0.0
+2020-05-14 13:39:33,573 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:39:33,573 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:39:33,573 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:39:33,573 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:39:36,070 lackey DEBUG    None
+2020-05-14 13:39:39,794 lackey DEBUG    [{'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-14 13:39:42,158 lackey DEBUG    WEATHER.POST: {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:39:42,174 lackey DEBUG    [{'city': 'Honolulu', 'woied': '2423945'}]
+2020-05-14 13:43:35,012 lackey INFO     Lackey v0.0
+2020-05-14 13:43:35,012 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:43:35,013 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:43:35,013 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:43:35,013 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:43:38,163 lackey DEBUG    works
+2020-05-14 13:43:38,163 lackey DEBUG    [{'city': 'Honolulu', 'woied': '2423945'}]
+2020-05-14 13:44:52,801 lackey INFO     Lackey v0.0
+2020-05-14 13:44:52,801 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:44:52,801 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:44:52,802 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:44:52,802 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:45:31,104 lackey INFO     Lackey v0.0
+2020-05-14 13:45:31,104 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:45:31,104 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:45:31,104 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:45:31,105 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:45:33,486 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:45:33,486 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 24, in get
+    logger.debug(data)
+UnboundLocalError: local variable 'data' referenced before assignment
+2020-05-14 13:45:48,075 lackey INFO     Lackey v0.0
+2020-05-14 13:45:48,075 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:45:48,076 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:45:48,076 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:45:48,076 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:45:50,636 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:45:50,636 lackey DEBUG    this is being worked on
+2020-05-14 13:47:06,965 lackey INFO     Lackey v0.0
+2020-05-14 13:47:06,966 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:47:06,966 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:47:06,966 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:06,966 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:09,177 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:47:09,177 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 43, in updateNeeded
+    check = WeatherForecast.query.filter_by(woied=config.woied)
+AttributeError: 'list' object has no attribute 'woied'
+2020-05-14 13:47:22,914 lackey INFO     Lackey v0.0
+2020-05-14 13:47:22,915 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:47:22,915 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:47:22,915 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:22,915 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:25,031 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:47:25,032 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 43, in updateNeeded
+    check = WeatherForecast.query.filter_by(woied=config['woied'])
+TypeError: list indices must be integers or slices, not str
+2020-05-14 13:47:47,869 lackey INFO     Lackey v0.0
+2020-05-14 13:47:47,869 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:47:47,869 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:47:47,870 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:47,870 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:47:50,072 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:47:50,073 lackey DEBUG    SELECT weather_forecast.id AS weather_forecast_id, weather_forecast.date AS weather_forecast_date, weather_forecast.weather_state_name AS weather_forecast_weather_state_name, weather_forecast.icon_link AS weather_forecast_icon_link, weather_forecast.min_temp AS weather_forecast_min_temp, weather_forecast.max_temp AS weather_forecast_max_temp, weather_forecast.humidity AS weather_forecast_humidity, weather_forecast.wind_speed AS weather_forecast_wind_speed, weather_forecast.predictability AS weather_forecast_predictability, weather_forecast.woied AS weather_forecast_woied 
+FROM weather_forecast 
+WHERE weather_forecast.woied = ?
+2020-05-14 13:48:08,429 lackey INFO     Lackey v0.0
+2020-05-14 13:48:08,429 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:48:08,429 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:48:08,429 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:48:08,429 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:48:10,663 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:48:10,667 lackey DEBUG    None
+2020-05-14 13:51:16,707 lackey INFO     Lackey v0.0
+2020-05-14 13:51:16,707 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:51:16,707 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:51:16,708 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:51:16,708 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:51:18,876 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:51:19,731 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 45, in updateNeeded
+    WeatherActions.update(each.woied)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 48, in update
+    obj = weather.return_weather_data(woeid)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\external_apis\weather.py", line 64, in return_weather_data
+    result['woied'] = woied
+NameError: name 'woied' is not defined
+2020-05-14 13:51:44,543 lackey INFO     Lackey v0.0
+2020-05-14 13:51:44,543 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:51:44,544 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:51:44,544 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:51:44,544 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:51:46,692 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:51:48,034 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 45, in updateNeeded
+    WeatherActions.update(each.woied)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 48, in update
+    obj = weather.return_weather_data(woeid)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\external_apis\weather.py", line 64, in return_weather_data
+    result['woied'] = woied
+TypeError: list indices must be integers or slices, not str
+2020-05-14 13:52:59,542 lackey INFO     Lackey v0.0
+2020-05-14 13:52:59,542 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:52:59,542 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:52:59,543 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:52:59,543 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:53:01,669 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:53:02,931 lackey DEBUG    [{'date': '2020-05-14', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 72.17, 'max_temp': 78.75, 'humidity': 68, 'wind_speed': 4.624611398891805, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 73.05, 'max_temp': 79.41, 'humidity': 66, 'wind_speed': 7.121090650462633, 'predictability': 70, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.73, 'max_temp': 80.12, 'humidity': 65, 'wind_speed': 9.550981969625388, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 73.76, 'max_temp': 80.51, 'humidity': 66, 'wind_speed': 10.714357929176279, 'predictability': 70, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.65, 'max_temp': 78.03, 'humidity': 73, 'wind_speed': 10.864373025849043, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.45, 'max_temp': 79.66, 'humidity': 74, 'wind_speed': 10.944857830271214, 'predictability': 73, 'woied': '2423945'}]
+2020-05-14 13:58:27,839 lackey INFO     Lackey v0.0
+2020-05-14 13:58:27,839 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:58:27,840 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:58:27,840 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:58:27,840 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:58:30,165 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 13:59:40,575 lackey INFO     Lackey v0.0
+2020-05-14 13:59:40,576 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 13:59:40,576 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 13:59:40,576 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:59:40,576 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 13:59:42,933 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:02:14,755 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:05:17,772 lackey INFO     Lackey v0.0
+2020-05-14 14:05:17,772 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:05:17,772 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:05:17,772 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:05:17,772 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:05:19,923 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:05:19,927 lackey DEBUG    update
+2020-05-14 14:10:45,787 lackey INFO     Lackey v0.0
+2020-05-14 14:10:45,787 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:10:45,787 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:10:45,787 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:10:45,787 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:03,804 lackey INFO     Lackey v0.0
+2020-05-14 14:11:03,805 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:11:03,805 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:11:03,805 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:03,805 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:06,091 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:11:07,001 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    data = WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 45, in updateNeeded
+    data[each.city] = (WeatherActions.update(each.woied))
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 53, in update
+    new_data = json.loads(weather.return_weather_data(woied))
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2020-05-14 14:11:24,715 lackey INFO     Lackey v0.0
+2020-05-14 14:11:24,715 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:11:24,715 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:11:24,715 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:24,715 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:26,882 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:11:27,701 lackey DEBUG    {'date': '2020-05-14', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 72.17, 'max_temp': 78.75, 'humidity': 68, 'wind_speed': 4.624611398891805, 'predictability': 73, 'woied': '2423945'}
+2020-05-14 14:11:27,710 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 73.05, 'max_temp': 79.41, 'humidity': 66, 'wind_speed': 7.121090650462633, 'predictability': 70, 'woied': '2423945'}
+2020-05-14 14:11:27,717 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.73, 'max_temp': 80.12, 'humidity': 65, 'wind_speed': 9.550981969625388, 'predictability': 71, 'woied': '2423945'}
+2020-05-14 14:11:27,724 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 73.76, 'max_temp': 80.51, 'humidity': 66, 'wind_speed': 10.714357929176279, 'predictability': 70, 'woied': '2423945'}
+2020-05-14 14:11:27,731 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.65, 'max_temp': 78.03, 'humidity': 73, 'wind_speed': 10.864373025849043, 'predictability': 73, 'woied': '2423945'}
+2020-05-14 14:11:27,739 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.45, 'max_temp': 79.66, 'humidity': 74, 'wind_speed': 10.944857830271214, 'predictability': 73, 'woied': '2423945'}
+2020-05-14 14:11:56,249 lackey INFO     Lackey v0.0
+2020-05-14 14:11:56,250 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:11:56,250 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:11:56,250 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:56,250 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:11:58,497 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:11:58,500 lackey DEBUG    dontUpdate
+2020-05-14 14:14:53,477 lackey INFO     Lackey v0.0
+2020-05-14 14:14:53,477 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:14:53,477 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:14:53,477 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:14:53,478 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:02,837 lackey INFO     Lackey v0.0
+2020-05-14 14:15:02,837 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:15:02,837 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:15:02,837 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:02,837 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:14,679 lackey INFO     Lackey v0.0
+2020-05-14 14:15:14,679 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:15:14,679 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:15:14,680 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:14,680 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:16,805 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:15:16,809 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    data = WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 46, in updateNeeded
+    elif check and checkDate(check): # if ood in db
+NameError: name 'checkDate' is not defined
+2020-05-14 14:15:37,793 lackey INFO     Lackey v0.0
+2020-05-14 14:15:37,794 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:15:37,794 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:15:37,794 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:37,794 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:15:39,926 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:15:39,929 lackey DEBUG    checkDate
+2020-05-14 14:15:39,929 lackey DEBUG    {'date': '2020-05-14', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 72.17, 'max_temp': 78.75, 'humidity': 68.0, 'wind_speed': 4.624611398891805, 'predictability': 73, 'woied': '2423945'}
+2020-05-14 14:16:00,913 lackey INFO     Lackey v0.0
+2020-05-14 14:16:00,913 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:16:00,914 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:16:00,914 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:16:00,914 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:16:03,173 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:16:03,176 lackey DEBUG    checkDate
+2020-05-14 14:16:03,176 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 15, in get
+    data = WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 46, in updateNeeded
+    elif check and WeatherActions.checkDate(check): # if ood in db
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 54, in checkDate
+    logger.debug(check['date'])
+TypeError: 'WeatherForecast' object is not subscriptable
+2020-05-14 14:16:16,875 lackey INFO     Lackey v0.0
+2020-05-14 14:16:16,875 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:16:16,875 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:16:16,875 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:16:16,875 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:16:19,097 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:16:19,104 lackey DEBUG    checkDate
+2020-05-14 14:16:19,104 lackey DEBUG    2020-05-14
+2020-05-14 14:30:24,020 lackey INFO     Lackey v0.0
+2020-05-14 14:30:24,021 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:30:24,021 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:30:24,021 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:30:24,021 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:30:40,762 lackey INFO     Lackey v0.0
+2020-05-14 14:30:40,763 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:30:40,763 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:30:40,763 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:30:40,763 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:32:03,436 lackey INFO     Lackey v0.0
+2020-05-14 14:32:03,436 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:32:03,436 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:32:03,436 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:32:03,436 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:32:14,353 lackey INFO     Lackey v0.0
+2020-05-14 14:32:14,353 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:32:14,354 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:32:14,354 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:32:14,354 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:33:44,546 lackey INFO     Lackey v0.0
+2020-05-14 14:33:44,546 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:33:44,546 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:33:44,546 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:33:44,547 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:34:14,157 lackey INFO     Lackey v0.0
+2020-05-14 14:34:14,157 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:34:14,157 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:34:14,157 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:34:14,157 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:34:16,686 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:34:16,691 lackey DEBUG    checkDate
+2020-05-14 14:34:16,692 lackey DEBUG    2020-05-14
+2020-05-14 14:34:16,694 lackey.app ERROR    Exception on /Weather/init [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 16, in get
+    data = WeatherActions.updateNeeded(config)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 48, in updateNeeded
+    elif check and WeatherActions.checkDate(check): # if ood in db
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 58, in checkDate
+    active_date = datetime.strptime(check.date, "%Y-%m-%d")
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 277, in <module>
+    _TimeRE_cache = TimeRE()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 191, in __init__
+    self.locale_time = LocaleTime()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 69, in __init__
+    self.lang = _getlang()
+  File "c:\users\wilso\appdata\local\programs\python\python37-32\Lib\_strptime.py", line 28, in _getlang
+    return locale.getlocale(locale.LC_TIME)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 587, in getlocale
+    return _parse_localename(localename)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\locale.py", line 495, in _parse_localename
+    raise ValueError('unknown locale: %s' % localename)
+ValueError: unknown locale: en-US
+2020-05-14 14:34:48,281 lackey INFO     Lackey v0.0
+2020-05-14 14:34:48,281 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:34:48,281 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:34:48,282 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:34:48,282 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:34:50,472 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:34:50,476 lackey DEBUG    checkDate
+2020-05-14 14:34:50,476 lackey DEBUG    2020-05-14
+2020-05-14 14:34:50,481 lackey DEBUG    dontUpdate
+2020-05-14 14:35:38,513 lackey INFO     Lackey v0.0
+2020-05-14 14:35:38,514 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:35:38,514 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:35:38,514 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:35:38,514 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:35:40,818 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:35:40,822 lackey DEBUG    checkDate
+2020-05-14 14:35:40,828 lackey DEBUG    dontUpdate
+2020-05-14 14:35:52,864 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 14:35:52,879 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:35:52,880 lackey DEBUG    checkDate
+2020-05-14 14:35:52,881 lackey DEBUG    dontUpdate
+2020-05-14 14:35:52,882 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 14:35:52,884 lackey DEBUG    update
+2020-05-14 14:35:53,569 lackey DEBUG    {'date': '2020-05-14', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 49.18, 'max_temp': 64.25, 'humidity': 64, 'wind_speed': 3.0365289429147118, 'predictability': 75, 'woied': '2490383'}
+2020-05-14 14:35:53,580 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 49.6, 'max_temp': 68.77, 'humidity': 53, 'wind_speed': 3.397771390850765, 'predictability': 70, 'woied': '2490383'}
+2020-05-14 14:35:53,588 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 52.38, 'max_temp': 62.46, 'humidity': 74, 'wind_speed': 2.3889759099817067, 'predictability': 75, 'woied': '2490383'}
+2020-05-14 14:35:53,597 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.96, 'max_temp': 65.94, 'humidity': 69, 'wind_speed': 4.028131476987725, 'predictability': 75, 'woied': '2490383'}
+2020-05-14 14:35:53,605 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.38, 'max_temp': 64.68, 'humidity': 70, 'wind_speed': 3.494391340480924, 'predictability': 75, 'woied': '2490383'}
+2020-05-14 14:35:53,614 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.31, 'max_temp': 66.42, 'humidity': 71, 'wind_speed': 2.7589437683925873, 'predictability': 73, 'woied': '2490383'}
+2020-05-14 14:36:19,294 lackey INFO     Lackey v0.0
+2020-05-14 14:36:19,295 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 14:36:19,295 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 14:36:19,295 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:36:19,295 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 14:36:21,592 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 14:36:21,595 lackey DEBUG    checkDate
+2020-05-14 14:36:21,600 lackey DEBUG    dontUpdate
+2020-05-14 14:36:21,604 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 14:36:21,606 lackey DEBUG    checkDate
+2020-05-14 14:36:21,606 lackey DEBUG    dontUpdate

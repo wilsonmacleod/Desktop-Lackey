@@ -46,13 +46,14 @@ class WeatherConfig(db.Model):
     def __repr__(self):
         return_dict = {
             "city": self.city, 
-            "woied": self.woied
+            "woied": self.woied,
             }
         return f"{return_dict}"
 
 
 class WeatherForecast(db.Model):
-    date = db.Column(db.String(80), primary_key=True) # format = '2020-05-03'
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.String(80)) # format = '2020-05-03'
     weather_state_name = db.Column(db.String(80), nullable=False)
     icon_link = db.Column(db.String(80), nullable=False)
     min_temp = db.Column(db.Float, nullable=False) # float
@@ -60,6 +61,7 @@ class WeatherForecast(db.Model):
     humidity = db.Column(db.Float, nullable=False) # pct
     wind_speed = db.Column(db.Float, nullable=False) # mph
     predictability = db.Column(db.Integer, nullable=False) # pct
+    woied = db.Column(db.String(80), nullable=False)
 
     def __repr__(self):
         return_dict = {
@@ -70,7 +72,8 @@ class WeatherForecast(db.Model):
             "max_temp": self.max_temp, 
             "humidity": self.humidity,
             "wind_speed": self.wind_speed, 
-            "predictability": self.predictability
+            "predictability": self.predictability,
+            "woied": self.woied
             }
         return f"{return_dict}"
 
