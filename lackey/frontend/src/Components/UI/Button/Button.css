@@ -65,6 +65,21 @@
   color: #4ecdc4;;
 }
 
+.remove{
+  position: relative;
+  float: left;
+  font: bold;
+  padding: 5px;
+  color: #797979;
+  background: whitesmoke;
+  border: .5px solid #393939;
+  cursor: pointer;
+}
+.remove:hover{
+  color: #393939;;
+}
+
+
 .search-btn {
   height: 36px;
   float: left;

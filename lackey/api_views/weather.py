@@ -11,18 +11,22 @@ from lackey.external_apis import weather
 
 class WEATHER(Resource): # /Weather/<action> (None if none)
     def get(self, action):
-        if action == "init":
+        if action == 'init':
             config = WeatherConfig.query.all()
             if config != []:
                 data = WeatherActions.updateNeeded(config)
             else:
-                data = "None"
+                data = 'None'
         else:
-            action = action.split("=")
+            action = action.split('=')
             keyword = action[0]
             query = action[1]
-            if keyword == "query":
+            if keyword == 'query':
                 data = weather.search_city(query)
+            elif keyword == 'refresh':
+                obj = WeatherConfig.query.filter_by(city=query).first()
+                WeatherActions.delete(obj.woied)
+                data = WeatherActions.update(obj.woied)
         #logger.debug(data)
         return jsonify(status=200, text={"data": f"{data}"})
 
@@ -36,6 +40,12 @@ class WEATHER(Resource): # /Weather/<action> (None if none)
         db.session.add(new)
         db.session.commit()
         return jsonify(status=200)
+
+    def delete(self, action):
+        config = WeatherConfig.query.filter_by(city=action).first()
+        db.session.delete(config)
+        db.session.commit()
+        logger.debug(f'WEATHER.DELETE: {config}')
 
 class WeatherActions():  
     def updateNeeded(config):
