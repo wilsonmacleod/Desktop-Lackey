@@ -38,12 +38,13 @@ class Content extends Component {
 
     updateData = (view) => {
         this.setState({loading: true});
+        const action = 'init';
         const self = this;
         let dataFunction = null;
         if(view === "Weather"){
-            dataFunction = get.weather()
+            dataFunction = get.weather(action)
         }else{
-            dataFunction = get.calendar()
+            dataFunction = get.calendar(action)
         };
         dataFunction 
         .then((result) => {
@@ -79,7 +80,7 @@ class Content extends Component {
                 }
             });
         });
-    }
+    };
 
     componentDidMount = () => {
         let viewContent = this.props.viewContent;
@@ -126,7 +127,7 @@ class Content extends Component {
             func = post.weatherConfig(obj);
         }
         func.then(() => {
-            this.updateData(this.state.view)
+            this.updateData(view)
         });
     };
 
@@ -161,12 +162,32 @@ class Content extends Component {
     }
 
     deleteHandler = (t) => {
+        const view = this.state.view;
+        let func = '';  
         let id = t.target.value;
-        del.calendar(id)
-        .then(() => {
-            this.updateData(this.state.view)
+        if(view === 'Calendar'){
+            func = del.calendar(id);
+        }else if(view === 'Weather'){
+            func = del.weatherConfig(id);
+        };
+        func.then(() => {
+            this.updateData(view);
         });
     };
+    
+    forceRefreshDataHandler = (t) => {
+        const view = this.state.view;
+        const a = 'refresh';
+        const id = t.target.value;
+        const action = [`${a}=${id}`]
+        let func = '';
+        if(view === "Weather"){
+            func = get.weather(action);
+        };
+        func.then(() => {
+            this.updateData(view);
+        });
+    }
 
     render() { 
         console.log(this.state);
@@ -188,6 +209,8 @@ class Content extends Component {
                             searchCityOnChangeHandler={this.formUpdateHandler}
                             searchCitySubmitHandler={this.searchSubmitHandler}
                             addWeatherLocation={this.formSubmitHandler}
+                            refreshForecast={this.forceRefreshDataHandler}
+                            removeConfig={this.deleteHandler}
                         />
                     }
         try{

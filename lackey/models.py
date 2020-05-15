@@ -9,9 +9,6 @@ db = SQLAlchemy(app)
 
 class CalendarTasks(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    entered_date = db.Column(db.DateTime, 
-                        nullable=False,
-                        default=datetime.datetime.now())
     task = db.Column(db.String(80), nullable=False)
     description = db.Column(db.Text, nullable=True)
     target_date = db.Column(db.String(80), nullable=False) # day,month,year
@@ -62,6 +59,9 @@ class WeatherForecast(db.Model):
     wind_speed = db.Column(db.Float, nullable=False) # mph
     predictability = db.Column(db.Integer, nullable=False) # pct
     woied = db.Column(db.String(80), nullable=False)
+    entered_date = db.Column(db.String(80), 
+                    nullable=False,
+                    default=datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S"))
 
     def __repr__(self):
         return_dict = {
@@ -73,7 +73,8 @@ class WeatherForecast(db.Model):
             "humidity": self.humidity,
             "wind_speed": self.wind_speed, 
             "predictability": self.predictability,
-            "woied": self.woied
+            "woied": self.woied,
+            "entered_date": self.entered_date
             }
         return f"{return_dict}"
 

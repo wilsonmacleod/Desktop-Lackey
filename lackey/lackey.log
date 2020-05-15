@@ -12207,3 +12207,1059 @@ jinja2.exceptions.TemplateNotFound: index.html
 2020-05-14 22:59:27,225 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
 2020-05-14 22:59:27,227 lackey DEBUG    checkDate
 2020-05-14 22:59:27,227 lackey DEBUG    dontUpdate
+2020-05-15 09:10:50,442 lackey INFO     Lackey v0.0
+2020-05-15 09:10:50,444 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:10:50,444 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:10:50,444 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:10:50,444 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:10:53,529 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:10:53,533 lackey DEBUG    checkDate
+2020-05-15 09:10:53,540 lackey DEBUG    checkDate-true
+2020-05-15 09:10:53,541 lackey DEBUG    delete
+2020-05-15 09:10:53,549 lackey DEBUG    update
+2020-05-15 09:10:56,109 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}
+2020-05-15 09:10:56,127 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}
+2020-05-15 09:10:56,136 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 09:10:56,144 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 09:10:56,150 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}
+2020-05-15 09:10:56,158 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 09:10:56,914 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:10:56,917 lackey DEBUG    checkDate
+2020-05-15 09:10:56,918 lackey DEBUG    checkDate-true
+2020-05-15 09:10:56,918 lackey DEBUG    delete
+2020-05-15 09:10:56,924 lackey DEBUG    update
+2020-05-15 09:10:57,890 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383'}
+2020-05-15 09:10:57,897 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383'}
+2020-05-15 09:10:57,908 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383'}
+2020-05-15 09:10:57,914 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383'}
+2020-05-15 09:10:57,926 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383'}
+2020-05-15 09:10:57,935 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383'}
+2020-05-15 09:12:07,552 lackey INFO     Lackey v0.0
+2020-05-15 09:12:07,552 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:12:07,552 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:12:07,552 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:12:07,552 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:12:11,330 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:12:11,333 lackey DEBUG    checkDate
+2020-05-15 09:12:11,337 lackey DEBUG    dontUpdate
+2020-05-15 09:12:11,339 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:12:11,341 lackey DEBUG    checkDate
+2020-05-15 09:12:11,341 lackey DEBUG    dontUpdate
+2020-05-15 09:13:43,641 lackey INFO     Lackey v0.0
+2020-05-15 09:13:43,642 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:13:43,642 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:13:43,642 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:13:43,642 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:13:45,727 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:13:45,730 lackey DEBUG    checkDate
+2020-05-15 09:13:45,734 lackey DEBUG    dontUpdate
+2020-05-15 09:13:45,736 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:13:45,739 lackey DEBUG    checkDate
+2020-05-15 09:13:45,739 lackey DEBUG    dontUpdate
+2020-05-15 09:14:13,852 lackey INFO     Lackey v0.0
+2020-05-15 09:14:13,852 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:14:13,852 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:14:13,853 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:14:13,853 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:14:16,043 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:14:16,046 lackey DEBUG    checkDate
+2020-05-15 09:14:16,051 lackey DEBUG    dontUpdate
+2020-05-15 09:14:16,053 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:14:16,055 lackey DEBUG    checkDate
+2020-05-15 09:14:16,055 lackey DEBUG    dontUpdate
+2020-05-15 09:14:56,099 lackey INFO     Lackey v0.0
+2020-05-15 09:14:56,099 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:14:56,099 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:14:56,099 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:14:56,099 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:14:58,301 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:14:58,304 lackey DEBUG    checkDate
+2020-05-15 09:14:58,307 lackey DEBUG    dontUpdate
+2020-05-15 09:14:58,309 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:14:58,311 lackey DEBUG    checkDate
+2020-05-15 09:14:58,312 lackey DEBUG    dontUpdate
+2020-05-15 09:15:30,641 lackey INFO     Lackey v0.0
+2020-05-15 09:15:30,641 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:15:30,641 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:15:30,641 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:15:30,641 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:15:32,762 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:15:32,767 lackey DEBUG    checkDate
+2020-05-15 09:15:32,771 lackey DEBUG    dontUpdate
+2020-05-15 09:15:32,774 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:15:32,776 lackey DEBUG    checkDate
+2020-05-15 09:15:32,776 lackey DEBUG    dontUpdate
+2020-05-15 09:16:14,108 lackey INFO     Lackey v0.0
+2020-05-15 09:16:14,108 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:16:14,108 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:16:14,108 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:16:14,108 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:16:16,195 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:16:16,198 lackey DEBUG    checkDate
+2020-05-15 09:16:16,203 lackey DEBUG    dontUpdate
+2020-05-15 09:16:16,206 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:16:16,209 lackey DEBUG    checkDate
+2020-05-15 09:16:16,209 lackey DEBUG    dontUpdate
+2020-05-15 09:20:01,366 lackey INFO     Lackey v0.0
+2020-05-15 09:20:01,366 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:20:01,366 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:20:01,366 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:20:01,367 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:20:03,597 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:20:03,600 lackey DEBUG    checkDate
+2020-05-15 09:20:03,603 lackey DEBUG    dontUpdate
+2020-05-15 09:20:03,606 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:20:03,610 lackey DEBUG    checkDate
+2020-05-15 09:20:03,611 lackey DEBUG    dontUpdate
+2020-05-15 09:20:34,128 lackey INFO     Lackey v0.0
+2020-05-15 09:20:34,128 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:20:34,128 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:20:34,128 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:20:34,128 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:20:36,306 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:20:36,309 lackey DEBUG    checkDate
+2020-05-15 09:20:36,312 lackey DEBUG    dontUpdate
+2020-05-15 09:20:36,314 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:20:36,315 lackey DEBUG    checkDate
+2020-05-15 09:20:36,315 lackey DEBUG    dontUpdate
+2020-05-15 09:22:00,195 lackey INFO     Lackey v0.0
+2020-05-15 09:22:00,195 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:22:00,195 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:22:00,196 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:22:00,196 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:22:02,355 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:22:02,359 lackey DEBUG    checkDate
+2020-05-15 09:22:02,363 lackey DEBUG    dontUpdate
+2020-05-15 09:22:02,365 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:22:02,367 lackey DEBUG    checkDate
+2020-05-15 09:22:02,367 lackey DEBUG    dontUpdate
+2020-05-15 09:27:40,187 lackey INFO     Lackey v0.0
+2020-05-15 09:27:40,188 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:27:40,188 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:27:40,188 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:27:40,188 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:27:42,306 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:27:42,309 lackey DEBUG    checkDate
+2020-05-15 09:27:42,312 lackey DEBUG    dontUpdate
+2020-05-15 09:27:42,314 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:27:42,316 lackey DEBUG    checkDate
+2020-05-15 09:27:42,316 lackey DEBUG    dontUpdate
+2020-05-15 09:29:15,204 lackey INFO     Lackey v0.0
+2020-05-15 09:29:15,204 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:29:15,205 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:29:15,205 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:29:15,205 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:29:29,734 lackey INFO     Lackey v0.0
+2020-05-15 09:29:29,735 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:29:29,735 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:29:29,735 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:29:29,735 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:29:31,899 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:29:31,902 lackey DEBUG    checkDate
+2020-05-15 09:29:31,907 lackey DEBUG    dontUpdate
+2020-05-15 09:29:31,910 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:29:31,915 lackey DEBUG    checkDate
+2020-05-15 09:29:31,916 lackey DEBUG    dontUpdate
+2020-05-15 09:30:36,112 lackey INFO     Lackey v0.0
+2020-05-15 09:30:36,112 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:30:36,112 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:30:36,112 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:30:36,112 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:30:38,254 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:30:38,259 lackey DEBUG    checkDate
+2020-05-15 09:30:38,264 lackey DEBUG    dontUpdate
+2020-05-15 09:30:38,267 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:30:38,269 lackey DEBUG    checkDate
+2020-05-15 09:30:38,269 lackey DEBUG    dontUpdate
+2020-05-15 09:31:41,669 lackey INFO     Lackey v0.0
+2020-05-15 09:31:41,669 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:31:41,670 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:31:41,670 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:31:41,670 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:31:43,798 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:31:43,801 lackey DEBUG    checkDate
+2020-05-15 09:31:43,805 lackey DEBUG    dontUpdate
+2020-05-15 09:31:43,807 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:31:43,809 lackey DEBUG    checkDate
+2020-05-15 09:31:43,810 lackey DEBUG    dontUpdate
+2020-05-15 09:32:11,032 lackey INFO     Lackey v0.0
+2020-05-15 09:32:11,032 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:32:11,032 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:32:11,032 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:32:11,032 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:32:13,175 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:32:13,179 lackey DEBUG    checkDate
+2020-05-15 09:32:13,185 lackey DEBUG    dontUpdate
+2020-05-15 09:32:13,189 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:32:13,191 lackey DEBUG    checkDate
+2020-05-15 09:32:13,192 lackey DEBUG    dontUpdate
+2020-05-15 09:32:55,146 lackey INFO     Lackey v0.0
+2020-05-15 09:32:55,147 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:32:55,147 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:32:55,147 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:32:55,147 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:32:57,416 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:32:57,421 lackey DEBUG    checkDate
+2020-05-15 09:32:57,428 lackey DEBUG    dontUpdate
+2020-05-15 09:32:57,433 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:32:57,435 lackey DEBUG    checkDate
+2020-05-15 09:32:57,436 lackey DEBUG    dontUpdate
+2020-05-15 09:34:22,976 lackey INFO     Lackey v0.0
+2020-05-15 09:34:22,977 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:34:22,977 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:34:22,977 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:34:22,977 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:34:25,232 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:34:25,236 lackey DEBUG    checkDate
+2020-05-15 09:34:25,240 lackey DEBUG    dontUpdate
+2020-05-15 09:34:25,241 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:34:25,243 lackey DEBUG    checkDate
+2020-05-15 09:34:25,244 lackey DEBUG    dontUpdate
+2020-05-15 09:35:49,110 lackey INFO     Lackey v0.0
+2020-05-15 09:35:49,111 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:35:49,111 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:35:49,111 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:35:49,111 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:35:51,211 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-15 09:35:53,973 lackey INFO     Lackey v0.0
+2020-05-15 09:35:53,973 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:35:53,973 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:35:53,973 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:35:53,974 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:35:56,146 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:35:56,152 lackey DEBUG    checkDate
+2020-05-15 09:35:56,157 lackey DEBUG    dontUpdate
+2020-05-15 09:35:56,159 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:35:56,160 lackey DEBUG    checkDate
+2020-05-15 09:35:56,161 lackey DEBUG    dontUpdate
+2020-05-15 09:37:01,469 lackey INFO     Lackey v0.0
+2020-05-15 09:37:01,469 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:37:01,470 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:37:01,470 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:37:01,470 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:37:03,568 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:37:03,571 lackey DEBUG    checkDate
+2020-05-15 09:37:03,575 lackey DEBUG    dontUpdate
+2020-05-15 09:37:03,577 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:37:03,579 lackey DEBUG    checkDate
+2020-05-15 09:37:03,579 lackey DEBUG    dontUpdate
+2020-05-15 09:38:26,574 lackey INFO     Lackey v0.0
+2020-05-15 09:38:26,574 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:38:26,574 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:38:26,574 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:38:26,574 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:38:28,793 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:38:28,797 lackey DEBUG    checkDate
+2020-05-15 09:38:28,801 lackey DEBUG    dontUpdate
+2020-05-15 09:38:28,803 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:38:28,804 lackey DEBUG    checkDate
+2020-05-15 09:38:28,805 lackey DEBUG    dontUpdate
+2020-05-15 09:40:02,317 lackey INFO     Lackey v0.0
+2020-05-15 09:40:02,318 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:40:02,318 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:40:02,318 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:40:02,318 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:40:04,411 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:40:04,414 lackey DEBUG    checkDate
+2020-05-15 09:40:04,418 lackey DEBUG    dontUpdate
+2020-05-15 09:40:04,421 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:40:04,423 lackey DEBUG    checkDate
+2020-05-15 09:40:04,424 lackey DEBUG    dontUpdate
+2020-05-15 09:52:04,747 lackey INFO     Lackey v0.0
+2020-05-15 09:52:04,747 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:52:04,748 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:52:04,748 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:52:04,748 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:52:07,008 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:52:07,012 lackey DEBUG    checkDate
+2020-05-15 09:52:07,016 lackey DEBUG    dontUpdate
+2020-05-15 09:52:07,018 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:52:07,020 lackey DEBUG    checkDate
+2020-05-15 09:52:07,020 lackey DEBUG    dontUpdate
+2020-05-15 09:52:53,094 lackey INFO     Lackey v0.0
+2020-05-15 09:52:53,095 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:52:53,095 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:52:53,095 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:52:53,095 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:52:55,173 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:52:55,180 lackey DEBUG    checkDate
+2020-05-15 09:52:55,185 lackey DEBUG    dontUpdate
+2020-05-15 09:52:55,187 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:52:55,191 lackey DEBUG    checkDate
+2020-05-15 09:52:55,192 lackey DEBUG    dontUpdate
+2020-05-15 09:53:21,477 lackey INFO     Lackey v0.0
+2020-05-15 09:53:21,477 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:53:21,477 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:53:21,477 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:53:21,478 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:53:23,571 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:53:23,574 lackey DEBUG    checkDate
+2020-05-15 09:53:23,577 lackey DEBUG    dontUpdate
+2020-05-15 09:53:23,579 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:53:23,581 lackey DEBUG    checkDate
+2020-05-15 09:53:23,581 lackey DEBUG    dontUpdate
+2020-05-15 09:53:59,734 lackey INFO     Lackey v0.0
+2020-05-15 09:53:59,735 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:53:59,735 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:53:59,735 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:53:59,735 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:54:01,942 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:54:01,945 lackey DEBUG    checkDate
+2020-05-15 09:54:01,950 lackey DEBUG    dontUpdate
+2020-05-15 09:54:01,952 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:54:01,955 lackey DEBUG    checkDate
+2020-05-15 09:54:01,955 lackey DEBUG    dontUpdate
+2020-05-15 09:54:36,390 lackey INFO     Lackey v0.0
+2020-05-15 09:54:36,391 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:54:36,391 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:54:36,391 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:54:36,391 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:54:38,626 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:54:38,633 lackey DEBUG    checkDate
+2020-05-15 09:54:38,637 lackey DEBUG    dontUpdate
+2020-05-15 09:54:38,640 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:54:38,642 lackey DEBUG    checkDate
+2020-05-15 09:54:38,642 lackey DEBUG    dontUpdate
+2020-05-15 09:55:22,335 lackey INFO     Lackey v0.0
+2020-05-15 09:55:22,335 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:55:22,335 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:55:22,335 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:55:22,336 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:55:24,526 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:55:24,529 lackey DEBUG    checkDate
+2020-05-15 09:55:24,533 lackey DEBUG    dontUpdate
+2020-05-15 09:55:24,536 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:55:24,539 lackey DEBUG    checkDate
+2020-05-15 09:55:24,540 lackey DEBUG    dontUpdate
+2020-05-15 09:56:43,129 lackey INFO     Lackey v0.0
+2020-05-15 09:56:43,130 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:56:43,130 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:56:43,130 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:56:43,130 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:56:45,640 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:56:45,644 lackey DEBUG    checkDate
+2020-05-15 09:56:45,648 lackey DEBUG    dontUpdate
+2020-05-15 09:56:45,650 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:56:45,652 lackey DEBUG    checkDate
+2020-05-15 09:56:45,652 lackey DEBUG    dontUpdate
+2020-05-15 09:57:07,607 lackey INFO     Lackey v0.0
+2020-05-15 09:57:07,607 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 09:57:07,607 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 09:57:07,607 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:57:07,607 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 09:57:09,758 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 09:57:09,761 lackey DEBUG    checkDate
+2020-05-15 09:57:09,765 lackey DEBUG    dontUpdate
+2020-05-15 09:57:09,767 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 09:57:09,769 lackey DEBUG    checkDate
+2020-05-15 09:57:09,769 lackey DEBUG    dontUpdate
+2020-05-15 10:02:26,825 lackey INFO     Lackey v0.0
+2020-05-15 10:02:26,825 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:02:26,825 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:02:26,825 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:02:26,825 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:02:28,944 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:02:28,947 lackey DEBUG    checkDate
+2020-05-15 10:02:28,951 lackey DEBUG    dontUpdate
+2020-05-15 10:02:28,953 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:02:28,955 lackey DEBUG    checkDate
+2020-05-15 10:02:28,956 lackey DEBUG    dontUpdate
+2020-05-15 10:03:47,869 lackey INFO     Lackey v0.0
+2020-05-15 10:03:47,869 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:03:47,869 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:03:47,869 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:03:47,869 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:03:50,048 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:03:50,051 lackey DEBUG    checkDate
+2020-05-15 10:03:50,055 lackey DEBUG    dontUpdate
+2020-05-15 10:03:50,057 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:03:50,059 lackey DEBUG    checkDate
+2020-05-15 10:03:50,060 lackey DEBUG    dontUpdate
+2020-05-15 10:07:11,035 lackey INFO     Lackey v0.0
+2020-05-15 10:07:11,035 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:07:11,035 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:07:11,035 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:07:11,035 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:07:13,165 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:07:13,168 lackey DEBUG    checkDate
+2020-05-15 10:07:13,172 lackey DEBUG    dontUpdate
+2020-05-15 10:07:13,175 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:07:13,177 lackey DEBUG    checkDate
+2020-05-15 10:07:13,178 lackey DEBUG    dontUpdate
+2020-05-15 10:08:06,540 lackey INFO     Lackey v0.0
+2020-05-15 10:08:06,540 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:08:06,540 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:08:06,540 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:08:06,540 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:08:08,822 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:08:08,826 lackey DEBUG    checkDate
+2020-05-15 10:08:08,829 lackey DEBUG    dontUpdate
+2020-05-15 10:08:08,831 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:08:08,833 lackey DEBUG    checkDate
+2020-05-15 10:08:08,833 lackey DEBUG    dontUpdate
+2020-05-15 10:09:41,607 lackey INFO     Lackey v0.0
+2020-05-15 10:09:41,607 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:09:41,607 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:09:41,607 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:09:41,607 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:09:43,759 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:09:43,762 lackey DEBUG    checkDate
+2020-05-15 10:09:43,766 lackey DEBUG    dontUpdate
+2020-05-15 10:09:43,768 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:09:43,770 lackey DEBUG    checkDate
+2020-05-15 10:09:43,770 lackey DEBUG    dontUpdate
+2020-05-15 10:13:47,557 lackey INFO     Lackey v0.0
+2020-05-15 10:13:47,557 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:13:47,557 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:13:47,557 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:13:47,557 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:13:49,994 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:13:49,998 lackey DEBUG    checkDate
+2020-05-15 10:13:50,002 lackey DEBUG    dontUpdate
+2020-05-15 10:13:50,004 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:13:50,006 lackey DEBUG    checkDate
+2020-05-15 10:13:50,007 lackey DEBUG    dontUpdate
+2020-05-15 10:16:12,791 lackey INFO     Lackey v0.0
+2020-05-15 10:16:12,791 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:16:12,791 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:16:12,792 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:16:12,792 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:16:15,045 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:16:15,048 lackey DEBUG    checkDate
+2020-05-15 10:16:15,053 lackey DEBUG    dontUpdate
+2020-05-15 10:16:15,055 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:16:15,057 lackey DEBUG    checkDate
+2020-05-15 10:16:15,058 lackey DEBUG    dontUpdate
+2020-05-15 10:18:21,640 lackey INFO     Lackey v0.0
+2020-05-15 10:18:21,640 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:18:21,640 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:18:21,640 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:18:21,640 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:18:23,893 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:18:23,896 lackey DEBUG    checkDate
+2020-05-15 10:18:23,900 lackey DEBUG    dontUpdate
+2020-05-15 10:18:23,903 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:18:23,905 lackey DEBUG    checkDate
+2020-05-15 10:18:23,905 lackey DEBUG    dontUpdate
+2020-05-15 10:23:36,640 lackey INFO     Lackey v0.0
+2020-05-15 10:23:36,640 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:23:36,640 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:23:36,656 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:23:36,656 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:23:38,965 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:23:38,969 lackey DEBUG    checkDate
+2020-05-15 10:23:38,973 lackey DEBUG    dontUpdate
+2020-05-15 10:23:38,975 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:23:38,977 lackey DEBUG    checkDate
+2020-05-15 10:23:38,977 lackey DEBUG    dontUpdate
+2020-05-15 10:25:17,654 lackey INFO     Lackey v0.0
+2020-05-15 10:25:17,655 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:25:17,655 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:25:17,655 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:25:17,655 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:25:19,857 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:25:19,861 lackey DEBUG    checkDate
+2020-05-15 10:25:19,865 lackey DEBUG    dontUpdate
+2020-05-15 10:25:19,868 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:25:19,871 lackey DEBUG    checkDate
+2020-05-15 10:25:19,872 lackey DEBUG    dontUpdate
+2020-05-15 10:26:41,374 lackey INFO     Lackey v0.0
+2020-05-15 10:26:41,374 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:26:41,374 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:26:41,374 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:26:41,374 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:26:43,546 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:26:43,549 lackey DEBUG    checkDate
+2020-05-15 10:26:43,553 lackey DEBUG    dontUpdate
+2020-05-15 10:26:43,555 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:26:43,557 lackey DEBUG    checkDate
+2020-05-15 10:26:43,557 lackey DEBUG    dontUpdate
+2020-05-15 10:29:34,305 lackey INFO     Lackey v0.0
+2020-05-15 10:29:34,305 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:29:34,306 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:29:34,306 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:29:34,306 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:29:36,480 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:29:36,484 lackey DEBUG    checkDate
+2020-05-15 10:29:36,488 lackey DEBUG    dontUpdate
+2020-05-15 10:29:36,491 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:29:36,493 lackey DEBUG    checkDate
+2020-05-15 10:29:36,494 lackey DEBUG    dontUpdate
+2020-05-15 10:30:28,421 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:30:28,424 lackey DEBUG    checkDate
+2020-05-15 10:30:28,426 lackey DEBUG    dontUpdate
+2020-05-15 10:30:28,428 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:30:28,430 lackey DEBUG    checkDate
+2020-05-15 10:30:28,431 lackey DEBUG    dontUpdate
+2020-05-15 10:32:02,007 lackey INFO     Lackey v0.0
+2020-05-15 10:32:02,007 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:32:02,008 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:32:02,008 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:32:02,008 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:32:04,468 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:32:04,471 lackey DEBUG    checkDate
+2020-05-15 10:32:04,474 lackey DEBUG    dontUpdate
+2020-05-15 10:32:04,476 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:32:04,478 lackey DEBUG    checkDate
+2020-05-15 10:32:04,478 lackey DEBUG    dontUpdate
+2020-05-15 10:33:43,288 lackey INFO     Lackey v0.0
+2020-05-15 10:33:43,288 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:33:43,289 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:33:43,289 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:33:43,289 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:33:45,718 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:33:45,724 lackey DEBUG    checkDate
+2020-05-15 10:33:45,728 lackey DEBUG    dontUpdate
+2020-05-15 10:33:45,730 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:33:45,732 lackey DEBUG    checkDate
+2020-05-15 10:33:45,733 lackey DEBUG    dontUpdate
+2020-05-15 10:39:14,318 lackey INFO     Lackey v0.0
+2020-05-15 10:39:14,318 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:39:14,318 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:39:14,318 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:39:14,318 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:39:16,540 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:39:16,542 lackey DEBUG    checkDate
+2020-05-15 10:39:16,546 lackey DEBUG    dontUpdate
+2020-05-15 10:39:16,548 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:39:16,549 lackey DEBUG    checkDate
+2020-05-15 10:39:16,550 lackey DEBUG    dontUpdate
+2020-05-15 10:39:57,418 lackey INFO     Lackey v0.0
+2020-05-15 10:39:57,418 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:39:57,418 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:39:57,418 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:39:57,418 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:39:59,596 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:39:59,600 lackey DEBUG    checkDate
+2020-05-15 10:39:59,604 lackey DEBUG    dontUpdate
+2020-05-15 10:39:59,606 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:39:59,608 lackey DEBUG    checkDate
+2020-05-15 10:39:59,608 lackey DEBUG    dontUpdate
+2020-05-15 10:40:17,926 lackey INFO     Lackey v0.0
+2020-05-15 10:40:17,928 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:40:17,928 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:40:17,928 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:40:17,928 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:40:20,122 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:40:20,125 lackey DEBUG    checkDate
+2020-05-15 10:40:20,129 lackey DEBUG    dontUpdate
+2020-05-15 10:40:20,131 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:40:20,133 lackey DEBUG    checkDate
+2020-05-15 10:40:20,133 lackey DEBUG    dontUpdate
+2020-05-15 10:40:51,340 lackey INFO     Lackey v0.0
+2020-05-15 10:40:51,340 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:40:51,340 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:40:51,340 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:40:51,340 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:40:53,571 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:40:53,574 lackey DEBUG    checkDate
+2020-05-15 10:40:53,578 lackey DEBUG    dontUpdate
+2020-05-15 10:40:53,580 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:40:53,582 lackey DEBUG    checkDate
+2020-05-15 10:40:53,583 lackey DEBUG    dontUpdate
+2020-05-15 10:41:18,357 lackey INFO     Lackey v0.0
+2020-05-15 10:41:18,357 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:41:18,357 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:41:18,357 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:41:18,357 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:41:20,532 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:41:20,535 lackey DEBUG    checkDate
+2020-05-15 10:41:20,539 lackey DEBUG    dontUpdate
+2020-05-15 10:41:20,541 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:41:20,543 lackey DEBUG    checkDate
+2020-05-15 10:41:20,543 lackey DEBUG    dontUpdate
+2020-05-15 10:41:41,476 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:41:41,478 lackey DEBUG    checkDate
+2020-05-15 10:41:41,478 lackey DEBUG    dontUpdate
+2020-05-15 10:41:41,480 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:41:41,482 lackey DEBUG    checkDate
+2020-05-15 10:41:41,482 lackey DEBUG    dontUpdate
+2020-05-15 10:43:02,183 lackey INFO     Lackey v0.0
+2020-05-15 10:43:02,183 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:43:02,183 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:43:02,183 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:43:02,183 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:43:04,356 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:43:04,359 lackey DEBUG    checkDate
+2020-05-15 10:43:04,363 lackey DEBUG    dontUpdate
+2020-05-15 10:43:04,365 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:43:04,367 lackey DEBUG    checkDate
+2020-05-15 10:43:04,368 lackey DEBUG    dontUpdate
+2020-05-15 10:43:11,905 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:43:11,908 lackey DEBUG    checkDate
+2020-05-15 10:43:11,908 lackey DEBUG    dontUpdate
+2020-05-15 10:43:11,912 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:43:11,914 lackey DEBUG    checkDate
+2020-05-15 10:43:11,914 lackey DEBUG    dontUpdate
+2020-05-15 10:43:58,363 lackey INFO     Lackey v0.0
+2020-05-15 10:43:58,363 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:43:58,364 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:43:58,364 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:43:58,364 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:44:00,504 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:44:00,507 lackey DEBUG    checkDate
+2020-05-15 10:44:00,511 lackey DEBUG    dontUpdate
+2020-05-15 10:44:00,513 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:44:00,516 lackey DEBUG    checkDate
+2020-05-15 10:44:00,517 lackey DEBUG    dontUpdate
+2020-05-15 10:45:14,056 lackey INFO     Lackey v0.0
+2020-05-15 10:45:14,056 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:45:14,056 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:45:14,057 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:45:14,057 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:45:16,383 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:45:16,385 lackey DEBUG    checkDate
+2020-05-15 10:45:16,389 lackey DEBUG    dontUpdate
+2020-05-15 10:45:16,391 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:45:16,392 lackey DEBUG    checkDate
+2020-05-15 10:45:16,392 lackey DEBUG    dontUpdate
+2020-05-15 10:46:16,737 lackey INFO     Lackey v0.0
+2020-05-15 10:46:16,737 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:46:16,737 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:46:16,737 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:46:16,738 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:46:18,962 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:46:18,965 lackey DEBUG    checkDate
+2020-05-15 10:46:18,969 lackey DEBUG    dontUpdate
+2020-05-15 10:46:18,971 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:46:18,973 lackey DEBUG    checkDate
+2020-05-15 10:46:18,973 lackey DEBUG    dontUpdate
+2020-05-15 10:48:08,743 lackey INFO     Lackey v0.0
+2020-05-15 10:48:08,744 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:48:08,744 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:48:08,744 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:48:08,744 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:48:11,191 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:48:11,195 lackey DEBUG    checkDate
+2020-05-15 10:48:11,200 lackey DEBUG    dontUpdate
+2020-05-15 10:48:11,203 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:48:11,205 lackey DEBUG    checkDate
+2020-05-15 10:48:11,206 lackey DEBUG    dontUpdate
+2020-05-15 10:50:18,904 lackey INFO     Lackey v0.0
+2020-05-15 10:50:18,904 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:50:18,904 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:50:18,904 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:50:18,904 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:50:21,015 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:50:21,028 lackey DEBUG    checkDate
+2020-05-15 10:50:21,033 lackey DEBUG    dontUpdate
+2020-05-15 10:50:21,035 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:50:21,038 lackey DEBUG    checkDate
+2020-05-15 10:50:21,038 lackey DEBUG    dontUpdate
+2020-05-15 10:59:15,980 lackey INFO     Lackey v0.0
+2020-05-15 10:59:15,980 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 10:59:15,981 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 10:59:15,981 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:59:15,981 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 10:59:18,210 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 10:59:18,213 lackey DEBUG    checkDate
+2020-05-15 10:59:18,216 lackey DEBUG    dontUpdate
+2020-05-15 10:59:18,218 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 10:59:18,220 lackey DEBUG    checkDate
+2020-05-15 10:59:18,220 lackey DEBUG    dontUpdate
+2020-05-15 11:01:09,976 lackey INFO     Lackey v0.0
+2020-05-15 11:01:09,977 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:01:09,977 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:01:09,977 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:01:09,977 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:01:12,182 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:01:12,185 lackey DEBUG    checkDate
+2020-05-15 11:01:12,189 lackey DEBUG    dontUpdate
+2020-05-15 11:01:12,191 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:01:12,193 lackey DEBUG    checkDate
+2020-05-15 11:01:12,194 lackey DEBUG    dontUpdate
+2020-05-15 11:02:25,762 lackey INFO     Lackey v0.0
+2020-05-15 11:02:25,763 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:02:25,763 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:02:25,763 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:02:25,763 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:02:27,876 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:02:27,880 lackey DEBUG    checkDate
+2020-05-15 11:02:27,885 lackey DEBUG    dontUpdate
+2020-05-15 11:02:27,887 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:02:27,889 lackey DEBUG    checkDate
+2020-05-15 11:02:27,889 lackey DEBUG    dontUpdate
+2020-05-15 11:03:20,512 lackey INFO     Lackey v0.0
+2020-05-15 11:03:20,512 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:03:20,512 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:03:20,512 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:03:20,512 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:03:22,622 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:03:22,626 lackey DEBUG    checkDate
+2020-05-15 11:03:22,632 lackey DEBUG    dontUpdate
+2020-05-15 11:03:22,634 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:03:22,636 lackey DEBUG    checkDate
+2020-05-15 11:03:22,636 lackey DEBUG    dontUpdate
+2020-05-15 11:03:25,359 lackey DEBUG    WEATHER.DELETE: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:03:25,367 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:03:25,369 lackey DEBUG    checkDate
+2020-05-15 11:03:25,369 lackey DEBUG    dontUpdate
+2020-05-15 11:03:29,167 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:03:29,169 lackey DEBUG    checkDate
+2020-05-15 11:03:29,170 lackey DEBUG    dontUpdate
+2020-05-15 11:17:41,113 lackey INFO     Lackey v0.0
+2020-05-15 11:17:41,114 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:17:41,114 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:17:41,114 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:17:41,114 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:17:43,252 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:17:43,256 lackey DEBUG    checkDate
+2020-05-15 11:17:43,260 lackey DEBUG    dontUpdate
+2020-05-15 11:17:43,262 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64.0, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64.0, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66.0, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71.0, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67.0, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77.0, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}]}
+2020-05-15 11:17:48,315 lackey.app ERROR    Exception on /Weather/refresh=Honolulu [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\weather.py", line 26, in get
+    elif key == 'refresh':
+NameError: name 'key' is not defined
+2020-05-15 11:17:58,791 lackey INFO     Lackey v0.0
+2020-05-15 11:17:58,792 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:17:58,792 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:17:58,792 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:17:58,792 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:18:00,989 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:18:00,992 lackey DEBUG    checkDate
+2020-05-15 11:18:00,995 lackey DEBUG    dontUpdate
+2020-05-15 11:18:00,997 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64.0, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64.0, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66.0, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71.0, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67.0, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77.0, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}]}
+2020-05-15 11:18:02,547 lackey DEBUG    delete
+2020-05-15 11:18:02,555 lackey DEBUG    update
+2020-05-15 11:18:03,685 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}
+2020-05-15 11:18:03,697 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}
+2020-05-15 11:18:03,704 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 11:18:03,711 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 11:18:03,718 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}
+2020-05-15 11:18:03,726 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}
+2020-05-15 11:18:04,899 lackey DEBUG    [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}]
+2020-05-15 11:18:04,907 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:18:04,909 lackey DEBUG    checkDate
+2020-05-15 11:18:04,910 lackey DEBUG    dontUpdate
+2020-05-15 11:18:04,912 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64.0, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64.0, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66.0, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71.0, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67.0, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77.0, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}]}
+2020-05-15 11:19:19,180 lackey INFO     Lackey v0.0
+2020-05-15 11:19:19,182 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:19:19,182 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:19:19,182 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:19,183 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:30,919 lackey INFO     Lackey v0.0
+2020-05-15 11:19:30,919 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:19:30,919 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:19:30,920 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:30,920 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:46,604 lackey INFO     Lackey v0.0
+2020-05-15 11:19:46,604 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:19:46,605 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:19:46,605 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:46,605 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:48,868 lackey DEBUG    None
+2020-05-15 11:19:50,571 lackey DEBUG    None
+2020-05-15 11:19:51,874 lackey DEBUG    None
+2020-05-15 11:19:56,864 lackey INFO     Lackey v0.0
+2020-05-15 11:19:56,865 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:19:56,865 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:19:56,865 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:56,865 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:19:58,939 lackey DEBUG    None
+2020-05-15 11:19:59,809 lackey DEBUG    None
+2020-05-15 11:20:11,990 lackey INFO     Lackey v0.0
+2020-05-15 11:20:11,990 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:20:11,991 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:20:11,991 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:20:11,991 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:20:14,471 lackey DEBUG    None
+2020-05-15 11:20:16,186 lackey DEBUG    None
+2020-05-15 11:22:32,916 lackey INFO     Lackey v0.0
+2020-05-15 11:22:32,916 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:22:32,916 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:22:32,917 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:22:32,917 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:22:35,103 lackey DEBUG    None
+2020-05-15 11:22:44,479 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'payday', 'description': '', 'target_date': 'May,08,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '3CB371'}
+2020-05-15 11:22:48,708 lackey.app ERROR    Exception on /Calendar/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-15 11:22:50,272 lackey.app ERROR    Exception on /Calendar/undefined [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2012, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\flask_restful\__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\api_views\calendar.py", line 57, in delete
+    db.session.delete(task)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\orm\session.py", line 2015, in delete
+    exc.UnmappedInstanceError(instance), replace_context=err,
+  File "C:\Users\wilso\Desktop\Lackey\env\lib\site-packages\sqlalchemy\util\compat.py", line 178, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+2020-05-15 11:22:51,127 lackey DEBUG    CALENDAR.DELETE: {'id': 1, 'task': 'payday', 'description': '', 'target_date': 'May,08,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '3CB371'}
+2020-05-15 11:23:01,552 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'Payday', 'description': '', 'target_date': 'May,08,2020', 'time': '', 'recurring': 'True', 'interval': '14', 'color': '3CB371'}
+2020-05-15 11:23:05,059 lackey DEBUG    None
+2020-05-15 11:23:10,398 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}]
+2020-05-15 11:23:20,229 lackey DEBUG    API down, (response status code != 200)
+2020-05-15 11:23:20,233 lackey DEBUG    None
+2020-05-15 11:23:43,501 lackey DEBUG    None
+2020-05-15 11:23:52,971 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-15 11:24:00,211 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:24:00,227 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:24:00,230 lackey DEBUG    update
+2020-05-15 11:24:00,997 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,005 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,012 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,018 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,026 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,032 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:24:01,770 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383'}]}
+2020-05-15 11:24:14,054 lackey INFO     Lackey v0.0
+2020-05-15 11:24:14,054 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:24:14,054 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:24:14,054 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:24:14,055 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:24:16,174 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:24:16,177 lackey DEBUG    checkDate
+2020-05-15 11:24:16,180 lackey DEBUG    dontUpdate
+2020-05-15 11:24:16,182 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': datetime.datetime(2020, 5, 15, 11, 22, 33, 612317)}]}
+2020-05-15 11:26:44,278 lackey INFO     Lackey v0.0
+2020-05-15 11:26:44,278 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:26:44,280 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:26:44,281 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:26:44,281 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:26:54,595 lackey INFO     Lackey v0.0
+2020-05-15 11:26:54,595 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:26:54,595 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:26:54,595 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:26:54,595 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:26:56,714 lackey DEBUG    None
+2020-05-15 11:27:06,352 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'Payday', 'description': '', 'target_date': 'May,08,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '3CB371'}
+2020-05-15 11:27:08,316 lackey DEBUG    None
+2020-05-15 11:27:10,978 lackey DEBUG    [{'title': 'Seoul', 'location_type': 'City', 'woeid': 1132599, 'latt_long': '37.557121,126.977379'}, {'title': 'San Jose', 'location_type': 'City', 'woeid': 2488042, 'latt_long': '37.338581,-121.885567'}, {'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Brussels', 'location_type': 'City', 'woeid': 968019, 'latt_long': '50.848381,4.349680'}, {'title': 'Boise', 'location_type': 'City', 'woeid': 2366355, 'latt_long': '43.606979,-116.193413'}, {'title': 'Toulouse', 'location_type': 'City', 'woeid': 628886, 'latt_long': '43.605728,1.448690'}, {'title': 'Marseille', 'location_type': 'City', 'woeid': 610264, 'latt_long': '43.293701,5.372470'}, {'title': 'Sendai', 'location_type': 'City', 'woeid': 1118129, 'latt_long': '38.314362,140.758194'}, {'title': 'Essen', 'location_type': 'City', 'woeid': 648820, 'latt_long': '51.451809,7.0106'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}, {'title': 'DÃ¼sseldorf', 'location_type': 'City', 'woeid': 646099, 'latt_long': '51.215630,6.776040'}]
+2020-05-15 11:27:15,240 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:27:15,256 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:27:15,259 lackey DEBUG    update
+2020-05-15 11:27:15,970 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:15,980 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:15,988 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:15,996 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:16,007 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:16,014 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:27:16,681 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383'}]}
+2020-05-15 11:27:29,101 lackey INFO     Lackey v0.0
+2020-05-15 11:27:29,101 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:27:29,101 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:27:29,101 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:27:29,101 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:27:31,217 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:27:31,220 lackey DEBUG    checkDate
+2020-05-15 11:27:31,224 lackey DEBUG    dontUpdate
+2020-05-15 11:27:31,226 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}]}
+2020-05-15 11:27:50,541 lackey INFO     Lackey v0.0
+2020-05-15 11:27:50,541 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:27:50,541 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:27:50,541 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:27:50,541 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:27:52,749 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:27:52,753 lackey DEBUG    checkDate
+2020-05-15 11:27:52,758 lackey DEBUG    dontUpdate
+2020-05-15 11:27:52,761 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:26:55'}]}
+2020-05-15 11:28:09,073 lackey DEBUG    delete
+2020-05-15 11:28:09,082 lackey DEBUG    update
+2020-05-15 11:28:09,957 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:09,969 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:09,977 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:09,984 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:09,995 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:10,007 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:28:10,852 lackey DEBUG    [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383'}]
+2020-05-15 11:28:10,861 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:28:10,863 lackey DEBUG    checkDate
+2020-05-15 11:28:10,863 lackey DEBUG    dontUpdate
+2020-05-15 11:28:10,866 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:29:27,702 lackey INFO     Lackey v0.0
+2020-05-15 11:29:27,702 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:29:27,702 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:29:27,702 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:29:27,702 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:29:29,987 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:29:29,990 lackey DEBUG    checkDate
+2020-05-15 11:29:29,994 lackey DEBUG    dontUpdate
+2020-05-15 11:29:29,996 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:29:47,247 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:29:47,249 lackey DEBUG    checkDate
+2020-05-15 11:29:47,249 lackey DEBUG    dontUpdate
+2020-05-15 11:29:47,251 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:31:55,647 lackey INFO     Lackey v0.0
+2020-05-15 11:31:55,647 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:31:55,647 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:31:55,647 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:31:55,647 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:31:57,801 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:31:57,805 lackey DEBUG    checkDate
+2020-05-15 11:31:57,811 lackey DEBUG    dontUpdate
+2020-05-15 11:31:57,814 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:33:13,648 lackey INFO     Lackey v0.0
+2020-05-15 11:33:13,648 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:33:13,648 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:33:13,648 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:33:13,648 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:33:15,856 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:33:15,859 lackey DEBUG    checkDate
+2020-05-15 11:33:15,864 lackey DEBUG    dontUpdate
+2020-05-15 11:33:15,866 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:34:32,338 lackey INFO     Lackey v0.0
+2020-05-15 11:34:32,338 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:34:32,339 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:34:32,339 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:34:32,339 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:34:34,534 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:34:34,538 lackey DEBUG    checkDate
+2020-05-15 11:34:34,543 lackey DEBUG    dontUpdate
+2020-05-15 11:34:34,546 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:35:53,739 lackey INFO     Lackey v0.0
+2020-05-15 11:35:53,739 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:35:53,739 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:35:53,739 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:35:53,739 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:35:55,926 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:35:55,929 lackey DEBUG    checkDate
+2020-05-15 11:35:55,933 lackey DEBUG    dontUpdate
+2020-05-15 11:35:55,935 lackey DEBUG    {'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:36:16,260 lackey DEBUG    WEATHER.DELETE: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:36:16,267 lackey DEBUG    None
+2020-05-15 11:36:28,670 lackey DEBUG    [{'title': 'Hong Kong', 'location_type': 'City', 'woeid': 2165352, 'latt_long': '22.411200,114.153999'}, {'title': 'Honolulu', 'location_type': 'City', 'woeid': 2423945, 'latt_long': '21.304850,-157.857758'}]
+2020-05-15 11:36:32,471 lackey DEBUG    WEATHER.POST: {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:36:32,486 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:36:32,488 lackey DEBUG    update
+2020-05-15 11:36:33,299 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:33,309 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:33,317 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:33,323 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:33,330 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:33,338 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945', 'entered_date': None}
+2020-05-15 11:36:35,776 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945'}]}
+2020-05-15 11:36:42,009 lackey DEBUG    [{'title': 'Seattle', 'location_type': 'City', 'woeid': 2490383, 'latt_long': '47.603561,-122.329437'}, {'title': 'Southend-on-Sea', 'location_type': 'City', 'woeid': 35375, 'latt_long': '51.548328,0.706400'}, {'title': 'Swansea', 'location_type': 'City', 'woeid': 36758, 'latt_long': '51.623150,-3.940930'}]
+2020-05-15 11:36:52,653 lackey DEBUG    WEATHER.POST: {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:36:52,660 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:36:52,660 lackey DEBUG    checkDate
+2020-05-15 11:36:52,660 lackey DEBUG    dontUpdate
+2020-05-15 11:36:52,677 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:36:52,679 lackey DEBUG    checkDate
+2020-05-15 11:36:52,680 lackey DEBUG    dontUpdate
+2020-05-15 11:36:52,682 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64.0, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64.0, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66.0, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71.0, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67.0, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77.0, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}], 'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:37:16,329 lackey DEBUG    [{'title': 'Shanghai', 'location_type': 'City', 'woeid': 2151849, 'latt_long': '31.247709,121.472618'}]
+2020-05-15 11:37:20,989 lackey DEBUG    API down, (response status code != 200)
+2020-05-15 11:37:20,993 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:37:20,995 lackey DEBUG    checkDate
+2020-05-15 11:37:20,996 lackey DEBUG    dontUpdate
+2020-05-15 11:37:20,998 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:37:21,000 lackey DEBUG    checkDate
+2020-05-15 11:37:21,000 lackey DEBUG    dontUpdate
+2020-05-15 11:37:21,003 lackey DEBUG    {'Honolulu': [{'date': '2020-05-15', 'weather_state_name': 'Clear', 'icon_link': 'https://www.metaweather.com/static/img/weather/c.svg', 'min_temp': 72.45, 'max_temp': 79.96, 'humidity': 64.0, 'wind_speed': 6.977560236846152, 'predictability': 68, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.81, 'max_temp': 80.21, 'humidity': 64.0, 'wind_speed': 9.943203967037832, 'predictability': 71, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-17', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 80.11, 'humidity': 66.0, 'wind_speed': 10.772990782534002, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-18', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 74.06, 'max_temp': 79.4, 'humidity': 71.0, 'wind_speed': 10.365456745873432, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-19', 'weather_state_name': 'Heavy Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/hc.svg', 'min_temp': 73.25, 'max_temp': 80.35, 'humidity': 67.0, 'wind_speed': 11.347914718794241, 'predictability': 71, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 73.98, 'max_temp': 79.59, 'humidity': 77.0, 'wind_speed': 9.467081444364908, 'predictability': 73, 'woied': '2423945', 'entered_date': '05/15/2020, 11:35:54'}], 'Seattle': [{'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52.0, 'wind_speed': 3.3162344652191202, 'predictability': 70, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79.0, 'wind_speed': 2.4957361793287203, 'predictability': 77, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71.0, 'wind_speed': 3.2846394157427294, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 74.0, 'wind_speed': 3.891403206346934, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72.0, 'wind_speed': 4.031267584042525, 'predictability': 75, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}, {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67.0, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': '05/15/2020, 11:27:51'}]}
+2020-05-15 11:41:06,926 lackey INFO     Lackey v0.0
+2020-05-15 11:41:06,927 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-15 11:41:06,927 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-15 11:41:06,927 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:41:06,927 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-15 11:41:09,143 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:41:09,147 lackey DEBUG    checkDate
+2020-05-15 11:41:09,151 lackey DEBUG    dontUpdate
+2020-05-15 11:41:09,153 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:41:09,155 lackey DEBUG    checkDate
+2020-05-15 11:41:09,155 lackey DEBUG    dontUpdate
+2020-05-15 11:41:13,368 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:41:13,370 lackey DEBUG    checkDate
+2020-05-15 11:41:13,370 lackey DEBUG    dontUpdate
+2020-05-15 11:41:13,372 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:41:13,373 lackey DEBUG    checkDate
+2020-05-15 11:41:13,374 lackey DEBUG    dontUpdate
+2020-05-15 11:41:19,058 lackey DEBUG    delete
+2020-05-15 11:41:19,068 lackey DEBUG    update
+2020-05-15 11:41:20,472 lackey DEBUG    {'date': '2020-05-15', 'weather_state_name': 'Light Cloud', 'icon_link': 'https://www.metaweather.com/static/img/weather/lc.svg', 'min_temp': 50.07, 'max_temp': 67.87, 'humidity': 52, 'wind_speed': 3.2864087318857873, 'predictability': 70, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:20,483 lackey DEBUG    {'date': '2020-05-16', 'weather_state_name': 'Heavy Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/hr.svg', 'min_temp': 52.9, 'max_temp': 60.14, 'humidity': 79, 'wind_speed': 2.555387645995387, 'predictability': 77, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:20,492 lackey DEBUG    {'date': '2020-05-17', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.5, 'max_temp': 64.25, 'humidity': 71, 'wind_speed': 3.366660182409396, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:20,505 lackey DEBUG    {'date': '2020-05-18', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 51.37, 'max_temp': 61.59, 'humidity': 73, 'wind_speed': 3.988336839680267, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:20,511 lackey DEBUG    {'date': '2020-05-19', 'weather_state_name': 'Light Rain', 'icon_link': 'https://www.metaweather.com/static/img/weather/lr.svg', 'min_temp': 50.59, 'max_temp': 63.18, 'humidity': 72, 'wind_speed': 4.090919050709192, 'predictability': 75, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:20,520 lackey DEBUG    {'date': '2020-05-20', 'weather_state_name': 'Showers', 'icon_link': 'https://www.metaweather.com/static/img/weather/s.svg', 'min_temp': 51.24, 'max_temp': 64.17, 'humidity': 67, 'wind_speed': 3.521417521673427, 'predictability': 73, 'woied': '2490383', 'entered_date': None}
+2020-05-15 11:41:21,291 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-15 11:41:21,298 lackey DEBUG    checkDate
+2020-05-15 11:41:21,299 lackey DEBUG    dontUpdate
+2020-05-15 11:41:21,303 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-15 11:41:21,305 lackey DEBUG    checkDate
+2020-05-15 11:41:21,305 lackey DEBUG    dontUpdate
