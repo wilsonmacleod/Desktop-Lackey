@@ -54,15 +54,21 @@
 .submit{
   position: relative;
   float: left;
+  font: bold;
   padding: 5px;
-  color: whitesmoke;
-  background: #4ecdc4;
+  color: #797979;
+  background: whitesmoke;
+  border: .5px solid #393939;
   cursor: pointer;
 }
+.submit:hover{
+  color: #4ecdc4;;
+}
+
 .search-btn {
   height: 36px;
   float: left;
-  border: 1px solid #393939;
+  border: 1px solid #4ecdc4;
   background: #393939;
   color: whitesmoke;
   cursor: pointer;
@@ -73,13 +79,13 @@
 
 .addLoc{
   position: absolute;
-  bottom: 2px;
-  right: 5px;
+  bottom: 5px;
+  right: 15px;
   cursor: pointer;
   border: transparent;
   background-color: inherit;
   padding: 6px;
-  border: .5px solid #393939;
+  border: .5px solid whitesmoke;
   background: #393939;
   color: whitesmoke;
 }

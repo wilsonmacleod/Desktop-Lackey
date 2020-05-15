@@ -2,7 +2,7 @@ import React from 'react';
 
 import Aux from '../../hoc/Auxiliary';
 import Button from '../../UI/Button/Button';
-import AddTaskForm from '../../Forms/AddTaskForm';
+import AddTaskForm from './AddTaskForm/AddTaskForm';
 
 import '../Calendar.css'
 

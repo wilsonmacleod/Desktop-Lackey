@@ -67,21 +67,3 @@ select option[id="5"] {
 background: #C0C0C0;
 width: 100px;
 }
-
-.search-term{
-    height: 36px;
-    width: 100px;
-    float: left;
-    font-size: 14px;
-    border: .5px solid #393939;
-    border-right: none;
-    padding: 5px;
-    margin-bottom: 25px;
-    border-radius: 5px 0 0 5px;
-    color: #393939;
-}
-
-.search-term:focus{
-    text-transform: capitalize;
-    color: #393939;
-}

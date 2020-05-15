@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Button from '../UI/Button/Button';
+import Button from '../../../UI/Button/Button';
+
+import './SearchForm.css';
 
 const searchForm = (props) => {
     return (               
@@ -10,6 +12,7 @@ const searchForm = (props) => {
             className="search-term" 
             name="weather" 
             id="searchedCity"
+            placeholder="Search..."
             value={props.wForm.searchedCity}
             onChange={props.searchCityOnChangeHandler} />
             <Button

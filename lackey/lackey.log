@@ -11027,3 +11027,1183 @@ ValueError: unknown locale: en-US
 2020-05-14 14:36:21,604 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
 2020-05-14 14:36:21,606 lackey DEBUG    checkDate
 2020-05-14 14:36:21,606 lackey DEBUG    dontUpdate
+2020-05-14 20:47:17,892 lackey INFO     Lackey v0.0
+2020-05-14 20:47:17,892 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:47:17,892 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:47:17,892 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:47:17,892 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:47:20,741 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:47:20,744 lackey DEBUG    checkDate
+2020-05-14 20:47:20,751 lackey DEBUG    dontUpdate
+2020-05-14 20:47:20,753 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:47:20,755 lackey DEBUG    checkDate
+2020-05-14 20:47:20,755 lackey DEBUG    dontUpdate
+2020-05-14 20:47:35,643 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'Payday', 'description': '', 'target_date': 'May,08,2020', 'time': '', 'recurring': 'True', 'interval': '14', 'color': '3CB371'}
+2020-05-14 20:47:49,045 lackey DEBUG    CALENDAR.POST: {'id': None, 'task': 'Run', 'description': '', 'target_date': 'May,10,2020', 'time': '', 'recurring': 'False', 'interval': 7, 'color': '9370DB'}
+2020-05-14 20:47:53,783 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:47:53,785 lackey DEBUG    checkDate
+2020-05-14 20:47:53,785 lackey DEBUG    dontUpdate
+2020-05-14 20:47:53,787 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:47:53,788 lackey DEBUG    checkDate
+2020-05-14 20:47:53,788 lackey DEBUG    dontUpdate
+2020-05-14 20:48:50,929 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:48:50,935 lackey DEBUG    checkDate
+2020-05-14 20:48:50,936 lackey DEBUG    dontUpdate
+2020-05-14 20:48:50,941 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:48:50,944 lackey DEBUG    checkDate
+2020-05-14 20:48:50,944 lackey DEBUG    dontUpdate
+2020-05-14 20:50:00,513 lackey INFO     Lackey v0.0
+2020-05-14 20:50:00,513 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:50:00,513 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:50:00,513 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:50:00,514 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:50:02,655 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:50:02,658 lackey DEBUG    checkDate
+2020-05-14 20:50:02,662 lackey DEBUG    dontUpdate
+2020-05-14 20:50:02,665 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:50:02,667 lackey DEBUG    checkDate
+2020-05-14 20:50:02,667 lackey DEBUG    dontUpdate
+2020-05-14 20:50:15,192 lackey INFO     Lackey v0.0
+2020-05-14 20:50:15,192 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:50:15,192 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:50:15,192 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:50:15,192 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:50:17,314 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:50:17,317 lackey DEBUG    checkDate
+2020-05-14 20:50:17,321 lackey DEBUG    dontUpdate
+2020-05-14 20:50:17,325 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:50:17,330 lackey DEBUG    checkDate
+2020-05-14 20:50:17,330 lackey DEBUG    dontUpdate
+2020-05-14 20:51:20,059 lackey INFO     Lackey v0.0
+2020-05-14 20:51:20,059 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:51:20,059 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:51:20,059 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:51:20,059 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:51:22,017 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-14 20:51:27,992 lackey INFO     Lackey v0.0
+2020-05-14 20:51:27,992 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:51:27,992 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:51:27,992 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:51:27,992 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:51:30,123 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:51:30,126 lackey DEBUG    checkDate
+2020-05-14 20:51:30,129 lackey DEBUG    dontUpdate
+2020-05-14 20:51:30,131 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:51:30,133 lackey DEBUG    checkDate
+2020-05-14 20:51:30,133 lackey DEBUG    dontUpdate
+2020-05-14 20:53:34,697 lackey INFO     Lackey v0.0
+2020-05-14 20:53:34,697 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:53:34,697 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:53:34,697 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:53:34,697 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:53:36,799 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:53:36,811 lackey DEBUG    checkDate
+2020-05-14 20:53:36,825 lackey DEBUG    dontUpdate
+2020-05-14 20:53:36,828 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:53:36,831 lackey DEBUG    checkDate
+2020-05-14 20:53:36,832 lackey DEBUG    dontUpdate
+2020-05-14 20:53:43,972 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:53:43,974 lackey DEBUG    checkDate
+2020-05-14 20:53:43,974 lackey DEBUG    dontUpdate
+2020-05-14 20:53:43,976 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:53:43,977 lackey DEBUG    checkDate
+2020-05-14 20:53:43,977 lackey DEBUG    dontUpdate
+2020-05-14 20:53:50,211 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:53:50,214 lackey DEBUG    checkDate
+2020-05-14 20:53:50,214 lackey DEBUG    dontUpdate
+2020-05-14 20:53:50,216 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:53:50,218 lackey DEBUG    checkDate
+2020-05-14 20:53:50,218 lackey DEBUG    dontUpdate
+2020-05-14 20:58:57,544 lackey INFO     Lackey v0.0
+2020-05-14 20:58:57,544 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:58:57,545 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:58:57,545 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:58:57,545 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:58:59,606 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:58:59,609 lackey DEBUG    checkDate
+2020-05-14 20:58:59,613 lackey DEBUG    dontUpdate
+2020-05-14 20:58:59,615 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:58:59,617 lackey DEBUG    checkDate
+2020-05-14 20:58:59,618 lackey DEBUG    dontUpdate
+2020-05-14 20:59:42,026 lackey INFO     Lackey v0.0
+2020-05-14 20:59:42,026 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 20:59:42,026 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 20:59:42,026 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:59:42,026 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 20:59:44,153 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 20:59:44,156 lackey DEBUG    checkDate
+2020-05-14 20:59:44,160 lackey DEBUG    dontUpdate
+2020-05-14 20:59:44,162 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 20:59:44,164 lackey DEBUG    checkDate
+2020-05-14 20:59:44,164 lackey DEBUG    dontUpdate
+2020-05-14 21:01:14,042 lackey INFO     Lackey v0.0
+2020-05-14 21:01:14,042 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:01:14,042 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:01:14,042 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:01:14,042 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:01:16,713 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:01:16,716 lackey DEBUG    checkDate
+2020-05-14 21:01:16,720 lackey DEBUG    dontUpdate
+2020-05-14 21:01:16,722 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:01:16,725 lackey DEBUG    checkDate
+2020-05-14 21:01:16,725 lackey DEBUG    dontUpdate
+2020-05-14 21:01:27,210 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:01:27,212 lackey DEBUG    checkDate
+2020-05-14 21:01:27,213 lackey DEBUG    dontUpdate
+2020-05-14 21:01:27,215 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:01:27,218 lackey DEBUG    checkDate
+2020-05-14 21:01:27,219 lackey DEBUG    dontUpdate
+2020-05-14 21:01:58,676 lackey INFO     Lackey v0.0
+2020-05-14 21:01:58,677 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:01:58,677 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:01:58,677 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:01:58,677 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:02:00,731 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:02:00,736 lackey DEBUG    checkDate
+2020-05-14 21:02:00,740 lackey DEBUG    dontUpdate
+2020-05-14 21:02:00,743 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:02:00,745 lackey DEBUG    checkDate
+2020-05-14 21:02:00,746 lackey DEBUG    dontUpdate
+2020-05-14 21:05:19,571 lackey INFO     Lackey v0.0
+2020-05-14 21:05:19,571 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:05:19,571 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:05:19,571 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:05:19,571 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:05:22,817 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:05:22,823 lackey DEBUG    checkDate
+2020-05-14 21:05:22,826 lackey DEBUG    dontUpdate
+2020-05-14 21:05:22,829 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:05:22,831 lackey DEBUG    checkDate
+2020-05-14 21:05:22,832 lackey DEBUG    dontUpdate
+2020-05-14 21:05:25,278 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:05:25,280 lackey DEBUG    checkDate
+2020-05-14 21:05:25,281 lackey DEBUG    dontUpdate
+2020-05-14 21:05:25,282 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:05:25,285 lackey DEBUG    checkDate
+2020-05-14 21:05:25,286 lackey DEBUG    dontUpdate
+2020-05-14 21:06:04,989 lackey INFO     Lackey v0.0
+2020-05-14 21:06:04,989 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:06:04,989 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:06:04,989 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:06:04,989 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:06:22,909 lackey INFO     Lackey v0.0
+2020-05-14 21:06:22,909 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:06:22,909 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:06:22,909 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:06:22,909 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:06:25,053 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:06:25,056 lackey DEBUG    checkDate
+2020-05-14 21:06:25,060 lackey DEBUG    dontUpdate
+2020-05-14 21:06:25,062 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:06:25,064 lackey DEBUG    checkDate
+2020-05-14 21:06:25,064 lackey DEBUG    dontUpdate
+2020-05-14 21:07:33,194 lackey INFO     Lackey v0.0
+2020-05-14 21:07:33,194 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:07:33,194 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:07:33,194 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:07:33,194 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:07:35,273 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:07:35,276 lackey DEBUG    checkDate
+2020-05-14 21:07:35,279 lackey DEBUG    dontUpdate
+2020-05-14 21:07:35,282 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:07:35,284 lackey DEBUG    checkDate
+2020-05-14 21:07:35,284 lackey DEBUG    dontUpdate
+2020-05-14 21:09:43,133 lackey INFO     Lackey v0.0
+2020-05-14 21:09:43,133 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:09:43,133 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:09:43,133 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:09:43,133 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:09:45,356 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:09:45,360 lackey DEBUG    checkDate
+2020-05-14 21:09:45,364 lackey DEBUG    dontUpdate
+2020-05-14 21:09:45,366 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:09:45,369 lackey DEBUG    checkDate
+2020-05-14 21:09:45,369 lackey DEBUG    dontUpdate
+2020-05-14 21:10:04,623 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:10:04,625 lackey DEBUG    checkDate
+2020-05-14 21:10:04,626 lackey DEBUG    dontUpdate
+2020-05-14 21:10:04,628 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:10:04,629 lackey DEBUG    checkDate
+2020-05-14 21:10:04,630 lackey DEBUG    dontUpdate
+2020-05-14 21:10:06,340 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:10:06,342 lackey DEBUG    checkDate
+2020-05-14 21:10:06,343 lackey DEBUG    dontUpdate
+2020-05-14 21:10:06,345 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:10:06,346 lackey DEBUG    checkDate
+2020-05-14 21:10:06,347 lackey DEBUG    dontUpdate
+2020-05-14 21:11:55,909 lackey INFO     Lackey v0.0
+2020-05-14 21:11:55,909 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:11:55,909 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:11:55,909 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:11:55,909 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:11:57,993 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:11:57,996 lackey DEBUG    checkDate
+2020-05-14 21:11:58,000 lackey DEBUG    dontUpdate
+2020-05-14 21:11:58,002 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:11:58,004 lackey DEBUG    checkDate
+2020-05-14 21:11:58,004 lackey DEBUG    dontUpdate
+2020-05-14 21:13:32,009 lackey INFO     Lackey v0.0
+2020-05-14 21:13:32,009 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:13:32,009 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:13:32,009 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:13:32,009 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:13:34,148 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:13:34,151 lackey DEBUG    checkDate
+2020-05-14 21:13:34,154 lackey DEBUG    dontUpdate
+2020-05-14 21:13:34,156 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:13:34,158 lackey DEBUG    checkDate
+2020-05-14 21:13:34,158 lackey DEBUG    dontUpdate
+2020-05-14 21:14:01,874 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:14:01,881 lackey DEBUG    checkDate
+2020-05-14 21:14:01,881 lackey DEBUG    dontUpdate
+2020-05-14 21:14:01,884 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:14:01,887 lackey DEBUG    checkDate
+2020-05-14 21:14:01,887 lackey DEBUG    dontUpdate
+2020-05-14 21:18:02,429 lackey INFO     Lackey v0.0
+2020-05-14 21:18:02,430 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:18:02,430 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:18:02,430 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:18:02,430 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:18:04,305 lackey.app ERROR    Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask_restful\__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\wilso\Desktop\Lackey\lackey\app.py", line 26, in landing
+    return render_template('index.html')
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\wilso\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2020-05-14 21:18:54,908 lackey INFO     Lackey v0.0
+2020-05-14 21:18:54,908 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:18:54,909 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:18:54,909 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:18:54,909 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:18:56,982 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:18:56,985 lackey DEBUG    checkDate
+2020-05-14 21:18:56,988 lackey DEBUG    dontUpdate
+2020-05-14 21:18:56,991 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:18:56,993 lackey DEBUG    checkDate
+2020-05-14 21:18:56,993 lackey DEBUG    dontUpdate
+2020-05-14 21:20:04,092 lackey INFO     Lackey v0.0
+2020-05-14 21:20:04,092 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:20:04,092 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:20:04,092 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:20:04,092 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:20:06,194 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:20:06,198 lackey DEBUG    checkDate
+2020-05-14 21:20:06,202 lackey DEBUG    dontUpdate
+2020-05-14 21:20:06,204 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:20:06,206 lackey DEBUG    checkDate
+2020-05-14 21:20:06,207 lackey DEBUG    dontUpdate
+2020-05-14 21:20:33,376 lackey INFO     Lackey v0.0
+2020-05-14 21:20:33,376 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:20:33,376 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:20:33,376 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:20:33,376 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:20:35,449 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:20:35,453 lackey DEBUG    checkDate
+2020-05-14 21:20:35,457 lackey DEBUG    dontUpdate
+2020-05-14 21:20:35,463 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:20:35,465 lackey DEBUG    checkDate
+2020-05-14 21:20:35,465 lackey DEBUG    dontUpdate
+2020-05-14 21:20:37,346 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:20:37,348 lackey DEBUG    checkDate
+2020-05-14 21:20:37,348 lackey DEBUG    dontUpdate
+2020-05-14 21:20:37,350 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:20:37,352 lackey DEBUG    checkDate
+2020-05-14 21:20:37,353 lackey DEBUG    dontUpdate
+2020-05-14 21:21:24,276 lackey INFO     Lackey v0.0
+2020-05-14 21:21:24,276 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:21:24,276 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:21:24,276 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:21:24,276 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:21:26,467 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:21:26,473 lackey DEBUG    checkDate
+2020-05-14 21:21:26,476 lackey DEBUG    dontUpdate
+2020-05-14 21:21:26,478 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:21:26,480 lackey DEBUG    checkDate
+2020-05-14 21:21:26,480 lackey DEBUG    dontUpdate
+2020-05-14 21:21:54,725 lackey INFO     Lackey v0.0
+2020-05-14 21:21:54,725 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:21:54,725 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:21:54,725 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:21:54,725 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:21:56,904 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:21:56,908 lackey DEBUG    checkDate
+2020-05-14 21:21:56,911 lackey DEBUG    dontUpdate
+2020-05-14 21:21:56,913 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:21:56,915 lackey DEBUG    checkDate
+2020-05-14 21:21:56,916 lackey DEBUG    dontUpdate
+2020-05-14 21:22:53,565 lackey INFO     Lackey v0.0
+2020-05-14 21:22:53,566 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:22:53,566 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:22:53,566 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:22:53,566 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:22:55,680 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:22:55,683 lackey DEBUG    checkDate
+2020-05-14 21:22:55,692 lackey DEBUG    dontUpdate
+2020-05-14 21:22:55,697 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:22:55,700 lackey DEBUG    checkDate
+2020-05-14 21:22:55,701 lackey DEBUG    dontUpdate
+2020-05-14 21:24:27,495 lackey INFO     Lackey v0.0
+2020-05-14 21:24:27,495 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:24:27,496 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:24:27,496 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:24:27,496 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:24:29,693 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:24:29,697 lackey DEBUG    checkDate
+2020-05-14 21:24:29,701 lackey DEBUG    dontUpdate
+2020-05-14 21:24:29,703 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:24:29,705 lackey DEBUG    checkDate
+2020-05-14 21:24:29,706 lackey DEBUG    dontUpdate
+2020-05-14 21:24:49,413 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:24:49,415 lackey DEBUG    checkDate
+2020-05-14 21:24:49,416 lackey DEBUG    dontUpdate
+2020-05-14 21:24:49,417 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:24:49,418 lackey DEBUG    checkDate
+2020-05-14 21:24:49,419 lackey DEBUG    dontUpdate
+2020-05-14 21:25:13,308 lackey INFO     Lackey v0.0
+2020-05-14 21:25:13,309 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:25:13,309 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:25:13,309 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:25:13,309 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:25:15,397 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:25:15,402 lackey DEBUG    checkDate
+2020-05-14 21:25:15,406 lackey DEBUG    dontUpdate
+2020-05-14 21:25:15,408 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:25:15,410 lackey DEBUG    checkDate
+2020-05-14 21:25:15,411 lackey DEBUG    dontUpdate
+2020-05-14 21:25:27,509 lackey INFO     Lackey v0.0
+2020-05-14 21:25:27,509 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:25:27,509 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:25:27,509 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:25:27,509 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:25:29,683 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:25:29,686 lackey DEBUG    checkDate
+2020-05-14 21:25:29,691 lackey DEBUG    dontUpdate
+2020-05-14 21:25:29,695 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:25:29,697 lackey DEBUG    checkDate
+2020-05-14 21:25:29,698 lackey DEBUG    dontUpdate
+2020-05-14 21:26:10,576 lackey INFO     Lackey v0.0
+2020-05-14 21:26:10,576 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:26:10,576 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:26:10,576 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:26:10,576 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:26:12,715 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:26:12,717 lackey DEBUG    checkDate
+2020-05-14 21:26:12,721 lackey DEBUG    dontUpdate
+2020-05-14 21:26:12,723 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:26:12,724 lackey DEBUG    checkDate
+2020-05-14 21:26:12,725 lackey DEBUG    dontUpdate
+2020-05-14 21:27:18,891 lackey INFO     Lackey v0.0
+2020-05-14 21:27:18,891 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:27:18,891 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:27:18,891 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:27:18,892 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:27:20,985 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:27:20,992 lackey DEBUG    checkDate
+2020-05-14 21:27:20,996 lackey DEBUG    dontUpdate
+2020-05-14 21:27:20,998 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:27:21,000 lackey DEBUG    checkDate
+2020-05-14 21:27:21,000 lackey DEBUG    dontUpdate
+2020-05-14 21:27:46,408 lackey INFO     Lackey v0.0
+2020-05-14 21:27:46,408 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:27:46,408 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:27:46,409 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:27:46,409 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:27:48,546 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:27:48,549 lackey DEBUG    checkDate
+2020-05-14 21:27:48,559 lackey DEBUG    dontUpdate
+2020-05-14 21:27:48,561 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:27:48,563 lackey DEBUG    checkDate
+2020-05-14 21:27:48,563 lackey DEBUG    dontUpdate
+2020-05-14 21:28:18,475 lackey INFO     Lackey v0.0
+2020-05-14 21:28:18,476 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:28:18,476 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:28:18,476 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:28:18,476 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:28:20,608 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:28:20,611 lackey DEBUG    checkDate
+2020-05-14 21:28:20,615 lackey DEBUG    dontUpdate
+2020-05-14 21:28:20,617 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:28:20,619 lackey DEBUG    checkDate
+2020-05-14 21:28:20,619 lackey DEBUG    dontUpdate
+2020-05-14 21:30:06,808 lackey INFO     Lackey v0.0
+2020-05-14 21:30:06,809 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:30:06,809 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:30:06,809 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:30:06,809 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:30:08,947 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:30:08,950 lackey DEBUG    checkDate
+2020-05-14 21:30:08,954 lackey DEBUG    dontUpdate
+2020-05-14 21:30:08,956 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:30:08,958 lackey DEBUG    checkDate
+2020-05-14 21:30:08,959 lackey DEBUG    dontUpdate
+2020-05-14 21:31:34,375 lackey INFO     Lackey v0.0
+2020-05-14 21:31:34,375 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:31:34,375 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:31:34,375 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:31:34,375 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:31:36,532 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:31:36,535 lackey DEBUG    checkDate
+2020-05-14 21:31:36,539 lackey DEBUG    dontUpdate
+2020-05-14 21:31:36,541 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:31:36,544 lackey DEBUG    checkDate
+2020-05-14 21:31:36,544 lackey DEBUG    dontUpdate
+2020-05-14 21:31:55,424 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:31:55,426 lackey DEBUG    checkDate
+2020-05-14 21:31:55,427 lackey DEBUG    dontUpdate
+2020-05-14 21:31:55,428 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:31:55,430 lackey DEBUG    checkDate
+2020-05-14 21:31:55,430 lackey DEBUG    dontUpdate
+2020-05-14 21:34:47,694 lackey INFO     Lackey v0.0
+2020-05-14 21:34:47,694 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:34:47,694 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:34:47,694 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:34:47,694 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:34:49,749 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:34:49,752 lackey DEBUG    checkDate
+2020-05-14 21:34:49,756 lackey DEBUG    dontUpdate
+2020-05-14 21:34:49,758 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:34:49,760 lackey DEBUG    checkDate
+2020-05-14 21:34:49,760 lackey DEBUG    dontUpdate
+2020-05-14 21:35:31,892 lackey INFO     Lackey v0.0
+2020-05-14 21:35:31,892 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:35:31,892 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:35:31,892 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:35:31,892 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:35:33,978 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:35:33,981 lackey DEBUG    checkDate
+2020-05-14 21:35:33,985 lackey DEBUG    dontUpdate
+2020-05-14 21:35:33,988 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:35:33,990 lackey DEBUG    checkDate
+2020-05-14 21:35:33,990 lackey DEBUG    dontUpdate
+2020-05-14 21:38:33,418 lackey INFO     Lackey v0.0
+2020-05-14 21:38:33,418 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:38:33,419 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:38:33,419 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:38:33,419 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:38:35,609 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:38:35,612 lackey DEBUG    checkDate
+2020-05-14 21:38:35,616 lackey DEBUG    dontUpdate
+2020-05-14 21:38:35,619 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:38:35,621 lackey DEBUG    checkDate
+2020-05-14 21:38:35,621 lackey DEBUG    dontUpdate
+2020-05-14 21:43:43,462 lackey INFO     Lackey v0.0
+2020-05-14 21:43:43,462 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:43:43,463 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:43:43,463 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:43:43,463 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:43:45,706 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:43:45,710 lackey DEBUG    checkDate
+2020-05-14 21:43:45,715 lackey DEBUG    dontUpdate
+2020-05-14 21:43:45,718 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:43:45,720 lackey DEBUG    checkDate
+2020-05-14 21:43:45,721 lackey DEBUG    dontUpdate
+2020-05-14 21:44:40,341 lackey INFO     Lackey v0.0
+2020-05-14 21:44:40,341 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:44:40,341 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:44:40,341 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:44:40,341 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:44:42,465 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:44:42,468 lackey DEBUG    checkDate
+2020-05-14 21:44:42,471 lackey DEBUG    dontUpdate
+2020-05-14 21:44:42,473 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:44:42,474 lackey DEBUG    checkDate
+2020-05-14 21:44:42,475 lackey DEBUG    dontUpdate
+2020-05-14 21:44:47,946 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:44:47,951 lackey DEBUG    checkDate
+2020-05-14 21:44:47,951 lackey DEBUG    dontUpdate
+2020-05-14 21:44:47,953 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:44:47,955 lackey DEBUG    checkDate
+2020-05-14 21:44:47,955 lackey DEBUG    dontUpdate
+2020-05-14 21:45:13,155 lackey INFO     Lackey v0.0
+2020-05-14 21:45:13,155 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:45:13,155 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:45:13,155 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:45:13,156 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:45:15,363 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:45:15,366 lackey DEBUG    checkDate
+2020-05-14 21:45:15,370 lackey DEBUG    dontUpdate
+2020-05-14 21:45:15,372 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:45:15,375 lackey DEBUG    checkDate
+2020-05-14 21:45:15,375 lackey DEBUG    dontUpdate
+2020-05-14 21:45:16,515 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:45:16,516 lackey DEBUG    checkDate
+2020-05-14 21:45:16,517 lackey DEBUG    dontUpdate
+2020-05-14 21:45:16,518 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:45:16,520 lackey DEBUG    checkDate
+2020-05-14 21:45:16,520 lackey DEBUG    dontUpdate
+2020-05-14 21:45:17,364 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:45:17,365 lackey DEBUG    checkDate
+2020-05-14 21:45:17,365 lackey DEBUG    dontUpdate
+2020-05-14 21:45:17,366 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:45:17,368 lackey DEBUG    checkDate
+2020-05-14 21:45:17,368 lackey DEBUG    dontUpdate
+2020-05-14 21:47:05,469 lackey INFO     Lackey v0.0
+2020-05-14 21:47:05,469 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:47:05,469 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:47:05,470 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:47:05,470 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:47:07,546 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:47:07,549 lackey DEBUG    checkDate
+2020-05-14 21:47:07,552 lackey DEBUG    dontUpdate
+2020-05-14 21:47:07,555 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:47:07,557 lackey DEBUG    checkDate
+2020-05-14 21:47:07,557 lackey DEBUG    dontUpdate
+2020-05-14 21:47:10,129 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:47:10,131 lackey DEBUG    checkDate
+2020-05-14 21:47:10,132 lackey DEBUG    dontUpdate
+2020-05-14 21:47:10,133 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:47:10,135 lackey DEBUG    checkDate
+2020-05-14 21:47:10,135 lackey DEBUG    dontUpdate
+2020-05-14 21:47:38,349 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:47:38,351 lackey DEBUG    checkDate
+2020-05-14 21:47:38,351 lackey DEBUG    dontUpdate
+2020-05-14 21:47:38,353 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:47:38,355 lackey DEBUG    checkDate
+2020-05-14 21:47:38,355 lackey DEBUG    dontUpdate
+2020-05-14 21:48:32,376 lackey INFO     Lackey v0.0
+2020-05-14 21:48:32,376 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:48:32,376 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:48:32,376 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:48:32,376 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:48:34,479 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:48:34,482 lackey DEBUG    checkDate
+2020-05-14 21:48:34,487 lackey DEBUG    dontUpdate
+2020-05-14 21:48:34,489 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:48:34,491 lackey DEBUG    checkDate
+2020-05-14 21:48:34,492 lackey DEBUG    dontUpdate
+2020-05-14 21:48:45,691 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:48:45,694 lackey DEBUG    checkDate
+2020-05-14 21:48:45,694 lackey DEBUG    dontUpdate
+2020-05-14 21:48:45,697 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:48:45,699 lackey DEBUG    checkDate
+2020-05-14 21:48:45,699 lackey DEBUG    dontUpdate
+2020-05-14 21:49:19,092 lackey INFO     Lackey v0.0
+2020-05-14 21:49:19,092 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:49:19,092 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:49:19,092 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:49:19,092 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:49:21,201 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:49:21,204 lackey DEBUG    checkDate
+2020-05-14 21:49:21,207 lackey DEBUG    dontUpdate
+2020-05-14 21:49:21,209 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:49:21,211 lackey DEBUG    checkDate
+2020-05-14 21:49:21,211 lackey DEBUG    dontUpdate
+2020-05-14 21:50:20,626 lackey INFO     Lackey v0.0
+2020-05-14 21:50:20,626 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:50:20,626 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:50:20,627 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:50:20,627 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:50:23,085 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:50:23,088 lackey DEBUG    checkDate
+2020-05-14 21:50:23,091 lackey DEBUG    dontUpdate
+2020-05-14 21:50:23,092 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:50:23,094 lackey DEBUG    checkDate
+2020-05-14 21:50:23,095 lackey DEBUG    dontUpdate
+2020-05-14 21:52:02,859 lackey INFO     Lackey v0.0
+2020-05-14 21:52:02,859 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 21:52:02,859 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 21:52:02,859 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:52:02,859 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 21:52:04,998 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 21:52:05,001 lackey DEBUG    checkDate
+2020-05-14 21:52:05,005 lackey DEBUG    dontUpdate
+2020-05-14 21:52:05,008 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 21:52:05,010 lackey DEBUG    checkDate
+2020-05-14 21:52:05,011 lackey DEBUG    dontUpdate
+2020-05-14 22:01:11,716 lackey INFO     Lackey v0.0
+2020-05-14 22:01:11,716 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:01:11,716 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:01:11,716 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:01:11,716 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:01:13,867 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:01:13,870 lackey DEBUG    checkDate
+2020-05-14 22:01:13,874 lackey DEBUG    dontUpdate
+2020-05-14 22:01:13,876 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:01:13,878 lackey DEBUG    checkDate
+2020-05-14 22:01:13,879 lackey DEBUG    dontUpdate
+2020-05-14 22:01:43,326 lackey INFO     Lackey v0.0
+2020-05-14 22:01:43,326 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:01:43,326 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:01:43,326 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:01:43,326 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:01:45,478 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:01:45,481 lackey DEBUG    checkDate
+2020-05-14 22:01:45,484 lackey DEBUG    dontUpdate
+2020-05-14 22:01:45,486 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:01:45,488 lackey DEBUG    checkDate
+2020-05-14 22:01:45,488 lackey DEBUG    dontUpdate
+2020-05-14 22:02:37,559 lackey INFO     Lackey v0.0
+2020-05-14 22:02:37,559 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:02:37,559 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:02:37,559 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:02:37,559 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:02:39,642 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:02:39,645 lackey DEBUG    checkDate
+2020-05-14 22:02:39,649 lackey DEBUG    dontUpdate
+2020-05-14 22:02:39,651 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:02:39,653 lackey DEBUG    checkDate
+2020-05-14 22:02:39,653 lackey DEBUG    dontUpdate
+2020-05-14 22:03:11,241 lackey INFO     Lackey v0.0
+2020-05-14 22:03:11,241 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:03:11,241 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:03:11,241 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:03:11,242 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:03:13,535 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:03:13,539 lackey DEBUG    checkDate
+2020-05-14 22:03:13,543 lackey DEBUG    dontUpdate
+2020-05-14 22:03:13,547 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:03:13,549 lackey DEBUG    checkDate
+2020-05-14 22:03:13,550 lackey DEBUG    dontUpdate
+2020-05-14 22:03:36,298 lackey INFO     Lackey v0.0
+2020-05-14 22:03:36,298 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:03:36,298 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:03:36,298 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:03:36,298 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:03:38,620 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:03:38,626 lackey DEBUG    checkDate
+2020-05-14 22:03:38,630 lackey DEBUG    dontUpdate
+2020-05-14 22:03:38,631 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:03:38,633 lackey DEBUG    checkDate
+2020-05-14 22:03:38,634 lackey DEBUG    dontUpdate
+2020-05-14 22:03:59,975 lackey INFO     Lackey v0.0
+2020-05-14 22:03:59,976 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:03:59,976 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:03:59,976 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:03:59,976 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:04:02,214 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:04:02,217 lackey DEBUG    checkDate
+2020-05-14 22:04:02,221 lackey DEBUG    dontUpdate
+2020-05-14 22:04:02,222 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:04:02,224 lackey DEBUG    checkDate
+2020-05-14 22:04:02,225 lackey DEBUG    dontUpdate
+2020-05-14 22:05:43,625 lackey INFO     Lackey v0.0
+2020-05-14 22:05:43,626 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:05:43,626 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:05:43,626 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:05:43,626 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:05:45,800 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:05:45,803 lackey DEBUG    checkDate
+2020-05-14 22:05:45,808 lackey DEBUG    dontUpdate
+2020-05-14 22:05:45,810 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:05:45,813 lackey DEBUG    checkDate
+2020-05-14 22:05:45,813 lackey DEBUG    dontUpdate
+2020-05-14 22:06:45,411 lackey INFO     Lackey v0.0
+2020-05-14 22:06:45,412 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:06:45,412 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:06:45,412 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:06:45,412 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:06:47,564 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:06:47,567 lackey DEBUG    checkDate
+2020-05-14 22:06:47,571 lackey DEBUG    dontUpdate
+2020-05-14 22:06:47,573 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:06:47,575 lackey DEBUG    checkDate
+2020-05-14 22:06:47,575 lackey DEBUG    dontUpdate
+2020-05-14 22:07:10,359 lackey INFO     Lackey v0.0
+2020-05-14 22:07:10,359 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:07:10,359 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:07:10,359 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:07:10,359 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:07:12,777 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:07:12,780 lackey DEBUG    checkDate
+2020-05-14 22:07:12,783 lackey DEBUG    dontUpdate
+2020-05-14 22:07:12,785 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:07:12,788 lackey DEBUG    checkDate
+2020-05-14 22:07:12,788 lackey DEBUG    dontUpdate
+2020-05-14 22:07:37,326 lackey INFO     Lackey v0.0
+2020-05-14 22:07:37,326 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:07:37,326 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:07:37,326 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:07:37,326 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:07:39,411 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:07:39,414 lackey DEBUG    checkDate
+2020-05-14 22:07:39,418 lackey DEBUG    dontUpdate
+2020-05-14 22:07:39,420 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:07:39,423 lackey DEBUG    checkDate
+2020-05-14 22:07:39,423 lackey DEBUG    dontUpdate
+2020-05-14 22:08:07,298 lackey INFO     Lackey v0.0
+2020-05-14 22:08:07,298 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:08:07,298 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:08:07,298 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:08:07,298 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:08:09,530 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:08:09,533 lackey DEBUG    checkDate
+2020-05-14 22:08:09,537 lackey DEBUG    dontUpdate
+2020-05-14 22:08:09,539 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:08:09,541 lackey DEBUG    checkDate
+2020-05-14 22:08:09,542 lackey DEBUG    dontUpdate
+2020-05-14 22:10:44,759 lackey INFO     Lackey v0.0
+2020-05-14 22:10:44,759 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:10:44,759 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:10:44,759 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:10:44,759 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:10:46,958 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:10:46,961 lackey DEBUG    checkDate
+2020-05-14 22:10:46,966 lackey DEBUG    dontUpdate
+2020-05-14 22:10:46,968 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:10:46,970 lackey DEBUG    checkDate
+2020-05-14 22:10:46,971 lackey DEBUG    dontUpdate
+2020-05-14 22:11:24,992 lackey INFO     Lackey v0.0
+2020-05-14 22:11:24,992 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:11:24,992 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:11:24,992 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:11:24,992 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:11:27,139 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:11:27,142 lackey DEBUG    checkDate
+2020-05-14 22:11:27,145 lackey DEBUG    dontUpdate
+2020-05-14 22:11:27,147 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:11:27,148 lackey DEBUG    checkDate
+2020-05-14 22:11:27,148 lackey DEBUG    dontUpdate
+2020-05-14 22:11:54,009 lackey INFO     Lackey v0.0
+2020-05-14 22:11:54,009 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:11:54,009 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:11:54,009 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:11:54,009 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:11:56,304 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:11:56,312 lackey DEBUG    checkDate
+2020-05-14 22:11:56,316 lackey DEBUG    dontUpdate
+2020-05-14 22:11:56,318 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:11:56,321 lackey DEBUG    checkDate
+2020-05-14 22:11:56,321 lackey DEBUG    dontUpdate
+2020-05-14 22:14:37,695 lackey INFO     Lackey v0.0
+2020-05-14 22:14:37,695 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:14:37,695 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:14:37,695 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:14:37,695 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:14:39,809 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:14:39,812 lackey DEBUG    checkDate
+2020-05-14 22:14:39,816 lackey DEBUG    dontUpdate
+2020-05-14 22:14:39,818 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:14:39,819 lackey DEBUG    checkDate
+2020-05-14 22:14:39,820 lackey DEBUG    dontUpdate
+2020-05-14 22:15:39,519 lackey INFO     Lackey v0.0
+2020-05-14 22:15:39,519 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:15:39,520 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:15:39,520 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:15:39,520 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:15:41,681 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:15:41,685 lackey DEBUG    checkDate
+2020-05-14 22:15:41,689 lackey DEBUG    dontUpdate
+2020-05-14 22:15:41,691 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:15:41,695 lackey DEBUG    checkDate
+2020-05-14 22:15:41,696 lackey DEBUG    dontUpdate
+2020-05-14 22:20:31,692 lackey INFO     Lackey v0.0
+2020-05-14 22:20:31,692 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:20:31,692 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:20:31,692 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:20:31,692 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:20:33,900 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:20:33,903 lackey DEBUG    checkDate
+2020-05-14 22:20:33,907 lackey DEBUG    dontUpdate
+2020-05-14 22:20:33,909 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:20:33,911 lackey DEBUG    checkDate
+2020-05-14 22:20:33,912 lackey DEBUG    dontUpdate
+2020-05-14 22:21:01,259 lackey INFO     Lackey v0.0
+2020-05-14 22:21:01,259 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:21:01,259 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:21:01,259 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:21:01,259 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:21:03,472 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:21:03,475 lackey DEBUG    checkDate
+2020-05-14 22:21:03,479 lackey DEBUG    dontUpdate
+2020-05-14 22:21:03,481 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:21:03,483 lackey DEBUG    checkDate
+2020-05-14 22:21:03,483 lackey DEBUG    dontUpdate
+2020-05-14 22:21:26,059 lackey INFO     Lackey v0.0
+2020-05-14 22:21:26,059 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:21:26,059 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:21:26,059 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:21:26,074 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:21:28,258 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:21:28,262 lackey DEBUG    checkDate
+2020-05-14 22:21:28,265 lackey DEBUG    dontUpdate
+2020-05-14 22:21:28,267 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:21:28,269 lackey DEBUG    checkDate
+2020-05-14 22:21:28,270 lackey DEBUG    dontUpdate
+2020-05-14 22:22:37,375 lackey INFO     Lackey v0.0
+2020-05-14 22:22:37,375 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:22:37,375 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:22:37,375 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:22:37,375 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:22:39,543 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:22:39,546 lackey DEBUG    checkDate
+2020-05-14 22:22:39,549 lackey DEBUG    dontUpdate
+2020-05-14 22:22:39,551 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:22:39,553 lackey DEBUG    checkDate
+2020-05-14 22:22:39,553 lackey DEBUG    dontUpdate
+2020-05-14 22:23:07,959 lackey INFO     Lackey v0.0
+2020-05-14 22:23:07,959 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:23:07,959 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:23:07,959 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:23:07,959 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:23:10,201 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:23:10,204 lackey DEBUG    checkDate
+2020-05-14 22:23:10,208 lackey DEBUG    dontUpdate
+2020-05-14 22:23:10,210 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:23:10,214 lackey DEBUG    checkDate
+2020-05-14 22:23:10,215 lackey DEBUG    dontUpdate
+2020-05-14 22:23:53,809 lackey INFO     Lackey v0.0
+2020-05-14 22:23:53,809 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:23:53,809 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:23:53,809 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:23:53,809 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:23:56,077 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:23:56,081 lackey DEBUG    checkDate
+2020-05-14 22:23:56,085 lackey DEBUG    dontUpdate
+2020-05-14 22:23:56,088 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:23:56,093 lackey DEBUG    checkDate
+2020-05-14 22:23:56,094 lackey DEBUG    dontUpdate
+2020-05-14 22:24:42,742 lackey INFO     Lackey v0.0
+2020-05-14 22:24:42,742 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:24:42,742 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:24:42,742 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:24:42,742 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:24:44,843 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:24:44,846 lackey DEBUG    checkDate
+2020-05-14 22:24:44,850 lackey DEBUG    dontUpdate
+2020-05-14 22:24:44,852 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:24:44,855 lackey DEBUG    checkDate
+2020-05-14 22:24:44,855 lackey DEBUG    dontUpdate
+2020-05-14 22:25:16,848 lackey INFO     Lackey v0.0
+2020-05-14 22:25:16,848 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:25:16,848 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:25:16,848 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:25:16,848 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:25:19,058 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:25:19,065 lackey DEBUG    checkDate
+2020-05-14 22:25:19,069 lackey DEBUG    dontUpdate
+2020-05-14 22:25:19,074 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:25:19,078 lackey DEBUG    checkDate
+2020-05-14 22:25:19,079 lackey DEBUG    dontUpdate
+2020-05-14 22:25:31,309 lackey INFO     Lackey v0.0
+2020-05-14 22:25:31,309 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:25:31,309 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:25:31,309 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:25:31,309 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:25:33,513 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:25:33,516 lackey DEBUG    checkDate
+2020-05-14 22:25:33,524 lackey DEBUG    dontUpdate
+2020-05-14 22:25:33,526 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:25:33,528 lackey DEBUG    checkDate
+2020-05-14 22:25:33,528 lackey DEBUG    dontUpdate
+2020-05-14 22:27:30,090 lackey INFO     Lackey v0.0
+2020-05-14 22:27:30,090 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:27:30,090 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:27:30,090 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:27:30,090 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:27:32,224 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:27:32,227 lackey DEBUG    checkDate
+2020-05-14 22:27:32,232 lackey DEBUG    dontUpdate
+2020-05-14 22:27:32,233 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:27:32,235 lackey DEBUG    checkDate
+2020-05-14 22:27:32,236 lackey DEBUG    dontUpdate
+2020-05-14 22:28:47,376 lackey INFO     Lackey v0.0
+2020-05-14 22:28:47,376 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:28:47,376 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:28:47,376 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:28:47,376 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:28:49,513 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:28:49,528 lackey DEBUG    checkDate
+2020-05-14 22:28:49,533 lackey DEBUG    dontUpdate
+2020-05-14 22:28:49,535 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:28:49,536 lackey DEBUG    checkDate
+2020-05-14 22:28:49,537 lackey DEBUG    dontUpdate
+2020-05-14 22:29:28,555 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:29:28,557 lackey DEBUG    checkDate
+2020-05-14 22:29:28,558 lackey DEBUG    dontUpdate
+2020-05-14 22:29:28,561 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:29:28,567 lackey DEBUG    checkDate
+2020-05-14 22:29:28,569 lackey DEBUG    dontUpdate
+2020-05-14 22:30:32,449 lackey INFO     Lackey v0.0
+2020-05-14 22:30:32,450 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:30:32,450 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:30:32,450 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:30:32,450 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:30:34,496 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:30:34,499 lackey DEBUG    checkDate
+2020-05-14 22:30:34,504 lackey DEBUG    dontUpdate
+2020-05-14 22:30:34,507 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:30:34,509 lackey DEBUG    checkDate
+2020-05-14 22:30:34,510 lackey DEBUG    dontUpdate
+2020-05-14 22:30:44,398 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:30:44,399 lackey DEBUG    checkDate
+2020-05-14 22:30:44,400 lackey DEBUG    dontUpdate
+2020-05-14 22:30:44,402 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:30:44,406 lackey DEBUG    checkDate
+2020-05-14 22:30:44,407 lackey DEBUG    dontUpdate
+2020-05-14 22:31:40,276 lackey INFO     Lackey v0.0
+2020-05-14 22:31:40,276 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:31:40,276 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:31:40,276 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:31:40,276 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:31:42,446 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:31:42,449 lackey DEBUG    checkDate
+2020-05-14 22:31:42,453 lackey DEBUG    dontUpdate
+2020-05-14 22:31:42,456 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:31:42,458 lackey DEBUG    checkDate
+2020-05-14 22:31:42,459 lackey DEBUG    dontUpdate
+2020-05-14 22:34:04,342 lackey INFO     Lackey v0.0
+2020-05-14 22:34:04,342 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:34:04,342 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:34:04,342 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:34:04,342 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:34:06,470 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:34:06,473 lackey DEBUG    checkDate
+2020-05-14 22:34:06,477 lackey DEBUG    dontUpdate
+2020-05-14 22:34:06,480 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:34:06,482 lackey DEBUG    checkDate
+2020-05-14 22:34:06,482 lackey DEBUG    dontUpdate
+2020-05-14 22:34:35,275 lackey INFO     Lackey v0.0
+2020-05-14 22:34:35,275 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:34:35,275 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:34:35,275 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:34:35,275 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:34:37,389 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:34:37,393 lackey DEBUG    checkDate
+2020-05-14 22:34:37,399 lackey DEBUG    dontUpdate
+2020-05-14 22:34:37,403 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:34:37,405 lackey DEBUG    checkDate
+2020-05-14 22:34:37,405 lackey DEBUG    dontUpdate
+2020-05-14 22:34:51,308 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:34:51,312 lackey DEBUG    checkDate
+2020-05-14 22:34:51,313 lackey DEBUG    dontUpdate
+2020-05-14 22:34:51,317 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:34:51,319 lackey DEBUG    checkDate
+2020-05-14 22:34:51,319 lackey DEBUG    dontUpdate
+2020-05-14 22:34:53,886 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:34:53,888 lackey DEBUG    checkDate
+2020-05-14 22:34:53,888 lackey DEBUG    dontUpdate
+2020-05-14 22:34:53,890 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:34:53,893 lackey DEBUG    checkDate
+2020-05-14 22:34:53,893 lackey DEBUG    dontUpdate
+2020-05-14 22:34:56,810 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:34:56,812 lackey DEBUG    checkDate
+2020-05-14 22:34:56,812 lackey DEBUG    dontUpdate
+2020-05-14 22:34:56,815 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:34:56,821 lackey DEBUG    checkDate
+2020-05-14 22:34:56,822 lackey DEBUG    dontUpdate
+2020-05-14 22:34:59,675 lackey INFO     Lackey v0.0
+2020-05-14 22:34:59,675 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:34:59,675 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:34:59,675 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:34:59,675 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:35:01,774 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:35:01,777 lackey DEBUG    checkDate
+2020-05-14 22:35:01,780 lackey DEBUG    dontUpdate
+2020-05-14 22:35:01,782 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:35:01,784 lackey DEBUG    checkDate
+2020-05-14 22:35:01,784 lackey DEBUG    dontUpdate
+2020-05-14 22:35:05,571 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:35:05,574 lackey DEBUG    checkDate
+2020-05-14 22:35:05,575 lackey DEBUG    dontUpdate
+2020-05-14 22:35:05,578 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:35:05,582 lackey DEBUG    checkDate
+2020-05-14 22:35:05,583 lackey DEBUG    dontUpdate
+2020-05-14 22:35:59,969 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:35:59,972 lackey DEBUG    checkDate
+2020-05-14 22:35:59,972 lackey DEBUG    dontUpdate
+2020-05-14 22:35:59,974 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:35:59,975 lackey DEBUG    checkDate
+2020-05-14 22:35:59,976 lackey DEBUG    dontUpdate
+2020-05-14 22:37:12,844 lackey INFO     Lackey v0.0
+2020-05-14 22:37:12,844 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:37:12,844 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:37:12,844 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:37:12,844 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:37:14,904 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:37:14,907 lackey DEBUG    checkDate
+2020-05-14 22:37:14,910 lackey DEBUG    dontUpdate
+2020-05-14 22:37:14,912 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:37:14,914 lackey DEBUG    checkDate
+2020-05-14 22:37:14,914 lackey DEBUG    dontUpdate
+2020-05-14 22:38:24,826 lackey INFO     Lackey v0.0
+2020-05-14 22:38:24,826 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:38:24,826 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:38:24,826 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:38:24,826 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:38:26,939 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:38:26,942 lackey DEBUG    checkDate
+2020-05-14 22:38:26,946 lackey DEBUG    dontUpdate
+2020-05-14 22:38:26,948 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:38:26,950 lackey DEBUG    checkDate
+2020-05-14 22:38:26,950 lackey DEBUG    dontUpdate
+2020-05-14 22:40:34,852 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:40:34,855 lackey DEBUG    checkDate
+2020-05-14 22:40:34,855 lackey DEBUG    dontUpdate
+2020-05-14 22:40:34,857 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:40:34,858 lackey DEBUG    checkDate
+2020-05-14 22:40:34,858 lackey DEBUG    dontUpdate
+2020-05-14 22:40:52,680 lackey INFO     Lackey v0.0
+2020-05-14 22:40:52,680 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:40:52,680 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:40:52,680 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:40:52,680 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:40:54,848 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:40:54,851 lackey DEBUG    checkDate
+2020-05-14 22:40:54,855 lackey DEBUG    dontUpdate
+2020-05-14 22:40:54,857 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:40:54,859 lackey DEBUG    checkDate
+2020-05-14 22:40:54,860 lackey DEBUG    dontUpdate
+2020-05-14 22:42:00,109 lackey INFO     Lackey v0.0
+2020-05-14 22:42:00,125 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:42:00,125 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:42:00,125 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:42:00,125 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:42:02,249 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:42:02,253 lackey DEBUG    checkDate
+2020-05-14 22:42:02,256 lackey DEBUG    dontUpdate
+2020-05-14 22:42:02,258 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:42:02,260 lackey DEBUG    checkDate
+2020-05-14 22:42:02,261 lackey DEBUG    dontUpdate
+2020-05-14 22:42:51,176 lackey INFO     Lackey v0.0
+2020-05-14 22:42:51,176 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:42:51,176 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:42:51,176 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:42:51,176 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:42:53,254 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:42:53,257 lackey DEBUG    checkDate
+2020-05-14 22:42:53,260 lackey DEBUG    dontUpdate
+2020-05-14 22:42:53,262 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:42:53,264 lackey DEBUG    checkDate
+2020-05-14 22:42:53,264 lackey DEBUG    dontUpdate
+2020-05-14 22:43:23,608 lackey INFO     Lackey v0.0
+2020-05-14 22:43:23,608 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:43:23,608 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:43:23,609 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:43:23,609 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:43:25,789 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:43:25,792 lackey DEBUG    checkDate
+2020-05-14 22:43:25,796 lackey DEBUG    dontUpdate
+2020-05-14 22:43:25,798 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:43:25,799 lackey DEBUG    checkDate
+2020-05-14 22:43:25,800 lackey DEBUG    dontUpdate
+2020-05-14 22:44:11,558 lackey INFO     Lackey v0.0
+2020-05-14 22:44:11,558 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:44:11,558 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:44:11,559 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:44:11,559 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:44:13,774 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:44:13,777 lackey DEBUG    checkDate
+2020-05-14 22:44:13,781 lackey DEBUG    dontUpdate
+2020-05-14 22:44:13,783 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:44:13,785 lackey DEBUG    checkDate
+2020-05-14 22:44:13,785 lackey DEBUG    dontUpdate
+2020-05-14 22:53:00,142 lackey INFO     Lackey v0.0
+2020-05-14 22:53:00,142 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:53:00,142 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:53:00,142 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:53:00,142 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:53:02,240 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:53:02,243 lackey DEBUG    checkDate
+2020-05-14 22:53:02,247 lackey DEBUG    dontUpdate
+2020-05-14 22:53:02,249 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:53:02,252 lackey DEBUG    checkDate
+2020-05-14 22:53:02,252 lackey DEBUG    dontUpdate
+2020-05-14 22:55:45,573 lackey INFO     Lackey v0.0
+2020-05-14 22:55:45,573 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:55:45,573 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:55:45,573 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:55:45,573 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:55:47,758 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:55:47,762 lackey DEBUG    checkDate
+2020-05-14 22:55:47,766 lackey DEBUG    dontUpdate
+2020-05-14 22:55:47,768 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:55:47,770 lackey DEBUG    checkDate
+2020-05-14 22:55:47,770 lackey DEBUG    dontUpdate
+2020-05-14 22:56:17,686 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:56:17,692 lackey DEBUG    checkDate
+2020-05-14 22:56:17,692 lackey DEBUG    dontUpdate
+2020-05-14 22:56:17,697 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:56:17,704 lackey DEBUG    checkDate
+2020-05-14 22:56:17,705 lackey DEBUG    dontUpdate
+2020-05-14 22:57:36,960 lackey INFO     Lackey v0.0
+2020-05-14 22:57:36,960 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:57:36,961 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:57:36,961 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:57:36,961 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:57:39,032 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:57:39,035 lackey DEBUG    checkDate
+2020-05-14 22:57:39,038 lackey DEBUG    dontUpdate
+2020-05-14 22:57:39,040 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:57:39,042 lackey DEBUG    checkDate
+2020-05-14 22:57:39,042 lackey DEBUG    dontUpdate
+2020-05-14 22:58:55,003 lackey INFO     Lackey v0.0
+2020-05-14 22:58:55,003 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:58:55,004 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:58:55,004 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:58:55,004 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:58:57,084 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:58:57,087 lackey DEBUG    checkDate
+2020-05-14 22:58:57,090 lackey DEBUG    dontUpdate
+2020-05-14 22:58:57,092 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:58:57,094 lackey DEBUG    checkDate
+2020-05-14 22:58:57,095 lackey DEBUG    dontUpdate
+2020-05-14 22:59:24,525 lackey INFO     Lackey v0.0
+2020-05-14 22:59:24,525 lackey DEBUG    _program_files: 'C:\Program Files (x86)'
+2020-05-14 22:59:24,525 lackey DEBUG    log path: 'C:\Users\wilso\Desktop\Lackey\lackey\lackey.log'
+2020-05-14 22:59:24,525 lackey INFO     ROOT_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:59:24,525 lackey INFO     WRITE_PATH: 'C:\Users\wilso\Desktop\Lackey\lackey'
+2020-05-14 22:59:27,211 lackey DEBUG    {'city': 'Honolulu', 'woied': '2423945'}
+2020-05-14 22:59:27,216 lackey DEBUG    checkDate
+2020-05-14 22:59:27,222 lackey DEBUG    dontUpdate
+2020-05-14 22:59:27,225 lackey DEBUG    {'city': 'Seattle', 'woied': '2490383'}
+2020-05-14 22:59:27,227 lackey DEBUG    checkDate
+2020-05-14 22:59:27,227 lackey DEBUG    dontUpdate
