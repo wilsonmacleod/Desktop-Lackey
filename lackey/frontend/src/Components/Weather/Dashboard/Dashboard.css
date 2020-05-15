@@ -1,0 +1,25 @@
+.dash-title{
+    margin-top: -5px;
+}
+
+.dash-container{
+    position: relative;
+    margin-top: -10px;
+    display: block;
+    width: 825px;
+    height: 200px;
+}
+
+.grid {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.icon{
+    height: inherit;
+    width: inherit;
+    object-fit: contain;
+}

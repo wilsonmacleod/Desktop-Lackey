@@ -1,0 +1,17 @@
+.search-term{
+    height: 36px;
+    width: 200px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #4ecdc4;
+    border-right: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px 0 0 5px;
+    color: #393939;
+}
+
+.search-term:focus{
+    text-transform: capitalize;
+    color: #393939;
+}

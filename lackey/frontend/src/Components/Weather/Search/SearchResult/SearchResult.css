@@ -1,18 +1,19 @@
 .result{
     position: relative;
-    border-bottom: .5px solid #393939;
+    padding: 15px;
+    border: .5px solid whitesmoke;
     line-height: 40%;
 }
 
 .name{
     margin-left: 15px;
-    color: #393939;
+    color: #4ecdc4;;
     font-size: 24px;
     font-weight: bolder;
 }
 
 .locationType {
     margin-left: 15px;
-    color: #797979;
+    color: whitesmoke;
     font-size: 12px;
 }

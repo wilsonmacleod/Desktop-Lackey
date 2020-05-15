@@ -133,24 +133,31 @@ class Content extends Component {
     searchSubmitHandler = () => {
         const view = this.state.view;
         let newSearchReturns = this.state.searchReturns;
+        let formState = this.state.forms;
         let func, obj, key = '';
         if(view === 'Weather'){
-            this.setState({loading: true});
-            obj = this.state.forms.weather.searchedCity;
+            obj = formState.weather.searchedCity;
             func = get.weatherCitySearch(obj);
             key = 'weather';
         }
-        let self = this;
-        func.then((result) => {
-            let r = result.data.text;
-            console.log(r)
-            let data = r['data'].replace(/'/g, '"');
-            newSearchReturns[key] = JSON.parse(data);
-            self.setState({
-                loading: false,
-                searchReturns: newSearchReturns
-            })
-        })
+        if (func && obj && key) {
+            this.setState({loading: true});
+            let self = this;
+            func.then((result) => {
+                let r = result.data.text;
+                console.log(r)
+                let data = r['data'].replace(/'/g, '"');
+                newSearchReturns[key] = JSON.parse(data);
+                formState.weather.searchedCity = '';
+                self.setState({
+                    loading: false,
+                    forms: formState,
+                    searchReturns: newSearchReturns,
+                })
+            });
+        } else {
+            this.updateData(view); //if no search reset state
+        }
     }
 
     deleteHandler = (t) => {
