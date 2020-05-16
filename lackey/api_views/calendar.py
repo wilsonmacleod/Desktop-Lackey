@@ -9,13 +9,13 @@ from flask_restful import Resource
 from .. import logger
 from ..models import db, CalendarTasks
 
-class CALENDAR(Resource): # '/Calendar/<action> (None if none)
-    def get(self, action): 
+class CALENDAR(Resource): # '/Calendar/<arg> (None if none)
+    def get(self, arg): 
         data = CalendarTasks.query.all()
-        return jsonify(status=200, text={"data": f"{data}"})
+        return jsonify(status=200, text={'data': f'{data}'})
 
-    def post(self, action):
-        j = json.loads(action)
+    def post(self, arg):
+        j = json.loads(arg)
         new = CalendarTasks(
                         task=j['name'], 
                         description=j['description'], 
@@ -36,7 +36,7 @@ class CALENDAR(Resource): # '/Calendar/<action> (None if none)
                 x = j['targetDate'].replace(',', '/')
                 locale.setlocale(locale.LC_ALL, 'en_US.utf8')   
                 new = datetime.datetime.strptime(x, '%B/%d/%Y') + datetime.timedelta(days=interval)
-                new_date = new.strftime("%b/%d/%Y").replace("/", ",")
+                new_date = new.strftime('%b/%d/%Y').replace('/', ',')
                 recurring_task = CalendarTasks(
                             task=j['name'], 
                             description=j['description'], 
@@ -52,8 +52,8 @@ class CALENDAR(Resource): # '/Calendar/<action> (None if none)
 
         return jsonify(status=200)
 
-    def delete(self, action):
-        task = CalendarTasks.query.filter_by(id=action).first()
+    def delete(self, arg):
+        task = CalendarTasks.query.filter_by(id=arg).first()
         db.session.delete(task)
         db.session.commit()
         logger.debug(f'CALENDAR.DELETE: {task}')

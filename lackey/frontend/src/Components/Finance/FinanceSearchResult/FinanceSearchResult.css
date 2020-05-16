@@ -1,0 +1,19 @@
+.result{
+    position: relative;
+    padding: 15px;
+    border: .5px solid whitesmoke;
+    line-height: 40%;
+}
+
+.name{
+    margin-left: 15px;
+    color: #4ecdc4;;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text {
+    margin-left: 15px;
+    color: whitesmoke;
+    font-size: 12px;
+}

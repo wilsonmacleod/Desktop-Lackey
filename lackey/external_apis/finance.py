@@ -1,5 +1,8 @@
 # https://www.alphavantage.co/documentation/
-# key = R68BP5MK5TL0KDXQ
+import json
+import requests
+
+from .api_keys import finance_key
 
 def urls(name, keywords, key):
     """
@@ -15,7 +18,7 @@ def urls(name, keywords, key):
 
 def search_fund(query):
     keywords= query
-    key = 'R68BP5MK5TL0KDXQ' ### 
+    key = finance_key
     url = urls('search', keywords, key)
     
     r = requests.get(url)
@@ -44,7 +47,7 @@ def json_key_resolver(url_name):
     }
     return translate[url_name]
     
-def main_get(url_name, stock_symbol):
+def get(url_name, stock_symbol):
     """
     gets daily info for 
     'url_name' args should be:
@@ -54,17 +57,19 @@ def main_get(url_name, stock_symbol):
     """
     name = url_name
     keywords= stock_symbol
-    key = 'R68BP5MK5TL0KDXQ' ### 
+    key = finance_key 
     url = urls(name, keywords, key)
     
     r = requests.get(url)
     if r.status_code == 200:
         data_key = json_key_resolver(url_name)
         results = json.loads(r.text)
-        final_json = [{'Meta Data': results['Meta Data']}]
+        final_json = []
+        meta_data = [{'Meta Data': results['Meta Data']}]
         results = results[data_key]
         for each in results:
             obj = {
+            'stock_symbol': stock_symbol,
             'date': each,
             'open': results[each]['1. open'],
             'high': results[each]['2. high'],
@@ -72,5 +77,5 @@ def main_get(url_name, stock_symbol):
             'close': results[each]['4. close']
             }
             final_json.append(obj)
-        return final_json
+        return final_json, meta_data
         

@@ -14,22 +14,21 @@ const dashboard = (props) => {
         let month = dateObject.toLocaleString('en-us', { month: 'short' });
         let date = dateObject.getDate();
         return <Card
-            cardType={'weatherDay'}
-            header={
-                <Aux>
-                <img className="icon" src={i.icon_link} alt="" />
-                <div className="date-title">{day} {month} {date}</div>
-                </Aux>
-            }   
-        >
-            <div className="centered">
-            <div className="data-title">{i.weather_state_name}</div>
-            <div className="text"><span className="data">{i.min_temp}</span>°F - <span className="data">{i.max_temp}</span>°F</div>
-            <div className="text">Humidity: <span className="data">{i.humidity}</span> %</div>
-            <div className="text">Wind Speed: <span className="data">{i.wind_speed.toFixed(2)}</span> MPH</div>
-            <div className="text">Predictability: <span className="data">{i.predictability}</span> %</div>
-            </div>
-        </Card>
+                    cardType={'weatherDay'}
+                    header={
+                        <Aux>
+                        <img className="icon" src={i.icon_link} alt="" />
+                        <div className="date-title">{day} {month} {date}</div>
+                        </Aux>
+                    }>
+                    <div className="centered">
+                    <div className="data-title">{i.weather_state_name}</div>
+                    <div className="text"><span className="data">{i.min_temp}</span>°F - <span className="data">{i.max_temp}</span>°F</div>
+                    <div className="text">Humidity: <span className="data">{i.humidity}</span>%</div>
+                    <div className="text">Wind Speed: <span className="data">{i.wind_speed.toFixed(2)}</span> MPH</div>
+                    <div className="text">Predictability: <span className="data">{i.predictability}</span>%</div>
+                    </div>
+                </Card>
     })
     console.log(props.removeConfig)
     return ( 
