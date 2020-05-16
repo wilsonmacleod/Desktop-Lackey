@@ -9,29 +9,28 @@ from lackey import logger
 from lackey.models import db, WeatherConfig, WeatherForecast
 from lackey.external_apis import weather
 
-class WEATHER(Resource): # /Weather/<action> (None if none)
-    def get(self, action):
-        if action == 'init':
+class WEATHER(Resource): # /Weather/<arg> (None if none)
+    def get(self, arg):
+        if arg == 'init':
             config = WeatherConfig.query.all()
             if config != []:
-                data = WeatherActions.updateNeeded(config)
+                data = Actions.updateNeeded(config)
             else:
                 data = 'None'
         else:
-            action = action.split('=')
-            keyword = action[0]
-            query = action[1]
+            arg = arg.split('=')
+            keyword, query = arg[0], arg[1]
             if keyword == 'query':
                 data = weather.search_city(query)
             elif keyword == 'refresh':
                 obj = WeatherConfig.query.filter_by(city=query).first()
-                WeatherActions.delete(obj.woied)
-                data = WeatherActions.update(obj.woied)
-        #logger.debug(data)
-        return jsonify(status=200, text={"data": f"{data}"})
+                Actions.delete(obj.woied)
+                data = Actions.update(obj.woied)
+        logger.debug(f'get.WEATHER: {data}')
+        return jsonify(status=200, text={'data': f'{data}'})
 
-    def post(self, action):
-        j = json.loads(action)
+    def post(self, arg):
+        j = json.loads(arg)
         new = WeatherConfig(
             city=j['city'],
             woied=j['woied']
@@ -41,37 +40,36 @@ class WEATHER(Resource): # /Weather/<action> (None if none)
         db.session.commit()
         return jsonify(status=200)
 
-    def delete(self, action):
-        config = WeatherConfig.query.filter_by(city=action).first()
+    def delete(self, arg):
+        config = WeatherConfig.query.filter_by(city=arg).first()
         db.session.delete(config)
         db.session.commit()
         logger.debug(f'WEATHER.DELETE: {config}')
 
-class WeatherActions():  
+class Actions():  
     def updateNeeded(config):
         data = {}
         for each in config:
-
             logger.debug(each)
             woied = each.woied
             check = WeatherForecast.query.filter_by(woied=woied).first()
 
             if not check: # if nothing in db
-                data[each.city] = (WeatherActions.update(woied))
+                data[each.city] = (Actions.update(woied))
 
-            elif check and WeatherActions.checkDate(check): # if ood in db
-                WeatherActions.delete(woied)
-                data[each.city] = (WeatherActions.update(woied))
+            elif check and Actions.checkDate(check): # if ood in db
+                Actions.delete(woied)
+                data[each.city] = (Actions.update(woied))
 
             else: # if already updated
-                data[each.city] = (WeatherActions.dontUpdate(woied))
+                data[each.city] = (Actions.dontUpdate(woied))
                 
         return data
 
     def checkDate(check):
         logger.debug('checkDate')
         locale.setlocale(locale.LC_ALL, 'en_US.utf8')   
-        active_date = datetime.strptime(check.date, "%Y-%m-%d")
+        active_date = datetime.strptime(check.date, '%Y-%m-%d')
         today = datetime.combine(datetime.today(), datetime.min.time())
         if today > active_date:
             logger.debug('checkDate-true')
@@ -102,7 +100,7 @@ class WeatherActions():
             logger.debug(new)
             db.session.add(new)
             db.session.commit()
-        return weather.return_weather_data(woied)
+        return new_data
 
     def dontUpdate(woied):
         logger.debug('dontUpdate')

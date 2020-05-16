@@ -81,27 +81,53 @@ class WeatherForecast(db.Model):
 class FinanceConfig(db.Model):
     stock_symbol = db.Column(db.String(80), primary_key=True)
     name = db.Column(db.String(80), nullable=False)
-    investment = db.Column(db.Float, nullable=False, default=0)
 
     def __repr__(self):
         return_dict = {
             "stock_symbol": self.stock_symbol, 
             "name": self.name, 
-            "investment": self.investment
             }
         return f"{return_dict}"
-    
-class GW2Fractals(db.Model):
-    id = db.Column(db.String, primary_key=True) # today or tomorrow
-    fractal_1 = db.Column(db.String(80), nullable=False)
-    fractal_2 = db.Column(db.String(80), nullable=False)
-    fractal_3 = db.Column(db.String(80), nullable=False)
+
+class FinanceTempStore(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    stock_symbol = db.Column(db.String(80))
+    date = db.Column(db.String(80), nullable=False)
+    opening = db.Column(db.Integer, nullable=False)
+    high = db.Column(db.Integer, nullable=False)
+    low = db.Column(db.Integer, nullable=False)
+    close = db.Column(db.Integer, nullable=False)
+    entered_date = db.Column(db.DateTime, 
+                nullable=False,
+                default=datetime.datetime.now())
+
+    def __repr__(self):
+        return_dict = {
+            "stock_symbol": self.stock_symbol, 
+            "date": self.date, 
+            "opening": self.opening, 
+            "high": self.high, 
+            "low": self.low, 
+            "close": self.close 
+            }
+        return f"{return_dict}"
+
+
+
+class FinanceInvestment(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    shares_count = db.Column(db.Integer, nullable=False)
+    price_per_share = db.Column(db.Integer, nullable=False)
+    buy_date = db.Column(db.DateTime, 
+                    nullable=False)
+    stock_symbol = db.Column(db.String(80), primary_key=True)
     
     def __repr__(self):
         return_dict = {
-            "fractal_1": self.fractal_1, 
-            "fractal_2": self.fractal_2, 
-            "fractal_3": self.fractal_3
+            "shares_count": self.shares_count, 
+            "name": self.price_per_share, 
+            "investment": self.buy_date,
+            "stock": self.stock
             }
         return f"{return_dict}"
 

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from '../../../UI/Button/Button';
+import Button from '../../UI/Button/Button';
 
-import './SearchResult.css';
+import './WeatherSearchResult.css';
 
 /// title, location_type, woeid
-const searchResult = (props) => {
+const weatherSearchResult = (props) => {
     return ( 
         <div className="result">
             <p className="name">{props.title}</p>
@@ -22,4 +22,4 @@ const searchResult = (props) => {
      );
 }
  
-export default searchResult;
+export default weatherSearchResult;

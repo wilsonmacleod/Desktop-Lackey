@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
+import Aux from '../Components/hoc/Auxiliary';
 import Loading from '../Components/UI/Loading/Loading';
 import Calendar from '../Components/Calendar/Calendar';
 import Weather from '../Components/Weather/Weather';
+import Finance from '../Components/Finance/Finance';
 
 import GET from '../axios/GET';
 import POST from '../axios/POST';
@@ -27,33 +29,24 @@ class Content extends Component {
                 interval: 7,
                 color: '4ecdc4'
             },
-            weather: {
-                searchedCity: ''
+            search: {
+                query: ''
             }
         },
-        searchReturns: {
-            weather: ''
-        }
+        searchReturns: ''
     };
 
     updateData = (view) => {
         this.setState({loading: true});
-        const action = 'init';
         const self = this;
-        let dataFunction = null;
-        if(view === "Weather"){
-            dataFunction = get.weather(action)
-        }else{
-            dataFunction = get.calendar(action)
-        };
-        dataFunction 
+        get.init(view, 'init') 
         .then((result) => {
             result = result.data
-            let data = "None";
+            let data = 'None';
             if (result.status === 200){
                 let r = result.text;
                 data = r['data'].replace(/'/g, '"');
-                if (data !== "None"){
+                if (data !== 'None'){
                     data = JSON.parse(data);
                 };
             };
@@ -71,13 +64,11 @@ class Content extends Component {
                         interval: 7,
                         color: '4ecdc4'
                     },
-                    weather: {
-                        searchedCity: ''
+                    search: {
+                        query: '',
                     }
                 },
-                searchReturns: {
-                    weather: ''
-                }
+                searchReturns: ''
             });
         });
     };
@@ -114,42 +105,41 @@ class Content extends Component {
 
     formSubmitHandler = (event) => {
         const view = this.state.view;
-        let func, obj = '';
+        let obj = '';
         if(view === 'Calendar'){
             obj = JSON.stringify(this.state.forms.calendar);
-            func = post.calendar(obj);
         }else if(view === 'Weather'){
-            let vals = event.target.value.split(",")
+            let vals = event.target.value.split(',');
             obj = JSON.stringify({
                 'city': vals[0],
                 'woied': vals[1]
             });
-            func = post.weatherConfig(obj);
-        }
-        func.then(() => {
+        }else if(view === 'Finance'){
+            let vals = event.target.value.split(',');
+            obj = JSON.stringify({
+                'stock_symbol': vals[0],
+                'name': vals[1]
+            });
+        };
+        post.add(view, obj).then(() => {
             this.updateData(view)
         });
     };
 
     searchSubmitHandler = () => {
         const view = this.state.view;
-        let newSearchReturns = this.state.searchReturns;
         let formState = this.state.forms;
-        let func, obj, key = '';
-        if(view === 'Weather'){
-            obj = formState.weather.searchedCity;
-            func = get.weatherCitySearch(obj);
-            key = 'weather';
-        }
-        if (func && obj && key) {
+        let obj = formState.search.query;
+        if (obj !== '') {
             this.setState({loading: true});
+            let newSearchReturns = this.state.searchReturns;
             let self = this;
-            func.then((result) => {
+            get.search(view, obj).then((result) => {
                 let r = result.data.text;
                 console.log(r)
                 let data = r['data'].replace(/'/g, '"');
-                newSearchReturns[key] = JSON.parse(data);
-                formState.weather.searchedCity = '';
+                newSearchReturns = JSON.parse(data);
+                formState.search.query = '';
                 self.setState({
                     loading: false,
                     forms: formState,
@@ -163,14 +153,8 @@ class Content extends Component {
 
     deleteHandler = (t) => {
         const view = this.state.view;
-        let func = '';  
         let id = t.target.value;
-        if(view === 'Calendar'){
-            func = del.calendar(id);
-        }else if(view === 'Weather'){
-            func = del.weatherConfig(id);
-        };
-        func.then(() => {
+        del.delete(view, id).then(() => {
             this.updateData(view);
         });
     };
@@ -179,12 +163,8 @@ class Content extends Component {
         const view = this.state.view;
         const a = 'refresh';
         const id = t.target.value;
-        const action = [`${a}=${id}`]
-        let func = '';
-        if(view === "Weather"){
-            func = get.weather(action);
-        };
-        func.then(() => {
+        const action = [`${a}=${id}`];
+        get.init(view, action).then(() => {
             this.updateData(view);
         });
     }
@@ -203,25 +183,34 @@ class Content extends Component {
                         />,
             'Weather': <Weather 
                             data={this.state.data}
-                            searchData={this.state.searchReturns.weather}
-                            wForm={this.state.forms.weather}
+                            searchData={this.state.searchReturns}
+                            searchFormState={this.state.forms.search}
                             // handlers
-                            searchCityOnChangeHandler={this.formUpdateHandler}
-                            searchCitySubmitHandler={this.searchSubmitHandler}
-                            addWeatherLocation={this.formSubmitHandler}
-                            refreshForecast={this.forceRefreshDataHandler}
+                            searchOnChange={this.formUpdateHandler}
+                            searchSubmit={this.searchSubmitHandler}
+                            addLocation={this.formSubmitHandler}
                             removeConfig={this.deleteHandler}
+                            refreshForecast={this.forceRefreshDataHandler}
+                        />,
+            'Finance': <Finance
+                            data={this.state.data}
+                            searchData={this.state.searchReturns}
+                            searchFormState={this.state.forms.search}
+                            //handlers
+                            searchOnChange={this.formUpdateHandler}
+                            searchSubmit={this.searchSubmitHandler}
+                            addFund={this.formSubmitHandler}
                         />
-                    }
+                    };
         try{
             view = this.state.loading ? <Loading /> : views[this.state.view];
         }catch(err){
             console.log(err);
-            view = <div>Null</div>;
+            view = <Aux>Null</Aux>;
         };
         return ( 
             <div>
-            {view}
+                {view}
             </div>
          );
     }

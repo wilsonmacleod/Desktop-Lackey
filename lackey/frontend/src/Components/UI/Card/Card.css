@@ -22,7 +22,7 @@
     overflow-y: auto;
 }
 
-.weatherSearch {
+.search {
     position: relative;
     display: inline-block;
     margin: 10px;

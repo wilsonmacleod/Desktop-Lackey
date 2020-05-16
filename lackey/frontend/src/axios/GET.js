@@ -1,18 +1,13 @@
 import axios from 'axios';
 
 export default class GET {
-    calendar(action) {
-        const url = `/Calendar/${action}`;
+    init(view, arg) { // ex. 'Weather', 'init';
+        const url = `/${view}/${arg}`;
         return axios.get(url)
-    }
+    };
 
-    weather(action) {
-        const url = `/Weather/${action}`;
-        return axios.get(url, action)
-    }
-
-    weatherCitySearch(query) {
-        const url = `/Weather/query=${query}`;
+    search(view, query) { // ex. 'Weather', 'Honolulu';
+        const url = `/${view}/query=${query}`;
         return axios.get(url, query)
-    }
+    };
 }

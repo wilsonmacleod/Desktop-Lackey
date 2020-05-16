@@ -7,11 +7,12 @@ from lackey import get_root_path
 app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
 
 from lackey import api_views # api (uses db/models)
-from lackey.api_views import calendar, weather
+from lackey.api_views import calendar, weather, finance
 
 api = Api(app)
-api.add_resource(calendar.CALENDAR, '/Calendar/<action>') # calendar specifc api calls
-api.add_resource(weather.WEATHER, '/Weather/<action>') # general api calls/actions
+api.add_resource(calendar.CALENDAR, '/Calendar/<arg>')
+api.add_resource(weather.WEATHER, '/Weather/<arg>')
+api.add_resource(finance.FINANCE, '/Finance/<arg>')
 
 @app.before_request
 def before_request():

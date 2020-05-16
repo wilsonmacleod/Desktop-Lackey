@@ -1,15 +1,26 @@
 import React from 'react';
 
 import Aux from '../hoc/Auxiliary';
-import Search from './Search/Search';
+import Search from '../UI/Search/Search';
 import Dashboard from './Dashboard/Dashboard';
+import SearchResult from './WeatherSearchResult/WeatherSearchResult';
 
 const weather = (props) => {
     const data = props.data;
-    const searchResults = props.searchData;
+    const searchData = props.searchData;
+
+    let searchResult = searchData.length >= 1 ? searchData.map(i => {
+        return <SearchResult
+                    title={i.title}
+                    locationType={i.location_type}
+                    woeid={i.woeid}
+                    addLocation={props.addLocation}
+                />
+    }) : null;
+
     let dashboards = null;
     if(data !== "None" &&
-    searchResults === ''){
+    searchResult === null){
         dashboards = [];
         for(let key in data){
             let dash = <Dashboard
@@ -26,13 +37,12 @@ const weather = (props) => {
     return ( 
         <Aux>
             <Search
-                wForm={props.wForm}
-                searchResults={searchResults}
+                searchFormState={props.searchFormState}
+                searchResult={searchResult}
                 // handlers
-                searchCityOnChangeHandler={props.searchCityOnChangeHandler}
-                searchSubmit={props.searchCitySubmitHandler}
-                addWeatherLocation={props.addWeatherLocation}
-                clearSearchResults={props.searchCitySubmitHandler}
+                searchOnChange={props.searchOnChange}
+                searchSubmit={props.searchSubmit}
+                clearSearchResult={props.searchSubmit}
             />
         {dashboards}
         </Aux>
