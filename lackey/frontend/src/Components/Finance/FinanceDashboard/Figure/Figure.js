@@ -8,7 +8,7 @@ import {
         } from 'victory';
 
 
-const financeFigures = (props) => {
+const figure = (props) => {
     const data = props.data;
     
     const style = {
@@ -81,4 +81,4 @@ const financeFigures = (props) => {
      );
 }
  
-export default financeFigures;
+export default figure;

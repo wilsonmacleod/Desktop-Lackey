@@ -31,10 +31,18 @@ class FINANCE(Resource): # /Finance/<arg> (None if none)
 
     def post(self, arg):
         j = json.loads(arg)
-        new = FinanceConfig(
-            stock_symbol=j['stock_symbol'],
-            name=j['name']
-        )
+        try:
+            if j['name']:
+                new = FinanceConfig(
+                    stock_symbol=j['stock_symbol'],
+                    name=j['name']
+                )
+        except KeyError:
+            new = FinanceInvestment(
+                shares_count=j['shareCount'],
+                price_per_share=j['pricePerShare'],
+                stock_symbol=j['stockSymbol']
+            )
         logger.debug(f'FINANCE.POST: {new}')
         db.session.add(new)
         db.session.commit()
@@ -101,10 +109,13 @@ class Actions():
                     high=i['high'],
                     low=i['low'],
                     close=i['close'],
+                    change=i['change']
                         )
             db.session.add(new)
             db.session.commit()
         return new_data
+
+    #def update_investment(stock_symbol)
 
     def dontUpdate(stock_symbol):
         logger.debug('dontUpdate')

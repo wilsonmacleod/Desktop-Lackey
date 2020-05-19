@@ -2,6 +2,8 @@
 import json
 import requests
 
+from lackey import logger
+
 from .api_keys import finance_key
 
 def urls(name, keywords, key):
@@ -64,17 +66,36 @@ def get(url_name, stock_symbol):
     if r.status_code == 200:
         data_key = json_key_resolver(url_name)
         results = json.loads(r.text)
-        final_json = []
         results = results[data_key]
-        for each in results:
+        final_json = []
+        for key, value in results.items():
             obj = {
             'stock_symbol': stock_symbol,
-            'date': each,
-            'open': results[each]['1. open'],
-            'high': results[each]['2. high'],
-            'low': results[each]['3. low'],
-            'close': results[each]['4. close']
+            'date': key,
+            'open': value['1. open'],
+            'high': value['2. high'],
+            'low': value['3. low'],
+            'close': value['4. close']
             }
             final_json.append(obj)
+        index = 0
+        for each in final_json:
+            try:
+                new = float(final_json[index]['close'])
+                old = float(final_json[index + 1]['close'])
+                if new > old:
+                    x = '+'
+                    change = (((new - old) / old) *  100)
+                else:
+                    x = '-'
+                    change = (((old - new) / old) *  100)
+                change = round(change, 2)
+
+            except IndexError:
+                x = 'N/A'
+                change = ''
+
+            final_json[index]['change'] = f'{change},{x}'
+            index += 1
         return final_json
         
