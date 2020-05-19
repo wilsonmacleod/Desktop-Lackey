@@ -29,6 +29,11 @@ class Content extends Component {
                 interval: 7,
                 color: '4ecdc4'
             },
+            finance: {
+                stockSymbol: '',
+                shareCount: '',
+                pricePerShare: ''
+            },
             search: {
                 query: ''
             }
@@ -63,6 +68,11 @@ class Content extends Component {
                         recurring: false,
                         interval: 7,
                         color: '4ecdc4'
+                    },
+                    finance: {
+                        stockSymbol: '',
+                        shareCount: '',
+                        pricePerShare: ''
                     },
                     search: {
                         query: '',
@@ -115,11 +125,15 @@ class Content extends Component {
                 'woied': vals[1]
             });
         }else if(view === 'Finance'){
-            let vals = event.target.value.split(',');
-            obj = JSON.stringify({
-                'stock_symbol': vals[0],
-                'name': vals[1]
-            });
+            if(this.state.forms.finance.stockSymbol === ''){
+                let vals = event.target.value.split(',');
+                obj = JSON.stringify({
+                    'stock_symbol': vals[0],
+                    'name': vals[1]
+                });
+            }else{
+                obj = JSON.stringify(this.state.forms.finance);
+            }
         };
         post.add(view, obj).then(() => {
             this.updateData(view)
@@ -196,12 +210,15 @@ class Content extends Component {
                             data={this.state.data}
                             searchData={this.state.searchReturns}
                             searchFormState={this.state.forms.search}
+                            inputFormState={this.state.forms.finance} 
                             //handlers
                             searchOnChange={this.formUpdateHandler}
                             searchSubmit={this.searchSubmitHandler}
                             addFund={this.formSubmitHandler}
                             removeFund={this.deleteHandler}
                             refreshFund={this.forceRefreshDataHandler}
+                            inputFormOnChange={this.formUpdateHandler}
+                            inputFormSubmit={this.formSubmitHandler}
                         />
                     };
         try{

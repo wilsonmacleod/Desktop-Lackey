@@ -97,6 +97,7 @@ class FinanceTempStore(db.Model):
     high = db.Column(db.Integer, nullable=False)
     low = db.Column(db.Integer, nullable=False)
     close = db.Column(db.Integer, nullable=False)
+    change = db.Column(db.String(80), nullable=False)
     entered_date = db.Column(db.DateTime, 
                 nullable=False,
                 default=datetime.datetime.now())
@@ -109,6 +110,7 @@ class FinanceTempStore(db.Model):
             "high": self.high, 
             "low": self.low, 
             "close": self.close,
+            "change": self.change,
             "entered_date": f"{self.entered_date}"
             }
         return f"{return_dict}"
@@ -119,16 +121,13 @@ class FinanceInvestment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     shares_count = db.Column(db.Integer, nullable=False)
     price_per_share = db.Column(db.Integer, nullable=False)
-    buy_date = db.Column(db.DateTime, 
-                    nullable=False)
-    stock_symbol = db.Column(db.String(80), primary_key=True)
+    stock_symbol = db.Column(db.String(80))
     
     def __repr__(self):
         return_dict = {
             "shares_count": self.shares_count, 
-            "name": self.price_per_share, 
-            "investment": self.buy_date,
-            "stock": self.stock
+            "price_per_share": self.price_per_share, 
+            "stock_symbol": self.stock_symbol
             }
         return f"{return_dict}"
 
