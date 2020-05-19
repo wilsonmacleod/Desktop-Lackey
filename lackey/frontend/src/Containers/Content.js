@@ -200,6 +200,8 @@ class Content extends Component {
                             searchOnChange={this.formUpdateHandler}
                             searchSubmit={this.searchSubmitHandler}
                             addFund={this.formSubmitHandler}
+                            removeFund={this.deleteHandler}
+                            refreshFund={this.forceRefreshDataHandler}
                         />
                     };
         try{

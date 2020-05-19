@@ -22,10 +22,14 @@ class FINANCE(Resource): # /Finance/<arg> (None if none)
             keyword, query = arg[0], arg[1]
             if keyword == 'query':
                 data = finance.search_fund(query)
+            elif keyword == 'refresh':
+                obj = FinanceConfig.query.filter_by(stock_symbol=query).first()
+                Actions.delete(obj.stock_symbol)
+                data = Actions.update(obj.stock_symbol)
         logger.debug(f'get.FINANCE: {data}')
         return jsonify(status=200, text={'data': f'{data}'})
 
-    def post (self, arg):
+    def post(self, arg):
         j = json.loads(arg)
         new = FinanceConfig(
             stock_symbol=j['stock_symbol'],
@@ -34,6 +38,15 @@ class FINANCE(Resource): # /Finance/<arg> (None if none)
         logger.debug(f'FINANCE.POST: {new}')
         db.session.add(new)
         db.session.commit()
+        return jsonify(status=200)
+
+    def delete(self, arg):
+        config = FinanceConfig.query.filter_by(stock_symbol=arg).first()
+        db.session.delete(config)
+        cascade = FinanceTempStore.__table__.delete().where(FinanceTempStore.stock_symbol == config.stock_symbol)
+        db.session.delete(cascade)
+        db.session.commit()
+        logger.debug(f'FINANCE.DELETE: {config} && temp-stored: {cascade}')
         return jsonify(status=200)
 
 class Actions():
