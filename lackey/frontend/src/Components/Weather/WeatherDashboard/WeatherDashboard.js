@@ -30,7 +30,6 @@ const dashboard = (props) => {
                     </div>
                 </Card>
     })
-    console.log(props.removeConfig)
     return ( 
         <Aux>
             <h3 className="dash-title">{props.locName}</h3>

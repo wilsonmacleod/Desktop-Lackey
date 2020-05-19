@@ -23,18 +23,15 @@
     background-color: #393939;
 }
 
-.data-container{
-    float:right;
-    position: relative;
-    height: inherit;
-    width: 200px;
-    background-color: whitesmoke;
+.head-sub{
+    margin-left: 5px;
 }
 
-.trans-container{
-    float:right;
-    position: relative;
-    height: inherit;
-    width: calc(100% - 600px);
-    background-color: #4ecdc4;
+.c-title{
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+    color: whitesmoke;
+    padding-top:5px;
+    padding-bottom:10px;
 }
