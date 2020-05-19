@@ -32,7 +32,8 @@ class Content extends Component {
             finance: {
                 stockSymbol: '',
                 shareCount: '',
-                pricePerShare: ''
+                pricePerShare: '',
+                date: ''
             },
             search: {
                 query: ''
@@ -219,6 +220,7 @@ class Content extends Component {
                             refreshFund={this.forceRefreshDataHandler}
                             inputFormOnChange={this.formUpdateHandler}
                             inputFormSubmit={this.formSubmitHandler}
+                            removeTransaction={this.deleteHandler}
                         />
                     };
         try{

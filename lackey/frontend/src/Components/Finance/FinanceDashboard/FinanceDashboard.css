@@ -47,11 +47,13 @@
     color: #393939;
     border: .5px solid #4ecdc4;
     background-color: whitesmoke;
+    overflow-x: wrap;
 }
 
 .info-container p{ 
     margin-left: 5px;
 }
+
 
 .increase{
     font-weight: bolder;
@@ -61,4 +63,22 @@
 .decrease{
     font-weight: bolder;
     color: #DC143C;
+}
+
+.total-container{
+    display: inline-block;
+    height: auto;
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 3px;
+    font-size: 12px;
+    color: whitesmoke;
+    border: .5px solid #4ecdc4;
+    background-color: #393939;
+    overflow-x: wrap;
+}
+
+.total-container p{ 
+    margin-left: 5px;
 }

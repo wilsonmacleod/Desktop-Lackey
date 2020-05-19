@@ -9,7 +9,8 @@ const investmentForm = (props) => {
     let btnDis = 'disabledSubmit';
     let submit = null;
     if(props.inputFormState.shareCount !== '' &&
-    props.inputFormState.pricePerShare !== ''){
+    props.inputFormState.pricePerShare !== '' &&
+    props.inputFormState.date !== ''){
         btnDis = 'submit';
         submit = props.inputFormSubmit;
     };
@@ -43,6 +44,17 @@ const investmentForm = (props) => {
                         value={props.inputFormState.pricePerShare}
                         name="finance"
                         id="pricePerShare"
+                        onChange={props.inputFormOnChange}
+                    />
+                </label>
+
+                <label>
+                    <span>Price per share:<span className="req">*</span></span>
+                    <input 
+                        type="date"
+                        value={props.inputFormState.date}
+                        name="finance"
+                        id="date"
                         onChange={props.inputFormOnChange}
                     />
                 </label>
