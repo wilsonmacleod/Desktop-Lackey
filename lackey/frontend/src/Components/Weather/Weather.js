@@ -2,7 +2,7 @@ import React from 'react';
 
 import Aux from '../hoc/Auxiliary';
 import Search from '../UI/Search/Search';
-import Dashboard from './Dashboard/Dashboard';
+import Dashboard from './WeatherDashboard/WeatherDashboard';
 import SearchResult from './WeatherSearchResult/WeatherSearchResult';
 
 const weather = (props) => {

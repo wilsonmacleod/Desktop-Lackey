@@ -108,7 +108,8 @@ class FinanceTempStore(db.Model):
             "opening": self.opening, 
             "high": self.high, 
             "low": self.low, 
-            "close": self.close 
+            "close": self.close,
+            "entered_date": f"{self.entered_date}"
             }
         return f"{return_dict}"
 

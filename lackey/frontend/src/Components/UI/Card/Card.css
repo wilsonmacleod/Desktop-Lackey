@@ -37,7 +37,24 @@
 .weatherDay{
     height: inherit;
     width: 133px;
-    background: #393939;;
+    background: #393939;
     border: .5px solid #4ecdc4;
     border-radius: .95em;
+}
+
+.data-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    width: 200px;
+    background-color: #797979;
+    border-left: .5px solid #393939;
+}
+
+.trans-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    width: calc(100% - 600px);
+    background-color: #797979;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Aux from '../hoc/Auxiliary';
 import Search from '../UI/Search/Search';
+import Dashboard from './FinanceDashboard/FinanceDashboard';
 import SearchResult from './FinanceSearchResult/FinanceSearchResult';
 import FinanceFigures from './FinanceFigures/FinanceFigures';
 
@@ -20,14 +21,23 @@ const finance = (props) => {
     }) : null; 
 
     let figs = null;
-    if(data !== "None" &&
+    if(data !== 'None' &&
     searchResult === null){
         figs = []
-        for(let k in data){
-            let ele = <FinanceFigures 
-                        data={data[k]}
-                        key={k}
+        for(let key in data){
+            let ele = 
+            <Dashboard
+                title={key}
+                figure = {
+                    <FinanceFigures 
+                        data={data[key]}
+                        key={key}
                     /> 
+                }
+                updated={data[key][0]['entered_date']}
+                refreshFund={props.refreshFund}
+                removeFund={props.removeFund}
+            />
             figs.push(ele)
             }
     }

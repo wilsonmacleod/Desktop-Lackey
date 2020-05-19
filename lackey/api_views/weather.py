@@ -45,6 +45,7 @@ class WEATHER(Resource): # /Weather/<arg> (None if none)
         db.session.delete(config)
         db.session.commit()
         logger.debug(f'WEATHER.DELETE: {config}')
+        return jsonify(status=200)
 
 class Actions():  
     def updateNeeded(config):

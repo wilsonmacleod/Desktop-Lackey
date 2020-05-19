@@ -1,0 +1,40 @@
+.dash-title{
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: underline;
+    color: whitesmoke;
+    margin-bottom: -40px;
+}
+
+.f-container{
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    width: 800px;
+    height: 250px;
+    border: 2px solid #4ecdc4;
+    overflow: hidden;
+}
+
+.figure-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    background-color: #393939;
+}
+
+.data-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+.trans-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    width: calc(100% - 600px);
+    background-color: #4ecdc4;
+}
