@@ -65,7 +65,6 @@ def get(url_name, stock_symbol):
         data_key = json_key_resolver(url_name)
         results = json.loads(r.text)
         final_json = []
-        meta_data = [{'Meta Data': results['Meta Data']}]
         results = results[data_key]
         for each in results:
             obj = {
@@ -77,5 +76,5 @@ def get(url_name, stock_symbol):
             'close': results[each]['4. close']
             }
             final_json.append(obj)
-        return final_json, meta_data
+        return final_json
         

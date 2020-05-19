@@ -167,7 +167,7 @@ class Content extends Component {
         get.init(view, action).then(() => {
             this.updateData(view);
         });
-    }
+    };
 
     render() { 
         console.log(this.state);

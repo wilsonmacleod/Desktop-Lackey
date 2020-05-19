@@ -24,17 +24,21 @@ const finance = (props) => {
     if(data !== 'None' &&
     searchResult === null){
         figs = []
-        for(let key in data){
+        let dataObj = data['data'];
+        let transObj = data['transactions'];
+        for(let key in dataObj){
             let ele = 
             <Dashboard
                 title={key}
                 figure = {
                     <FinanceFigures 
-                        data={data[key]}
+                        data={dataObj[key]}
                         key={key}
                     /> 
                 }
-                updated={data[key][0]['entered_date']}
+                data={dataObj[key]}
+                transactions={transObj[key]}
+                updated={dataObj[key][0]['entered_date']}
                 refreshFund={props.refreshFund}
                 removeFund={props.removeFund}
             />
