@@ -5,14 +5,11 @@ import Button from '../../UI/Button/Button';
 import Card from '../../UI/Card/Card';
 import Figure from './Figure/Figure';
 import Information from './Information/Information';
+import Transactions from './Transactions/Transactions';
 
 import './FinanceDashboard.css';
 
 const dashboard = (props) => {
-    let transactions = "You have no transactions for this fund at this time...";
-    if(props.transactions.length > 0){
-        transactions = "Transactions Woo Hoo";
-        };
     return ( 
         <Aux>
         <h3 className="dash-title">{props.title}</h3>
@@ -39,12 +36,15 @@ const dashboard = (props) => {
                         <Button btnType={"submit"} val={props.title} clicked={props.modalHandler}><i className="fa fa-plus" aria-hidden="true"></i></Button>
                         </div>}
                 >
-                    {transactions}
+                    <Transactions
+                        data={props.transactions}
+                        removeTransaction={props.removeTransaction}
+                    />
                 </Card>
             </div>
             <span className="text">Last Updated: {props.updated}</span>
             <Button btnType={"submit"} clicked={props.refreshFund} val={props.title}>Refresh</Button>
-            <Button btnType={"remove"} clicked={props.removeFund} val={props.title}>Remove</Button>
+            <Button btnType={"remove"} clicked={props.removeFund} val={`config=${props.title}`}>Remove</Button>
           </Aux>
      );
 }

@@ -115,19 +115,19 @@ class FinanceTempStore(db.Model):
             }
         return f"{return_dict}"
 
-
-
 class FinanceInvestment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    stock_symbol = db.Column(db.String(80))
     shares_count = db.Column(db.Integer, nullable=False)
     price_per_share = db.Column(db.Integer, nullable=False)
-    stock_symbol = db.Column(db.String(80))
+    date = db.Column(db.String(80), nullable=False)
     
     def __repr__(self):
         return_dict = {
+            "stock_symbol": self.stock_symbol,
             "shares_count": self.shares_count, 
             "price_per_share": self.price_per_share, 
-            "stock_symbol": self.stock_symbol
+            "date": self.date
             }
         return f"{return_dict}"
 

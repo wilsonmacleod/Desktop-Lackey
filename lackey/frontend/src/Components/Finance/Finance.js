@@ -53,6 +53,7 @@ class Finance extends Component {
                     refreshFund={this.props.refreshFund}
                     removeFund={this.props.removeFund}
                     modalHandler={this.modalHandler}
+                    removeTransaction={this.props.removeTransaction}
                 />
                 figs.push(ele)
                 }

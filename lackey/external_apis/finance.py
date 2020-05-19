@@ -94,8 +94,7 @@ def get(url_name, stock_symbol):
             except IndexError:
                 x = 'N/A'
                 change = ''
-
-            final_json[index]['change'] = f'{change},{x}'
+            final_json[index]['change'] = f'{x},{change}'
             index += 1
         return final_json
         
