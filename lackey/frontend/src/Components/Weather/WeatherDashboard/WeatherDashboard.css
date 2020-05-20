@@ -3,12 +3,12 @@
     font-size: 24px;
     text-decoration: underline;
     color: whitesmoke;
-    border-bottom: -10px;
+    margin-bottom: -60px;
 }
 
 .dash-container{
     position: relative;
-    margin-top: -10px;
+    margin-top: 50px;
     margin-bottom: 10px;
     display: block;
     width: 800px;

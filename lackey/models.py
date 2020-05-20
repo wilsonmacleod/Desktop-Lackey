@@ -131,21 +131,20 @@ class FinanceInvestment(db.Model):
             }
         return f"{return_dict}"
 
-class StaticNBAScoreBoard(db.Model):
+class NBAScoreBoard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    entered_date = db.Column(db.DateTime, 
-                    nullable=False,
-                    default=datetime.datetime.now())
     game_id = db.Column(db.String(80), nullable=False)
     team_abbr = db.Column(db.String(80), nullable=False)
     team_city_name = db.Column(db.String(80), nullable=False)
     team_name = db.Column(db.String(80), nullable=False)
     record = db.Column(db.String(80), nullable=False)
     quarter_scores = db.Column(db.Text, nullable=False) # dict stored as str
+    entered_date = db.Column(db.String(80), 
+            nullable=False,
+            default=datetime.datetime.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
-            "entered_date": self.entered_date, 
             "game_id": self.game_id,
             "team_abbr": self.team_abbr, 
             "team_city_name": self.team_city_name,
@@ -155,56 +154,40 @@ class StaticNBAScoreBoard(db.Model):
             }
         return f"{return_dict}"
 
-#class NBAStandings(db.Model): ??
-
-class NBALeaders(db.Model):
-    category = db.Column(db.String(80), primary_key=True) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
-    entered_date = db.Column(db.DateTime, 
-                nullable=False,
-                default=datetime.datetime.now())
-    data = db.Column(db.Text, nullable=False) # dict stored as str
+class NBAStandings(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    object_type = db.Column(db.String(80), nullable=False) # league, east, west
+    team_city = db.Column(db.String(80), nullable=False)
+    team_name = db.Column(db.String(80), nullable=False)
+    data = db.Column(db.Text, nullable=False) # data dict as str
+    entered_date = db.Column(db.String(80), 
+            nullable=False,
+            default=datetime.datetime.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
-            "category": self.category, 
-            "entered_date": self.entered_date,
+            "object_type": self.object_type,
+            "team_city": self.team_city, 
+            "team_name": self.team_name,
             "data": self.data
             }
         return f"{return_dict}"
 
-class StaticNFLScoreBoard(db.Model):
-    current_week = db.Column(db.String(80), primary_key=True) 
-    home_team = db.Column(db.String(80), nullable=False)
-    home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
-    away_team = db.Column(db.String(80), nullable=False)
-    away_box_score = db.Column(db.Text, nullable=False) # dict stored as str
-    time_rem = db.Column(db.String(80), nullable=False)
-    qtr = db.Column(db.String(80), nullable=False)
+class NBALeaders(db.Model):
+    category = db.Column(db.String(80), primary_key=True) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
+    data = db.Column(db.Text, nullable=False) # dict stored as str
+    entered_date = db.Column(db.String(80), 
+            nullable=False,
+            default=datetime.datetime.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
-            "current_week": self.current_week, 
-            "home_team": self.home_team,
-            "home_box_score": self.home_box_score, 
-            "away_team": self.away_team,
-            "away_box_score": self.away_box_score, 
-            "time_rem": self.time_rem,
-            "qtr": self.qtr            
+            "category": self.category, 
+            "data": self.data
             }
         return f"{return_dict}"
 
-class SoccerConfig(db.Model):
-    competition = db.Column(db.String(80), primary_key=True) # code 
-    name = db.Column(db.String(80), nullable=False)
-
-    def __repr__(self):
-        return_dict = {
-            "competition": self.competition, 
-            "name": self.name
-            }
-        return f"{return_dict}"
-
-class StaticSoccerScoreboard(db.Model):
+class SoccerScoreboard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     competition = db.Column(db.String(80), nullable=False)
     matchday = db.Column(db.Integer, nullable=False)
@@ -228,7 +211,7 @@ class StaticSoccerScoreboard(db.Model):
             }
         return f"{return_dict}"
 
-class StaticEPLTable(db.Model):
+class EPLTable(db.Model):
     rank = db.Column(db.Integer, primary_key=True)
     team = db.Column(db.String(80), nullable=False)
     crest = db.Column(db.String(80), nullable=False)
@@ -280,5 +263,27 @@ class SoccerTopScorers(db.Model):
             "team": self.team,
             "number_goals": self.number_goals, 
             "entered_date": self.entered_date
+            }
+        return f"{return_dict}"
+
+
+class NFLScoreBoard(db.Model):
+    current_week = db.Column(db.String(80), primary_key=True) 
+    home_team = db.Column(db.String(80), nullable=False)
+    home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
+    away_team = db.Column(db.String(80), nullable=False)
+    away_box_score = db.Column(db.Text, nullable=False) # dict stored as str
+    time_rem = db.Column(db.String(80), nullable=False)
+    qtr = db.Column(db.String(80), nullable=False)
+
+    def __repr__(self):
+        return_dict = {
+            "current_week": self.current_week, 
+            "home_team": self.home_team,
+            "home_box_score": self.home_box_score, 
+            "away_team": self.away_team,
+            "away_box_score": self.away_box_score, 
+            "time_rem": self.time_rem,
+            "qtr": self.qtr            
             }
         return f"{return_dict}"

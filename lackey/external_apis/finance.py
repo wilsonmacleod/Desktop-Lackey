@@ -12,7 +12,7 @@ def urls(name, keywords, key):
     """
     url_dict = {
         'search': f'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={keywords}&apikey={key}', # Search Endpoint
-        'default': f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={keywords}&interval=60min&apikey={key}', # TIME_SERIES_INTRADAY
+        'default': f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={keywords}&interval=60min&outputsize=full&apikey={key}', # TIME_SERIES_INTRADAY
         'daily_compact': f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={keywords}&apikey={key}', # TIME_SERIES_DAILY
         'daily_full': f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={keywords}&outputsize=full&apikey={key}', # TIME_SERIES_DAILY
     }

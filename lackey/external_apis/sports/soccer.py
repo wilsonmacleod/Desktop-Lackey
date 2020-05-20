@@ -102,3 +102,15 @@ def get_top_scorers(comp='PL'):
         df_data.append(obj)
 
     return pd.DataFrame(df_data)
+
+def main(comp='PL'): #can add UCL to this or other comps
+    comp_info = get_comp_info(comp)
+    fixture_list = fixture_list(comp_info['matchday'])
+    table = get_PL_table()
+    scorers = get_top_scorers(comp)
+    return {
+        'competition': comp_info,
+        'fixtures': fixture_list,
+        'table': table,
+        'scorers': scorers
+    }

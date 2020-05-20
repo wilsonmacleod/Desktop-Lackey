@@ -7,7 +7,6 @@ import '../FinanceDashboard.css';
 
 const transactions = (props) => {
     const data = props.data;
-    console.log(data);
     let transactions = 
         <div className="info-container">
             <p><u><strong>No Transactions</strong></u></p>
