@@ -5,6 +5,7 @@ import Loading from '../Components/UI/Loading/Loading';
 import Calendar from '../Components/Calendar/Calendar';
 import Weather from '../Components/Weather/Weather';
 import Finance from '../Components/Finance/Finance';
+import Sports from '../Components/Sports/Sports';
 
 import GET from '../axios/GET';
 import POST from '../axios/POST';
@@ -167,6 +168,7 @@ class Content extends Component {
     }
 
     deleteHandler = (t) => {
+        this.setState({loading: true});
         const view = this.state.view;
         let id = t.target.value;
         del.delete(view, id).then(() => {
@@ -175,6 +177,7 @@ class Content extends Component {
     };
     
     forceRefreshDataHandler = (t) => {
+        this.setState({loading: true});
         const view = this.state.view;
         const a = 'refresh';
         const id = t.target.value;
@@ -221,6 +224,9 @@ class Content extends Component {
                             inputFormOnChange={this.formUpdateHandler}
                             inputFormSubmit={this.formSubmitHandler}
                             removeTransaction={this.deleteHandler}
+                        />,
+            'Sports': <Sports 
+                            data={this.state.data}
                         />
                     };
         try{

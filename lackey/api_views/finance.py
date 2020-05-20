@@ -107,9 +107,9 @@ class Actions():
         db.session.execute(objs)
         db.session.commit()
 
-    def update(stock_symbol):
+    def update(stock_symbol, data_class='default'):
         #logger.debug('update')
-        new_data = finance.get('default', stock_symbol)
+        new_data = finance.get(data_class, stock_symbol)
         for i in new_data:
             logger.debug(i)
             new = FinanceTempStore(
