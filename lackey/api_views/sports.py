@@ -6,7 +6,7 @@ from flask import jsonify
 from flask_restful import Resource
 
 from lackey import logger
-from lackey.api_views.sub_sports import nba
+from lackey.api_views.sub_sports import nba, soccer#, nfl DEAD
 
 class SPORTS(Resource): #/Sports/<arg> (None if none)
     """
@@ -17,8 +17,7 @@ class SPORTS(Resource): #/Sports/<arg> (None if none)
         if arg == 'init':
             data = Actions.update()
         logger.debug(f'get.SPORTS: {data}')
-        return jsonify(status=200, text={'data': f'{data}'})
-
+        return jsonify(status=200, text={'data': f'{data}'})\
 
 class Actions():
     """
@@ -45,8 +44,20 @@ class Actions():
         else: # if already in and updated
             logger.debug('dontUpdate')
             return False
+    
+    def clean_string_dict(object, keyword):
+        """
+        clean sub-dicts stored as 
+        strings in db.Texts
+        """
+        dict_convert = dict(object.__dict__)
+        dict_convert.pop('_sa_instance_state', None)
+        dict_convert[keyword] = json.loads(dict_convert[keyword].replace("'", '"')) 
+        return dict_convert
 
     def update():
         return {
-            'nba': nba.updateNBA()
+            'nba': nba.updateNBA(),
+            'soccer': soccer.updateSoccer()
+            #'nfl': nfl.updateNFL() # DEAD
             }

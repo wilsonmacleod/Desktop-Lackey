@@ -42,7 +42,7 @@ class Soccer_Urls():
         }
         return url_dict[url_name]
 
-class NFL_Urls():
+class NFL_Urls(): # DEPRECATED
     #https://stackoverflow.com/a/59970147
     def urls(url_name):
         url_dict = {
