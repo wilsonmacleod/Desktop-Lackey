@@ -42,12 +42,12 @@ class Soccer_Urls():
         }
         return url_dict[url_name]
 
-class NFL_Urls(): # DEPRECATED
+class NFL_Urls(): 
     #https://stackoverflow.com/a/59970147
-    def urls(url_name):
-        url_dict = {
-            'currentWeek': 'http://www.nfl.com/feeds-rs/currentWeek.json',
-            'week': 'http://www.nfl.com/ajax/scorestrip?', # +season={season}&seasonType={seasonType}&week={week}'
-            'liveupdate': 'http://www.nfl.com/liveupdate/game-center/' #+{game_id}/{game_id}_gtd.json'
-        }
-        return url_dict[url_name]
+        #url_dict = { # DEAD
+        #    'currentWeek': 'http://www.nfl.com/feeds-rs/currentWeek.json',
+        #    'week': 'http://www.nfl.com/ajax/scorestrip?', # +season={season}&seasonType={seasonType}&week={week}'
+        #    'liveupdate': 'http://www.nfl.com/liveupdate/game-center/' #+{game_id}/{game_id}_gtd.json'
+        #}
+    def urls():
+        return "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"

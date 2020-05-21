@@ -6,7 +6,7 @@ from flask import jsonify
 from flask_restful import Resource
 
 from lackey import logger
-from lackey.api_views.sub_sports import nba, soccer#, nfl DEAD
+from lackey.api_views.sub_sports import nba, soccer, nfl
 
 class SPORTS(Resource): #/Sports/<arg> (None if none)
     """
@@ -58,6 +58,6 @@ class Actions():
     def update():
         return {
             'nba': nba.updateNBA(),
-            'soccer': soccer.updateSoccer()
-            #'nfl': nfl.updateNFL() # DEAD
+            'soccer': soccer.updateSoccer(),
+            'nfl': nfl.updateNFL()
             }
