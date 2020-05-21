@@ -4,8 +4,6 @@ import json
 import datetime
 import pandas as pd
 
-from lackey import logger
-
 from .sport_urls import NBA_Urls as Urls
 
 ## TODO
@@ -17,9 +15,7 @@ def convert_quarters(string):
         r += 4
     return r
 
-today = datetime.datetime.today().strftime('%Y-%m-%d')
-#test_day = datetime.datetime.strptime('2020-03-11', '%Y-%m-%d')
-def get_games_for_date(date=today): # default = today
+def get_games_for_date(date):
     url = Urls.scoreboard_url(date)
     headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
@@ -50,7 +46,7 @@ def create_df(r):
     data = r['resultSets'][0]['rowSet']
     return pd.DataFrame(data, columns=column_headers)    
 
-def get_standings(season='2019-20'): # season needs to be current automatically
+def get_standings(season='2019-20'):
     url = Urls.leaguestandings(season)
     headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
@@ -58,17 +54,24 @@ def get_standings(season='2019-20'): # season needs to be current automatically
     drop_range = range(20, 81)
     league.drop(league.columns[drop_range], axis=1, inplace=True)
     league.drop(league.columns[[0,1,2,7,12,13,15]], axis=1, inplace=True)
-    east = league[league['Conference'] == 'East'].reset_index()
-    west = league[league['Conference'] == 'West'].reset_index()
-    e = east.to_dict(orient='records')
-    east = json.dumps(e)
-    w = west.to_dict(orient='records')
-    west = json.dumps(w)
-    return {'east': east, 'west': west}
-
-## Args: 
+    league = league.reset_index()
+    league = league.to_dict(orient='records')
+    final_json = []
+    specific = [
+                'index', 
+                'TeamName',
+                'TeamCity', 
+                'Conference'
+                    ]
+    for each in league:
+        data = {k:v for k,v in each.items() if k not in specific}
+        specifics = {k:v for k,v in each.items() if k in specific}
+        specifics['data'] = data
+        final_json.append(specifics)
+    return final_json
+ 
 # PlayerScope = ^(All+Players)|(Rookies)$
- # Season needs to be current automatically
+# Season needs to be current automatically
 # StatCategory = (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
 def get_leaders(scope='All+Players', season='2019-20', category='Points'):  
     url = Urls.leaders(scope, season, category)
@@ -85,8 +88,20 @@ def get_leaders(scope='All+Players', season='2019-20', category='Points'):
     }
     df.drop(df.columns[drop_dict[category]], axis=1, inplace=True)
     obj = df.to_dict(orient='records')
-    return json.dumps(obj)
+    player_details = [
+                'RANK', 
+                'PLAYER', 
+                'TEAM_ABBREVIATION', 
+                    ]
+    final_json = []
+    for each in obj:
+        stats = {k:v for k,v in each.items() if k not in player_details}
+        player = {k:v for k,v in each.items() if k in player_details}
+        player['stats'] = stats
+        player['category'] = category
+        final_json.append(player)
+    return final_json
 
 if __name__ == "__main__":
-    x = get_games_for_date() 
+    x = get_leaders() 
     print(x)

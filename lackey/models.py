@@ -156,25 +156,10 @@ class NBAScoreBoard(db.Model):
 
 class NBAStandings(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    object_type = db.Column(db.String(80), nullable=False) # league, east, west
+    rank = db.Column(db.Integer)
     team_city = db.Column(db.String(80), nullable=False)
     team_name = db.Column(db.String(80), nullable=False)
-    data = db.Column(db.Text, nullable=False) # data dict as str
-    entered_date = db.Column(db.String(80), 
-            nullable=False,
-            default=datetime.datetime.now().strftime('%Y-%m-%d'))
-
-    def __repr__(self):
-        return_dict = {
-            "object_type": self.object_type,
-            "team_city": self.team_city, 
-            "team_name": self.team_name,
-            "data": self.data
-            }
-        return f"{return_dict}"
-
-class NBALeaders(db.Model):
-    category = db.Column(db.String(80), primary_key=True) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
+    conference = db.Column(db.String(80), nullable=False) # east, west
     data = db.Column(db.Text, nullable=False) # dict stored as str
     entered_date = db.Column(db.String(80), 
             nullable=False,
@@ -182,8 +167,31 @@ class NBALeaders(db.Model):
 
     def __repr__(self):
         return_dict = {
-            "category": self.category, 
+            "rank": self.rank,
+            "team_city": self.team_city, 
+            "team_name": self.team_name,
+            "conference": self.conference,
             "data": self.data
+            }
+        return f"{return_dict}"
+
+class NBALeaders(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    category = db.Column(db.String(80), nullable=False) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
+    rank = db.Column(db.String(80), nullable=False)
+    player = db.Column(db.String(80), nullable=False)
+    team_abbr = db.Column(db.String(80), nullable=False)
+    stats = db.Column(db.Text, nullable=False) # dict stored as str
+    entered_date = db.Column(db.String(80), 
+            nullable=False,
+            default=datetime.datetime.now().strftime('%Y-%m-%d'))
+
+    def __repr__(self):
+        return_dict = {
+            "category": self.category, 
+            "rank": self.rank,
+            "player": self.player,
+            "team_abbr": self.team_abbr,
             }
         return f"{return_dict}"
 
