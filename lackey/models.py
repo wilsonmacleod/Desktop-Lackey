@@ -257,22 +257,21 @@ class SoccerTopScorers(db.Model):
 
 
 class NFLScoreBoard(db.Model):
-    current_week = db.Column(db.String(80), primary_key=True) 
+    id = db.Column(db.Integer, primary_key=True)
+    season = db.Column(db.String(80), nullable=False)
+    current_week = db.Column(db.String(80), nullable=False)
+    time_date = db.Column(db.String(80), nullable=False)
     home_team = db.Column(db.String(80), nullable=False)
     away_team = db.Column(db.String(80), nullable=False)
-    home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
-    away_box_score = db.Column(db.Text, nullable=False) # dict stored as str
-    time_rem = db.Column(db.String(80), nullable=False)
-    qtr = db.Column(db.String(80), nullable=False)
+    data = db.Column(db.Text, nullable=False) # dict stored as str
 
     def __repr__(self):
         return_dict = {
-            "current_week": self.current_week, 
-            "home_team": self.home_team,
-            "home_box_score": self.home_box_score, 
-            "away_team": self.away_team,
-            "away_box_score": self.away_box_score, 
-            "time_rem": self.time_rem,
-            "qtr": self.qtr            
+            "season": self.current_week, 
+            "current_week": self.home_team,
+            "time_date": self.home_box_score, 
+            "home_team": self.away_team,
+            "away_team": self.away_box_score, 
+            "data": self.time_rem         
             }
         return f"{return_dict}"
