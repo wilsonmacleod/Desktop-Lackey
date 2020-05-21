@@ -1,4 +1,4 @@
-import datetime 
+from datetime import datetime as dt
 from flask_sqlalchemy import SQLAlchemy
 
 from lackey.app import app
@@ -61,7 +61,7 @@ class WeatherForecast(db.Model):
     woied = db.Column(db.String(80), nullable=False)
     entered_date = db.Column(db.String(80), 
                     nullable=False,
-                    default=datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S"))
+                    default=dt.now().strftime("%m/%d/%Y, %H:%M:%S"))
 
     def __repr__(self):
         return_dict = {
@@ -100,7 +100,7 @@ class FinanceTempStore(db.Model):
     change = db.Column(db.String(80), nullable=False)
     entered_date = db.Column(db.DateTime, 
                 nullable=False,
-                default=datetime.datetime.now())
+                default=dt.now())
 
     def __repr__(self):
         return_dict = {
@@ -141,7 +141,7 @@ class NBAScoreBoard(db.Model):
     quarter_scores = db.Column(db.Text, nullable=False) # dict stored as str
     entered_date = db.Column(db.String(80), 
             nullable=False,
-            default=datetime.datetime.now().strftime('%Y-%m-%d'))
+            default=dt.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
@@ -163,7 +163,7 @@ class NBAStandings(db.Model):
     data = db.Column(db.Text, nullable=False) # dict stored as str
     entered_date = db.Column(db.String(80), 
             nullable=False,
-            default=datetime.datetime.now().strftime('%Y-%m-%d'))
+            default=dt.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
@@ -184,7 +184,7 @@ class NBALeaders(db.Model):
     stats = db.Column(db.Text, nullable=False) # dict stored as str
     entered_date = db.Column(db.String(80), 
             nullable=False,
-            default=datetime.datetime.now().strftime('%Y-%m-%d'))
+            default=dt.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
@@ -201,10 +201,10 @@ class SoccerScoreboard(db.Model):
     matchday = db.Column(db.Integer, nullable=False)
     home_team = db.Column(db.String(80), nullable=False) 
     away_team = db.Column(db.String(80), nullable=False) 
-    status = db.Column(db.String(80), nullable=False) 
-    winner = db.Column(db.String(80), nullable=True) 
-    duration = db.Column(db.String(80), nullable=True) 
-    scores = db.Column(db.Text, nullable=False) # dict stored as str
+    data = db.Column(db.Text, nullable=False) # dict stored as str
+    entered_date = db.Column(db.String(80), 
+        nullable=False,
+        default=dt.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
@@ -212,10 +212,7 @@ class SoccerScoreboard(db.Model):
             "matchday": self.matchday,
             "home_team": self.home_team, 
             "away_team": self.away_team,
-            "status": self.status, 
-            "winner": self.winner,
-            "duration": self.duration, 
-            "scores": self.scores,
+            "data": self.data
             }
         return f"{return_dict}"
 
@@ -223,32 +220,17 @@ class EPLTable(db.Model):
     rank = db.Column(db.Integer, primary_key=True)
     team = db.Column(db.String(80), nullable=False)
     crest = db.Column(db.String(80), nullable=False)
-    played_games = db.Column(db.String(80), nullable=False)
-    won = db.Column(db.String(80), nullable=False)
-    draw = db.Column(db.String(80), nullable=False)
-    lost = db.Column(db.String(80), nullable=False)
-    points = db.Column(db.String(80), nullable=False)
-    goals_for = db.Column(db.String(80), nullable=False)
-    goals_against = db.Column(db.String(80), nullable=False)
-    goal_difference = db.Column(db.String(80), nullable=False)
-    entered_date = db.Column(db.DateTime, 
-            nullable=False,
-            default=datetime.datetime.now())
+    data = db.Column(db.Text, nullable=False) # dict stored as str
+    entered_date = db.Column(db.String(80), 
+        nullable=False,
+        default=dt.now().strftime('%Y-%m-%d'))
     
     def __repr__(self):
         return_dict = {
             "rank": self.rank, 
             "team": self.team,
             "crest": self.crest, 
-            "played_games": self.played_games,
-            "won": self.won, 
-            "draw": self.draw,
-            "lost": self.lost, 
-            "points": self.points,
-            "goals_for": self.goals_for, 
-            "goals_against": self.goals_against,
-            "goal_difference": self.goal_difference, 
-            "entered_date": self.entered_date,
+            "data": self.data
             }
         return f"{return_dict}"
 
@@ -259,9 +241,9 @@ class SoccerTopScorers(db.Model):
     nationality = db.Column(db.String(80), nullable=False)
     team = db.Column(db.String(80), nullable=False)
     number_goals = db.Column(db.String(80), nullable=False)
-    entered_date = db.Column(db.DateTime, 
+    entered_date = db.Column(db.String(80), 
         nullable=False,
-        default=datetime.datetime.now())
+        default=dt.now().strftime('%Y-%m-%d'))
 
     def __repr__(self):
         return_dict = {
@@ -270,7 +252,6 @@ class SoccerTopScorers(db.Model):
             "nationality": self.nationality, 
             "team": self.team,
             "number_goals": self.number_goals, 
-            "entered_date": self.entered_date
             }
         return f"{return_dict}"
 
@@ -278,8 +259,8 @@ class SoccerTopScorers(db.Model):
 class NFLScoreBoard(db.Model):
     current_week = db.Column(db.String(80), primary_key=True) 
     home_team = db.Column(db.String(80), nullable=False)
-    home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
     away_team = db.Column(db.String(80), nullable=False)
+    home_box_score = db.Column(db.Text, nullable=False) # dict stored as str
     away_box_score = db.Column(db.Text, nullable=False) # dict stored as str
     time_rem = db.Column(db.String(80), nullable=False)
     qtr = db.Column(db.String(80), nullable=False)
