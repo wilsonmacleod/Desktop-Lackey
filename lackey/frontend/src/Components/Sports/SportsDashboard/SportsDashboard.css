@@ -1,0 +1,50 @@
+.dash-title{
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: underline;
+    color: whitesmoke;
+    margin-bottom: -40px;
+}
+
+.s-container{
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    width: 800px;
+    height: 250px;
+    border: 2px solid #4ecdc4;
+    overflow: hidden;
+}
+
+.nba-content{
+    float: right;
+    height: inherit;
+    width: calc(73% / 2);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: .5px solid #4ecdc4;
+}
+
+.nba-content-last{
+    float: right;
+    height: inherit;
+    width: 27%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: .5px solid #4ecdc4;
+}
+
+.soccer-content{
+    float: right;
+    height: inherit;
+    width: calc(100% / 2);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: .5px solid #4ecdc4;
+}
+
+.contain{
+    object-fit: contain;
+    height: 10px;
+    width: 10px;
+}

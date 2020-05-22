@@ -37,10 +37,10 @@ class Finance extends Component {
                     />
         }) : null; 
     
-        let figs = null;
+        let dash = null;
         if(data !== 'None' &&
         searchResult === null){
-            figs = []
+            dash = []
             let dataObj = data['data'];
             let transObj = data['transactions'];
             for(let key in dataObj){
@@ -55,7 +55,7 @@ class Finance extends Component {
                     modalHandler={this.modalHandler}
                     removeTransaction={this.props.removeTransaction}
                 />
-                figs.push(ele)
+                dash.push(ele)
                 }
         }     
         return ( 
@@ -81,7 +81,7 @@ class Finance extends Component {
                     searchSubmit={this.props.searchSubmit}
                     clearSearchResult={this.props.searchSubmit}
                 />
-                {figs}
+                {dash}
         </Aux>
          );
     }
