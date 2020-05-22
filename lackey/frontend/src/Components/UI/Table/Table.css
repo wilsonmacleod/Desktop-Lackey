@@ -1,0 +1,35 @@
+td{
+    text-align: center;
+    font-size: 10px;
+    color: whitesmoke;
+    border: .5px solid whitesmoke;
+    background-color: #393939;
+}
+
+tr{
+    border: .5px solid whitesmoke;
+}
+
+th{
+    font-size: 10.5px;
+    color: #4ecdc4;
+    border: .5px solid whitesmoke;
+    background-color: #22242a;
+}
+
+table{
+    max-height: inherit;
+    width: 100%;
+    overflow-y: auto;
+    border-left: .5px solid #4ecdc4;
+}
+
+.master{
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: underline;
+    color: whitesmoke;
+    background-color: #393939;
+    width: 100%;
+    margin-left: 50%;
+}
