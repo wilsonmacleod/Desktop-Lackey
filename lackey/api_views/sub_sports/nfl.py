@@ -41,5 +41,5 @@ def updateNFL():
             clean_stats.append(data)
         scoreboard = clean_stats
     return {
-        'scoredboard': scoreboard
+        'scoreboard': scoreboard
     }
