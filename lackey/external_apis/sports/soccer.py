@@ -40,6 +40,7 @@ def fixture_list(matchday, comp='PL'):
     
     final_json = []
     for each in r['matches']:
+        score = each['score']
         obj = {
             'competition': str(comp),
             'matchday': str(matchday),
@@ -47,12 +48,12 @@ def fixture_list(matchday, comp='PL'):
             'away_team': str(each['awayTeam']['name']),
             'data': {
                 'status': str(each['status']),
-                'winner': str(each['score']['winner']),
-                'duration': str(each['score']['duration']),
-                'fullTime': f"home:{each['score']['fullTime']['homeTeam']},away:{each['score']['fullTime']['awayTeam']}",
-                'halfTime': f"home:{each['score']['halfTime']['homeTeam']},away:{each['score']['halfTime']['awayTeam']}",
-                'extraTime': f"home:{each['score']['extraTime']['homeTeam']},away:{each['score']['extraTime']['awayTeam']}",
-                'penalties': f"home:{each['score']['penalties']['homeTeam']},away:{each['score']['penalties']['awayTeam']}",
+                'winner': str(score['winner']),
+                'duration': str(score['duration']),
+                'fullTime': {'home': str(score['fullTime']['homeTeam']), 'away': str(score['fullTime']['awayTeam'])},
+                'halfTime': {'home': str(score['halfTime']['homeTeam']), 'away': str(score['halfTime']['awayTeam'])},
+                'extraTime': {'home': str(score['extraTime']['homeTeam']), 'away': str(score['extraTime']['awayTeam'])},
+                'penalties': {'home': str(score['penalties']['homeTeam']), 'away': str(score['penalties']['awayTeam'])},
             }
         }
         final_json.append(obj)

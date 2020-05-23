@@ -12,8 +12,8 @@ const table = (props) => {
     })
     return ( 
         <Aux>
-        <table>
             <div className="master">{props.title}</div>
+        <table>
            <tbody>
                {tableHeader}
               {contents}

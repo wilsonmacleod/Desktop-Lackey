@@ -133,6 +133,7 @@ class FinanceInvestment(db.Model):
 
 class NBAScoreBoard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    game_date = db.Column(db.String(80), nullable=False)
     game_id = db.Column(db.String(80), nullable=False)
     team_abbr = db.Column(db.String(80), nullable=False)
     team_city_name = db.Column(db.String(80), nullable=False)
@@ -145,12 +146,13 @@ class NBAScoreBoard(db.Model):
 
     def __repr__(self):
         return_dict = {
+            "game_date": self.game_date,
             "game_id": self.game_id,
             "team_abbr": self.team_abbr, 
             "team_city_name": self.team_city_name,
             "team_name": self.team_name, 
             "record": self.record,
-            "quarter_scores": self.quarter_scores, 
+            "quarter_scores": self.quarter_scores
             }
         return f"{return_dict}"
 
@@ -177,7 +179,8 @@ class NBAStandings(db.Model):
 
 class NBALeaders(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    category = db.Column(db.String(80), nullable=False) # (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
+    scope = db.Column(db.String(80), nullable=False) # All Players, Rooks
+    category = db.Column(db.String(80), nullable=False) 
     rank = db.Column(db.String(80), nullable=False)
     player = db.Column(db.String(80), nullable=False)
     team_abbr = db.Column(db.String(80), nullable=False)

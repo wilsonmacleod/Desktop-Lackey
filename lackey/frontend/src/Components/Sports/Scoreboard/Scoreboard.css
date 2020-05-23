@@ -1,0 +1,90 @@
+.dash-title{
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: underline;
+    color: whitesmoke;
+    margin-bottom: -40px;
+}
+
+.s-container{
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    width: 800px;
+    height: 250px;
+    border: 2px solid #4ecdc4;
+    overflow: hidden;
+}
+
+.scoreboard-container{
+    float:right;
+    position: relative;
+    height: inherit;
+    width: calc(100% / 3);
+    color: whitesmoke;
+    background-color: #797979;
+    border-left: 1px solid #4ecdc4;
+    overflow-y: auto;
+}
+
+.sbInfo{
+    display: inline-block;
+    height: 90px;
+    width: 95%;
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: whitesmoke;
+    border: .5px solid #4ecdc4;;
+    background-color: #393939;
+    overflow-x: wrap;
+}
+
+.sbInfo .team{ 
+    height: 31px;
+}
+
+.sbInfo .bannerDiv{
+    height: 50%;
+    width: 95%;
+    float: left;
+    margin-left: 5px;
+    background-color: #22242a;
+    border: 1px solid whitesmoke;
+}
+
+.sbInfo .teamDiv{
+    height: 50%;
+    width: 60%;
+    float: left;
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.sbInfo .scoreDiv{
+    height: 50%;
+    width: 35%;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.sbInfo .total{ 
+    font-size: 12px;
+    font-weight: bold;
+    height: 31px;
+    color: #4ecdc4;;
+}
+
+.sbInfo .team-name{
+    font-size: 10px;
+    font-weight: bold;
+    height: 31px;
+    color: whitesmoke; 
+}
+
+.sbInfo p{ 
+    margin-left: 1px;
+}

@@ -41,35 +41,53 @@ const nba = (props) => {
         }
     });
     let leadersHeaders = ['Player', 'PTS', 'FG %', '3P %', 'FT %' ]
-    let leaders = data.leaders.map(i => {
+    let overAllleaders = data.leaders.map(i => {
+        if(i.scope === 'All+Players'){
         return <tr key={i.rank}>
-            <td>{i.player}</td>
+            <td>{i.player === undefined ? i.PLAYER : i.player}</td>
             <td>{i.stats.PTS}</td>
             <td>{(Number(i.stats.FG_PCT) * 100).toFixed(2)}</td>
             <td>{(Number(i.stats.FG3_PCT) * 100).toFixed(2)}</td>
             <td>{(Number(i.stats.FT_PCT) * 100).toFixed(2)}</td>
-    </tr>
-    })
+            </tr>
+        };
+    });
+    let rookieLeaders = data.leaders.map(i => {
+        if(i.scope === 'Rookies'){
+            return <tr key={i.rank}>
+            <td>{i.player === undefined ? i.PLAYER : i.player}</td>
+            <td>{i.stats.PTS}</td>
+            <td>{(Number(i.stats.FG_PCT) * 100).toFixed(2)}</td>
+            <td>{(Number(i.stats.FG3_PCT) * 100).toFixed(2)}</td>
+            <td>{(Number(i.stats.FT_PCT) * 100).toFixed(2)}</td>
+            </tr>
+        }
+    });
     return ( 
         <Aux>
             <div className="nba-content">
             <Table 
-                title={"East"}
+                title={"Eastern Conference"}
                 contents={eastStandings}
                 headers={standingsHeaders}
             />
             </div> 
             <div className="nba-content">
             <Table 
-                title={"West"}
+                title={"Western Conference"}
                 contents={westStandings}
                 headers={standingsHeaders}
             />
             </div>
             <div className="nba-content-last">
             <Table 
-                title={"Leading Scorers"}
-                contents={leaders}
+                title={"Scoring Leaders"}
+                contents={overAllleaders}
+                headers={leadersHeaders}
+            />
+            <Table 
+                title={"Rookie Leaders"}
+                contents={rookieLeaders}
                 headers={leadersHeaders}
             />
             </div>

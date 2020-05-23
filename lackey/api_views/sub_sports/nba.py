@@ -13,12 +13,13 @@ def scoreboard():
     scoreboard = NBAScoreBoard.query.all()
     if api_view.Actions.checkIfUpdate(scoreboard):
         locale.setlocale(locale.LC_ALL, 'en_US.utf8')
-        test_day = dt.strptime('2020-03-11', '%Y-%m-%d') # this will be default (today)
-        scoreboard = nba.get_games_for_date(test_day) # but toggleable to other dates
+        day = dt.strptime('2020-03-11', '%Y-%m-%d') # this will be default (today)
+        scoreboard = nba.get_games_for_date(day) # but toggleable to other dates
         if scoreboard != []:
             NBAScoreBoard.query.delete() 
             for each in scoreboard:
                 new = NBAScoreBoard(
+                    game_date=str(day)[0:10],
                     game_id=each['GAME_ID'],
                     team_abbr=each['TEAM_ABBREVIATION'],
                     team_city_name=each['TEAM_CITY_NAME'],
@@ -61,6 +62,7 @@ def leaders():
             NBALeaders.query.delete() 
             for each in leaders:
                 new = NBALeaders(
+                    scope=each['scope'],
                     category=each['category'],
                     rank=each['RANK'],
                     player=each['PLAYER'],
@@ -78,7 +80,7 @@ def leaders():
         
 def updateNBA():
     return {
-        'scorebord': scoreboard(),
+        'scoreboard': scoreboard(),
         'standings': standings(),
         'leaders': leaders()
         }

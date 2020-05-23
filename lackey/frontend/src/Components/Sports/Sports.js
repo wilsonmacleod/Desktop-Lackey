@@ -2,12 +2,13 @@ import React from 'react';
 
 import Aux from '../hoc/Auxiliary';
 import Dashboard from './SportsDashboard/SportsDashboard';
+import Scoreboard from './Scoreboard/Scoreboard';
 
 const sports = (props) => {
     const data = props.data;
-    console.log(data);
     let ele = null;
     let dash = [];
+    let scoreboard = {};
     for (let key in data){
         if(key === 'nba' || key === 'soccer'){ /// 
         ele = <Dashboard
@@ -16,10 +17,16 @@ const sports = (props) => {
         />
         dash.push(ele)
         };
+        scoreboard[`${key}`] = data[key].scoreboard;
     };
-    
+    let scoreboardDash = <Scoreboard
+                            title={'Games'}
+                            data={scoreboard}
+                        />
+
     return ( 
         <Aux>
+            {scoreboardDash}
             {dash}
         </Aux>
 
@@ -27,8 +34,3 @@ const sports = (props) => {
 }
  
 export default sports;
-
-
-//NBA - scoreboard, standings, leaders (toggleable)
-// EPL - "scoreboard"/fixtures, standings, scoring leaders
-//NFL - scoreboard
