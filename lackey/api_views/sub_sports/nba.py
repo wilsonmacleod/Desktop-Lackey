@@ -13,7 +13,8 @@ def scoreboard():
     scoreboard = NBAScoreBoard.query.all()
     if api_view.Actions.checkIfUpdate(scoreboard):
         locale.setlocale(locale.LC_ALL, 'en_US.utf8')
-        day = dt.strptime('2020-03-11', '%Y-%m-%d') # this will be default (today)
+        #test_day = dt.strptime('2020-03-11', '%Y-%m-%d') # this will be default (today)
+        day = dt.now().strftime('%Y-%m-%d')
         scoreboard = nba.get_games_for_date(day) # but toggleable to other dates
         if scoreboard != []:
             NBAScoreBoard.query.delete() 
@@ -77,7 +78,10 @@ def leaders():
             clean_stats.append(api_view.Actions.clean_string_dict(each, 'stats'))
         leaders = clean_stats
     return leaders
-        
+
+def refreshScoreboard():
+    NBAScoreBoard.query.delete()
+
 def updateNBA():
     return {
         'scoreboard': scoreboard(),

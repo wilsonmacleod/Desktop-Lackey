@@ -16,6 +16,10 @@ class SPORTS(Resource): #/Sports/<arg> (None if none)
         data = 'None'
         if arg == 'init':
             data = Actions.update()
+        else:
+            arg = arg.split('=')
+            if arg[0] == 'refresh':
+                data = Actions.refreshScoreboard()
         logger.debug(f'get.SPORTS: {data}')
         return jsonify(status=200, text={'data': f'{data}'})\
 
@@ -55,9 +59,16 @@ class Actions():
         dict_convert[keyword] = json.loads(dict_convert[keyword].replace("'", '"')) 
         return dict_convert
 
+    def refreshScoreboard():
+        nba.refreshScoreboard()
+        soccer.refreshScoreboard()
+        nfl.refreshScoreboard()
+        return Actions.update()
+
     def update():
         return {
             'nba': nba.updateNBA(),
             'soccer': soccer.updateSoccer(),
             'nfl': nfl.updateNFL()
-            }
+        }
+    

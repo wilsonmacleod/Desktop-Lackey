@@ -70,6 +70,9 @@ def leaders():
                 db.session.commit()  
     return leaders
 
+def refreshScoreboard():
+    SoccerScoreboard.query.delete()
+
 def updateSoccer(): #PL exclusive for now
     return {
         'scoreboard': scoreboard(),

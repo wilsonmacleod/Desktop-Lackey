@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Aux from '../../hoc/Auxiliary';
+import Button from '../../UI/Button/Button';
+
 import Nba from './NbaScoreboard/NbaScoreboard';
 import Soccer from './SoccerScoreboard/SoccerScoreboard';
 import Nfl from './NFLScoreboard/NFLScoreboard';
@@ -22,7 +24,9 @@ const scoreboard = (props) => {
                     <Nba 
                         data={data.nba}
                     />
-            </div>      
+            </div> 
+            <span className="text">Last Updated: {data.soccer[0].entered_date}</span>
+            <Button btnType={"submit"} clicked={props.refreshScoreboard} val={'scoreboard'}>Refresh</Button>
         </Aux>
     );
 }

@@ -227,6 +227,8 @@ class Content extends Component {
                         />,
             'Sports': <Sports 
                             data={this.state.data}
+                            //handlers
+                            refreshScoreboard={this.forceRefreshDataHandler}
                         />
                     };
         try{
