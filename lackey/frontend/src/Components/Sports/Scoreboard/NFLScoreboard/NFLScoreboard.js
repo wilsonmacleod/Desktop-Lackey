@@ -1,31 +1,44 @@
 import React from 'react';
 
+import Aux from '../../../hoc/Auxiliary';
+import Table from '../../../UI/Table/Table';
+
 const nflScoreboard = (props) => {
     const data = props.data;
-    let soccer = data.map(i => {
-    return  <div className="sbInfo">
-                <div className="teamDiv">
-                    <p>{i.time_date}</p>
-                    <p><img className="contain" src={i.home_team_logo} alt=''/> <u>{i.home_team}</u></p>
+    let key = 0;
+    let games = data.map(i => {
+        let qtr = i.data.qtr;
+        let rem = i.data.rem_time;
+        let odds = i.data.odds;
+        let time_date = i.time_date.substring(0, i.time_date.length-15);
+        key++;
+        return <div className="sbInfo-nfl">
+                        <Table
+                            headers={[`${time_date}`, `QTR: ${qtr} ${rem}`]}
+                            contents={
+                            <Aux>
+                                <tr key={i.current_week}>
+                                    <td>Week: {i.current_week} {i.season}</td>
+                                </tr>
+                                <tr key={key}>
+                                    <td>Favorite: <b>{odds}</b></td>
+                                </tr>
+                                <tr key={i.home_team}>
+                                    <td><img className="contain" src={i.data.home_team_logo} alt=''/> <u>{i.home_team}</u></td>
+                                    <td className="team-name">{i.data.home_team_score}</td>
+                                </tr>
+                                <tr key={i.away_team}>
+                                    <td><img className="contain" src={i.data.away_team_logo} alt=''/> <u>{i.away_team}</u></td>
+                                    <td className="team-name">{i.data.away_team_score}</td>
+                                </tr>
+                            </Aux>
+                            }
+                        />
                 </div>
-                <div className="scoreDiv">
-                    <p>{i.data.home_team_score}</p>
-                </div>
-                <div className="teamDiv">
-                    <p><u>{i.away_team}</u></p>
-                    <p>{i.data.odds}</p>
-                </div>
-                <div className="scoreDiv">
-                    <p>{i.data.away_team_score}</p>
-                </div>
-            </div>
-        });
+    });
     return ( 
         <div className="scoreboard-container">
-            <div className="bannerDiv">
-                <p>Week: {props.data[0].current_week}</p>
-            </div>
-            {soccer}
+            {games}
         </div>
      );
 }

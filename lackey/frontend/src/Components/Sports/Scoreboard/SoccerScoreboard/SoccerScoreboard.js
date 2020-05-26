@@ -1,29 +1,34 @@
 import React from 'react';
 
+import Aux from '../../../hoc/Auxiliary';
+import Table from '../../../UI/Table/Table';
+
 const soccerScoreboard = (props) => {
     const data = props.data;
-    let soccer = data.map(i => {
-    return  <div className="sbInfo">
-                <div className="teamDiv">
-                    <p><u>{i.home_team}</u></p>
-                </div>
-                <div className="scoreDiv">
-                    <p>{i.data.fullTime.home}</p>
-                </div>
-                <div className="teamDiv">
-                    <p><u>{i.away_team}</u></p>
-                </div>
-                <div className="scoreDiv">
-                    <p>{i.data.fullTime.away}</p>
-                </div>
-            </div>
-        });
+    let matches = data.map(i => {
+        let date = i.data.date;
+        let status = i.data.status;
+            return <div className="sbInfo">
+                            <Table
+                                headers={[`${date} (Day: ${i.matchday})`, status]}  
+                                contents={
+                                <Aux>
+                                    <tr key={i.home_team}>
+                                        <td className="team-name"><u>{i.home_team}</u></td>
+                                        <td className="team">{i.data.fullTime.home}</td>
+                                    </tr>
+                                    <tr key={i.away_team}>
+                                        <td className="team-name"><u>{i.away_team}</u></td>
+                                        <td className="team">{i.data.fullTime.away}</td>
+                                    </tr>
+                                </Aux>
+                                }
+                            />
+                    </div>
+    });
     return ( 
         <div className="scoreboard-container">
-            {/*<div className="bannerDiv">
-                <p>Matchday: {props.data[0].matchday}</p>
-    </div>*/}
-            {soccer}
+            {matches}
         </div>
      );
 }

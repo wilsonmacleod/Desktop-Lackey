@@ -3,6 +3,8 @@ import json
 
 import pandas as pd
 
+from lackey import logger
+
 from .sport_urls import Soccer_Urls as Urls
 
 ## HIGHLIGHT EMBEDDER?
@@ -29,6 +31,12 @@ def get_comp_info(comp='PL'):
         'pulled': comp_info['lastUpdated']
     }
 
+def replace(x):
+    if x == 'None' or x is None:
+        return 0
+    else:
+        return x
+
 def fixture_list(matchday, comp='PL'):
     """
     get matches and match details
@@ -47,15 +55,17 @@ def fixture_list(matchday, comp='PL'):
             'home_team':  str(each['homeTeam']['name']),
             'away_team': str(each['awayTeam']['name']),
             'data': {
+                'date': str(each['utcDate'][0:10]),
                 'status': str(each['status']),
                 'winner': str(score['winner']),
                 'duration': str(score['duration']),
-                'fullTime': {'home': str(score['fullTime']['homeTeam']), 'away': str(score['fullTime']['awayTeam'])},
-                'halfTime': {'home': str(score['halfTime']['homeTeam']), 'away': str(score['halfTime']['awayTeam'])},
-                'extraTime': {'home': str(score['extraTime']['homeTeam']), 'away': str(score['extraTime']['awayTeam'])},
-                'penalties': {'home': str(score['penalties']['homeTeam']), 'away': str(score['penalties']['awayTeam'])},
+                'fullTime': {'home': replace(score['fullTime']['homeTeam']), 'away': replace(score['fullTime']['awayTeam'])},
+                'halfTime': {'home': replace(score['halfTime']['homeTeam']), 'away': replace(score['halfTime']['awayTeam'])},
+                'extraTime': {'home': replace(score['extraTime']['homeTeam']), 'away': replace(score['extraTime']['awayTeam'])},
+                'penalties': {'home': replace(score['penalties']['homeTeam']), 'away': replace(score['penalties']['awayTeam'])},
             }
         }
+        obj['data'] = replace(obj['data'])
         final_json.append(obj)
     return final_json
 

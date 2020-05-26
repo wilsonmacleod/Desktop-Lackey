@@ -3,6 +3,7 @@ import React from 'react';
 import Aux from '../../hoc/Auxiliary';
 import Nba from './Nba/Nba';
 import Soccer from './Soccer/Soccer';
+
 import './SportsDashboard.css';
 
 const sportsDashboard = (props) => {
@@ -20,7 +21,8 @@ const sportsDashboard = (props) => {
             <h3 className="dash-title">{props.title.toUpperCase()}</h3>
             <div className="s-container">
                 {content}
-            </div>      
+            </div>     
+            <span className="text">Last Updated: {props.data.standings[0].entered_date}</span>
         </Aux>
      );
 }

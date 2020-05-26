@@ -14,6 +14,9 @@ def checkWeek(stored_week):
     else: # if up to date
         return False
 
+def refreshScoreboard():
+    NFLScoreBoard.query.delete() 
+
 def updateNFL():
     try:
         stored_week = NFLScoreBoard.query.first().current_week

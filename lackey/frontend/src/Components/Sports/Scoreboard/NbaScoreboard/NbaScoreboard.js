@@ -7,20 +7,22 @@ import '../Scoreboard.css';
 
 function cleanQuarters(data) {
     for(let each in data){
-        let qs = data[each]['quarter_scores']
-        let qtrs = qs.replace('{', '').replace('}', '').split(',');
-        let qtrScore = {'total': 0};
-        for(let x = 0; x < qtrs.length; x++){
-            let qtr = Number(qtrs[x].split(':')[0].trim())
-            let score = Number(qtrs[x].split(':')[1].trim())
-            if(qtr <= 4 ){
-                qtrScore[String(qtr)] = score;
-            }else if (score > 0){
-                qtrScore[String(qtr)] = score;
-            }
-            qtrScore['total'] += score
-         };
-        data[each]['quarter_scores'] =  qtrScore
+        try{
+            let qs = data[each]['quarter_scores']
+            let qtrs = qs.replace('{', '').replace('}', '').split(',');
+            let qtrScore = {'total': 0};
+            for(let x = 0; x < qtrs.length; x++){
+                let qtr = Number(qtrs[x].split(':')[0].trim())
+                let score = Number(qtrs[x].split(':')[1].trim())
+                if(qtr <= 4 ){
+                    qtrScore[String(qtr)] = score;
+                }else if (score > 0){
+                    qtrScore[String(qtr)] = score;
+                }
+                qtrScore['total'] += score
+            };
+            data[each]['quarter_scores'] =  qtrScore
+        }catch(err){};
     }
     return data;
 };
@@ -58,6 +60,19 @@ const nbaScoreboard = (props) => {
                     }
             }
         });
+    if(data.length <= 0){
+    nba = <div className="sbInfo">
+            <Table
+                headers={['']}  
+                contents={
+                    <tr key={1}>
+                        <td className="team">No games</td>
+                        <td className="team">today</td>
+                    </tr>
+                }
+            />
+        </div>
+    }
     return ( 
         <div className="scoreboard-container">
             {nba}

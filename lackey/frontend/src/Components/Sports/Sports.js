@@ -22,6 +22,7 @@ const sports = (props) => {
     let scoreboardDash = <Scoreboard
                             title={'Games'}
                             data={scoreboard}
+                            refreshScoreboard={props.refreshScoreboard}
                         />
 
     return ( 
