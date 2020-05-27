@@ -9,13 +9,12 @@ import '../SportsDashboard.css';
 const soccer = (props) => {
     const data = props.data;
     let standingsHeaders = [
-        '', 'Team', 'Matches', 'Won', 
+        'Team', 'Matches', 'Won', 
         'Lost', 'Draw', 'PTS', 'GF', 'GA',
         'GD'
         ];
     let standings = data.standings.map(i => {
             return <tr key={i.rank}>
-            <td>{i.rank}</td>
             <td><img src={i.crest} className="contain" alt=''/> {i.team}</td>
             <td>{i.data.playedGames}</td>
             <td>{i.data.won}</td>

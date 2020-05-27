@@ -13,7 +13,10 @@ const scoreboard = (props) => {
     const data = props.data;
     return ( 
         <Aux>
-            <h3 className="dash-title">{props.title.toUpperCase()}</h3>
+            <h3 className="dash-title">Scores</h3>
+            <h3 className="dash-title-nba">NBA</h3>
+            <h3 className="dash-title-epl">EPL</h3>
+            <h3 className="dash-title-nfl">NFL</h3>
             <div className="s-container">
                     <Nfl 
                         data={data.nfl}
@@ -25,7 +28,6 @@ const scoreboard = (props) => {
                         data={data.nba}
                     />
             </div> 
-            <span className="text">Last Updated: {data.soccer[0].entered_date}</span>
             <Button btnType={"submit"} clicked={props.refreshScoreboard} val={'scoreboard'}>Refresh</Button>
         </Aux>
     );

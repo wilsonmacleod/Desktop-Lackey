@@ -3,8 +3,38 @@
     font-size: 24px;
     text-decoration: underline;
     color: whitesmoke;
-    margin-bottom: -40px;
 }
+
+.dash-title-nba{
+    position: absolute;
+    top: 13%;
+    left: 35%;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #797979;
+}
+
+.dash-title-epl{
+    position: absolute;
+    top: 13%;
+    left: 55%;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #797979;
+}
+
+.dash-title-nfl{
+    position: absolute;
+    top: 13%;
+    left: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #797979;
+}
+
 
 .s-container{
     position: relative;
@@ -22,7 +52,7 @@
     height: inherit;
     width: calc(100% / 3);
     color: whitesmoke;
-    background-color: #797979;
+    background-color: #393939;
     border-left: 1px solid #4ecdc4;
     overflow-y: auto;
 }

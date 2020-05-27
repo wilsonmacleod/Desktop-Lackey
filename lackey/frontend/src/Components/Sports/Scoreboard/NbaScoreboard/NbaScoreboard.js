@@ -63,13 +63,8 @@ const nbaScoreboard = (props) => {
     if(data.length <= 0){
     nba = <div className="sbInfo">
             <Table
-                headers={['']}  
-                contents={
-                    <tr key={1}>
-                        <td className="team">No games</td>
-                        <td className="team">today</td>
-                    </tr>
-                }
+                headers={['No Games Today']}  
+                contents={null}
             />
         </div>
     }
