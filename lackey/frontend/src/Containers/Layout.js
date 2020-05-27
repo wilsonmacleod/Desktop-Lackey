@@ -7,7 +7,7 @@ import ContentWrapper from '../Components/Layout/ContentWrapper/ContentWrapper';
 
 class Layout extends Component {
     state = { 
-        sideBarActive: 'Sports',
+        sideBarActive: 'Calendar',
         sideBarChoices: [
                         'Calendar', 
                         'Weather',
@@ -20,12 +20,12 @@ class Layout extends Component {
                 ] 
       };
 
-    sideBarClickHandler = (event) => {
-        let clickedActive = event.target.getAttribute('id');
+      sideBarClickHandler = (event) => {
+        let clickedActive = event.target.getAttribute('value');
         this.setState({
             sideBarActive: clickedActive
             });
-    }
+    };
 
     render() { 
         return ( 

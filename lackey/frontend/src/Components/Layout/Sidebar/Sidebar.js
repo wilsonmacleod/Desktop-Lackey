@@ -8,16 +8,16 @@ const sidebar = (props) => {
     let options = [];
     for( let x = 0; x < config.length; x++) {
         options.push(
-        <li key={x}>
-            <div 
-              id={config[x]}
-              className={props.active === config[x] ? 'active' : ''}
-              onClick={props.clicked}
-            >
-                <i className={`fa fa-${props.sideBarIcons[x]}`} aria-hidden="true"></i>
-                <span>{config[x]}</span>
-            </div>
-        </li>
+        <li key={x} value={config[x]} >
+          <div 
+            value={config[x]} 
+            onClick={props.clicked}
+            className={props.active === config[x] ? 'active' : ''}
+          >
+              <i value={config[x]} className={`fa fa-${props.sideBarIcons[x]}`} aria-hidden="true"></i>
+              <span value={config[x]}>{config[x]}</span>
+          </div>
+      </li>
         )
     };
 

@@ -22,7 +22,6 @@ const sportsDashboard = (props) => {
             <div className="s-container">
                 {content}
             </div>     
-            <span className="text">Last Updated: {props.data.standings[0].entered_date}</span>
         </Aux>
      );
 }
