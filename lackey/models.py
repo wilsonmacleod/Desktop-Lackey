@@ -36,6 +36,22 @@ class CalendarTasks(db.Model):
             }
         return f"{return_dict}"
 
+class Note(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.Text, nullable=True)
+    color = db.Column(db.String(80), 
+                    nullable=True,
+                    default="F0E68C")
+
+    def __repr__(self):
+        return_dict = {
+            "id": self.id, 
+            "text": self.text, 
+            "color": self.color,
+            }
+        return f"{return_dict}"
+
+
 class WeatherConfig(db.Model):
     city = db.Column(db.String(80), primary_key=True) #default city we want
     woied = db.Column(db.String(80), nullable=False)

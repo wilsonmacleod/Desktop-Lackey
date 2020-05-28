@@ -1,0 +1,46 @@
+.notes {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: -70px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    color: #22242a;
+    border: 1px solid #22242a;
+    border-radius: .95em;
+    background-color: #393939;
+    opacity: .8;
+    overflow: hidden;
+}
+
+.notes:hover {
+    opacity: 1;
+}
+
+.note-field{
+    height: 80%;
+    width: 100%;
+    margin:0;
+    margin-top: 15%;
+    padding:0;
+    font-size: 12px;
+    color: #22242a;
+    overflow: wrap;
+    word-break: break-all;
+    color: #393939;
+    background-color: inherit;
+    border: transparent;
+}
+
+.fa-plus-square{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: inherit;
+  }
+  
+  .fa-plus-square:hover{
+    color: #4ecdc4;
+    background-color: inherit;
+  }

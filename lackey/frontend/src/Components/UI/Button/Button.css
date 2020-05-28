@@ -110,3 +110,12 @@
   background: #393939;
   color: #4ecdc4;
 }
+
+.addNote{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  color: whitesmoke;
+  background-color: inherit;
+  border: transparent;
+}

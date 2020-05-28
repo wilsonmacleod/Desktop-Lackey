@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Aux from '../Components/hoc/Auxiliary';
 import Loading from '../Components/UI/Loading/Loading';
 import Calendar from '../Components/Calendar/Calendar';
+import Notes from '../Components/Notes/Notes';
 import Weather from '../Components/Weather/Weather';
 import Finance from '../Components/Finance/Finance';
 import Sports from '../Components/Sports/Sports';
@@ -29,6 +30,10 @@ class Content extends Component {
                 recurring: false,
                 interval: 7,
                 color: '4ecdc4'
+            },
+            notes: {
+                text: '',
+                color: 'F0E68C'
             },
             finance: {
                 stockSymbol: '',
@@ -70,6 +75,10 @@ class Content extends Component {
                         recurring: false,
                         interval: 7,
                         color: '4ecdc4'
+                    },            
+                    notes: {
+                        text: '',
+                        color: 'F0E68C'
                     },
                     finance: {
                         stockSymbol: '',
@@ -112,7 +121,7 @@ class Content extends Component {
         newState[formName][formField] = formValue;
         this.setState({
             forms: newState
-        })
+        });
     };
 
     formSubmitHandler = (event) => {
@@ -120,6 +129,8 @@ class Content extends Component {
         let obj = '';
         if(view === 'Calendar'){
             obj = JSON.stringify(this.state.forms.calendar);
+        }else if(view === 'Notes'){
+            obj = JSON.stringify(this.state.forms.notes);
         }else if(view === 'Weather'){
             let vals = event.target.value.split(',');
             obj = JSON.stringify({
@@ -199,6 +210,12 @@ class Content extends Component {
                             taskSubmitHandler={this.formSubmitHandler}
                             taskDeleteHandler={this.deleteHandler}
                         />,
+            'Notes': <Notes 
+                        data={this.state.data}
+                        //handlers
+                        addNote={this.formSubmitHandler}
+                        removeNote={this.deleteHandler}
+                    />,
             'Weather': <Weather 
                             data={this.state.data}
                             searchData={this.state.searchReturns}
