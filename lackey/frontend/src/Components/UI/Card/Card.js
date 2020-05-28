@@ -4,9 +4,11 @@ import './Card.css';
 
 const card = (props) => {
     let cssClass = props.cardType !== undefined ? props.cardType : "card";
-    return ( 
+    let header = props.header !== 'null' ? 
+    <div className="card-header">{props.header}</div> :
+    null;    return ( 
         <div className={cssClass}>
-            <div className="card-header">{props.header}</div>
+            {header}
             <div className="card-content">
                 {props.children}
             </div>

@@ -39,7 +39,7 @@ const transactions = (props) => {
                         clicked={props.removeTransaction} 
                         val={`transaction=${data[x].id}`}
                         btnType={'deleteTask'}>
-                        <i className="fa fa-minus" aria-hidden="true" />
+                        <i val={`transaction=${data[x].id}`} className="fa fa-minus" aria-hidden="true" />
                         </Button>
                     <p><u><strong>{data[x].date}</strong></u></p>
                     <p>Buy Price: $<strong>{data[x].initial}</strong></p>

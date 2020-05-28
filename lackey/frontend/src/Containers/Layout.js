@@ -7,16 +7,16 @@ import ContentWrapper from '../Components/Layout/ContentWrapper/ContentWrapper';
 
 class Layout extends Component {
     state = { 
-        sideBarActive: 'Calendar',
+        sideBarActive: 'Notes',
         sideBarChoices: [
                         'Calendar', 
+                        'Notes',
                         'Weather',
                         'Finance',
                         'Sports',
-                        'Scripts'
                         ],
         sideBarIcons: [
-                    'calendar', 'sun-o', 'line-chart', 'futbol-o', 'code-fork' // https://fontawesome.com/v4.7.0/icons/
+                    'calendar', 'sticky-note-o', 'sun-o', 'line-chart', 'futbol-o' // https://fontawesome.com/v4.7.0/icons/
                 ] 
       };
 

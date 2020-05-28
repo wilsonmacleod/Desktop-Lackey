@@ -12,8 +12,6 @@ lackey/actions/external_api/sports/sport_urls.py
 lackey/lackey.log
 lackey/database.db
 lackey/migrations/
-lackeynfl 
-#^ dead NFL scripts
 
 ### react ###
 
