@@ -8,7 +8,7 @@ const removeNote = (props) => {
             clicked={props.removeNoteFunc} 
             val={props.id}
             btnType={'deleteTask'}>
-                <i value={props.id} className="fa fa-minus" aria-hidden="true" />
+                X
         </Button>
      );
 }
