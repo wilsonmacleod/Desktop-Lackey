@@ -19,20 +19,6 @@
     opacity: 1;
 }
 
-.note-field{
-    height: 80%;
-    width: 100%;
-    margin:0;
-    margin-top: 15%;
-    padding:0;
-    font-size: 12px;
-    color: #22242a;
-    overflow: wrap;
-    word-break: break-all;
-    color: #393939;
-    background-color: inherit;
-    border: transparent;
-}
 
 .fa-plus-square{
     cursor: pointer;
@@ -44,3 +30,65 @@
     color: #4ecdc4;
     background-color: inherit;
   }
+
+.ta-field {
+    height: 90%;
+    width: 110%;
+    margin:0;
+    margin-top: 5%;
+    padding:0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #22242a;
+    background-color: inherit;
+    border: transparent;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+.note-color {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    color: #22242a;
+    border: .25px solid #22242a;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    width: 25px;
+}
+
+.note-color option[id="1"] {
+background: #F0E68C;
+width: 25px;
+    }
+
+.note-color option[id="2"] {
+background: #4ecdc4;
+width: 25px;
+}
+
+.note-color option[id="3"] {
+background: #F08080;
+width: 25px;
+}
+
+
+.note-color option[id="4"] {
+background: #9370DB;
+width: 25px;
+}
+
+    
+.note-color option[id="5"] {
+background: #3CB371;
+width: 25px;
+}

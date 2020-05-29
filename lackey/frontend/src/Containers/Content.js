@@ -32,6 +32,7 @@ class Content extends Component {
                 color: '4ecdc4'
             },
             notes: {
+                id: '',    
                 text: '',
                 color: 'F0E68C'
             },
@@ -76,7 +77,8 @@ class Content extends Component {
                         interval: 7,
                         color: '4ecdc4'
                     },            
-                    notes: {
+                    notes: {  
+                        id: '',      
                         text: '',
                         color: 'F0E68C'
                     },
@@ -107,6 +109,7 @@ class Content extends Component {
     };
 
     formUpdateHandler = (event) => {
+        console.log(event);
         let newState = this.state.forms; 
         let formValue = event.target.value; // field value
         let formName = event.target.name; // calendar, weather etc.
@@ -130,7 +133,10 @@ class Content extends Component {
         if(view === 'Calendar'){
             obj = JSON.stringify(this.state.forms.calendar);
         }else if(view === 'Notes'){
-            obj = JSON.stringify(this.state.forms.notes);
+            let notes = this.state.forms.notes;
+            notes.text = notes.text.replace('\n', '|n');
+            obj = JSON.stringify(notes);
+            console.log(obj)
         }else if(view === 'Weather'){
             let vals = event.target.value.split(',');
             obj = JSON.stringify({
@@ -212,9 +218,11 @@ class Content extends Component {
                         />,
             'Notes': <Notes 
                         data={this.state.data}
+                        nForm={this.state.forms.notes}
                         //handlers
                         addNote={this.formSubmitHandler}
                         removeNote={this.deleteHandler}
+                        notesFormHandler={this.formUpdateHandler}
                     />,
             'Weather': <Weather 
                             data={this.state.data}

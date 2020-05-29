@@ -13,19 +13,22 @@ class NOTES(Resource): # '/Notes/<arg> (None if none)
     
     def post(self, arg):
         j = json.loads(arg)
-        try:
+        if j['id'] != '':
             note = Note.query.filter_by(id=j['id']).first()
             db.session.delete(note)
-            db.session.commit()
-        except KeyError:
-            pass
-        new  = Note(
+            new  = Note(
+            id=j['id'],
             text=j['text'],
             color=j['color'] 
                     )
-        logger.debug(f'NOTES.POST: {new}')
+        else:
+            new  = Note(
+            text=j['text'],
+            color=j['color'] 
+                    )
         db.session.add(new)
         db.session.commit()
+        logger.debug(f'NOTES.POST: {new}')
         return jsonify(status=200)
 
     def delete(self, arg):

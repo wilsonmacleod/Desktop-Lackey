@@ -2,29 +2,31 @@ import React from 'react';
 
 import Aux from '../hoc/Auxiliary';
 import AddNote from './AddNote/AddNote';
-import RemoveNote from './RemoveNote/RemoteNote';
+import RemoveNote from './RemoveNote/RemoveNote';
 import NoteField from './NoteField/NoteField';
 
 const notes = (props) => {
     const data = props.data;
-    let noteCards = null;
-    if(data.length < 6){
-        let diff = 6 - data.length;
-        for(let x = 0; x < diff; x++){
-            props.addNote()
-        };
-    }else{
-        noteCards = data.map(i => {
+    let noteCards = data.length <= 0 ? null :
+    data.map(i => {
             let color = {backgroundColor: `#${i.color}`}
+            let content = i.text.replace('|n', '\n');
             return <div className="notes" style={color}>
                             <RemoveNote 
                                 id={i.id}
                                 removeNoteFunc={props.removeNote}
                             />
-                            <NoteField content={'none this is a none, there is none'}/>
+                            <NoteField
+                                id={i.id}
+                                content={content}
+                                color={i.color}
+                                nForm={props.nForm}
+                                //handlers
+                                notesFormHandler={props.notesFormHandler}
+                                addNote={props.addNote}
+                            />
                     </div>
         });
-    };
     return ( 
         <Aux>
             <AddNote
