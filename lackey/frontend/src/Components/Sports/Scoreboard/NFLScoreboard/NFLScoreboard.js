@@ -36,6 +36,14 @@ const nflScoreboard = (props) => {
                         />
                 </div>
     });
+    if(data.length <= 0){
+        games = <div className="sbInfo-nfl">
+                <Table
+                    headers={['No Games Today']}  
+                    contents={null}
+                />
+            </div>
+    };
     return ( 
         <div className="scoreboard-container">
             {games}

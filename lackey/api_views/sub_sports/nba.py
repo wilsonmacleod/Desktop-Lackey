@@ -7,7 +7,7 @@ from lackey.models import (
     )
 from lackey.external_apis.sports import nba
 from lackey.api_views import sports as api_view
-
+from lackey.__info__ import NBA_SEASON as season
 
 def scoreboard():
     scoreboard = NBAScoreBoard.query.all()
@@ -35,7 +35,7 @@ def scoreboard():
 def standings():
     standings = NBAStandings.query.all()
     if api_view.Actions.checkIfUpdate(standings):
-        standings = nba.get_standings()
+        standings = nba.get_standings(season)
         if standings != []: 
             NBAStandings.query.delete() 
             for each in standings:
@@ -58,7 +58,7 @@ def standings():
 def leaders():
     leaders = NBALeaders.query.all()
     if api_view.Actions.checkIfUpdate(leaders):
-        leaders = nba.get_leaders()
+        leaders = nba.get_leaders(season)
         if leaders != []: 
             NBALeaders.query.delete() 
             for each in leaders:

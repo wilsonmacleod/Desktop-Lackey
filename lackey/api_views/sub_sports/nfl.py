@@ -3,7 +3,7 @@ from lackey.external_apis.sports import nfl
 from lackey.api_views import sports as api_view
 
 # relies on hidden espn api
-# NFL killed the original :/ 
+# https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b
 
 def checkWeek(stored_week):
     this_week = nfl.return_week()

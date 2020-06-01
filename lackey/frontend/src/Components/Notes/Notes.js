@@ -10,7 +10,7 @@ const notes = (props) => {
     let noteCards = data.length <= 0 ? null :
     data.map(i => {
             let color = {backgroundColor: `#${i.color}`}
-            let content = i.text.replace('|n', '\n');
+            let content = i.text.replace(/newline/g, '\n');
             return <div className="notes" style={color}>
                             <RemoveNote 
                                 id={i.id}

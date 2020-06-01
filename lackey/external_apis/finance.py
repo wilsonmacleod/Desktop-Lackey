@@ -4,9 +4,10 @@ import requests
 
 from lackey import logger
 
-from .api_keys import finance_key
+from lackey.__info__ import API_KEYS
 
-def urls(name, keywords, key):
+def urls(name, keywords):
+    key = API_KEYS['finance_key']
     """
     https://www.alphavantage.co/documentation/
     """
@@ -20,8 +21,7 @@ def urls(name, keywords, key):
 
 def search_fund(query):
     keywords= query
-    key = finance_key
-    url = urls('search', keywords, key)
+    url = urls('search', keywords)
     
     r = requests.get(url)
     if r.status_code == 200:
@@ -59,8 +59,7 @@ def get(url_name, stock_symbol):
     """
     name = url_name
     keywords= stock_symbol
-    key = finance_key 
-    url = urls(name, keywords, key)
+    url = urls(name, keywords)
     
     r = requests.get(url)
     if r.status_code == 200:

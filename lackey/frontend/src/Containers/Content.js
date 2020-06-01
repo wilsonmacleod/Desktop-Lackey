@@ -134,7 +134,7 @@ class Content extends Component {
             obj = JSON.stringify(this.state.forms.calendar);
         }else if(view === 'Notes'){
             let notes = this.state.forms.notes;
-            notes.text = notes.text.replace('\n', '|n');
+            notes.text = notes.text.replace(/\n/g, 'newline');
             obj = JSON.stringify(notes);
             console.log(obj)
         }else if(view === 'Weather'){
