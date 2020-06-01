@@ -1,4 +1,11 @@
+import os
+
 APP_NAME = "Lackey"
 APP_NAME_NO_SPACE = APP_NAME.replace(' ', '')
-APP_VERSION = '0.0'
-APP_DESCRIPTION = "Lower my Chrome tab count, Python desktop application with HTML based frontend"
+APP_VERSION = '1.00'
+APP_DESCRIPTION = "Lower my Chrome tab count, Flask-based desktop application with React frontend"
+
+NBA_SEASON = "2019-20" ##
+API_KEYS = {
+    'finance_key': os.environ.get('LACKEY_FINANCE_KEY') ##
+}

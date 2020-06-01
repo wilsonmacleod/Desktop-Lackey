@@ -26,6 +26,14 @@ const soccerScoreboard = (props) => {
                             />
                     </div>
     });
+    if(data.length <= 0){
+        matches = <div className="sbInfo">
+                <Table
+                    headers={['No Games Today']}  
+                    contents={null}
+                />
+            </div>
+    };
     return ( 
         <div className="scoreboard-container">
             {matches}

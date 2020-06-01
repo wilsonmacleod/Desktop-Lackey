@@ -6,9 +6,6 @@ import pandas as pd
 
 from .sport_urls import NBA_Urls as Urls
 
-## TODO
-## SEASON RESOLUTION (2019-20)
-
 def convert_quarters(string):
     r = int(string[-1])
     if string[-3:-1] == "OT":
@@ -46,7 +43,7 @@ def create_df(r):
     data = r['resultSets'][0]['rowSet']
     return pd.DataFrame(data, columns=column_headers)    
 
-def get_standings(season='2019-20'):
+def get_standings(season):
     url = Urls.leaguestandings(season)
     headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
@@ -72,9 +69,8 @@ def get_standings(season='2019-20'):
     return final_json
 
 # PlayerScope = ^(All+Players)|(Rookies)$
-# Season needs to be current automatically
 # StatCategory = (Points)|(Rebounds)|(Assists)|(Defense)|(Clutch)|(Efficiency)|
-def get_leaders(season='2019-20', category='Points'): # scope='All+Players', 
+def get_leaders(season, category='Points'): # scope='All+Players', 
     final_json = [] 
     scopes = ['All+Players', 'Rookies']
     for scope in scopes: 
