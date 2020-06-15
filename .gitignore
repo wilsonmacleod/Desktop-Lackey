@@ -9,11 +9,11 @@ blob_storage/
 webrtc_event_logs/
 __pycache__/
 lackey/__pycache__/
-*.txt
 lackey/actions/external_api/sports/sport_urls.py
-lackey/lackey.log
 lackey/database.db
 lackey/dist
+*.txt
+*.log
 
 ### react ###
 
