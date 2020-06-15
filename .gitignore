@@ -1,6 +1,8 @@
 # env
 env/
-build/
+
+# build
+build/dist
 
 # local
 blob_storage/
@@ -11,7 +13,7 @@ lackey/__pycache__/
 lackey/actions/external_api/sports/sport_urls.py
 lackey/lackey.log
 lackey/database.db
-lackey/migrations/
+lackey/dist
 
 ### react ###
 
@@ -22,9 +24,6 @@ lackey/frontend/.pnp.js
 
 # testing
 lackey/frontend/coverage
-
-# production
-lackey/frontend/build
 
 # misc
 lackey/frontend/DS_Store
