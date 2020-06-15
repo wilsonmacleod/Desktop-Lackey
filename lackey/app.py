@@ -4,7 +4,11 @@ from flask_restful import Api
 
 from lackey import get_root_path
 # app
-app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build'))
+app = Flask(__name__, static_folder=get_root_path('frontend/build/static'), template_folder=get_root_path('frontend/build/'))
+
+from lackey.models import db
+
+db.create_all()
 
 from lackey import api_views # api (uses db/models)
 from lackey.api_views import calendar, notes, weather, finance, sports
