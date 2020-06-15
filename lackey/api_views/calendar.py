@@ -35,7 +35,7 @@ class CALENDAR(Resource): # '/Calendar/<arg> (None if none)
             for i in range(0,154):
                 x = j['targetDate'].replace(',', '/')
                 locale.setlocale(locale.LC_ALL, 'en_US.utf8')   
-                new = datetime.datetime.strptime(x, '%B/%d/%Y') + datetime.timedelta(days=interval)
+                new = datetime.datetime.strptime(x, '%b/%d/%Y') + datetime.timedelta(days=interval)
                 new_date = new.strftime('%b/%d/%Y').replace('/', ',')
                 recurring_task = CalendarTasks(
                             task=j['name'], 
