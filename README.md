@@ -1,15 +1,81 @@
-## Desktop Lackey
+# Desktop Lackey
 
-# Neuron
+**Lackey** is a desktop application built ontop of [Neuron](https://github.com/Andrew-Shay/Neuron) (a Python project that allows an application's GUI to be built with HTML and Javascript). 
 
-Neuron is a Python project that allows an application's GUI to be built with HTML and Javascript.  
-It's simply a sample project that is ready to be downloaded and modified to become YOUR application.  
-This project just combines different projects together with an installer.  
+I chose ```Neuron``` over popular Python GUI libararies because I found the project very interesting and I also wanted to have a frontend that I felt only ```React``` could  properly deliver.
 
-# References
+The goal of this project was an desktop application that I could customize and quickly reference without having to open a browser and go to bookmarks or tabs to obtain the information I am looking for.
+
+Right now the application has the following features:
+  - Calendar 
+  - Notepad(s)
+  - Weather Forecast
+  - Stock portfolio tracker
+  - Sports Events/Stats tracker
+    - NBA
+    - EPL
+    - NFL
+
+The ```master``` branch of this repository will serve as a base version of the application or template for others to build or customize their own desktop applications using the work I have already done. I will continue developing lackey in my ```personal``` branch as a personalized version.
+
+The only feature that requires an API key is ```finance``` go [here](https://www.alphavantage.co/support/#api-key) and add your key to ```__info__.py``` in the ```API_KEYS``` dictionary.
+
+## How To
+
+### Try it out
+
+ **1.** Clone this repo
+ 
+ **2.** ```cd``` into the repo
+ 
+ **3.** ```pip install -r requirements```
+ 
+ **4.** ```python -m lackey```
+ 
+ **5.** The application should now be open and running
+ 
+## Create an EXE and Install (Windows only)
+
+**1.** Install [NSIS](http://nsis.sourceforge.net/Download) (3rd party program that creates the installer)
+
+**2.** Follow above 1-3
+
+**3.** ```cd``` into the build directory
+
+**4.** ```python build.py```
+
+**5.** navigate to the ```build/dist``` folder
+
+**6.**  click ```Install-Lackey-v1.00``` and follow the GUI instructions
+
+**7.** You  should now have an EXE you can launch at any time on your machine
+
+
+## References
 
 [CEFPython](https://github.com/cztomczak/cefpython) - Python bindings for the Chromium Embedded Framework  
-[Flask](http://flask.pocoo.org/) - Python microframework  
-[Bootstrap](http://getbootstrap.com/) - Web Front-End Framework  
+
+[Flask](http://flask.pocoo.org/) - Python web framework  
+
+[Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy) - Extension for Flask that adds support for SQLAlchemy
+
+[Flask-Restful](https://github.com/flask-restful/flask-restful) - REST api for Flask
+
+[Create-React-App](https://github.com/facebook/create-react-app) - Web Front-End Framework  
+
 [PyInstaller](http://www.pyinstaller.org/) - Turn Python projects into executables  
+
 [NSIS](http://nsis.sourceforge.net/Main%5FPage) - Creates installer  
+
+## API References
+
+[alphavantage](https://www.alphavantage.co/documentation/) - Stock API
+
+[metaweather](https://www.metaweather.com/api/) - Weather API
+
+[nba_api](https://github.com/swar/nba_api)  - Unofficial API client for NBA stats and information
+
+[football-data.org](https://www.football-data.org/documentation/quickstart) - Soccer API
+
+[hidden espn api](https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b) - For NFL schedule info
+
