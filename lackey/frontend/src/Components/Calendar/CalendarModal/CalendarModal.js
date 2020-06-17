@@ -25,7 +25,7 @@ const calendarModal = (props) => {
              <li className="taskContainerLi"><b>Scheduled time: </b>{i.time}</li> : null;
             let recurring = i.recurring !== "False" ? 
             <li className="taskContainerLi">Scheduled to occur every {i.interval} days.</li> : null;
-            let minus = <i className="fa fa-minus" aria-hidden="true" />
+            let minus = <div><b>X</b></div>
 
             return <Aux>
             <div className="taskContainer" key={i.id} >

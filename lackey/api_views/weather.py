@@ -43,6 +43,9 @@ class WEATHER(Resource): # /Weather/<arg> (None if none)
     def delete(self, arg):
         config = WeatherConfig.query.filter_by(city=arg).first()
         db.session.delete(config)
+        cascade = WeatherForecast.query.filter_by(woied=config.woied).all()
+        for each in cascade:
+            db.session.delete(each)
         db.session.commit()
         logger.debug(f'WEATHER.DELETE: {config}')
         return jsonify(status=200)

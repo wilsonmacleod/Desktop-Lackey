@@ -58,9 +58,6 @@ class FINANCE(Resource): # /Finance/<arg> (None if none)
             cascade = FinanceTempStore.query.filter_by(stock_symbol=item.stock_symbol).all()
             for each in cascade:
                 db.session.delete(each)
-            cascade = FinanceInvestment.query.filter_by(stock_symbol=item.stock_symbol).all()
-            for each in cascade:
-                db.session.delete(each)
         elif arg[0] == 'transaction':
             item = FinanceInvestment.query.filter_by(id=arg[1]).first()
             db.session.delete(item)
