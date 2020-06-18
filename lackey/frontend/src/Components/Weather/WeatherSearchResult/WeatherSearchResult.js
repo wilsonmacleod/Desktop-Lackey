@@ -15,7 +15,7 @@ const weatherSearchResult = (props) => {
                 val={[props.title, props.woeid]}
                 clicked={props.addLocation}
                 btnType={"addLoc"}>
-                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <div><b>+</b></div>
             </Button>
             </p>
         </div>

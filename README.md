@@ -10,21 +10,21 @@ Right now the application has the following features:
   - Calendar 
   - Notepad(s)
   - Weather Forecast
-  - Stock portfolio tracker
-  - Sports Events/Stats tracker
+  - Stock Portfolio Tracker
+  - Sports Schedule/Stats Tracker
     - NBA
     - EPL
     - NFL
 
 The ```master``` branch of this repository will serve as a base version of the application or template for others to build or customize their own desktop applications using the work I have already done. I will continue developing lackey in my ```personal``` branch as a personalized version.
 
-The only feature that requires an API key is ```finance``` go [here](https://www.alphavantage.co/support/#api-key) and add your key to ```__info__.py``` in the ```API_KEYS``` dictionary.
+The only feature that requires an API key is ```finance```, go [here](https://www.alphavantage.co/support/#api-key) and add your key to ```lackey/__info__.py``` in the ```API_KEYS``` dictionary.
 
 ## How To
 
 ### Try it out
 
- **1.** Clone this repo
+ **1.** clone this repo
  
  **2.** ```cd``` into the repo
  
@@ -32,13 +32,13 @@ The only feature that requires an API key is ```finance``` go [here](https://www
  
  **4.** ```python -m lackey```
  
- **5.** The application should now be open and running
+ **5.** the application should now be open and running
  
 ## Create an EXE and Install (Windows only)
 
-**1.** Install [NSIS](http://nsis.sourceforge.net/Download) (3rd party program that creates the installer)
+**1.** install [NSIS](http://nsis.sourceforge.net/Download) (3rd party program that creates the installer)
 
-**2.** Follow above 1-3
+**2.** follow above 1-3
 
 **3.** ```cd``` into the build directory
 
@@ -48,10 +48,16 @@ The only feature that requires an API key is ```finance``` go [here](https://www
 
 **6.**  click ```Install-Lackey-v1.00``` and follow the GUI instructions
 
-**7.** You  should now have an EXE you can launch at any time on your machine
+**7.** you should now have an EXE you can launch at any time on your machine
+
+## Demo
+
+![Alt Text](demo.gif)
 
 
 ## References
+
+[Neuron](https://github.com/Andrew-Shay/Neuron) - Build a Python GUI using HTMl and  CSS
 
 [CEFPython](https://github.com/cztomczak/cefpython) - Python bindings for the Chromium Embedded Framework  
 
@@ -69,13 +75,13 @@ The only feature that requires an API key is ```finance``` go [here](https://www
 
 ## API References
 
-[alphavantage](https://www.alphavantage.co/documentation/) - Stock API
+[Alphavantage](https://www.alphavantage.co/documentation/) - Stock API
 
-[metaweather](https://www.metaweather.com/api/) - Weather API
+[Metaweather](https://www.metaweather.com/api/) - Weather API
 
 [nba_api](https://github.com/swar/nba_api)  - Unofficial API client for NBA stats and information
 
-[football-data.org](https://www.football-data.org/documentation/quickstart) - Soccer API
+[Football-Data.org](https://www.football-data.org/documentation/quickstart) - Soccer API
 
-[hidden espn api](https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b) - For NFL schedule info
+[Hidden ESPN API](https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b) - For NFL schedule info
 

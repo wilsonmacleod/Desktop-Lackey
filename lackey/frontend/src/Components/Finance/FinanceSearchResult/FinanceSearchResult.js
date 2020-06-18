@@ -16,7 +16,7 @@ const financeSearchResult = (props) => {
                 val={[props.symbol, props.name]}
                 clicked={props.addFund}
                 btnType={"addLoc"}>
-                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <div><b>+</b></div>
             </Button>
             </p>
     </div>
