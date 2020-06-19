@@ -14,9 +14,10 @@ class Layout extends Component {
                         'Weather',
                         'Finance',
                         'Sports',
+                        'Games'
                         ],
         sideBarIcons: [
-                    'calendar', 'sticky-note-o', 'sun-o', 'line-chart', 'futbol-o' // https://fontawesome.com/v4.7.0/icons/
+                    'calendar', 'sticky-note-o', 'sun-o', 'line-chart', 'futbol-o', 'gamepad' // https://fontawesome.com/v4.7.0/icons/
                 ] 
       };
 
