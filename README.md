@@ -1,6 +1,6 @@
 # Desktop Lackey
 
-**Lackey** is a desktop application built off of [Neuron](https://github.com/Andrew-Shay/Neuron) (a Python project that allows an application's GUI to be built with HTML and Javascript). 
+**Lackey** is a desktop application built on top of [Neuron](https://github.com/Andrew-Shay/Neuron) (a Python project that allows an application's GUI to be built with HTML and Javascript). 
 
 I chose ```Neuron``` over popular Python GUI libararies because I found the project very interesting and I also wanted to have a frontend that I felt only ```React``` could  properly deliver.
 
