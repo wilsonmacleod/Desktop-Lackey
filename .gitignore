@@ -15,8 +15,6 @@ lackey/dist
 *.txt
 *.log
 
-### react ###
-
 # dependencies
 lackey/frontend/node_modules
 lackey/frontend/.pnp
@@ -25,8 +23,9 @@ lackey/frontend/.pnp.js
 # testing
 lackey/frontend/coverage
 
-# misc
+# frontend
 lackey/frontend/DS_Store
+lackey/frontend/build
 lackey/frontend/.env.local
 lackey/frontend/.env.development.local
 lackey/frontend/.env.test.local
@@ -35,3 +34,6 @@ lackey/frontend/.env.production.local
 lackey/frontend/npm-debug.log*
 lackey/frontend/yarn-debug.log*
 lackey/frontend/yarn-error.log*
+
+# secret
+lackey/external_api/sports/sport_urls.py
