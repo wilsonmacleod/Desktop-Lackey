@@ -1,4 +1,13 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+def get_env_value(env_variable):
+    try:
+        return os.getenv(env_variable)
+    except Exception as e:
+        error_msg = f'Set the {var_name} environment variable in .env!'
+        logger.info(error_msg)
 
 APP_NAME = "Lackey"
 APP_NAME_NO_SPACE = APP_NAME.replace(' ', '')
@@ -10,5 +19,6 @@ WEBSITE = "https://wilsonmacleod.com/"
 
 NBA_SEASON = "2019-20" ##
 API_KEYS = {
-    'finance_key': os.environ.get('LACKEY_FINANCE_KEY') ##
+    'finance_key': get_env_value('FINANCE_KEY') ##
+    'soccer_key': get_env_value('SOCCER_KEY')
 }

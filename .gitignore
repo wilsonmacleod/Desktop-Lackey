@@ -15,7 +15,8 @@ lackey/dist
 *.txt
 *.log
 
-### react ###
+# env
+# lackey/.env
 
 # dependencies
 lackey/frontend/node_modules
@@ -25,7 +26,8 @@ lackey/frontend/.pnp.js
 # testing
 lackey/frontend/coverage
 
-# misc
+# frontend
+lackey/frontend/build
 lackey/frontend/DS_Store
 lackey/frontend/.env.local
 lackey/frontend/.env.development.local
@@ -35,3 +37,4 @@ lackey/frontend/.env.production.local
 lackey/frontend/npm-debug.log*
 lackey/frontend/yarn-debug.log*
 lackey/frontend/yarn-error.log*
+

@@ -5,6 +5,7 @@ import pandas as pd
 
 from lackey import logger
 
+from lackey.__info__ import API_KEYS
 from .sport_urls import Soccer_Urls as Urls
 
 ## HIGHLIGHT EMBEDDER?
@@ -12,13 +13,14 @@ from .sport_urls import Soccer_Urls as Urls
 
 # https://www.football-data.org/documentation/quickstart
 
+headers = API_KEYS['soccer_key']
+
 def get_comp_info(comp='PL'):
     """
     get general competition info for 
     macthday scoreboard and UI
     """
     url = Urls.urls_('matches', comp)
-    headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
     current_matchday = r['matches'][0]['season']['currentMatchday']
     stage = r['matches'][0]['stage']
@@ -43,7 +45,6 @@ def fixture_list(matchday, comp='PL'):
     for specificied matchday
     """
     url = Urls.urls_('matches', comp) + f'?matchday={matchday}'
-    headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
     
     final_json = []
@@ -74,7 +75,6 @@ def get_PL_table():
     returns table for PL
     """
     url = Urls.urls_('table', "PL")
-    headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
     table = r['standings'][0]['table']
 
@@ -103,7 +103,6 @@ def get_top_scorers(comp='PL'):
     returns table of comp top scorers
     """
     url = Urls.urls_('scorers', comp)
-    headers = Urls.headers()
     r = requests.get(url=url, headers=headers).json()
     table = r['scorers']
 
