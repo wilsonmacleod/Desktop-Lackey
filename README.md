@@ -18,7 +18,7 @@ Right now the application has the following features:
 
 The ```master``` branch of this repository will serve as a base version of the application or template for others to build or customize their own desktop applications using the work I have already done. I will continue developing lackey in my ```personal``` branch as a personalized version.
 
-The only feature that requires an API key is ```finance```, go [here](https://www.alphavantage.co/support/#api-key) and add your key to ```lackey/__info__.py``` in the ```API_KEYS``` dictionary.
+The two features that requires an API key are ```finance```, go [here](https://www.alphavantage.co/support/#api-key) and ```soccer```, go [here](https://www.football-data.org/client/registery) add your key to ```lackey/__info__.py``` in the ```API_KEYS``` dictionary.
 
 ## How To
 

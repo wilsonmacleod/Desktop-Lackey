@@ -62,13 +62,13 @@ class Actions():
     def refreshScoreboard():
         nba.refreshScoreboard()
         soccer.refreshScoreboard()
-        nfl.refreshScoreboard()
+        #nfl.refreshScoreboard()
         return Actions.update()
 
     def update():
         return {
             'nba': nba.updateNBA(),
             'soccer': soccer.updateSoccer(),
-            'nfl': nfl.updateNFL()
+            #'nfl': nfl.updateNFL()
         }
     

@@ -16,7 +16,7 @@ lackey/dist
 *.log
 
 # env
-# lackey/.env
+lackey/.env
 
 # dependencies
 lackey/frontend/node_modules
@@ -38,3 +38,5 @@ lackey/frontend/npm-debug.log*
 lackey/frontend/yarn-debug.log*
 lackey/frontend/yarn-error.log*
 
+#secret 
+lackey/external_api/sports/sport_urls.py
