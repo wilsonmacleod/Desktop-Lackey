@@ -65,7 +65,13 @@ def get(url_name, stock_symbol):
     if r.status_code == 200:
         data_key = json_key_resolver(url_name)
         results = json.loads(r.text)
-        results = results[data_key]
+        try:
+            results = results[data_key]
+        except KeyError:
+            url = urls('daily_compact', keywords)
+            r = requests.get(url)
+            results = json.loads(r.text)
+            results = results['Time Series (Daily)']
         final_json = []
         for key, value in results.items():
             obj = {
@@ -96,4 +102,3 @@ def get(url_name, stock_symbol):
             final_json[index]['change'] = f'{x},{change}'
             index += 1
         return final_json
-        
