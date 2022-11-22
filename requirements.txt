@@ -18,7 +18,7 @@ MarkupSafe==1.1.1
 numpy==1.18.5
 pandas==1.0.4
 pefile==2019.4.18
-Pillow==7.1.2
+Pillow==9.3.0
 pycparser==2.20
 pyinstaller @ https://github.com/pyinstaller/pyinstaller/archive/develop.zip
 python-dateutil==2.8.1
